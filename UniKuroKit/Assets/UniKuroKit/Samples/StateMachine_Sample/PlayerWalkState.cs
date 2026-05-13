@@ -1,5 +1,6 @@
 using UnityEngine;
 using KuroKitten.UniKuroKit.StateMachine;
+using UniKuroKit.Services;
 
 namespace KuroKitten.UniKuroKit.Samples
 {

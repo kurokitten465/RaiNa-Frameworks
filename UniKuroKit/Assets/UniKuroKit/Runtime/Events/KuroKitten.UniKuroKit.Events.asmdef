@@ -1,11 +1,10 @@
 {
-    "name": "com.kurokitten.unikurokit",
-    "rootNamespace": "UniKuroKit",
+    "name": "com.kurokitten.unikurokit.events",
+    "rootNamespace": "UniKuroKit.Events",
     "references": [],
     "includePlatforms": [
         "Android",
         "Editor",
-        "EmbeddedLinux",
         "LinuxStandalone64",
         "CloudRendering",
         "WSA",
