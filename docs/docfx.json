@@ -66,6 +66,6 @@
         "pdf": false
       }
     },
-    "dest": "./_site"
+    "dest": "../pages"
   }
 }
