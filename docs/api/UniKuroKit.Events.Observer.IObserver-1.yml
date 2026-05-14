@@ -1,0 +1,98 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Events.Observer.IObserver`1
+  commentId: T:UniKuroKit.Events.Observer.IObserver`1
+  id: IObserver`1
+  parent: UniKuroKit.Events.Observer
+  children:
+  - UniKuroKit.Events.Observer.IObserver`1.OnNotify(`0)
+  langs:
+  - csharp
+  - vb
+  name: IObserver<TObserver>
+  nameWithType: IObserver<TObserver>
+  fullName: UniKuroKit.Events.Observer.IObserver<TObserver>
+  type: Interface
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events.Observer
+  syntax:
+    content: public interface IObserver<in TObserver>
+    typeParameters:
+    - id: TObserver
+    content.vb: Public Interface IObserver(Of In TObserver)
+  nameWithType.vb: IObserver(Of TObserver)
+  fullName.vb: UniKuroKit.Events.Observer.IObserver(Of TObserver)
+  name.vb: IObserver(Of TObserver)
+- uid: UniKuroKit.Events.Observer.IObserver`1.OnNotify(`0)
+  commentId: M:UniKuroKit.Events.Observer.IObserver`1.OnNotify(`0)
+  id: OnNotify(`0)
+  parent: UniKuroKit.Events.Observer.IObserver`1
+  langs:
+  - csharp
+  - vb
+  name: OnNotify(TObserver)
+  nameWithType: IObserver<TObserver>.OnNotify(TObserver)
+  fullName: UniKuroKit.Events.Observer.IObserver<TObserver>.OnNotify(TObserver)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events.Observer
+  syntax:
+    content: void OnNotify(TObserver value)
+    parameters:
+    - id: value
+      type: '{TObserver}'
+    content.vb: Sub OnNotify(value As TObserver)
+  overload: UniKuroKit.Events.Observer.IObserver`1.OnNotify*
+  nameWithType.vb: IObserver(Of TObserver).OnNotify(TObserver)
+  fullName.vb: UniKuroKit.Events.Observer.IObserver(Of TObserver).OnNotify(TObserver)
+references:
+- uid: UniKuroKit.Events.Observer
+  commentId: N:UniKuroKit.Events.Observer
+  href: UniKuroKit.html
+  name: UniKuroKit.Events.Observer
+  nameWithType: UniKuroKit.Events.Observer
+  fullName: UniKuroKit.Events.Observer
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  - name: .
+  - uid: UniKuroKit.Events.Observer
+    name: Observer
+    href: UniKuroKit.Events.Observer.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  - name: .
+  - uid: UniKuroKit.Events.Observer
+    name: Observer
+    href: UniKuroKit.Events.Observer.html
+- uid: UniKuroKit.Events.Observer.IObserver`1.OnNotify*
+  commentId: Overload:UniKuroKit.Events.Observer.IObserver`1.OnNotify
+  href: UniKuroKit.Events.Observer.IObserver-1.html#UniKuroKit_Events_Observer_IObserver_1_OnNotify__0_
+  name: OnNotify
+  nameWithType: IObserver<TObserver>.OnNotify
+  fullName: UniKuroKit.Events.Observer.IObserver<TObserver>.OnNotify
+  nameWithType.vb: IObserver(Of TObserver).OnNotify
+  fullName.vb: UniKuroKit.Events.Observer.IObserver(Of TObserver).OnNotify
+- uid: '{TObserver}'
+  commentId: '!:TObserver'
+  definition: TObserver
+  name: TObserver
+  nameWithType: TObserver
+  fullName: TObserver
+- uid: TObserver
+  name: TObserver
+  nameWithType: TObserver
+  fullName: TObserver

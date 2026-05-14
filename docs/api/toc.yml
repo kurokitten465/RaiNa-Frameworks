@@ -1,0 +1,165 @@
+### YamlMime:TableOfContent
+items:
+- uid: UniKuroKit.Events
+  name: UniKuroKit.Events
+  type: Namespace
+  items:
+  - uid: UniKuroKit.Events.DelegateEventHandler`1
+    name: DelegateEventHandler<TEvent>
+    type: Class
+  - uid: UniKuroKit.Events.EventBus
+    name: EventBus
+    type: Class
+  - uid: UniKuroKit.Events.EventChannel`1
+    name: EventChannel<TEvent>
+    type: Class
+  - uid: UniKuroKit.Events.EventContext`1
+    name: EventContext<TEvent>
+    type: Class
+  - uid: UniKuroKit.Events.GlobalEventBus
+    name: GlobalEventBus
+    type: Class
+  - uid: UniKuroKit.Events.IEvent
+    name: IEvent
+    type: Interface
+  - uid: UniKuroKit.Events.IEventBus
+    name: IEventBus
+    type: Interface
+  - uid: UniKuroKit.Events.IEventChannel`1
+    name: IEventChannel<TEvent>
+    type: Interface
+  - uid: UniKuroKit.Events.IEventContext`1
+    name: IEventContext<TEvent>
+    type: Interface
+  - uid: UniKuroKit.Events.IEventHandler`1
+    name: IEventHandler<TEvent>
+    type: Interface
+- uid: UniKuroKit.Events.Asset
+  name: UniKuroKit.Events.Asset
+  type: Namespace
+  items:
+  - uid: UniKuroKit.Events.Asset.EventBusAsset
+    name: EventBusAsset
+    type: Class
+  - uid: UniKuroKit.Events.Asset.IEventBusAsset
+    name: IEventBusAsset
+    type: Interface
+- uid: UniKuroKit.Events.Observer
+  name: UniKuroKit.Events.Observer
+  type: Namespace
+  items:
+  - uid: UniKuroKit.Events.Observer.IObservable`1
+    name: IObservable<TObserver>
+    type: Interface
+  - uid: UniKuroKit.Events.Observer.IObserver`1
+    name: IObserver<TObserver>
+    type: Interface
+  - uid: UniKuroKit.Events.Observer.IReadOnlyObservable`1
+    name: IReadOnlyObservable<TObserver>
+    type: Interface
+  - uid: UniKuroKit.Events.Observer.ObservableMonoBehaviour`1
+    name: ObservableMonoBehaviour<T>
+    type: Class
+  - uid: UniKuroKit.Events.Observer.Observable`1
+    name: Observable<T>
+    type: Class
+  - uid: UniKuroKit.Events.Observer.ObserverToken
+    name: ObserverToken
+    type: Struct
+- uid: UniKuroKit.Events.Visitor
+  name: UniKuroKit.Events.Visitor
+  type: Namespace
+  items:
+  - uid: UniKuroKit.Events.Visitor.IVisitable
+    name: IVisitable
+    type: Interface
+  - uid: UniKuroKit.Events.Visitor.IVisitor
+    name: IVisitor
+    type: Interface
+  - uid: UniKuroKit.Events.Visitor.IVisitor`1
+    name: IVisitor<T>
+    type: Interface
+- uid: UniKuroKit.Exceptions
+  name: UniKuroKit.Exceptions
+  type: Namespace
+  items:
+  - uid: UniKuroKit.Exceptions.SingletonInitializeException
+    name: SingletonInitializeException
+    type: Class
+- uid: UniKuroKit.IO
+  name: UniKuroKit.IO
+  type: Namespace
+  items:
+  - uid: UniKuroKit.IO.ChunkSplitter
+    name: ChunkSplitter
+    type: Class
+  - uid: UniKuroKit.IO.DataStorage
+    name: DataStorage
+    type: Class
+- uid: UniKuroKit.Security
+  name: UniKuroKit.Security
+  type: Namespace
+  items:
+  - uid: UniKuroKit.Security.AesEncryptionProvider
+    name: AesEncryptionProvider
+    type: Class
+  - uid: UniKuroKit.Security.EncryptionFactory
+    name: EncryptionFactory
+    type: Class
+  - uid: UniKuroKit.Security.IEncryptionProvider
+    name: IEncryptionProvider
+    type: Interface
+  - uid: UniKuroKit.Security.NoEncryptionProvider
+    name: NoEncryptionProvider
+    type: Class
+- uid: UniKuroKit.Serialization
+  name: UniKuroKit.Serialization
+  type: Namespace
+  items:
+  - uid: UniKuroKit.Serialization.BinarySerializer
+    name: BinarySerializer
+    type: Class
+  - uid: UniKuroKit.Serialization.DataContainer
+    name: DataContainer
+    type: Class
+  - uid: UniKuroKit.Serialization.DataEntry
+    name: DataEntry
+    type: Class
+  - uid: UniKuroKit.Serialization.ISerializer
+    name: ISerializer
+    type: Interface
+  - uid: UniKuroKit.Serialization.JsonSerializer
+    name: JsonSerializer
+    type: Class
+  - uid: UniKuroKit.Serialization.SerializerConfigurations
+    name: SerializerConfigurations
+    type: Class
+  - uid: UniKuroKit.Serialization.SerializerFactory
+    name: SerializerFactory
+    type: Class
+- uid: UniKuroKit.Services.Singleton
+  name: UniKuroKit.Services.Singleton
+  type: Namespace
+  items:
+  - uid: UniKuroKit.Services.Singleton.ISingleton
+    name: ISingleton
+    type: Interface
+  - uid: UniKuroKit.Services.Singleton.MonoSingleton`1
+    name: MonoSingleton<TDerived>
+    type: Class
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1
+    name: NonLazyMonoSingleton<TDerived>
+    type: Class
+  - uid: UniKuroKit.Services.Singleton.PersistentMonoSingleton`1
+    name: PersistentMonoSingleton<TDerived>
+    type: Class
+  - uid: UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton`1
+    name: PersistentNonLazyMonoSingleton<TDerived>
+    type: Class
+  - uid: UniKuroKit.Services.Singleton.SingletonInitializeState
+    name: SingletonInitializeState
+    type: Enum
+  - uid: UniKuroKit.Services.Singleton.Singleton`1
+    name: Singleton<TDerived>
+    type: Class
+memberLayout: SamePage

@@ -1,0 +1,420 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Serialization.DataContainer
+  commentId: T:UniKuroKit.Serialization.DataContainer
+  id: DataContainer
+  parent: UniKuroKit.Serialization
+  children:
+  - UniKuroKit.Serialization.DataContainer.Clear
+  - UniKuroKit.Serialization.DataContainer.Entries
+  - UniKuroKit.Serialization.DataContainer.Get``1(System.String,``0)
+  - UniKuroKit.Serialization.DataContainer.HasKey(System.String)
+  - UniKuroKit.Serialization.DataContainer.RebuildIndex
+  - UniKuroKit.Serialization.DataContainer.Remove(System.String)
+  - UniKuroKit.Serialization.DataContainer.Set``1(System.String,``0)
+  - UniKuroKit.Serialization.DataContainer.TryGet``1(System.String,``0@)
+  langs:
+  - csharp
+  - vb
+  name: DataContainer
+  nameWithType: DataContainer
+  fullName: UniKuroKit.Serialization.DataContainer
+  type: Class
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public class DataContainer
+    content.vb: Public Class DataContainer
+  inheritance:
+  - System.Object
+- uid: UniKuroKit.Serialization.DataContainer.Entries
+  commentId: F:UniKuroKit.Serialization.DataContainer.Entries
+  id: Entries
+  parent: UniKuroKit.Serialization.DataContainer
+  langs:
+  - csharp
+  - vb
+  name: Entries
+  nameWithType: DataContainer.Entries
+  fullName: UniKuroKit.Serialization.DataContainer.Entries
+  type: Field
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public List<DataEntry> Entries
+    return:
+      type: System.Collections.Generic.List{UniKuroKit.Serialization.DataEntry}
+    content.vb: Public Entries As List(Of DataEntry)
+- uid: UniKuroKit.Serialization.DataContainer.RebuildIndex
+  commentId: M:UniKuroKit.Serialization.DataContainer.RebuildIndex
+  id: RebuildIndex
+  parent: UniKuroKit.Serialization.DataContainer
+  langs:
+  - csharp
+  - vb
+  name: RebuildIndex()
+  nameWithType: DataContainer.RebuildIndex()
+  fullName: UniKuroKit.Serialization.DataContainer.RebuildIndex()
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public void RebuildIndex()
+    content.vb: Public Sub RebuildIndex()
+  overload: UniKuroKit.Serialization.DataContainer.RebuildIndex*
+- uid: UniKuroKit.Serialization.DataContainer.Set``1(System.String,``0)
+  commentId: M:UniKuroKit.Serialization.DataContainer.Set``1(System.String,``0)
+  id: Set``1(System.String,``0)
+  parent: UniKuroKit.Serialization.DataContainer
+  langs:
+  - csharp
+  - vb
+  name: Set<T>(string, T)
+  nameWithType: DataContainer.Set<T>(string, T)
+  fullName: UniKuroKit.Serialization.DataContainer.Set<T>(string, T)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public void Set<T>(string key, T value)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: Public Sub [Set](Of T)(key As String, value As T)
+  overload: UniKuroKit.Serialization.DataContainer.Set*
+  nameWithType.vb: DataContainer.Set(Of T)(String, T)
+  fullName.vb: UniKuroKit.Serialization.DataContainer.Set(Of T)(String, T)
+  name.vb: Set(Of T)(String, T)
+- uid: UniKuroKit.Serialization.DataContainer.TryGet``1(System.String,``0@)
+  commentId: M:UniKuroKit.Serialization.DataContainer.TryGet``1(System.String,``0@)
+  id: TryGet``1(System.String,``0@)
+  parent: UniKuroKit.Serialization.DataContainer
+  langs:
+  - csharp
+  - vb
+  name: TryGet<T>(string, out T)
+  nameWithType: DataContainer.TryGet<T>(string, out T)
+  fullName: UniKuroKit.Serialization.DataContainer.TryGet<T>(string, out T)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public bool TryGet<T>(string key, out T value)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryGet(Of T)(key As String, value As T) As Boolean
+  overload: UniKuroKit.Serialization.DataContainer.TryGet*
+  nameWithType.vb: DataContainer.TryGet(Of T)(String, T)
+  fullName.vb: UniKuroKit.Serialization.DataContainer.TryGet(Of T)(String, T)
+  name.vb: TryGet(Of T)(String, T)
+- uid: UniKuroKit.Serialization.DataContainer.Get``1(System.String,``0)
+  commentId: M:UniKuroKit.Serialization.DataContainer.Get``1(System.String,``0)
+  id: Get``1(System.String,``0)
+  parent: UniKuroKit.Serialization.DataContainer
+  langs:
+  - csharp
+  - vb
+  name: Get<T>(string, T)
+  nameWithType: DataContainer.Get<T>(string, T)
+  fullName: UniKuroKit.Serialization.DataContainer.Get<T>(string, T)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public T Get<T>(string key, T defaultValue = default)
+    parameters:
+    - id: key
+      type: System.String
+    - id: defaultValue
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function [Get](Of T)(key As String, defaultValue As T = Nothing) As T
+  overload: UniKuroKit.Serialization.DataContainer.Get*
+  nameWithType.vb: DataContainer.Get(Of T)(String, T)
+  fullName.vb: UniKuroKit.Serialization.DataContainer.Get(Of T)(String, T)
+  name.vb: Get(Of T)(String, T)
+- uid: UniKuroKit.Serialization.DataContainer.HasKey(System.String)
+  commentId: M:UniKuroKit.Serialization.DataContainer.HasKey(System.String)
+  id: HasKey(System.String)
+  parent: UniKuroKit.Serialization.DataContainer
+  langs:
+  - csharp
+  - vb
+  name: HasKey(string)
+  nameWithType: DataContainer.HasKey(string)
+  fullName: UniKuroKit.Serialization.DataContainer.HasKey(string)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public bool HasKey(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function HasKey(key As String) As Boolean
+  overload: UniKuroKit.Serialization.DataContainer.HasKey*
+  nameWithType.vb: DataContainer.HasKey(String)
+  fullName.vb: UniKuroKit.Serialization.DataContainer.HasKey(String)
+  name.vb: HasKey(String)
+- uid: UniKuroKit.Serialization.DataContainer.Remove(System.String)
+  commentId: M:UniKuroKit.Serialization.DataContainer.Remove(System.String)
+  id: Remove(System.String)
+  parent: UniKuroKit.Serialization.DataContainer
+  langs:
+  - csharp
+  - vb
+  name: Remove(string)
+  nameWithType: DataContainer.Remove(string)
+  fullName: UniKuroKit.Serialization.DataContainer.Remove(string)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public void Remove(string key)
+    parameters:
+    - id: key
+      type: System.String
+    content.vb: Public Sub Remove(key As String)
+  overload: UniKuroKit.Serialization.DataContainer.Remove*
+  nameWithType.vb: DataContainer.Remove(String)
+  fullName.vb: UniKuroKit.Serialization.DataContainer.Remove(String)
+  name.vb: Remove(String)
+- uid: UniKuroKit.Serialization.DataContainer.Clear
+  commentId: M:UniKuroKit.Serialization.DataContainer.Clear
+  id: Clear
+  parent: UniKuroKit.Serialization.DataContainer
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: DataContainer.Clear()
+  fullName: UniKuroKit.Serialization.DataContainer.Clear()
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear()
+  overload: UniKuroKit.Serialization.DataContainer.Clear*
+references:
+- uid: UniKuroKit.Serialization
+  commentId: N:UniKuroKit.Serialization
+  href: UniKuroKit.html
+  name: UniKuroKit.Serialization
+  nameWithType: UniKuroKit.Serialization
+  fullName: UniKuroKit.Serialization
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Serialization
+    name: Serialization
+    href: UniKuroKit.Serialization.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Serialization
+    name: Serialization
+    href: UniKuroKit.Serialization.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{UniKuroKit.Serialization.DataEntry}
+  commentId: T:System.Collections.Generic.List{UniKuroKit.Serialization.DataEntry}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: UniKuroKit.Serialization.DataEntry.html
+  name: List<DataEntry>
+  nameWithType: List<DataEntry>
+  fullName: System.Collections.Generic.List<UniKuroKit.Serialization.DataEntry>
+  nameWithType.vb: List(Of DataEntry)
+  fullName.vb: System.Collections.Generic.List(Of UniKuroKit.Serialization.DataEntry)
+  name.vb: List(Of DataEntry)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: UniKuroKit.Serialization.DataEntry
+    name: DataEntry
+    href: UniKuroKit.Serialization.DataEntry.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UniKuroKit.Serialization.DataEntry
+    name: DataEntry
+    href: UniKuroKit.Serialization.DataEntry.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: UniKuroKit.Serialization.DataContainer.RebuildIndex*
+  commentId: Overload:UniKuroKit.Serialization.DataContainer.RebuildIndex
+  href: UniKuroKit.Serialization.DataContainer.html#UniKuroKit_Serialization_DataContainer_RebuildIndex
+  name: RebuildIndex
+  nameWithType: DataContainer.RebuildIndex
+  fullName: UniKuroKit.Serialization.DataContainer.RebuildIndex
+- uid: UniKuroKit.Serialization.DataContainer.Set*
+  commentId: Overload:UniKuroKit.Serialization.DataContainer.Set
+  href: UniKuroKit.Serialization.DataContainer.html#UniKuroKit_Serialization_DataContainer_Set__1_System_String___0_
+  name: Set
+  nameWithType: DataContainer.Set
+  fullName: UniKuroKit.Serialization.DataContainer.Set
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: UniKuroKit.Serialization.DataContainer.TryGet*
+  commentId: Overload:UniKuroKit.Serialization.DataContainer.TryGet
+  href: UniKuroKit.Serialization.DataContainer.html#UniKuroKit_Serialization_DataContainer_TryGet__1_System_String___0__
+  name: TryGet
+  nameWithType: DataContainer.TryGet
+  fullName: UniKuroKit.Serialization.DataContainer.TryGet
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: UniKuroKit.Serialization.DataContainer.Get*
+  commentId: Overload:UniKuroKit.Serialization.DataContainer.Get
+  href: UniKuroKit.Serialization.DataContainer.html#UniKuroKit_Serialization_DataContainer_Get__1_System_String___0_
+  name: Get
+  nameWithType: DataContainer.Get
+  fullName: UniKuroKit.Serialization.DataContainer.Get
+- uid: UniKuroKit.Serialization.DataContainer.HasKey*
+  commentId: Overload:UniKuroKit.Serialization.DataContainer.HasKey
+  href: UniKuroKit.Serialization.DataContainer.html#UniKuroKit_Serialization_DataContainer_HasKey_System_String_
+  name: HasKey
+  nameWithType: DataContainer.HasKey
+  fullName: UniKuroKit.Serialization.DataContainer.HasKey
+- uid: UniKuroKit.Serialization.DataContainer.Remove*
+  commentId: Overload:UniKuroKit.Serialization.DataContainer.Remove
+  href: UniKuroKit.Serialization.DataContainer.html#UniKuroKit_Serialization_DataContainer_Remove_System_String_
+  name: Remove
+  nameWithType: DataContainer.Remove
+  fullName: UniKuroKit.Serialization.DataContainer.Remove
+- uid: UniKuroKit.Serialization.DataContainer.Clear*
+  commentId: Overload:UniKuroKit.Serialization.DataContainer.Clear
+  href: UniKuroKit.Serialization.DataContainer.html#UniKuroKit_Serialization_DataContainer_Clear
+  name: Clear
+  nameWithType: DataContainer.Clear
+  fullName: UniKuroKit.Serialization.DataContainer.Clear

@@ -1,0 +1,136 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Serialization.ISerializer
+  commentId: T:UniKuroKit.Serialization.ISerializer
+  id: ISerializer
+  parent: UniKuroKit.Serialization
+  children:
+  - UniKuroKit.Serialization.ISerializer.Deserialize(System.Byte[])
+  - UniKuroKit.Serialization.ISerializer.Serialize(UniKuroKit.Serialization.DataContainer)
+  langs:
+  - csharp
+  - vb
+  name: ISerializer
+  nameWithType: ISerializer
+  fullName: UniKuroKit.Serialization.ISerializer
+  type: Interface
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public interface ISerializer
+    content.vb: Public Interface ISerializer
+  derivedClasses:
+  - UniKuroKit.Serialization.BinarySerializer
+  - UniKuroKit.Serialization.JsonSerializer
+- uid: UniKuroKit.Serialization.ISerializer.Serialize(UniKuroKit.Serialization.DataContainer)
+  commentId: M:UniKuroKit.Serialization.ISerializer.Serialize(UniKuroKit.Serialization.DataContainer)
+  id: Serialize(UniKuroKit.Serialization.DataContainer)
+  parent: UniKuroKit.Serialization.ISerializer
+  langs:
+  - csharp
+  - vb
+  name: Serialize(DataContainer)
+  nameWithType: ISerializer.Serialize(DataContainer)
+  fullName: UniKuroKit.Serialization.ISerializer.Serialize(UniKuroKit.Serialization.DataContainer)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: byte[] Serialize(DataContainer container)
+    parameters:
+    - id: container
+      type: UniKuroKit.Serialization.DataContainer
+    return:
+      type: System.Byte[]
+    content.vb: Function Serialize(container As DataContainer) As Byte()
+  overload: UniKuroKit.Serialization.ISerializer.Serialize*
+- uid: UniKuroKit.Serialization.ISerializer.Deserialize(System.Byte[])
+  commentId: M:UniKuroKit.Serialization.ISerializer.Deserialize(System.Byte[])
+  id: Deserialize(System.Byte[])
+  parent: UniKuroKit.Serialization.ISerializer
+  langs:
+  - csharp
+  - vb
+  name: Deserialize(byte[])
+  nameWithType: ISerializer.Deserialize(byte[])
+  fullName: UniKuroKit.Serialization.ISerializer.Deserialize(byte[])
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: DataContainer Deserialize(byte[] data)
+    parameters:
+    - id: data
+      type: System.Byte[]
+    return:
+      type: UniKuroKit.Serialization.DataContainer
+    content.vb: Function Deserialize(data As Byte()) As DataContainer
+  overload: UniKuroKit.Serialization.ISerializer.Deserialize*
+  nameWithType.vb: ISerializer.Deserialize(Byte())
+  fullName.vb: UniKuroKit.Serialization.ISerializer.Deserialize(Byte())
+  name.vb: Deserialize(Byte())
+references:
+- uid: UniKuroKit.Serialization
+  commentId: N:UniKuroKit.Serialization
+  href: UniKuroKit.html
+  name: UniKuroKit.Serialization
+  nameWithType: UniKuroKit.Serialization
+  fullName: UniKuroKit.Serialization
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Serialization
+    name: Serialization
+    href: UniKuroKit.Serialization.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Serialization
+    name: Serialization
+    href: UniKuroKit.Serialization.html
+- uid: UniKuroKit.Serialization.ISerializer.Serialize*
+  commentId: Overload:UniKuroKit.Serialization.ISerializer.Serialize
+  href: UniKuroKit.Serialization.ISerializer.html#UniKuroKit_Serialization_ISerializer_Serialize_UniKuroKit_Serialization_DataContainer_
+  name: Serialize
+  nameWithType: ISerializer.Serialize
+  fullName: UniKuroKit.Serialization.ISerializer.Serialize
+- uid: UniKuroKit.Serialization.DataContainer
+  commentId: T:UniKuroKit.Serialization.DataContainer
+  parent: UniKuroKit.Serialization
+  href: UniKuroKit.Serialization.DataContainer.html
+  name: DataContainer
+  nameWithType: DataContainer
+  fullName: UniKuroKit.Serialization.DataContainer
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: UniKuroKit.Serialization.ISerializer.Deserialize*
+  commentId: Overload:UniKuroKit.Serialization.ISerializer.Deserialize
+  href: UniKuroKit.Serialization.ISerializer.html#UniKuroKit_Serialization_ISerializer_Deserialize_System_Byte___
+  name: Deserialize
+  nameWithType: ISerializer.Deserialize
+  fullName: UniKuroKit.Serialization.ISerializer.Deserialize

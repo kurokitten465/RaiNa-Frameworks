@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Events.Observer.IReadOnlyObservable`1
+  commentId: T:UniKuroKit.Events.Observer.IReadOnlyObservable`1
+  id: IReadOnlyObservable`1
+  parent: UniKuroKit.Events.Observer
+  children:
+  - UniKuroKit.Events.Observer.IReadOnlyObservable`1.Subscribe(UniKuroKit.Events.Observer.IObserver{`0})
+  - UniKuroKit.Events.Observer.IReadOnlyObservable`1.Unsubscribe(UniKuroKit.Events.Observer.ObserverToken)
+  langs:
+  - csharp
+  - vb
+  name: IReadOnlyObservable<TObserver>
+  nameWithType: IReadOnlyObservable<TObserver>
+  fullName: UniKuroKit.Events.Observer.IReadOnlyObservable<TObserver>
+  type: Interface
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events.Observer
+  syntax:
+    content: public interface IReadOnlyObservable<TObserver>
+    typeParameters:
+    - id: TObserver
+    content.vb: Public Interface IReadOnlyObservable(Of TObserver)
+  derivedClasses:
+  - UniKuroKit.Events.Observer.Observable`1
+  nameWithType.vb: IReadOnlyObservable(Of TObserver)
+  fullName.vb: UniKuroKit.Events.Observer.IReadOnlyObservable(Of TObserver)
+  name.vb: IReadOnlyObservable(Of TObserver)
+- uid: UniKuroKit.Events.Observer.IReadOnlyObservable`1.Subscribe(UniKuroKit.Events.Observer.IObserver{`0})
+  commentId: M:UniKuroKit.Events.Observer.IReadOnlyObservable`1.Subscribe(UniKuroKit.Events.Observer.IObserver{`0})
+  id: Subscribe(UniKuroKit.Events.Observer.IObserver{`0})
+  parent: UniKuroKit.Events.Observer.IReadOnlyObservable`1
+  langs:
+  - csharp
+  - vb
+  name: Subscribe(IObserver<TObserver>)
+  nameWithType: IReadOnlyObservable<TObserver>.Subscribe(IObserver<TObserver>)
+  fullName: UniKuroKit.Events.Observer.IReadOnlyObservable<TObserver>.Subscribe(UniKuroKit.Events.Observer.IObserver<TObserver>)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events.Observer
+  syntax:
+    content: ObserverToken Subscribe(IObserver<TObserver> observer)
+    parameters:
+    - id: observer
+      type: UniKuroKit.Events.Observer.IObserver{{TObserver}}
+    return:
+      type: UniKuroKit.Events.Observer.ObserverToken
+    content.vb: Function Subscribe(observer As IObserver(Of TObserver)) As ObserverToken
+  overload: UniKuroKit.Events.Observer.IReadOnlyObservable`1.Subscribe*
+  nameWithType.vb: IReadOnlyObservable(Of TObserver).Subscribe(IObserver(Of TObserver))
+  fullName.vb: UniKuroKit.Events.Observer.IReadOnlyObservable(Of TObserver).Subscribe(UniKuroKit.Events.Observer.IObserver(Of TObserver))
+  name.vb: Subscribe(IObserver(Of TObserver))
+- uid: UniKuroKit.Events.Observer.IReadOnlyObservable`1.Unsubscribe(UniKuroKit.Events.Observer.ObserverToken)
+  commentId: M:UniKuroKit.Events.Observer.IReadOnlyObservable`1.Unsubscribe(UniKuroKit.Events.Observer.ObserverToken)
+  id: Unsubscribe(UniKuroKit.Events.Observer.ObserverToken)
+  parent: UniKuroKit.Events.Observer.IReadOnlyObservable`1
+  langs:
+  - csharp
+  - vb
+  name: Unsubscribe(ObserverToken)
+  nameWithType: IReadOnlyObservable<TObserver>.Unsubscribe(ObserverToken)
+  fullName: UniKuroKit.Events.Observer.IReadOnlyObservable<TObserver>.Unsubscribe(UniKuroKit.Events.Observer.ObserverToken)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events.Observer
+  syntax:
+    content: void Unsubscribe(ObserverToken token)
+    parameters:
+    - id: token
+      type: UniKuroKit.Events.Observer.ObserverToken
+    content.vb: Sub Unsubscribe(token As ObserverToken)
+  overload: UniKuroKit.Events.Observer.IReadOnlyObservable`1.Unsubscribe*
+  nameWithType.vb: IReadOnlyObservable(Of TObserver).Unsubscribe(ObserverToken)
+  fullName.vb: UniKuroKit.Events.Observer.IReadOnlyObservable(Of TObserver).Unsubscribe(UniKuroKit.Events.Observer.ObserverToken)
+references:
+- uid: UniKuroKit.Events.Observer
+  commentId: N:UniKuroKit.Events.Observer
+  href: UniKuroKit.html
+  name: UniKuroKit.Events.Observer
+  nameWithType: UniKuroKit.Events.Observer
+  fullName: UniKuroKit.Events.Observer
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  - name: .
+  - uid: UniKuroKit.Events.Observer
+    name: Observer
+    href: UniKuroKit.Events.Observer.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  - name: .
+  - uid: UniKuroKit.Events.Observer
+    name: Observer
+    href: UniKuroKit.Events.Observer.html
+- uid: UniKuroKit.Events.Observer.IReadOnlyObservable`1.Subscribe*
+  commentId: Overload:UniKuroKit.Events.Observer.IReadOnlyObservable`1.Subscribe
+  href: UniKuroKit.Events.Observer.IReadOnlyObservable-1.html#UniKuroKit_Events_Observer_IReadOnlyObservable_1_Subscribe_UniKuroKit_Events_Observer_IObserver__0__
+  name: Subscribe
+  nameWithType: IReadOnlyObservable<TObserver>.Subscribe
+  fullName: UniKuroKit.Events.Observer.IReadOnlyObservable<TObserver>.Subscribe
+  nameWithType.vb: IReadOnlyObservable(Of TObserver).Subscribe
+  fullName.vb: UniKuroKit.Events.Observer.IReadOnlyObservable(Of TObserver).Subscribe
+- uid: UniKuroKit.Events.Observer.IObserver{{TObserver}}
+  commentId: T:UniKuroKit.Events.Observer.IObserver{`0}
+  parent: UniKuroKit.Events.Observer
+  definition: UniKuroKit.Events.Observer.IObserver`1
+  href: UniKuroKit.Events.Observer.IObserver-1.html
+  name: IObserver<TObserver>
+  nameWithType: IObserver<TObserver>
+  fullName: UniKuroKit.Events.Observer.IObserver<TObserver>
+  nameWithType.vb: IObserver(Of TObserver)
+  fullName.vb: UniKuroKit.Events.Observer.IObserver(Of TObserver)
+  name.vb: IObserver(Of TObserver)
+  spec.csharp:
+  - uid: UniKuroKit.Events.Observer.IObserver`1
+    name: IObserver
+    href: UniKuroKit.Events.Observer.IObserver-1.html
+  - name: <
+  - name: TObserver
+  - name: '>'
+  spec.vb:
+  - uid: UniKuroKit.Events.Observer.IObserver`1
+    name: IObserver
+    href: UniKuroKit.Events.Observer.IObserver-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TObserver
+  - name: )
+- uid: UniKuroKit.Events.Observer.ObserverToken
+  commentId: T:UniKuroKit.Events.Observer.ObserverToken
+  parent: UniKuroKit.Events.Observer
+  href: UniKuroKit.Events.Observer.ObserverToken.html
+  name: ObserverToken
+  nameWithType: ObserverToken
+  fullName: UniKuroKit.Events.Observer.ObserverToken
+- uid: UniKuroKit.Events.Observer.IObserver`1
+  commentId: T:UniKuroKit.Events.Observer.IObserver`1
+  href: UniKuroKit.Events.Observer.IObserver-1.html
+  name: IObserver<TObserver>
+  nameWithType: IObserver<TObserver>
+  fullName: UniKuroKit.Events.Observer.IObserver<TObserver>
+  nameWithType.vb: IObserver(Of TObserver)
+  fullName.vb: UniKuroKit.Events.Observer.IObserver(Of TObserver)
+  name.vb: IObserver(Of TObserver)
+  spec.csharp:
+  - uid: UniKuroKit.Events.Observer.IObserver`1
+    name: IObserver
+    href: UniKuroKit.Events.Observer.IObserver-1.html
+  - name: <
+  - name: TObserver
+  - name: '>'
+  spec.vb:
+  - uid: UniKuroKit.Events.Observer.IObserver`1
+    name: IObserver
+    href: UniKuroKit.Events.Observer.IObserver-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TObserver
+  - name: )
+- uid: UniKuroKit.Events.Observer.IReadOnlyObservable`1.Unsubscribe*
+  commentId: Overload:UniKuroKit.Events.Observer.IReadOnlyObservable`1.Unsubscribe
+  href: UniKuroKit.Events.Observer.IReadOnlyObservable-1.html#UniKuroKit_Events_Observer_IReadOnlyObservable_1_Unsubscribe_UniKuroKit_Events_Observer_ObserverToken_
+  name: Unsubscribe
+  nameWithType: IReadOnlyObservable<TObserver>.Unsubscribe
+  fullName: UniKuroKit.Events.Observer.IReadOnlyObservable<TObserver>.Unsubscribe
+  nameWithType.vb: IReadOnlyObservable(Of TObserver).Unsubscribe
+  fullName.vb: UniKuroKit.Events.Observer.IReadOnlyObservable(Of TObserver).Unsubscribe

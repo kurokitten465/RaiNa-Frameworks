@@ -1,0 +1,95 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Events.Observer.ObserverToken
+  commentId: T:UniKuroKit.Events.Observer.ObserverToken
+  id: ObserverToken
+  parent: UniKuroKit.Events.Observer
+  children:
+  - UniKuroKit.Events.Observer.ObserverToken.IsValid
+  langs:
+  - csharp
+  - vb
+  name: ObserverToken
+  nameWithType: ObserverToken
+  fullName: UniKuroKit.Events.Observer.ObserverToken
+  type: Struct
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events.Observer
+  syntax:
+    content: public readonly struct ObserverToken
+    content.vb: Public Structure ObserverToken
+- uid: UniKuroKit.Events.Observer.ObserverToken.IsValid
+  commentId: P:UniKuroKit.Events.Observer.ObserverToken.IsValid
+  id: IsValid
+  parent: UniKuroKit.Events.Observer.ObserverToken
+  langs:
+  - csharp
+  - vb
+  name: IsValid
+  nameWithType: ObserverToken.IsValid
+  fullName: UniKuroKit.Events.Observer.ObserverToken.IsValid
+  type: Property
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events.Observer
+  syntax:
+    content: public bool IsValid { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsValid As Boolean
+  overload: UniKuroKit.Events.Observer.ObserverToken.IsValid*
+references:
+- uid: UniKuroKit.Events.Observer
+  commentId: N:UniKuroKit.Events.Observer
+  href: UniKuroKit.html
+  name: UniKuroKit.Events.Observer
+  nameWithType: UniKuroKit.Events.Observer
+  fullName: UniKuroKit.Events.Observer
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  - name: .
+  - uid: UniKuroKit.Events.Observer
+    name: Observer
+    href: UniKuroKit.Events.Observer.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  - name: .
+  - uid: UniKuroKit.Events.Observer
+    name: Observer
+    href: UniKuroKit.Events.Observer.html
+- uid: UniKuroKit.Events.Observer.ObserverToken.IsValid*
+  commentId: Overload:UniKuroKit.Events.Observer.ObserverToken.IsValid
+  href: UniKuroKit.Events.Observer.ObserverToken.html#UniKuroKit_Events_Observer_ObserverToken_IsValid
+  name: IsValid
+  nameWithType: ObserverToken.IsValid
+  fullName: UniKuroKit.Events.Observer.ObserverToken.IsValid
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

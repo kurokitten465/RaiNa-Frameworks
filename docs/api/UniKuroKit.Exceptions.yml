@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Exceptions
+  commentId: N:UniKuroKit.Exceptions
+  id: UniKuroKit.Exceptions
+  children:
+  - UniKuroKit.Exceptions.SingletonInitializeException
+  langs:
+  - csharp
+  - vb
+  name: UniKuroKit.Exceptions
+  nameWithType: UniKuroKit.Exceptions
+  fullName: UniKuroKit.Exceptions
+  type: Namespace
+  assemblies:
+  - com.kurokitten.unikurokit
+references:
+- uid: UniKuroKit.Exceptions.SingletonInitializeException
+  commentId: T:UniKuroKit.Exceptions.SingletonInitializeException
+  href: UniKuroKit.Exceptions.SingletonInitializeException.html
+  name: SingletonInitializeException
+  nameWithType: SingletonInitializeException
+  fullName: UniKuroKit.Exceptions.SingletonInitializeException

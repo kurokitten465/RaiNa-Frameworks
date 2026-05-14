@@ -1,0 +1,43 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Events.IEvent
+  commentId: T:UniKuroKit.Events.IEvent
+  id: IEvent
+  parent: UniKuroKit.Events
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IEvent
+  nameWithType: IEvent
+  fullName: UniKuroKit.Events.IEvent
+  type: Interface
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events
+  syntax:
+    content: public interface IEvent
+    content.vb: Public Interface IEvent
+references:
+- uid: UniKuroKit.Events
+  commentId: N:UniKuroKit.Events
+  href: UniKuroKit.html
+  name: UniKuroKit.Events
+  nameWithType: UniKuroKit.Events
+  fullName: UniKuroKit.Events
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html

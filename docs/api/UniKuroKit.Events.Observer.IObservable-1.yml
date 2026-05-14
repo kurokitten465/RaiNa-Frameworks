@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Events.Observer.IObservable`1
+  commentId: T:UniKuroKit.Events.Observer.IObservable`1
+  id: IObservable`1
+  parent: UniKuroKit.Events.Observer
+  children:
+  - UniKuroKit.Events.Observer.IObservable`1.Clear
+  - UniKuroKit.Events.Observer.IObservable`1.Notify(`0)
+  langs:
+  - csharp
+  - vb
+  name: IObservable<TObserver>
+  nameWithType: IObservable<TObserver>
+  fullName: UniKuroKit.Events.Observer.IObservable<TObserver>
+  type: Interface
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events.Observer
+  syntax:
+    content: public interface IObservable<TObserver>
+    typeParameters:
+    - id: TObserver
+    content.vb: Public Interface IObservable(Of TObserver)
+  nameWithType.vb: IObservable(Of TObserver)
+  fullName.vb: UniKuroKit.Events.Observer.IObservable(Of TObserver)
+  name.vb: IObservable(Of TObserver)
+- uid: UniKuroKit.Events.Observer.IObservable`1.Notify(`0)
+  commentId: M:UniKuroKit.Events.Observer.IObservable`1.Notify(`0)
+  id: Notify(`0)
+  parent: UniKuroKit.Events.Observer.IObservable`1
+  langs:
+  - csharp
+  - vb
+  name: Notify(TObserver)
+  nameWithType: IObservable<TObserver>.Notify(TObserver)
+  fullName: UniKuroKit.Events.Observer.IObservable<TObserver>.Notify(TObserver)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events.Observer
+  syntax:
+    content: void Notify(TObserver value)
+    parameters:
+    - id: value
+      type: '{TObserver}'
+    content.vb: Sub Notify(value As TObserver)
+  overload: UniKuroKit.Events.Observer.IObservable`1.Notify*
+  nameWithType.vb: IObservable(Of TObserver).Notify(TObserver)
+  fullName.vb: UniKuroKit.Events.Observer.IObservable(Of TObserver).Notify(TObserver)
+- uid: UniKuroKit.Events.Observer.IObservable`1.Clear
+  commentId: M:UniKuroKit.Events.Observer.IObservable`1.Clear
+  id: Clear
+  parent: UniKuroKit.Events.Observer.IObservable`1
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: IObservable<TObserver>.Clear()
+  fullName: UniKuroKit.Events.Observer.IObservable<TObserver>.Clear()
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events.Observer
+  syntax:
+    content: void Clear()
+    content.vb: Sub Clear()
+  overload: UniKuroKit.Events.Observer.IObservable`1.Clear*
+  nameWithType.vb: IObservable(Of TObserver).Clear()
+  fullName.vb: UniKuroKit.Events.Observer.IObservable(Of TObserver).Clear()
+references:
+- uid: UniKuroKit.Events.Observer
+  commentId: N:UniKuroKit.Events.Observer
+  href: UniKuroKit.html
+  name: UniKuroKit.Events.Observer
+  nameWithType: UniKuroKit.Events.Observer
+  fullName: UniKuroKit.Events.Observer
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  - name: .
+  - uid: UniKuroKit.Events.Observer
+    name: Observer
+    href: UniKuroKit.Events.Observer.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  - name: .
+  - uid: UniKuroKit.Events.Observer
+    name: Observer
+    href: UniKuroKit.Events.Observer.html
+- uid: UniKuroKit.Events.Observer.IObservable`1.Notify*
+  commentId: Overload:UniKuroKit.Events.Observer.IObservable`1.Notify
+  href: UniKuroKit.Events.Observer.IObservable-1.html#UniKuroKit_Events_Observer_IObservable_1_Notify__0_
+  name: Notify
+  nameWithType: IObservable<TObserver>.Notify
+  fullName: UniKuroKit.Events.Observer.IObservable<TObserver>.Notify
+  nameWithType.vb: IObservable(Of TObserver).Notify
+  fullName.vb: UniKuroKit.Events.Observer.IObservable(Of TObserver).Notify
+- uid: '{TObserver}'
+  commentId: '!:TObserver'
+  definition: TObserver
+  name: TObserver
+  nameWithType: TObserver
+  fullName: TObserver
+- uid: TObserver
+  name: TObserver
+  nameWithType: TObserver
+  fullName: TObserver
+- uid: UniKuroKit.Events.Observer.IObservable`1.Clear*
+  commentId: Overload:UniKuroKit.Events.Observer.IObservable`1.Clear
+  href: UniKuroKit.Events.Observer.IObservable-1.html#UniKuroKit_Events_Observer_IObservable_1_Clear
+  name: Clear
+  nameWithType: IObservable<TObserver>.Clear
+  fullName: UniKuroKit.Events.Observer.IObservable<TObserver>.Clear
+  nameWithType.vb: IObservable(Of TObserver).Clear
+  fullName.vb: UniKuroKit.Events.Observer.IObservable(Of TObserver).Clear

@@ -1,0 +1,270 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Events.Observer.ObservableMonoBehaviour`1
+  commentId: T:UniKuroKit.Events.Observer.ObservableMonoBehaviour`1
+  id: ObservableMonoBehaviour`1
+  parent: UniKuroKit.Events.Observer
+  children:
+  - UniKuroKit.Events.Observer.ObservableMonoBehaviour`1.Observable
+  - UniKuroKit.Events.Observer.ObservableMonoBehaviour`1._observable
+  langs:
+  - csharp
+  - vb
+  name: ObservableMonoBehaviour<T>
+  nameWithType: ObservableMonoBehaviour<T>
+  fullName: UniKuroKit.Events.Observer.ObservableMonoBehaviour<T>
+  type: Class
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events.Observer
+  syntax:
+    content: 'public abstract class ObservableMonoBehaviour<T> : MonoBehaviour'
+    typeParameters:
+    - id: T
+    content.vb: Public MustInherit Class ObservableMonoBehaviour(Of T) Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  nameWithType.vb: ObservableMonoBehaviour(Of T)
+  fullName.vb: UniKuroKit.Events.Observer.ObservableMonoBehaviour(Of T)
+  name.vb: ObservableMonoBehaviour(Of T)
+- uid: UniKuroKit.Events.Observer.ObservableMonoBehaviour`1._observable
+  commentId: F:UniKuroKit.Events.Observer.ObservableMonoBehaviour`1._observable
+  id: _observable
+  parent: UniKuroKit.Events.Observer.ObservableMonoBehaviour`1
+  langs:
+  - csharp
+  - vb
+  name: _observable
+  nameWithType: ObservableMonoBehaviour<T>._observable
+  fullName: UniKuroKit.Events.Observer.ObservableMonoBehaviour<T>._observable
+  type: Field
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events.Observer
+  syntax:
+    content: protected readonly Observable<T> _observable
+    return:
+      type: UniKuroKit.Events.Observer.Observable{{T}}
+    content.vb: Protected ReadOnly _observable As Observable(Of T)
+  nameWithType.vb: ObservableMonoBehaviour(Of T)._observable
+  fullName.vb: UniKuroKit.Events.Observer.ObservableMonoBehaviour(Of T)._observable
+- uid: UniKuroKit.Events.Observer.ObservableMonoBehaviour`1.Observable
+  commentId: P:UniKuroKit.Events.Observer.ObservableMonoBehaviour`1.Observable
+  id: Observable
+  parent: UniKuroKit.Events.Observer.ObservableMonoBehaviour`1
+  langs:
+  - csharp
+  - vb
+  name: Observable
+  nameWithType: ObservableMonoBehaviour<T>.Observable
+  fullName: UniKuroKit.Events.Observer.ObservableMonoBehaviour<T>.Observable
+  type: Property
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events.Observer
+  syntax:
+    content: public IReadOnlyObservable<T> Observable { get; }
+    parameters: []
+    return:
+      type: UniKuroKit.Events.Observer.IReadOnlyObservable{{T}}
+    content.vb: Public ReadOnly Property Observable As IReadOnlyObservable(Of T)
+  overload: UniKuroKit.Events.Observer.ObservableMonoBehaviour`1.Observable*
+  nameWithType.vb: ObservableMonoBehaviour(Of T).Observable
+  fullName.vb: UniKuroKit.Events.Observer.ObservableMonoBehaviour(Of T).Observable
+references:
+- uid: UniKuroKit.Events.Observer
+  commentId: N:UniKuroKit.Events.Observer
+  href: UniKuroKit.html
+  name: UniKuroKit.Events.Observer
+  nameWithType: UniKuroKit.Events.Observer
+  fullName: UniKuroKit.Events.Observer
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  - name: .
+  - uid: UniKuroKit.Events.Observer
+    name: Observer
+    href: UniKuroKit.Events.Observer.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  - name: .
+  - uid: UniKuroKit.Events.Observer
+    name: Observer
+    href: UniKuroKit.Events.Observer.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UniKuroKit.Events.Observer.Observable{{T}}
+  commentId: T:UniKuroKit.Events.Observer.Observable{`0}
+  parent: UniKuroKit.Events.Observer
+  definition: UniKuroKit.Events.Observer.Observable`1
+  href: UniKuroKit.Events.Observer.Observable-1.html
+  name: Observable<T>
+  nameWithType: Observable<T>
+  fullName: UniKuroKit.Events.Observer.Observable<T>
+  nameWithType.vb: Observable(Of T)
+  fullName.vb: UniKuroKit.Events.Observer.Observable(Of T)
+  name.vb: Observable(Of T)
+  spec.csharp:
+  - uid: UniKuroKit.Events.Observer.Observable`1
+    name: Observable
+    href: UniKuroKit.Events.Observer.Observable-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: UniKuroKit.Events.Observer.Observable`1
+    name: Observable
+    href: UniKuroKit.Events.Observer.Observable-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: UniKuroKit.Events.Observer.Observable`1
+  commentId: T:UniKuroKit.Events.Observer.Observable`1
+  href: UniKuroKit.Events.Observer.Observable-1.html
+  name: Observable<T>
+  nameWithType: Observable<T>
+  fullName: UniKuroKit.Events.Observer.Observable<T>
+  nameWithType.vb: Observable(Of T)
+  fullName.vb: UniKuroKit.Events.Observer.Observable(Of T)
+  name.vb: Observable(Of T)
+  spec.csharp:
+  - uid: UniKuroKit.Events.Observer.Observable`1
+    name: Observable
+    href: UniKuroKit.Events.Observer.Observable-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: UniKuroKit.Events.Observer.Observable`1
+    name: Observable
+    href: UniKuroKit.Events.Observer.Observable-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: UniKuroKit.Events.Observer.ObservableMonoBehaviour`1.Observable*
+  commentId: Overload:UniKuroKit.Events.Observer.ObservableMonoBehaviour`1.Observable
+  href: UniKuroKit.Events.Observer.ObservableMonoBehaviour-1.html#UniKuroKit_Events_Observer_ObservableMonoBehaviour_1_Observable
+  name: Observable
+  nameWithType: ObservableMonoBehaviour<T>.Observable
+  fullName: UniKuroKit.Events.Observer.ObservableMonoBehaviour<T>.Observable
+  nameWithType.vb: ObservableMonoBehaviour(Of T).Observable
+  fullName.vb: UniKuroKit.Events.Observer.ObservableMonoBehaviour(Of T).Observable
+- uid: UniKuroKit.Events.Observer.IReadOnlyObservable{{T}}
+  commentId: T:UniKuroKit.Events.Observer.IReadOnlyObservable{`0}
+  parent: UniKuroKit.Events.Observer
+  definition: UniKuroKit.Events.Observer.IReadOnlyObservable`1
+  href: UniKuroKit.Events.Observer.IReadOnlyObservable-1.html
+  name: IReadOnlyObservable<T>
+  nameWithType: IReadOnlyObservable<T>
+  fullName: UniKuroKit.Events.Observer.IReadOnlyObservable<T>
+  nameWithType.vb: IReadOnlyObservable(Of T)
+  fullName.vb: UniKuroKit.Events.Observer.IReadOnlyObservable(Of T)
+  name.vb: IReadOnlyObservable(Of T)
+  spec.csharp:
+  - uid: UniKuroKit.Events.Observer.IReadOnlyObservable`1
+    name: IReadOnlyObservable
+    href: UniKuroKit.Events.Observer.IReadOnlyObservable-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: UniKuroKit.Events.Observer.IReadOnlyObservable`1
+    name: IReadOnlyObservable
+    href: UniKuroKit.Events.Observer.IReadOnlyObservable-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: UniKuroKit.Events.Observer.IReadOnlyObservable`1
+  commentId: T:UniKuroKit.Events.Observer.IReadOnlyObservable`1
+  href: UniKuroKit.Events.Observer.IReadOnlyObservable-1.html
+  name: IReadOnlyObservable<TObserver>
+  nameWithType: IReadOnlyObservable<TObserver>
+  fullName: UniKuroKit.Events.Observer.IReadOnlyObservable<TObserver>
+  nameWithType.vb: IReadOnlyObservable(Of TObserver)
+  fullName.vb: UniKuroKit.Events.Observer.IReadOnlyObservable(Of TObserver)
+  name.vb: IReadOnlyObservable(Of TObserver)
+  spec.csharp:
+  - uid: UniKuroKit.Events.Observer.IReadOnlyObservable`1
+    name: IReadOnlyObservable
+    href: UniKuroKit.Events.Observer.IReadOnlyObservable-1.html
+  - name: <
+  - name: TObserver
+  - name: '>'
+  spec.vb:
+  - uid: UniKuroKit.Events.Observer.IReadOnlyObservable`1
+    name: IReadOnlyObservable
+    href: UniKuroKit.Events.Observer.IReadOnlyObservable-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TObserver
+  - name: )

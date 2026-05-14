@@ -1,0 +1,90 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Serialization
+  commentId: N:UniKuroKit.Serialization
+  id: UniKuroKit.Serialization
+  children:
+  - UniKuroKit.Serialization.BinarySerializer
+  - UniKuroKit.Serialization.DataContainer
+  - UniKuroKit.Serialization.DataEntry
+  - UniKuroKit.Serialization.ISerializer
+  - UniKuroKit.Serialization.JsonSerializer
+  - UniKuroKit.Serialization.SerializerConfigurations
+  - UniKuroKit.Serialization.SerializerFactory
+  langs:
+  - csharp
+  - vb
+  name: UniKuroKit.Serialization
+  nameWithType: UniKuroKit.Serialization
+  fullName: UniKuroKit.Serialization
+  type: Namespace
+  assemblies:
+  - com.kurokitten.unikurokit
+references:
+- uid: UniKuroKit.Serialization.DataContainer
+  commentId: T:UniKuroKit.Serialization.DataContainer
+  parent: UniKuroKit.Serialization
+  href: UniKuroKit.Serialization.DataContainer.html
+  name: DataContainer
+  nameWithType: DataContainer
+  fullName: UniKuroKit.Serialization.DataContainer
+- uid: UniKuroKit.Serialization.BinarySerializer
+  commentId: T:UniKuroKit.Serialization.BinarySerializer
+  href: UniKuroKit.Serialization.BinarySerializer.html
+  name: BinarySerializer
+  nameWithType: BinarySerializer
+  fullName: UniKuroKit.Serialization.BinarySerializer
+- uid: UniKuroKit.Serialization.SerializerFactory
+  commentId: T:UniKuroKit.Serialization.SerializerFactory
+  href: UniKuroKit.Serialization.SerializerFactory.html
+  name: SerializerFactory
+  nameWithType: SerializerFactory
+  fullName: UniKuroKit.Serialization.SerializerFactory
+- uid: UniKuroKit.Serialization.DataEntry
+  commentId: T:UniKuroKit.Serialization.DataEntry
+  href: UniKuroKit.Serialization.DataEntry.html
+  name: DataEntry
+  nameWithType: DataEntry
+  fullName: UniKuroKit.Serialization.DataEntry
+- uid: UniKuroKit.Serialization.JsonSerializer
+  commentId: T:UniKuroKit.Serialization.JsonSerializer
+  href: UniKuroKit.Serialization.JsonSerializer.html
+  name: JsonSerializer
+  nameWithType: JsonSerializer
+  fullName: UniKuroKit.Serialization.JsonSerializer
+- uid: UniKuroKit.Serialization.SerializerConfigurations
+  commentId: T:UniKuroKit.Serialization.SerializerConfigurations
+  parent: UniKuroKit.Serialization
+  href: UniKuroKit.Serialization.SerializerConfigurations.html
+  name: SerializerConfigurations
+  nameWithType: SerializerConfigurations
+  fullName: UniKuroKit.Serialization.SerializerConfigurations
+- uid: UniKuroKit.Serialization.ISerializer
+  commentId: T:UniKuroKit.Serialization.ISerializer
+  parent: UniKuroKit.Serialization
+  href: UniKuroKit.Serialization.ISerializer.html
+  name: ISerializer
+  nameWithType: ISerializer
+  fullName: UniKuroKit.Serialization.ISerializer
+- uid: UniKuroKit.Serialization
+  commentId: N:UniKuroKit.Serialization
+  href: UniKuroKit.html
+  name: UniKuroKit.Serialization
+  nameWithType: UniKuroKit.Serialization
+  fullName: UniKuroKit.Serialization
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Serialization
+    name: Serialization
+    href: UniKuroKit.Serialization.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Serialization
+    name: Serialization
+    href: UniKuroKit.Serialization.html

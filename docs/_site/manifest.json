@@ -1,0 +1,761 @@
+{
+  "sitemap": {
+    "fileOptions": {
+      "api/*": {
+        "baseUrl": "https://kurokitten.github.io/UniKuroKit/",
+        "changefreq": "daily"
+      }
+    },
+    "baseUrl": "https://kurokitten.github.io/UniKuroKit/",
+    "changefreq": "weekly"
+  },
+  "source_base_path": "D:/UnityProjects/UniKuroKit/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.Asset.EventBusAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.Asset.EventBusAsset.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.Asset.EventBusAsset",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.Asset.IEventBusAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.Asset.IEventBusAsset.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.Asset.IEventBusAsset",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.Asset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.Asset.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.Asset",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.DelegateEventHandler-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.DelegateEventHandler-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.DelegateEventHandler<TEvent>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.EventBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.EventBus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.EventBus",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.EventChannel-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.EventChannel-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.EventChannel<TEvent>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.EventContext-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.EventContext-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.EventContext<TEvent>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.GlobalEventBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.GlobalEventBus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.GlobalEventBus",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.IEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.IEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.IEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.IEventBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.IEventBus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.IEventBus",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.IEventChannel-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.IEventChannel-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.IEventChannel<TEvent>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.IEventContext-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.IEventContext-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.IEventContext<TEvent>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.IEventHandler-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.IEventHandler-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.IEventHandler<TEvent>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.Observer.IObservable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.Observer.IObservable-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.Observer.IObservable<TObserver>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.Observer.IObserver-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.Observer.IObserver-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.Observer.IObserver<TObserver>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.Observer.IReadOnlyObservable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.Observer.IReadOnlyObservable-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.Observer.IReadOnlyObservable<TObserver>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.Observer.Observable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.Observer.Observable-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.Observer.Observable<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.Observer.ObservableMonoBehaviour-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.Observer.ObservableMonoBehaviour-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.Observer.ObservableMonoBehaviour<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.Observer.ObserverToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.Observer.ObserverToken.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.Observer.ObserverToken",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.Observer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.Observer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.Observer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.Visitor.IVisitable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.Visitor.IVisitable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.Visitor.IVisitable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.Visitor.IVisitor-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.Visitor.IVisitor-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.Visitor.IVisitor<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.Visitor.IVisitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.Visitor.IVisitor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.Visitor.IVisitor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.Visitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.Visitor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events.Visitor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Events.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Events",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Exceptions.SingletonInitializeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Exceptions.SingletonInitializeException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Exceptions.SingletonInitializeException",
+      "Summary": "<p sourcefile=\"api/UniKuroKit.Exceptions.SingletonInitializeException.yml\" sourcestartlinenumber=\"1\">Exception thrown when singleton initialization fails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Exceptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Exceptions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.IO.ChunkSplitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.IO.ChunkSplitter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.IO.ChunkSplitter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.IO.DataStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.IO.DataStorage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.IO.DataStorage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.IO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.IO.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.IO",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Security.AesEncryptionProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Security.AesEncryptionProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Security.AesEncryptionProvider",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Security.EncryptionFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Security.EncryptionFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Security.EncryptionFactory",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Security.IEncryptionProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Security.IEncryptionProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Security.IEncryptionProvider",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Security.NoEncryptionProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Security.NoEncryptionProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Security.NoEncryptionProvider",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Security.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Security.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Security",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Serialization.BinarySerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Serialization.BinarySerializer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Serialization.BinarySerializer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Serialization.DataContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Serialization.DataContainer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Serialization.DataContainer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Serialization.DataEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Serialization.DataEntry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Serialization.DataEntry",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Serialization.ISerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Serialization.ISerializer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Serialization.ISerializer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Serialization.JsonSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Serialization.JsonSerializer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Serialization.JsonSerializer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Serialization.SerializerConfigurations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Serialization.SerializerConfigurations.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Serialization.SerializerConfigurations",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Serialization.SerializerFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Serialization.SerializerFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Serialization.SerializerFactory",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Serialization.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Serialization",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Services.Singleton.ISingleton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Services.Singleton.ISingleton.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Services.Singleton.ISingleton",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Services.Singleton.MonoSingleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Services.Singleton.MonoSingleton-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Services.Singleton.MonoSingleton<TDerived>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Services.Singleton.PersistentMonoSingleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Services.Singleton.PersistentMonoSingleton-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Services.Singleton.PersistentMonoSingleton<TDerived>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton<TDerived>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Services.Singleton.Singleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Services.Singleton.Singleton-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Services.Singleton.Singleton<TDerived>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Services.Singleton.SingletonInitializeState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Services.Singleton.SingletonInitializeState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Services.Singleton.SingletonInitializeState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniKuroKit.Services.Singleton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniKuroKit.Services.Singleton.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UniKuroKit.Services.Singleton",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

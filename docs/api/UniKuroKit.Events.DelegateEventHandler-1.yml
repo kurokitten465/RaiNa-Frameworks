@@ -1,0 +1,443 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Events.DelegateEventHandler`1
+  commentId: T:UniKuroKit.Events.DelegateEventHandler`1
+  id: DelegateEventHandler`1
+  parent: UniKuroKit.Events
+  children:
+  - UniKuroKit.Events.DelegateEventHandler`1.#ctor(System.Action{UniKuroKit.Events.IEventContext{`0}},System.Int32)
+  - UniKuroKit.Events.DelegateEventHandler`1.Handle(UniKuroKit.Events.IEventContext{`0})
+  - UniKuroKit.Events.DelegateEventHandler`1.Priority
+  langs:
+  - csharp
+  - vb
+  name: DelegateEventHandler<TEvent>
+  nameWithType: DelegateEventHandler<TEvent>
+  fullName: UniKuroKit.Events.DelegateEventHandler<TEvent>
+  type: Class
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events
+  syntax:
+    content: 'public sealed class DelegateEventHandler<TEvent> : IEventHandler<TEvent> where TEvent : IEvent'
+    typeParameters:
+    - id: TEvent
+    content.vb: Public NotInheritable Class DelegateEventHandler(Of TEvent As IEvent) Implements IEventHandler(Of TEvent)
+  inheritance:
+  - System.Object
+  implements:
+  - UniKuroKit.Events.IEventHandler{{TEvent}}
+  nameWithType.vb: DelegateEventHandler(Of TEvent)
+  fullName.vb: UniKuroKit.Events.DelegateEventHandler(Of TEvent)
+  name.vb: DelegateEventHandler(Of TEvent)
+- uid: UniKuroKit.Events.DelegateEventHandler`1.Priority
+  commentId: P:UniKuroKit.Events.DelegateEventHandler`1.Priority
+  id: Priority
+  parent: UniKuroKit.Events.DelegateEventHandler`1
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: DelegateEventHandler<TEvent>.Priority
+  fullName: UniKuroKit.Events.DelegateEventHandler<TEvent>.Priority
+  type: Property
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events
+  example: []
+  syntax:
+    content: public int Priority { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Priority As Integer
+  overload: UniKuroKit.Events.DelegateEventHandler`1.Priority*
+  implements:
+  - UniKuroKit.Events.IEventHandler{{TEvent}}.Priority
+  nameWithType.vb: DelegateEventHandler(Of TEvent).Priority
+  fullName.vb: UniKuroKit.Events.DelegateEventHandler(Of TEvent).Priority
+- uid: UniKuroKit.Events.DelegateEventHandler`1.#ctor(System.Action{UniKuroKit.Events.IEventContext{`0}},System.Int32)
+  commentId: M:UniKuroKit.Events.DelegateEventHandler`1.#ctor(System.Action{UniKuroKit.Events.IEventContext{`0}},System.Int32)
+  id: '#ctor(System.Action{UniKuroKit.Events.IEventContext{`0}},System.Int32)'
+  parent: UniKuroKit.Events.DelegateEventHandler`1
+  langs:
+  - csharp
+  - vb
+  name: DelegateEventHandler(Action<IEventContext<TEvent>>, int)
+  nameWithType: DelegateEventHandler<TEvent>.DelegateEventHandler(Action<IEventContext<TEvent>>, int)
+  fullName: UniKuroKit.Events.DelegateEventHandler<TEvent>.DelegateEventHandler(System.Action<UniKuroKit.Events.IEventContext<TEvent>>, int)
+  type: Constructor
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events
+  syntax:
+    content: public DelegateEventHandler(Action<IEventContext<TEvent>> action, int priority)
+    parameters:
+    - id: action
+      type: System.Action{UniKuroKit.Events.IEventContext{{TEvent}}}
+    - id: priority
+      type: System.Int32
+    content.vb: Public Sub New(action As Action(Of IEventContext(Of TEvent)), priority As Integer)
+  overload: UniKuroKit.Events.DelegateEventHandler`1.#ctor*
+  nameWithType.vb: DelegateEventHandler(Of TEvent).New(Action(Of IEventContext(Of TEvent)), Integer)
+  fullName.vb: UniKuroKit.Events.DelegateEventHandler(Of TEvent).New(System.Action(Of UniKuroKit.Events.IEventContext(Of TEvent)), Integer)
+  name.vb: New(Action(Of IEventContext(Of TEvent)), Integer)
+- uid: UniKuroKit.Events.DelegateEventHandler`1.Handle(UniKuroKit.Events.IEventContext{`0})
+  commentId: M:UniKuroKit.Events.DelegateEventHandler`1.Handle(UniKuroKit.Events.IEventContext{`0})
+  id: Handle(UniKuroKit.Events.IEventContext{`0})
+  parent: UniKuroKit.Events.DelegateEventHandler`1
+  langs:
+  - csharp
+  - vb
+  name: Handle(IEventContext<TEvent>)
+  nameWithType: DelegateEventHandler<TEvent>.Handle(IEventContext<TEvent>)
+  fullName: UniKuroKit.Events.DelegateEventHandler<TEvent>.Handle(UniKuroKit.Events.IEventContext<TEvent>)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events
+  example: []
+  syntax:
+    content: public void Handle(IEventContext<TEvent> context)
+    parameters:
+    - id: context
+      type: UniKuroKit.Events.IEventContext{{TEvent}}
+    content.vb: Public Sub Handle(context As IEventContext(Of TEvent))
+  overload: UniKuroKit.Events.DelegateEventHandler`1.Handle*
+  implements:
+  - UniKuroKit.Events.IEventHandler{{TEvent}}.Handle(UniKuroKit.Events.IEventContext{{TEvent}})
+  nameWithType.vb: DelegateEventHandler(Of TEvent).Handle(IEventContext(Of TEvent))
+  fullName.vb: UniKuroKit.Events.DelegateEventHandler(Of TEvent).Handle(UniKuroKit.Events.IEventContext(Of TEvent))
+  name.vb: Handle(IEventContext(Of TEvent))
+references:
+- uid: UniKuroKit.Events
+  commentId: N:UniKuroKit.Events
+  href: UniKuroKit.html
+  name: UniKuroKit.Events
+  nameWithType: UniKuroKit.Events
+  fullName: UniKuroKit.Events
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UniKuroKit.Events.IEventHandler{{TEvent}}
+  commentId: T:UniKuroKit.Events.IEventHandler{`0}
+  parent: UniKuroKit.Events
+  definition: UniKuroKit.Events.IEventHandler`1
+  href: UniKuroKit.Events.IEventHandler-1.html
+  name: IEventHandler<TEvent>
+  nameWithType: IEventHandler<TEvent>
+  fullName: UniKuroKit.Events.IEventHandler<TEvent>
+  nameWithType.vb: IEventHandler(Of TEvent)
+  fullName.vb: UniKuroKit.Events.IEventHandler(Of TEvent)
+  name.vb: IEventHandler(Of TEvent)
+  spec.csharp:
+  - uid: UniKuroKit.Events.IEventHandler`1
+    name: IEventHandler
+    href: UniKuroKit.Events.IEventHandler-1.html
+  - name: <
+  - name: TEvent
+  - name: '>'
+  spec.vb:
+  - uid: UniKuroKit.Events.IEventHandler`1
+    name: IEventHandler
+    href: UniKuroKit.Events.IEventHandler-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UniKuroKit.Events.IEventHandler`1
+  commentId: T:UniKuroKit.Events.IEventHandler`1
+  href: UniKuroKit.Events.IEventHandler-1.html
+  name: IEventHandler<TEvent>
+  nameWithType: IEventHandler<TEvent>
+  fullName: UniKuroKit.Events.IEventHandler<TEvent>
+  nameWithType.vb: IEventHandler(Of TEvent)
+  fullName.vb: UniKuroKit.Events.IEventHandler(Of TEvent)
+  name.vb: IEventHandler(Of TEvent)
+  spec.csharp:
+  - uid: UniKuroKit.Events.IEventHandler`1
+    name: IEventHandler
+    href: UniKuroKit.Events.IEventHandler-1.html
+  - name: <
+  - name: TEvent
+  - name: '>'
+  spec.vb:
+  - uid: UniKuroKit.Events.IEventHandler`1
+    name: IEventHandler
+    href: UniKuroKit.Events.IEventHandler-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+- uid: UniKuroKit.Events.DelegateEventHandler`1.Priority*
+  commentId: Overload:UniKuroKit.Events.DelegateEventHandler`1.Priority
+  href: UniKuroKit.Events.DelegateEventHandler-1.html#UniKuroKit_Events_DelegateEventHandler_1_Priority
+  name: Priority
+  nameWithType: DelegateEventHandler<TEvent>.Priority
+  fullName: UniKuroKit.Events.DelegateEventHandler<TEvent>.Priority
+  nameWithType.vb: DelegateEventHandler(Of TEvent).Priority
+  fullName.vb: UniKuroKit.Events.DelegateEventHandler(Of TEvent).Priority
+- uid: UniKuroKit.Events.IEventHandler{{TEvent}}.Priority
+  commentId: P:UniKuroKit.Events.IEventHandler{`0}.Priority
+  parent: UniKuroKit.Events.IEventHandler{{TEvent}}
+  definition: UniKuroKit.Events.IEventHandler`1.Priority
+  href: UniKuroKit.Events.IEventHandler-1.html#UniKuroKit_Events_IEventHandler_1_Priority
+  name: Priority
+  nameWithType: IEventHandler<TEvent>.Priority
+  fullName: UniKuroKit.Events.IEventHandler<TEvent>.Priority
+  nameWithType.vb: IEventHandler(Of TEvent).Priority
+  fullName.vb: UniKuroKit.Events.IEventHandler(Of TEvent).Priority
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: UniKuroKit.Events.IEventHandler`1.Priority
+  commentId: P:UniKuroKit.Events.IEventHandler`1.Priority
+  href: UniKuroKit.Events.IEventHandler-1.html#UniKuroKit_Events_IEventHandler_1_Priority
+  name: Priority
+  nameWithType: IEventHandler<TEvent>.Priority
+  fullName: UniKuroKit.Events.IEventHandler<TEvent>.Priority
+  nameWithType.vb: IEventHandler(Of TEvent).Priority
+  fullName.vb: UniKuroKit.Events.IEventHandler(Of TEvent).Priority
+- uid: UniKuroKit.Events.DelegateEventHandler`1.#ctor*
+  commentId: Overload:UniKuroKit.Events.DelegateEventHandler`1.#ctor
+  href: UniKuroKit.Events.DelegateEventHandler-1.html#UniKuroKit_Events_DelegateEventHandler_1__ctor_System_Action_UniKuroKit_Events_IEventContext__0___System_Int32_
+  name: DelegateEventHandler
+  nameWithType: DelegateEventHandler<TEvent>.DelegateEventHandler
+  fullName: UniKuroKit.Events.DelegateEventHandler<TEvent>.DelegateEventHandler
+  nameWithType.vb: DelegateEventHandler(Of TEvent).New
+  fullName.vb: UniKuroKit.Events.DelegateEventHandler(Of TEvent).New
+  name.vb: New
+- uid: System.Action{UniKuroKit.Events.IEventContext{{TEvent}}}
+  commentId: T:System.Action{UniKuroKit.Events.IEventContext{`0}}
+  parent: System
+  definition: System.Action`1
+  href: UniKuroKit.Events.IEventContext-1.html
+  name: Action<IEventContext<TEvent>>
+  nameWithType: Action<IEventContext<TEvent>>
+  fullName: System.Action<UniKuroKit.Events.IEventContext<TEvent>>
+  nameWithType.vb: Action(Of IEventContext(Of TEvent))
+  fullName.vb: System.Action(Of UniKuroKit.Events.IEventContext(Of TEvent))
+  name.vb: Action(Of IEventContext(Of TEvent))
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: UniKuroKit.Events.IEventContext`1
+    name: IEventContext
+    href: UniKuroKit.Events.IEventContext-1.html
+  - name: <
+  - name: TEvent
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UniKuroKit.Events.IEventContext`1
+    name: IEventContext
+    href: UniKuroKit.Events.IEventContext-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: UniKuroKit.Events.DelegateEventHandler`1.Handle*
+  commentId: Overload:UniKuroKit.Events.DelegateEventHandler`1.Handle
+  href: UniKuroKit.Events.DelegateEventHandler-1.html#UniKuroKit_Events_DelegateEventHandler_1_Handle_UniKuroKit_Events_IEventContext__0__
+  name: Handle
+  nameWithType: DelegateEventHandler<TEvent>.Handle
+  fullName: UniKuroKit.Events.DelegateEventHandler<TEvent>.Handle
+  nameWithType.vb: DelegateEventHandler(Of TEvent).Handle
+  fullName.vb: UniKuroKit.Events.DelegateEventHandler(Of TEvent).Handle
+- uid: UniKuroKit.Events.IEventHandler{{TEvent}}.Handle(UniKuroKit.Events.IEventContext{{TEvent}})
+  commentId: M:UniKuroKit.Events.IEventHandler{`0}.Handle(UniKuroKit.Events.IEventContext{`0})
+  parent: UniKuroKit.Events.IEventHandler{{TEvent}}
+  definition: UniKuroKit.Events.IEventHandler`1.Handle(UniKuroKit.Events.IEventContext{`0})
+  href: UniKuroKit.Events.IEventHandler-1.html#UniKuroKit_Events_IEventHandler_1_Handle_UniKuroKit_Events_IEventContext__0__
+  name: Handle(IEventContext<TEvent>)
+  nameWithType: IEventHandler<TEvent>.Handle(IEventContext<TEvent>)
+  fullName: UniKuroKit.Events.IEventHandler<TEvent>.Handle(UniKuroKit.Events.IEventContext<TEvent>)
+  nameWithType.vb: IEventHandler(Of TEvent).Handle(IEventContext(Of TEvent))
+  fullName.vb: UniKuroKit.Events.IEventHandler(Of TEvent).Handle(UniKuroKit.Events.IEventContext(Of TEvent))
+  name.vb: Handle(IEventContext(Of TEvent))
+  spec.csharp:
+  - uid: UniKuroKit.Events.IEventHandler{`0}.Handle(UniKuroKit.Events.IEventContext{`0})
+    name: Handle
+    href: UniKuroKit.Events.IEventHandler-1.html#UniKuroKit_Events_IEventHandler_1_Handle_UniKuroKit_Events_IEventContext__0__
+  - name: (
+  - uid: UniKuroKit.Events.IEventContext`1
+    name: IEventContext
+    href: UniKuroKit.Events.IEventContext-1.html
+  - name: <
+  - name: TEvent
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Events.IEventHandler{`0}.Handle(UniKuroKit.Events.IEventContext{`0})
+    name: Handle
+    href: UniKuroKit.Events.IEventHandler-1.html#UniKuroKit_Events_IEventHandler_1_Handle_UniKuroKit_Events_IEventContext__0__
+  - name: (
+  - uid: UniKuroKit.Events.IEventContext`1
+    name: IEventContext
+    href: UniKuroKit.Events.IEventContext-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+  - name: )
+- uid: UniKuroKit.Events.IEventContext{{TEvent}}
+  commentId: T:UniKuroKit.Events.IEventContext{`0}
+  parent: UniKuroKit.Events
+  definition: UniKuroKit.Events.IEventContext`1
+  href: UniKuroKit.Events.IEventContext-1.html
+  name: IEventContext<TEvent>
+  nameWithType: IEventContext<TEvent>
+  fullName: UniKuroKit.Events.IEventContext<TEvent>
+  nameWithType.vb: IEventContext(Of TEvent)
+  fullName.vb: UniKuroKit.Events.IEventContext(Of TEvent)
+  name.vb: IEventContext(Of TEvent)
+  spec.csharp:
+  - uid: UniKuroKit.Events.IEventContext`1
+    name: IEventContext
+    href: UniKuroKit.Events.IEventContext-1.html
+  - name: <
+  - name: TEvent
+  - name: '>'
+  spec.vb:
+  - uid: UniKuroKit.Events.IEventContext`1
+    name: IEventContext
+    href: UniKuroKit.Events.IEventContext-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+- uid: UniKuroKit.Events.IEventHandler`1.Handle(UniKuroKit.Events.IEventContext{`0})
+  commentId: M:UniKuroKit.Events.IEventHandler`1.Handle(UniKuroKit.Events.IEventContext{`0})
+  href: UniKuroKit.Events.IEventHandler-1.html#UniKuroKit_Events_IEventHandler_1_Handle_UniKuroKit_Events_IEventContext__0__
+  name: Handle(IEventContext<TEvent>)
+  nameWithType: IEventHandler<TEvent>.Handle(IEventContext<TEvent>)
+  fullName: UniKuroKit.Events.IEventHandler<TEvent>.Handle(UniKuroKit.Events.IEventContext<TEvent>)
+  nameWithType.vb: IEventHandler(Of TEvent).Handle(IEventContext(Of TEvent))
+  fullName.vb: UniKuroKit.Events.IEventHandler(Of TEvent).Handle(UniKuroKit.Events.IEventContext(Of TEvent))
+  name.vb: Handle(IEventContext(Of TEvent))
+  spec.csharp:
+  - uid: UniKuroKit.Events.IEventHandler`1.Handle(UniKuroKit.Events.IEventContext{`0})
+    name: Handle
+    href: UniKuroKit.Events.IEventHandler-1.html#UniKuroKit_Events_IEventHandler_1_Handle_UniKuroKit_Events_IEventContext__0__
+  - name: (
+  - uid: UniKuroKit.Events.IEventContext`1
+    name: IEventContext
+    href: UniKuroKit.Events.IEventContext-1.html
+  - name: <
+  - name: TEvent
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Events.IEventHandler`1.Handle(UniKuroKit.Events.IEventContext{`0})
+    name: Handle
+    href: UniKuroKit.Events.IEventHandler-1.html#UniKuroKit_Events_IEventHandler_1_Handle_UniKuroKit_Events_IEventContext__0__
+  - name: (
+  - uid: UniKuroKit.Events.IEventContext`1
+    name: IEventContext
+    href: UniKuroKit.Events.IEventContext-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+  - name: )
+- uid: UniKuroKit.Events.IEventContext`1
+  commentId: T:UniKuroKit.Events.IEventContext`1
+  href: UniKuroKit.Events.IEventContext-1.html
+  name: IEventContext<TEvent>
+  nameWithType: IEventContext<TEvent>
+  fullName: UniKuroKit.Events.IEventContext<TEvent>
+  nameWithType.vb: IEventContext(Of TEvent)
+  fullName.vb: UniKuroKit.Events.IEventContext(Of TEvent)
+  name.vb: IEventContext(Of TEvent)
+  spec.csharp:
+  - uid: UniKuroKit.Events.IEventContext`1
+    name: IEventContext
+    href: UniKuroKit.Events.IEventContext-1.html
+  - name: <
+  - name: TEvent
+  - name: '>'
+  spec.vb:
+  - uid: UniKuroKit.Events.IEventContext`1
+    name: IEventContext
+    href: UniKuroKit.Events.IEventContext-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )

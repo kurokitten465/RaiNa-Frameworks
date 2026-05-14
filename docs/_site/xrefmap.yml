@@ -1,0 +1,2551 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: UniKuroKit.Events
+  name: UniKuroKit.Events
+  href: api/UniKuroKit.Events.html
+  commentId: N:UniKuroKit.Events
+  fullName: UniKuroKit.Events
+  nameWithType: UniKuroKit.Events
+- uid: UniKuroKit.Events.Asset
+  name: UniKuroKit.Events.Asset
+  href: api/UniKuroKit.Events.Asset.html
+  commentId: N:UniKuroKit.Events.Asset
+  fullName: UniKuroKit.Events.Asset
+  nameWithType: UniKuroKit.Events.Asset
+- uid: UniKuroKit.Events.Asset.EventBusAsset
+  name: EventBusAsset
+  href: api/UniKuroKit.Events.Asset.EventBusAsset.html
+  commentId: T:UniKuroKit.Events.Asset.EventBusAsset
+  fullName: UniKuroKit.Events.Asset.EventBusAsset
+  nameWithType: EventBusAsset
+- uid: UniKuroKit.Events.Asset.EventBusAsset.BusName
+  name: BusName
+  href: api/UniKuroKit.Events.Asset.EventBusAsset.html#UniKuroKit_Events_Asset_EventBusAsset_BusName
+  commentId: P:UniKuroKit.Events.Asset.EventBusAsset.BusName
+  fullName: UniKuroKit.Events.Asset.EventBusAsset.BusName
+  nameWithType: EventBusAsset.BusName
+- uid: UniKuroKit.Events.Asset.EventBusAsset.BusName*
+  name: BusName
+  href: api/UniKuroKit.Events.Asset.EventBusAsset.html#UniKuroKit_Events_Asset_EventBusAsset_BusName_
+  commentId: Overload:UniKuroKit.Events.Asset.EventBusAsset.BusName
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Asset.EventBusAsset.BusName
+  nameWithType: EventBusAsset.BusName
+- uid: UniKuroKit.Events.Asset.EventBusAsset.Clear*
+  name: Clear
+  href: api/UniKuroKit.Events.Asset.EventBusAsset.html#UniKuroKit_Events_Asset_EventBusAsset_Clear_
+  commentId: Overload:UniKuroKit.Events.Asset.EventBusAsset.Clear
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Asset.EventBusAsset.Clear
+  nameWithType: EventBusAsset.Clear
+- uid: UniKuroKit.Events.Asset.EventBusAsset.ClearAll
+  name: ClearAll()
+  href: api/UniKuroKit.Events.Asset.EventBusAsset.html#UniKuroKit_Events_Asset_EventBusAsset_ClearAll
+  commentId: M:UniKuroKit.Events.Asset.EventBusAsset.ClearAll
+  fullName: UniKuroKit.Events.Asset.EventBusAsset.ClearAll()
+  nameWithType: EventBusAsset.ClearAll()
+- uid: UniKuroKit.Events.Asset.EventBusAsset.ClearAll*
+  name: ClearAll
+  href: api/UniKuroKit.Events.Asset.EventBusAsset.html#UniKuroKit_Events_Asset_EventBusAsset_ClearAll_
+  commentId: Overload:UniKuroKit.Events.Asset.EventBusAsset.ClearAll
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Asset.EventBusAsset.ClearAll
+  nameWithType: EventBusAsset.ClearAll
+- uid: UniKuroKit.Events.Asset.EventBusAsset.Clear``1
+  name: Clear<TEvent>()
+  href: api/UniKuroKit.Events.Asset.EventBusAsset.html#UniKuroKit_Events_Asset_EventBusAsset_Clear__1
+  commentId: M:UniKuroKit.Events.Asset.EventBusAsset.Clear``1
+  name.vb: Clear(Of TEvent)()
+  fullName: UniKuroKit.Events.Asset.EventBusAsset.Clear<TEvent>()
+  fullName.vb: UniKuroKit.Events.Asset.EventBusAsset.Clear(Of TEvent)()
+  nameWithType: EventBusAsset.Clear<TEvent>()
+  nameWithType.vb: EventBusAsset.Clear(Of TEvent)()
+- uid: UniKuroKit.Events.Asset.EventBusAsset.CreateBus
+  name: CreateBus()
+  href: api/UniKuroKit.Events.Asset.EventBusAsset.html#UniKuroKit_Events_Asset_EventBusAsset_CreateBus
+  commentId: M:UniKuroKit.Events.Asset.EventBusAsset.CreateBus
+  fullName: UniKuroKit.Events.Asset.EventBusAsset.CreateBus()
+  nameWithType: EventBusAsset.CreateBus()
+- uid: UniKuroKit.Events.Asset.EventBusAsset.CreateBus*
+  name: CreateBus
+  href: api/UniKuroKit.Events.Asset.EventBusAsset.html#UniKuroKit_Events_Asset_EventBusAsset_CreateBus_
+  commentId: Overload:UniKuroKit.Events.Asset.EventBusAsset.CreateBus
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Asset.EventBusAsset.CreateBus
+  nameWithType: EventBusAsset.CreateBus
+- uid: UniKuroKit.Events.Asset.EventBusAsset.OnBusReady(UniKuroKit.Events.EventBus)
+  name: OnBusReady(EventBus)
+  href: api/UniKuroKit.Events.Asset.EventBusAsset.html#UniKuroKit_Events_Asset_EventBusAsset_OnBusReady_UniKuroKit_Events_EventBus_
+  commentId: M:UniKuroKit.Events.Asset.EventBusAsset.OnBusReady(UniKuroKit.Events.EventBus)
+  fullName: UniKuroKit.Events.Asset.EventBusAsset.OnBusReady(UniKuroKit.Events.EventBus)
+  nameWithType: EventBusAsset.OnBusReady(EventBus)
+- uid: UniKuroKit.Events.Asset.EventBusAsset.OnBusReady*
+  name: OnBusReady
+  href: api/UniKuroKit.Events.Asset.EventBusAsset.html#UniKuroKit_Events_Asset_EventBusAsset_OnBusReady_
+  commentId: Overload:UniKuroKit.Events.Asset.EventBusAsset.OnBusReady
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Asset.EventBusAsset.OnBusReady
+  nameWithType: EventBusAsset.OnBusReady
+- uid: UniKuroKit.Events.Asset.EventBusAsset.Publish*
+  name: Publish
+  href: api/UniKuroKit.Events.Asset.EventBusAsset.html#UniKuroKit_Events_Asset_EventBusAsset_Publish_
+  commentId: Overload:UniKuroKit.Events.Asset.EventBusAsset.Publish
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Asset.EventBusAsset.Publish
+  nameWithType: EventBusAsset.Publish
+- uid: UniKuroKit.Events.Asset.EventBusAsset.Publish``1(``0)
+  name: Publish<TEvent>(TEvent)
+  href: api/UniKuroKit.Events.Asset.EventBusAsset.html#UniKuroKit_Events_Asset_EventBusAsset_Publish__1___0_
+  commentId: M:UniKuroKit.Events.Asset.EventBusAsset.Publish``1(``0)
+  name.vb: Publish(Of TEvent)(TEvent)
+  fullName: UniKuroKit.Events.Asset.EventBusAsset.Publish<TEvent>(TEvent)
+  fullName.vb: UniKuroKit.Events.Asset.EventBusAsset.Publish(Of TEvent)(TEvent)
+  nameWithType: EventBusAsset.Publish<TEvent>(TEvent)
+  nameWithType.vb: EventBusAsset.Publish(Of TEvent)(TEvent)
+- uid: UniKuroKit.Events.Asset.EventBusAsset.ResetOnSceneUnload
+  name: ResetOnSceneUnload
+  href: api/UniKuroKit.Events.Asset.EventBusAsset.html#UniKuroKit_Events_Asset_EventBusAsset_ResetOnSceneUnload
+  commentId: P:UniKuroKit.Events.Asset.EventBusAsset.ResetOnSceneUnload
+  fullName: UniKuroKit.Events.Asset.EventBusAsset.ResetOnSceneUnload
+  nameWithType: EventBusAsset.ResetOnSceneUnload
+- uid: UniKuroKit.Events.Asset.EventBusAsset.ResetOnSceneUnload*
+  name: ResetOnSceneUnload
+  href: api/UniKuroKit.Events.Asset.EventBusAsset.html#UniKuroKit_Events_Asset_EventBusAsset_ResetOnSceneUnload_
+  commentId: Overload:UniKuroKit.Events.Asset.EventBusAsset.ResetOnSceneUnload
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Asset.EventBusAsset.ResetOnSceneUnload
+  nameWithType: EventBusAsset.ResetOnSceneUnload
+- uid: UniKuroKit.Events.Asset.EventBusAsset.ResetRuntime
+  name: ResetRuntime()
+  href: api/UniKuroKit.Events.Asset.EventBusAsset.html#UniKuroKit_Events_Asset_EventBusAsset_ResetRuntime
+  commentId: M:UniKuroKit.Events.Asset.EventBusAsset.ResetRuntime
+  fullName: UniKuroKit.Events.Asset.EventBusAsset.ResetRuntime()
+  nameWithType: EventBusAsset.ResetRuntime()
+- uid: UniKuroKit.Events.Asset.EventBusAsset.ResetRuntime*
+  name: ResetRuntime
+  href: api/UniKuroKit.Events.Asset.EventBusAsset.html#UniKuroKit_Events_Asset_EventBusAsset_ResetRuntime_
+  commentId: Overload:UniKuroKit.Events.Asset.EventBusAsset.ResetRuntime
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Asset.EventBusAsset.ResetRuntime
+  nameWithType: EventBusAsset.ResetRuntime
+- uid: UniKuroKit.Events.Asset.EventBusAsset.Subscribe*
+  name: Subscribe
+  href: api/UniKuroKit.Events.Asset.EventBusAsset.html#UniKuroKit_Events_Asset_EventBusAsset_Subscribe_
+  commentId: Overload:UniKuroKit.Events.Asset.EventBusAsset.Subscribe
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Asset.EventBusAsset.Subscribe
+  nameWithType: EventBusAsset.Subscribe
+- uid: UniKuroKit.Events.Asset.EventBusAsset.Subscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  name: Subscribe<TEvent>(IEventHandler<TEvent>)
+  href: api/UniKuroKit.Events.Asset.EventBusAsset.html#UniKuroKit_Events_Asset_EventBusAsset_Subscribe__1_UniKuroKit_Events_IEventHandler___0__
+  commentId: M:UniKuroKit.Events.Asset.EventBusAsset.Subscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  name.vb: Subscribe(Of TEvent)(IEventHandler(Of TEvent))
+  fullName: UniKuroKit.Events.Asset.EventBusAsset.Subscribe<TEvent>(UniKuroKit.Events.IEventHandler<TEvent>)
+  fullName.vb: UniKuroKit.Events.Asset.EventBusAsset.Subscribe(Of TEvent)(UniKuroKit.Events.IEventHandler(Of TEvent))
+  nameWithType: EventBusAsset.Subscribe<TEvent>(IEventHandler<TEvent>)
+  nameWithType.vb: EventBusAsset.Subscribe(Of TEvent)(IEventHandler(Of TEvent))
+- uid: UniKuroKit.Events.Asset.EventBusAsset.Unsubscribe*
+  name: Unsubscribe
+  href: api/UniKuroKit.Events.Asset.EventBusAsset.html#UniKuroKit_Events_Asset_EventBusAsset_Unsubscribe_
+  commentId: Overload:UniKuroKit.Events.Asset.EventBusAsset.Unsubscribe
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Asset.EventBusAsset.Unsubscribe
+  nameWithType: EventBusAsset.Unsubscribe
+- uid: UniKuroKit.Events.Asset.EventBusAsset.Unsubscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  name: Unsubscribe<TEvent>(IEventHandler<TEvent>)
+  href: api/UniKuroKit.Events.Asset.EventBusAsset.html#UniKuroKit_Events_Asset_EventBusAsset_Unsubscribe__1_UniKuroKit_Events_IEventHandler___0__
+  commentId: M:UniKuroKit.Events.Asset.EventBusAsset.Unsubscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  name.vb: Unsubscribe(Of TEvent)(IEventHandler(Of TEvent))
+  fullName: UniKuroKit.Events.Asset.EventBusAsset.Unsubscribe<TEvent>(UniKuroKit.Events.IEventHandler<TEvent>)
+  fullName.vb: UniKuroKit.Events.Asset.EventBusAsset.Unsubscribe(Of TEvent)(UniKuroKit.Events.IEventHandler(Of TEvent))
+  nameWithType: EventBusAsset.Unsubscribe<TEvent>(IEventHandler<TEvent>)
+  nameWithType.vb: EventBusAsset.Unsubscribe(Of TEvent)(IEventHandler(Of TEvent))
+- uid: UniKuroKit.Events.Asset.IEventBusAsset
+  name: IEventBusAsset
+  href: api/UniKuroKit.Events.Asset.IEventBusAsset.html
+  commentId: T:UniKuroKit.Events.Asset.IEventBusAsset
+  fullName: UniKuroKit.Events.Asset.IEventBusAsset
+  nameWithType: IEventBusAsset
+- uid: UniKuroKit.Events.Asset.IEventBusAsset.BusName
+  name: BusName
+  href: api/UniKuroKit.Events.Asset.IEventBusAsset.html#UniKuroKit_Events_Asset_IEventBusAsset_BusName
+  commentId: P:UniKuroKit.Events.Asset.IEventBusAsset.BusName
+  fullName: UniKuroKit.Events.Asset.IEventBusAsset.BusName
+  nameWithType: IEventBusAsset.BusName
+- uid: UniKuroKit.Events.Asset.IEventBusAsset.BusName*
+  name: BusName
+  href: api/UniKuroKit.Events.Asset.IEventBusAsset.html#UniKuroKit_Events_Asset_IEventBusAsset_BusName_
+  commentId: Overload:UniKuroKit.Events.Asset.IEventBusAsset.BusName
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Asset.IEventBusAsset.BusName
+  nameWithType: IEventBusAsset.BusName
+- uid: UniKuroKit.Events.Asset.IEventBusAsset.ResetOnSceneUnload
+  name: ResetOnSceneUnload
+  href: api/UniKuroKit.Events.Asset.IEventBusAsset.html#UniKuroKit_Events_Asset_IEventBusAsset_ResetOnSceneUnload
+  commentId: P:UniKuroKit.Events.Asset.IEventBusAsset.ResetOnSceneUnload
+  fullName: UniKuroKit.Events.Asset.IEventBusAsset.ResetOnSceneUnload
+  nameWithType: IEventBusAsset.ResetOnSceneUnload
+- uid: UniKuroKit.Events.Asset.IEventBusAsset.ResetOnSceneUnload*
+  name: ResetOnSceneUnload
+  href: api/UniKuroKit.Events.Asset.IEventBusAsset.html#UniKuroKit_Events_Asset_IEventBusAsset_ResetOnSceneUnload_
+  commentId: Overload:UniKuroKit.Events.Asset.IEventBusAsset.ResetOnSceneUnload
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Asset.IEventBusAsset.ResetOnSceneUnload
+  nameWithType: IEventBusAsset.ResetOnSceneUnload
+- uid: UniKuroKit.Events.Asset.IEventBusAsset.ResetRuntime
+  name: ResetRuntime()
+  href: api/UniKuroKit.Events.Asset.IEventBusAsset.html#UniKuroKit_Events_Asset_IEventBusAsset_ResetRuntime
+  commentId: M:UniKuroKit.Events.Asset.IEventBusAsset.ResetRuntime
+  fullName: UniKuroKit.Events.Asset.IEventBusAsset.ResetRuntime()
+  nameWithType: IEventBusAsset.ResetRuntime()
+- uid: UniKuroKit.Events.Asset.IEventBusAsset.ResetRuntime*
+  name: ResetRuntime
+  href: api/UniKuroKit.Events.Asset.IEventBusAsset.html#UniKuroKit_Events_Asset_IEventBusAsset_ResetRuntime_
+  commentId: Overload:UniKuroKit.Events.Asset.IEventBusAsset.ResetRuntime
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Asset.IEventBusAsset.ResetRuntime
+  nameWithType: IEventBusAsset.ResetRuntime
+- uid: UniKuroKit.Events.DelegateEventHandler`1
+  name: DelegateEventHandler<TEvent>
+  href: api/UniKuroKit.Events.DelegateEventHandler-1.html
+  commentId: T:UniKuroKit.Events.DelegateEventHandler`1
+  name.vb: DelegateEventHandler(Of TEvent)
+  fullName: UniKuroKit.Events.DelegateEventHandler<TEvent>
+  fullName.vb: UniKuroKit.Events.DelegateEventHandler(Of TEvent)
+  nameWithType: DelegateEventHandler<TEvent>
+  nameWithType.vb: DelegateEventHandler(Of TEvent)
+- uid: UniKuroKit.Events.DelegateEventHandler`1.#ctor(System.Action{UniKuroKit.Events.IEventContext{`0}},System.Int32)
+  name: DelegateEventHandler(Action<IEventContext<TEvent>>, int)
+  href: api/UniKuroKit.Events.DelegateEventHandler-1.html#UniKuroKit_Events_DelegateEventHandler_1__ctor_System_Action_UniKuroKit_Events_IEventContext__0___System_Int32_
+  commentId: M:UniKuroKit.Events.DelegateEventHandler`1.#ctor(System.Action{UniKuroKit.Events.IEventContext{`0}},System.Int32)
+  name.vb: New(Action(Of IEventContext(Of TEvent)), Integer)
+  fullName: UniKuroKit.Events.DelegateEventHandler<TEvent>.DelegateEventHandler(System.Action<UniKuroKit.Events.IEventContext<TEvent>>, int)
+  fullName.vb: UniKuroKit.Events.DelegateEventHandler(Of TEvent).New(System.Action(Of UniKuroKit.Events.IEventContext(Of TEvent)), Integer)
+  nameWithType: DelegateEventHandler<TEvent>.DelegateEventHandler(Action<IEventContext<TEvent>>, int)
+  nameWithType.vb: DelegateEventHandler(Of TEvent).New(Action(Of IEventContext(Of TEvent)), Integer)
+- uid: UniKuroKit.Events.DelegateEventHandler`1.#ctor*
+  name: DelegateEventHandler
+  href: api/UniKuroKit.Events.DelegateEventHandler-1.html#UniKuroKit_Events_DelegateEventHandler_1__ctor_
+  commentId: Overload:UniKuroKit.Events.DelegateEventHandler`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: UniKuroKit.Events.DelegateEventHandler<TEvent>.DelegateEventHandler
+  fullName.vb: UniKuroKit.Events.DelegateEventHandler(Of TEvent).New
+  nameWithType: DelegateEventHandler<TEvent>.DelegateEventHandler
+  nameWithType.vb: DelegateEventHandler(Of TEvent).New
+- uid: UniKuroKit.Events.DelegateEventHandler`1.Handle(UniKuroKit.Events.IEventContext{`0})
+  name: Handle(IEventContext<TEvent>)
+  href: api/UniKuroKit.Events.DelegateEventHandler-1.html#UniKuroKit_Events_DelegateEventHandler_1_Handle_UniKuroKit_Events_IEventContext__0__
+  commentId: M:UniKuroKit.Events.DelegateEventHandler`1.Handle(UniKuroKit.Events.IEventContext{`0})
+  name.vb: Handle(IEventContext(Of TEvent))
+  fullName: UniKuroKit.Events.DelegateEventHandler<TEvent>.Handle(UniKuroKit.Events.IEventContext<TEvent>)
+  fullName.vb: UniKuroKit.Events.DelegateEventHandler(Of TEvent).Handle(UniKuroKit.Events.IEventContext(Of TEvent))
+  nameWithType: DelegateEventHandler<TEvent>.Handle(IEventContext<TEvent>)
+  nameWithType.vb: DelegateEventHandler(Of TEvent).Handle(IEventContext(Of TEvent))
+- uid: UniKuroKit.Events.DelegateEventHandler`1.Handle*
+  name: Handle
+  href: api/UniKuroKit.Events.DelegateEventHandler-1.html#UniKuroKit_Events_DelegateEventHandler_1_Handle_
+  commentId: Overload:UniKuroKit.Events.DelegateEventHandler`1.Handle
+  isSpec: "True"
+  fullName: UniKuroKit.Events.DelegateEventHandler<TEvent>.Handle
+  fullName.vb: UniKuroKit.Events.DelegateEventHandler(Of TEvent).Handle
+  nameWithType: DelegateEventHandler<TEvent>.Handle
+  nameWithType.vb: DelegateEventHandler(Of TEvent).Handle
+- uid: UniKuroKit.Events.DelegateEventHandler`1.Priority
+  name: Priority
+  href: api/UniKuroKit.Events.DelegateEventHandler-1.html#UniKuroKit_Events_DelegateEventHandler_1_Priority
+  commentId: P:UniKuroKit.Events.DelegateEventHandler`1.Priority
+  fullName: UniKuroKit.Events.DelegateEventHandler<TEvent>.Priority
+  fullName.vb: UniKuroKit.Events.DelegateEventHandler(Of TEvent).Priority
+  nameWithType: DelegateEventHandler<TEvent>.Priority
+  nameWithType.vb: DelegateEventHandler(Of TEvent).Priority
+- uid: UniKuroKit.Events.DelegateEventHandler`1.Priority*
+  name: Priority
+  href: api/UniKuroKit.Events.DelegateEventHandler-1.html#UniKuroKit_Events_DelegateEventHandler_1_Priority_
+  commentId: Overload:UniKuroKit.Events.DelegateEventHandler`1.Priority
+  isSpec: "True"
+  fullName: UniKuroKit.Events.DelegateEventHandler<TEvent>.Priority
+  fullName.vb: UniKuroKit.Events.DelegateEventHandler(Of TEvent).Priority
+  nameWithType: DelegateEventHandler<TEvent>.Priority
+  nameWithType.vb: DelegateEventHandler(Of TEvent).Priority
+- uid: UniKuroKit.Events.EventBus
+  name: EventBus
+  href: api/UniKuroKit.Events.EventBus.html
+  commentId: T:UniKuroKit.Events.EventBus
+  fullName: UniKuroKit.Events.EventBus
+  nameWithType: EventBus
+- uid: UniKuroKit.Events.EventBus.Clear*
+  name: Clear
+  href: api/UniKuroKit.Events.EventBus.html#UniKuroKit_Events_EventBus_Clear_
+  commentId: Overload:UniKuroKit.Events.EventBus.Clear
+  isSpec: "True"
+  fullName: UniKuroKit.Events.EventBus.Clear
+  nameWithType: EventBus.Clear
+- uid: UniKuroKit.Events.EventBus.ClearAll
+  name: ClearAll()
+  href: api/UniKuroKit.Events.EventBus.html#UniKuroKit_Events_EventBus_ClearAll
+  commentId: M:UniKuroKit.Events.EventBus.ClearAll
+  fullName: UniKuroKit.Events.EventBus.ClearAll()
+  nameWithType: EventBus.ClearAll()
+- uid: UniKuroKit.Events.EventBus.ClearAll*
+  name: ClearAll
+  href: api/UniKuroKit.Events.EventBus.html#UniKuroKit_Events_EventBus_ClearAll_
+  commentId: Overload:UniKuroKit.Events.EventBus.ClearAll
+  isSpec: "True"
+  fullName: UniKuroKit.Events.EventBus.ClearAll
+  nameWithType: EventBus.ClearAll
+- uid: UniKuroKit.Events.EventBus.Clear``1
+  name: Clear<TEvent>()
+  href: api/UniKuroKit.Events.EventBus.html#UniKuroKit_Events_EventBus_Clear__1
+  commentId: M:UniKuroKit.Events.EventBus.Clear``1
+  name.vb: Clear(Of TEvent)()
+  fullName: UniKuroKit.Events.EventBus.Clear<TEvent>()
+  fullName.vb: UniKuroKit.Events.EventBus.Clear(Of TEvent)()
+  nameWithType: EventBus.Clear<TEvent>()
+  nameWithType.vb: EventBus.Clear(Of TEvent)()
+- uid: UniKuroKit.Events.EventBus.Publish*
+  name: Publish
+  href: api/UniKuroKit.Events.EventBus.html#UniKuroKit_Events_EventBus_Publish_
+  commentId: Overload:UniKuroKit.Events.EventBus.Publish
+  isSpec: "True"
+  fullName: UniKuroKit.Events.EventBus.Publish
+  nameWithType: EventBus.Publish
+- uid: UniKuroKit.Events.EventBus.Publish``1(``0)
+  name: Publish<TEvent>(TEvent)
+  href: api/UniKuroKit.Events.EventBus.html#UniKuroKit_Events_EventBus_Publish__1___0_
+  commentId: M:UniKuroKit.Events.EventBus.Publish``1(``0)
+  name.vb: Publish(Of TEvent)(TEvent)
+  fullName: UniKuroKit.Events.EventBus.Publish<TEvent>(TEvent)
+  fullName.vb: UniKuroKit.Events.EventBus.Publish(Of TEvent)(TEvent)
+  nameWithType: EventBus.Publish<TEvent>(TEvent)
+  nameWithType.vb: EventBus.Publish(Of TEvent)(TEvent)
+- uid: UniKuroKit.Events.EventBus.Subscribe*
+  name: Subscribe
+  href: api/UniKuroKit.Events.EventBus.html#UniKuroKit_Events_EventBus_Subscribe_
+  commentId: Overload:UniKuroKit.Events.EventBus.Subscribe
+  isSpec: "True"
+  fullName: UniKuroKit.Events.EventBus.Subscribe
+  nameWithType: EventBus.Subscribe
+- uid: UniKuroKit.Events.EventBus.Subscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  name: Subscribe<TEvent>(IEventHandler<TEvent>)
+  href: api/UniKuroKit.Events.EventBus.html#UniKuroKit_Events_EventBus_Subscribe__1_UniKuroKit_Events_IEventHandler___0__
+  commentId: M:UniKuroKit.Events.EventBus.Subscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  name.vb: Subscribe(Of TEvent)(IEventHandler(Of TEvent))
+  fullName: UniKuroKit.Events.EventBus.Subscribe<TEvent>(UniKuroKit.Events.IEventHandler<TEvent>)
+  fullName.vb: UniKuroKit.Events.EventBus.Subscribe(Of TEvent)(UniKuroKit.Events.IEventHandler(Of TEvent))
+  nameWithType: EventBus.Subscribe<TEvent>(IEventHandler<TEvent>)
+  nameWithType.vb: EventBus.Subscribe(Of TEvent)(IEventHandler(Of TEvent))
+- uid: UniKuroKit.Events.EventBus.Unsubscribe*
+  name: Unsubscribe
+  href: api/UniKuroKit.Events.EventBus.html#UniKuroKit_Events_EventBus_Unsubscribe_
+  commentId: Overload:UniKuroKit.Events.EventBus.Unsubscribe
+  isSpec: "True"
+  fullName: UniKuroKit.Events.EventBus.Unsubscribe
+  nameWithType: EventBus.Unsubscribe
+- uid: UniKuroKit.Events.EventBus.Unsubscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  name: Unsubscribe<TEvent>(IEventHandler<TEvent>)
+  href: api/UniKuroKit.Events.EventBus.html#UniKuroKit_Events_EventBus_Unsubscribe__1_UniKuroKit_Events_IEventHandler___0__
+  commentId: M:UniKuroKit.Events.EventBus.Unsubscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  name.vb: Unsubscribe(Of TEvent)(IEventHandler(Of TEvent))
+  fullName: UniKuroKit.Events.EventBus.Unsubscribe<TEvent>(UniKuroKit.Events.IEventHandler<TEvent>)
+  fullName.vb: UniKuroKit.Events.EventBus.Unsubscribe(Of TEvent)(UniKuroKit.Events.IEventHandler(Of TEvent))
+  nameWithType: EventBus.Unsubscribe<TEvent>(IEventHandler<TEvent>)
+  nameWithType.vb: EventBus.Unsubscribe(Of TEvent)(IEventHandler(Of TEvent))
+- uid: UniKuroKit.Events.EventChannel`1
+  name: EventChannel<TEvent>
+  href: api/UniKuroKit.Events.EventChannel-1.html
+  commentId: T:UniKuroKit.Events.EventChannel`1
+  name.vb: EventChannel(Of TEvent)
+  fullName: UniKuroKit.Events.EventChannel<TEvent>
+  fullName.vb: UniKuroKit.Events.EventChannel(Of TEvent)
+  nameWithType: EventChannel<TEvent>
+  nameWithType.vb: EventChannel(Of TEvent)
+- uid: UniKuroKit.Events.EventChannel`1.Publish(`0)
+  name: Publish(TEvent)
+  href: api/UniKuroKit.Events.EventChannel-1.html#UniKuroKit_Events_EventChannel_1_Publish__0_
+  commentId: M:UniKuroKit.Events.EventChannel`1.Publish(`0)
+  fullName: UniKuroKit.Events.EventChannel<TEvent>.Publish(TEvent)
+  fullName.vb: UniKuroKit.Events.EventChannel(Of TEvent).Publish(TEvent)
+  nameWithType: EventChannel<TEvent>.Publish(TEvent)
+  nameWithType.vb: EventChannel(Of TEvent).Publish(TEvent)
+- uid: UniKuroKit.Events.EventChannel`1.Publish*
+  name: Publish
+  href: api/UniKuroKit.Events.EventChannel-1.html#UniKuroKit_Events_EventChannel_1_Publish_
+  commentId: Overload:UniKuroKit.Events.EventChannel`1.Publish
+  isSpec: "True"
+  fullName: UniKuroKit.Events.EventChannel<TEvent>.Publish
+  fullName.vb: UniKuroKit.Events.EventChannel(Of TEvent).Publish
+  nameWithType: EventChannel<TEvent>.Publish
+  nameWithType.vb: EventChannel(Of TEvent).Publish
+- uid: UniKuroKit.Events.EventChannel`1.Subscribe(UniKuroKit.Events.IEventHandler{`0})
+  name: Subscribe(IEventHandler<TEvent>)
+  href: api/UniKuroKit.Events.EventChannel-1.html#UniKuroKit_Events_EventChannel_1_Subscribe_UniKuroKit_Events_IEventHandler__0__
+  commentId: M:UniKuroKit.Events.EventChannel`1.Subscribe(UniKuroKit.Events.IEventHandler{`0})
+  name.vb: Subscribe(IEventHandler(Of TEvent))
+  fullName: UniKuroKit.Events.EventChannel<TEvent>.Subscribe(UniKuroKit.Events.IEventHandler<TEvent>)
+  fullName.vb: UniKuroKit.Events.EventChannel(Of TEvent).Subscribe(UniKuroKit.Events.IEventHandler(Of TEvent))
+  nameWithType: EventChannel<TEvent>.Subscribe(IEventHandler<TEvent>)
+  nameWithType.vb: EventChannel(Of TEvent).Subscribe(IEventHandler(Of TEvent))
+- uid: UniKuroKit.Events.EventChannel`1.Subscribe*
+  name: Subscribe
+  href: api/UniKuroKit.Events.EventChannel-1.html#UniKuroKit_Events_EventChannel_1_Subscribe_
+  commentId: Overload:UniKuroKit.Events.EventChannel`1.Subscribe
+  isSpec: "True"
+  fullName: UniKuroKit.Events.EventChannel<TEvent>.Subscribe
+  fullName.vb: UniKuroKit.Events.EventChannel(Of TEvent).Subscribe
+  nameWithType: EventChannel<TEvent>.Subscribe
+  nameWithType.vb: EventChannel(Of TEvent).Subscribe
+- uid: UniKuroKit.Events.EventChannel`1.Unsubscribe(UniKuroKit.Events.IEventHandler{`0})
+  name: Unsubscribe(IEventHandler<TEvent>)
+  href: api/UniKuroKit.Events.EventChannel-1.html#UniKuroKit_Events_EventChannel_1_Unsubscribe_UniKuroKit_Events_IEventHandler__0__
+  commentId: M:UniKuroKit.Events.EventChannel`1.Unsubscribe(UniKuroKit.Events.IEventHandler{`0})
+  name.vb: Unsubscribe(IEventHandler(Of TEvent))
+  fullName: UniKuroKit.Events.EventChannel<TEvent>.Unsubscribe(UniKuroKit.Events.IEventHandler<TEvent>)
+  fullName.vb: UniKuroKit.Events.EventChannel(Of TEvent).Unsubscribe(UniKuroKit.Events.IEventHandler(Of TEvent))
+  nameWithType: EventChannel<TEvent>.Unsubscribe(IEventHandler<TEvent>)
+  nameWithType.vb: EventChannel(Of TEvent).Unsubscribe(IEventHandler(Of TEvent))
+- uid: UniKuroKit.Events.EventChannel`1.Unsubscribe*
+  name: Unsubscribe
+  href: api/UniKuroKit.Events.EventChannel-1.html#UniKuroKit_Events_EventChannel_1_Unsubscribe_
+  commentId: Overload:UniKuroKit.Events.EventChannel`1.Unsubscribe
+  isSpec: "True"
+  fullName: UniKuroKit.Events.EventChannel<TEvent>.Unsubscribe
+  fullName.vb: UniKuroKit.Events.EventChannel(Of TEvent).Unsubscribe
+  nameWithType: EventChannel<TEvent>.Unsubscribe
+  nameWithType.vb: EventChannel(Of TEvent).Unsubscribe
+- uid: UniKuroKit.Events.EventContext`1
+  name: EventContext<TEvent>
+  href: api/UniKuroKit.Events.EventContext-1.html
+  commentId: T:UniKuroKit.Events.EventContext`1
+  name.vb: EventContext(Of TEvent)
+  fullName: UniKuroKit.Events.EventContext<TEvent>
+  fullName.vb: UniKuroKit.Events.EventContext(Of TEvent)
+  nameWithType: EventContext<TEvent>
+  nameWithType.vb: EventContext(Of TEvent)
+- uid: UniKuroKit.Events.EventContext`1.#ctor(`0)
+  name: EventContext(TEvent)
+  href: api/UniKuroKit.Events.EventContext-1.html#UniKuroKit_Events_EventContext_1__ctor__0_
+  commentId: M:UniKuroKit.Events.EventContext`1.#ctor(`0)
+  name.vb: New(TEvent)
+  fullName: UniKuroKit.Events.EventContext<TEvent>.EventContext(TEvent)
+  fullName.vb: UniKuroKit.Events.EventContext(Of TEvent).New(TEvent)
+  nameWithType: EventContext<TEvent>.EventContext(TEvent)
+  nameWithType.vb: EventContext(Of TEvent).New(TEvent)
+- uid: UniKuroKit.Events.EventContext`1.#ctor*
+  name: EventContext
+  href: api/UniKuroKit.Events.EventContext-1.html#UniKuroKit_Events_EventContext_1__ctor_
+  commentId: Overload:UniKuroKit.Events.EventContext`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: UniKuroKit.Events.EventContext<TEvent>.EventContext
+  fullName.vb: UniKuroKit.Events.EventContext(Of TEvent).New
+  nameWithType: EventContext<TEvent>.EventContext
+  nameWithType.vb: EventContext(Of TEvent).New
+- uid: UniKuroKit.Events.EventContext`1.Event
+  name: Event
+  href: api/UniKuroKit.Events.EventContext-1.html#UniKuroKit_Events_EventContext_1_Event
+  commentId: P:UniKuroKit.Events.EventContext`1.Event
+  fullName: UniKuroKit.Events.EventContext<TEvent>.Event
+  fullName.vb: UniKuroKit.Events.EventContext(Of TEvent).Event
+  nameWithType: EventContext<TEvent>.Event
+  nameWithType.vb: EventContext(Of TEvent).Event
+- uid: UniKuroKit.Events.EventContext`1.Event*
+  name: Event
+  href: api/UniKuroKit.Events.EventContext-1.html#UniKuroKit_Events_EventContext_1_Event_
+  commentId: Overload:UniKuroKit.Events.EventContext`1.Event
+  isSpec: "True"
+  fullName: UniKuroKit.Events.EventContext<TEvent>.Event
+  fullName.vb: UniKuroKit.Events.EventContext(Of TEvent).Event
+  nameWithType: EventContext<TEvent>.Event
+  nameWithType.vb: EventContext(Of TEvent).Event
+- uid: UniKuroKit.Events.GlobalEventBus
+  name: GlobalEventBus
+  href: api/UniKuroKit.Events.GlobalEventBus.html
+  commentId: T:UniKuroKit.Events.GlobalEventBus
+  fullName: UniKuroKit.Events.GlobalEventBus
+  nameWithType: GlobalEventBus
+- uid: UniKuroKit.Events.GlobalEventBus.Bus
+  name: Bus
+  href: api/UniKuroKit.Events.GlobalEventBus.html#UniKuroKit_Events_GlobalEventBus_Bus
+  commentId: P:UniKuroKit.Events.GlobalEventBus.Bus
+  fullName: UniKuroKit.Events.GlobalEventBus.Bus
+  nameWithType: GlobalEventBus.Bus
+- uid: UniKuroKit.Events.GlobalEventBus.Bus*
+  name: Bus
+  href: api/UniKuroKit.Events.GlobalEventBus.html#UniKuroKit_Events_GlobalEventBus_Bus_
+  commentId: Overload:UniKuroKit.Events.GlobalEventBus.Bus
+  isSpec: "True"
+  fullName: UniKuroKit.Events.GlobalEventBus.Bus
+  nameWithType: GlobalEventBus.Bus
+- uid: UniKuroKit.Events.GlobalEventBus.Publish*
+  name: Publish
+  href: api/UniKuroKit.Events.GlobalEventBus.html#UniKuroKit_Events_GlobalEventBus_Publish_
+  commentId: Overload:UniKuroKit.Events.GlobalEventBus.Publish
+  isSpec: "True"
+  fullName: UniKuroKit.Events.GlobalEventBus.Publish
+  nameWithType: GlobalEventBus.Publish
+- uid: UniKuroKit.Events.GlobalEventBus.Publish``1(``0)
+  name: Publish<TEvent>(TEvent)
+  href: api/UniKuroKit.Events.GlobalEventBus.html#UniKuroKit_Events_GlobalEventBus_Publish__1___0_
+  commentId: M:UniKuroKit.Events.GlobalEventBus.Publish``1(``0)
+  name.vb: Publish(Of TEvent)(TEvent)
+  fullName: UniKuroKit.Events.GlobalEventBus.Publish<TEvent>(TEvent)
+  fullName.vb: UniKuroKit.Events.GlobalEventBus.Publish(Of TEvent)(TEvent)
+  nameWithType: GlobalEventBus.Publish<TEvent>(TEvent)
+  nameWithType.vb: GlobalEventBus.Publish(Of TEvent)(TEvent)
+- uid: UniKuroKit.Events.GlobalEventBus.SetBus(UniKuroKit.Events.IEventBus)
+  name: SetBus(IEventBus)
+  href: api/UniKuroKit.Events.GlobalEventBus.html#UniKuroKit_Events_GlobalEventBus_SetBus_UniKuroKit_Events_IEventBus_
+  commentId: M:UniKuroKit.Events.GlobalEventBus.SetBus(UniKuroKit.Events.IEventBus)
+  fullName: UniKuroKit.Events.GlobalEventBus.SetBus(UniKuroKit.Events.IEventBus)
+  nameWithType: GlobalEventBus.SetBus(IEventBus)
+- uid: UniKuroKit.Events.GlobalEventBus.SetBus*
+  name: SetBus
+  href: api/UniKuroKit.Events.GlobalEventBus.html#UniKuroKit_Events_GlobalEventBus_SetBus_
+  commentId: Overload:UniKuroKit.Events.GlobalEventBus.SetBus
+  isSpec: "True"
+  fullName: UniKuroKit.Events.GlobalEventBus.SetBus
+  nameWithType: GlobalEventBus.SetBus
+- uid: UniKuroKit.Events.GlobalEventBus.Subscribe*
+  name: Subscribe
+  href: api/UniKuroKit.Events.GlobalEventBus.html#UniKuroKit_Events_GlobalEventBus_Subscribe_
+  commentId: Overload:UniKuroKit.Events.GlobalEventBus.Subscribe
+  isSpec: "True"
+  fullName: UniKuroKit.Events.GlobalEventBus.Subscribe
+  nameWithType: GlobalEventBus.Subscribe
+- uid: UniKuroKit.Events.GlobalEventBus.Subscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  name: Subscribe<TEvent>(IEventHandler<TEvent>)
+  href: api/UniKuroKit.Events.GlobalEventBus.html#UniKuroKit_Events_GlobalEventBus_Subscribe__1_UniKuroKit_Events_IEventHandler___0__
+  commentId: M:UniKuroKit.Events.GlobalEventBus.Subscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  name.vb: Subscribe(Of TEvent)(IEventHandler(Of TEvent))
+  fullName: UniKuroKit.Events.GlobalEventBus.Subscribe<TEvent>(UniKuroKit.Events.IEventHandler<TEvent>)
+  fullName.vb: UniKuroKit.Events.GlobalEventBus.Subscribe(Of TEvent)(UniKuroKit.Events.IEventHandler(Of TEvent))
+  nameWithType: GlobalEventBus.Subscribe<TEvent>(IEventHandler<TEvent>)
+  nameWithType.vb: GlobalEventBus.Subscribe(Of TEvent)(IEventHandler(Of TEvent))
+- uid: UniKuroKit.Events.GlobalEventBus.Unsubscribe*
+  name: Unsubscribe
+  href: api/UniKuroKit.Events.GlobalEventBus.html#UniKuroKit_Events_GlobalEventBus_Unsubscribe_
+  commentId: Overload:UniKuroKit.Events.GlobalEventBus.Unsubscribe
+  isSpec: "True"
+  fullName: UniKuroKit.Events.GlobalEventBus.Unsubscribe
+  nameWithType: GlobalEventBus.Unsubscribe
+- uid: UniKuroKit.Events.GlobalEventBus.Unsubscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  name: Unsubscribe<TEvent>(IEventHandler<TEvent>)
+  href: api/UniKuroKit.Events.GlobalEventBus.html#UniKuroKit_Events_GlobalEventBus_Unsubscribe__1_UniKuroKit_Events_IEventHandler___0__
+  commentId: M:UniKuroKit.Events.GlobalEventBus.Unsubscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  name.vb: Unsubscribe(Of TEvent)(IEventHandler(Of TEvent))
+  fullName: UniKuroKit.Events.GlobalEventBus.Unsubscribe<TEvent>(UniKuroKit.Events.IEventHandler<TEvent>)
+  fullName.vb: UniKuroKit.Events.GlobalEventBus.Unsubscribe(Of TEvent)(UniKuroKit.Events.IEventHandler(Of TEvent))
+  nameWithType: GlobalEventBus.Unsubscribe<TEvent>(IEventHandler<TEvent>)
+  nameWithType.vb: GlobalEventBus.Unsubscribe(Of TEvent)(IEventHandler(Of TEvent))
+- uid: UniKuroKit.Events.IEvent
+  name: IEvent
+  href: api/UniKuroKit.Events.IEvent.html
+  commentId: T:UniKuroKit.Events.IEvent
+  fullName: UniKuroKit.Events.IEvent
+  nameWithType: IEvent
+- uid: UniKuroKit.Events.IEventBus
+  name: IEventBus
+  href: api/UniKuroKit.Events.IEventBus.html
+  commentId: T:UniKuroKit.Events.IEventBus
+  fullName: UniKuroKit.Events.IEventBus
+  nameWithType: IEventBus
+- uid: UniKuroKit.Events.IEventBus.Clear*
+  name: Clear
+  href: api/UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Clear_
+  commentId: Overload:UniKuroKit.Events.IEventBus.Clear
+  isSpec: "True"
+  fullName: UniKuroKit.Events.IEventBus.Clear
+  nameWithType: IEventBus.Clear
+- uid: UniKuroKit.Events.IEventBus.ClearAll
+  name: ClearAll()
+  href: api/UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_ClearAll
+  commentId: M:UniKuroKit.Events.IEventBus.ClearAll
+  fullName: UniKuroKit.Events.IEventBus.ClearAll()
+  nameWithType: IEventBus.ClearAll()
+- uid: UniKuroKit.Events.IEventBus.ClearAll*
+  name: ClearAll
+  href: api/UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_ClearAll_
+  commentId: Overload:UniKuroKit.Events.IEventBus.ClearAll
+  isSpec: "True"
+  fullName: UniKuroKit.Events.IEventBus.ClearAll
+  nameWithType: IEventBus.ClearAll
+- uid: UniKuroKit.Events.IEventBus.Clear``1
+  name: Clear<TEvent>()
+  href: api/UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Clear__1
+  commentId: M:UniKuroKit.Events.IEventBus.Clear``1
+  name.vb: Clear(Of TEvent)()
+  fullName: UniKuroKit.Events.IEventBus.Clear<TEvent>()
+  fullName.vb: UniKuroKit.Events.IEventBus.Clear(Of TEvent)()
+  nameWithType: IEventBus.Clear<TEvent>()
+  nameWithType.vb: IEventBus.Clear(Of TEvent)()
+- uid: UniKuroKit.Events.IEventBus.Publish*
+  name: Publish
+  href: api/UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Publish_
+  commentId: Overload:UniKuroKit.Events.IEventBus.Publish
+  isSpec: "True"
+  fullName: UniKuroKit.Events.IEventBus.Publish
+  nameWithType: IEventBus.Publish
+- uid: UniKuroKit.Events.IEventBus.Publish``1(``0)
+  name: Publish<TEvent>(TEvent)
+  href: api/UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Publish__1___0_
+  commentId: M:UniKuroKit.Events.IEventBus.Publish``1(``0)
+  name.vb: Publish(Of TEvent)(TEvent)
+  fullName: UniKuroKit.Events.IEventBus.Publish<TEvent>(TEvent)
+  fullName.vb: UniKuroKit.Events.IEventBus.Publish(Of TEvent)(TEvent)
+  nameWithType: IEventBus.Publish<TEvent>(TEvent)
+  nameWithType.vb: IEventBus.Publish(Of TEvent)(TEvent)
+- uid: UniKuroKit.Events.IEventBus.Subscribe*
+  name: Subscribe
+  href: api/UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Subscribe_
+  commentId: Overload:UniKuroKit.Events.IEventBus.Subscribe
+  isSpec: "True"
+  fullName: UniKuroKit.Events.IEventBus.Subscribe
+  nameWithType: IEventBus.Subscribe
+- uid: UniKuroKit.Events.IEventBus.Subscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  name: Subscribe<TEvent>(IEventHandler<TEvent>)
+  href: api/UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Subscribe__1_UniKuroKit_Events_IEventHandler___0__
+  commentId: M:UniKuroKit.Events.IEventBus.Subscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  name.vb: Subscribe(Of TEvent)(IEventHandler(Of TEvent))
+  fullName: UniKuroKit.Events.IEventBus.Subscribe<TEvent>(UniKuroKit.Events.IEventHandler<TEvent>)
+  fullName.vb: UniKuroKit.Events.IEventBus.Subscribe(Of TEvent)(UniKuroKit.Events.IEventHandler(Of TEvent))
+  nameWithType: IEventBus.Subscribe<TEvent>(IEventHandler<TEvent>)
+  nameWithType.vb: IEventBus.Subscribe(Of TEvent)(IEventHandler(Of TEvent))
+- uid: UniKuroKit.Events.IEventBus.Unsubscribe*
+  name: Unsubscribe
+  href: api/UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Unsubscribe_
+  commentId: Overload:UniKuroKit.Events.IEventBus.Unsubscribe
+  isSpec: "True"
+  fullName: UniKuroKit.Events.IEventBus.Unsubscribe
+  nameWithType: IEventBus.Unsubscribe
+- uid: UniKuroKit.Events.IEventBus.Unsubscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  name: Unsubscribe<TEvent>(IEventHandler<TEvent>)
+  href: api/UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Unsubscribe__1_UniKuroKit_Events_IEventHandler___0__
+  commentId: M:UniKuroKit.Events.IEventBus.Unsubscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  name.vb: Unsubscribe(Of TEvent)(IEventHandler(Of TEvent))
+  fullName: UniKuroKit.Events.IEventBus.Unsubscribe<TEvent>(UniKuroKit.Events.IEventHandler<TEvent>)
+  fullName.vb: UniKuroKit.Events.IEventBus.Unsubscribe(Of TEvent)(UniKuroKit.Events.IEventHandler(Of TEvent))
+  nameWithType: IEventBus.Unsubscribe<TEvent>(IEventHandler<TEvent>)
+  nameWithType.vb: IEventBus.Unsubscribe(Of TEvent)(IEventHandler(Of TEvent))
+- uid: UniKuroKit.Events.IEventChannel`1
+  name: IEventChannel<TEvent>
+  href: api/UniKuroKit.Events.IEventChannel-1.html
+  commentId: T:UniKuroKit.Events.IEventChannel`1
+  name.vb: IEventChannel(Of TEvent)
+  fullName: UniKuroKit.Events.IEventChannel<TEvent>
+  fullName.vb: UniKuroKit.Events.IEventChannel(Of TEvent)
+  nameWithType: IEventChannel<TEvent>
+  nameWithType.vb: IEventChannel(Of TEvent)
+- uid: UniKuroKit.Events.IEventChannel`1.Publish(`0)
+  name: Publish(TEvent)
+  href: api/UniKuroKit.Events.IEventChannel-1.html#UniKuroKit_Events_IEventChannel_1_Publish__0_
+  commentId: M:UniKuroKit.Events.IEventChannel`1.Publish(`0)
+  fullName: UniKuroKit.Events.IEventChannel<TEvent>.Publish(TEvent)
+  fullName.vb: UniKuroKit.Events.IEventChannel(Of TEvent).Publish(TEvent)
+  nameWithType: IEventChannel<TEvent>.Publish(TEvent)
+  nameWithType.vb: IEventChannel(Of TEvent).Publish(TEvent)
+- uid: UniKuroKit.Events.IEventChannel`1.Publish*
+  name: Publish
+  href: api/UniKuroKit.Events.IEventChannel-1.html#UniKuroKit_Events_IEventChannel_1_Publish_
+  commentId: Overload:UniKuroKit.Events.IEventChannel`1.Publish
+  isSpec: "True"
+  fullName: UniKuroKit.Events.IEventChannel<TEvent>.Publish
+  fullName.vb: UniKuroKit.Events.IEventChannel(Of TEvent).Publish
+  nameWithType: IEventChannel<TEvent>.Publish
+  nameWithType.vb: IEventChannel(Of TEvent).Publish
+- uid: UniKuroKit.Events.IEventChannel`1.Subscribe(UniKuroKit.Events.IEventHandler{`0})
+  name: Subscribe(IEventHandler<TEvent>)
+  href: api/UniKuroKit.Events.IEventChannel-1.html#UniKuroKit_Events_IEventChannel_1_Subscribe_UniKuroKit_Events_IEventHandler__0__
+  commentId: M:UniKuroKit.Events.IEventChannel`1.Subscribe(UniKuroKit.Events.IEventHandler{`0})
+  name.vb: Subscribe(IEventHandler(Of TEvent))
+  fullName: UniKuroKit.Events.IEventChannel<TEvent>.Subscribe(UniKuroKit.Events.IEventHandler<TEvent>)
+  fullName.vb: UniKuroKit.Events.IEventChannel(Of TEvent).Subscribe(UniKuroKit.Events.IEventHandler(Of TEvent))
+  nameWithType: IEventChannel<TEvent>.Subscribe(IEventHandler<TEvent>)
+  nameWithType.vb: IEventChannel(Of TEvent).Subscribe(IEventHandler(Of TEvent))
+- uid: UniKuroKit.Events.IEventChannel`1.Subscribe*
+  name: Subscribe
+  href: api/UniKuroKit.Events.IEventChannel-1.html#UniKuroKit_Events_IEventChannel_1_Subscribe_
+  commentId: Overload:UniKuroKit.Events.IEventChannel`1.Subscribe
+  isSpec: "True"
+  fullName: UniKuroKit.Events.IEventChannel<TEvent>.Subscribe
+  fullName.vb: UniKuroKit.Events.IEventChannel(Of TEvent).Subscribe
+  nameWithType: IEventChannel<TEvent>.Subscribe
+  nameWithType.vb: IEventChannel(Of TEvent).Subscribe
+- uid: UniKuroKit.Events.IEventChannel`1.Unsubscribe(UniKuroKit.Events.IEventHandler{`0})
+  name: Unsubscribe(IEventHandler<TEvent>)
+  href: api/UniKuroKit.Events.IEventChannel-1.html#UniKuroKit_Events_IEventChannel_1_Unsubscribe_UniKuroKit_Events_IEventHandler__0__
+  commentId: M:UniKuroKit.Events.IEventChannel`1.Unsubscribe(UniKuroKit.Events.IEventHandler{`0})
+  name.vb: Unsubscribe(IEventHandler(Of TEvent))
+  fullName: UniKuroKit.Events.IEventChannel<TEvent>.Unsubscribe(UniKuroKit.Events.IEventHandler<TEvent>)
+  fullName.vb: UniKuroKit.Events.IEventChannel(Of TEvent).Unsubscribe(UniKuroKit.Events.IEventHandler(Of TEvent))
+  nameWithType: IEventChannel<TEvent>.Unsubscribe(IEventHandler<TEvent>)
+  nameWithType.vb: IEventChannel(Of TEvent).Unsubscribe(IEventHandler(Of TEvent))
+- uid: UniKuroKit.Events.IEventChannel`1.Unsubscribe*
+  name: Unsubscribe
+  href: api/UniKuroKit.Events.IEventChannel-1.html#UniKuroKit_Events_IEventChannel_1_Unsubscribe_
+  commentId: Overload:UniKuroKit.Events.IEventChannel`1.Unsubscribe
+  isSpec: "True"
+  fullName: UniKuroKit.Events.IEventChannel<TEvent>.Unsubscribe
+  fullName.vb: UniKuroKit.Events.IEventChannel(Of TEvent).Unsubscribe
+  nameWithType: IEventChannel<TEvent>.Unsubscribe
+  nameWithType.vb: IEventChannel(Of TEvent).Unsubscribe
+- uid: UniKuroKit.Events.IEventContext`1
+  name: IEventContext<TEvent>
+  href: api/UniKuroKit.Events.IEventContext-1.html
+  commentId: T:UniKuroKit.Events.IEventContext`1
+  name.vb: IEventContext(Of TEvent)
+  fullName: UniKuroKit.Events.IEventContext<TEvent>
+  fullName.vb: UniKuroKit.Events.IEventContext(Of TEvent)
+  nameWithType: IEventContext<TEvent>
+  nameWithType.vb: IEventContext(Of TEvent)
+- uid: UniKuroKit.Events.IEventContext`1.Event
+  name: Event
+  href: api/UniKuroKit.Events.IEventContext-1.html#UniKuroKit_Events_IEventContext_1_Event
+  commentId: P:UniKuroKit.Events.IEventContext`1.Event
+  fullName: UniKuroKit.Events.IEventContext<TEvent>.Event
+  fullName.vb: UniKuroKit.Events.IEventContext(Of TEvent).Event
+  nameWithType: IEventContext<TEvent>.Event
+  nameWithType.vb: IEventContext(Of TEvent).Event
+- uid: UniKuroKit.Events.IEventContext`1.Event*
+  name: Event
+  href: api/UniKuroKit.Events.IEventContext-1.html#UniKuroKit_Events_IEventContext_1_Event_
+  commentId: Overload:UniKuroKit.Events.IEventContext`1.Event
+  isSpec: "True"
+  fullName: UniKuroKit.Events.IEventContext<TEvent>.Event
+  fullName.vb: UniKuroKit.Events.IEventContext(Of TEvent).Event
+  nameWithType: IEventContext<TEvent>.Event
+  nameWithType.vb: IEventContext(Of TEvent).Event
+- uid: UniKuroKit.Events.IEventHandler`1
+  name: IEventHandler<TEvent>
+  href: api/UniKuroKit.Events.IEventHandler-1.html
+  commentId: T:UniKuroKit.Events.IEventHandler`1
+  name.vb: IEventHandler(Of TEvent)
+  fullName: UniKuroKit.Events.IEventHandler<TEvent>
+  fullName.vb: UniKuroKit.Events.IEventHandler(Of TEvent)
+  nameWithType: IEventHandler<TEvent>
+  nameWithType.vb: IEventHandler(Of TEvent)
+- uid: UniKuroKit.Events.IEventHandler`1.Handle(UniKuroKit.Events.IEventContext{`0})
+  name: Handle(IEventContext<TEvent>)
+  href: api/UniKuroKit.Events.IEventHandler-1.html#UniKuroKit_Events_IEventHandler_1_Handle_UniKuroKit_Events_IEventContext__0__
+  commentId: M:UniKuroKit.Events.IEventHandler`1.Handle(UniKuroKit.Events.IEventContext{`0})
+  name.vb: Handle(IEventContext(Of TEvent))
+  fullName: UniKuroKit.Events.IEventHandler<TEvent>.Handle(UniKuroKit.Events.IEventContext<TEvent>)
+  fullName.vb: UniKuroKit.Events.IEventHandler(Of TEvent).Handle(UniKuroKit.Events.IEventContext(Of TEvent))
+  nameWithType: IEventHandler<TEvent>.Handle(IEventContext<TEvent>)
+  nameWithType.vb: IEventHandler(Of TEvent).Handle(IEventContext(Of TEvent))
+- uid: UniKuroKit.Events.IEventHandler`1.Handle*
+  name: Handle
+  href: api/UniKuroKit.Events.IEventHandler-1.html#UniKuroKit_Events_IEventHandler_1_Handle_
+  commentId: Overload:UniKuroKit.Events.IEventHandler`1.Handle
+  isSpec: "True"
+  fullName: UniKuroKit.Events.IEventHandler<TEvent>.Handle
+  fullName.vb: UniKuroKit.Events.IEventHandler(Of TEvent).Handle
+  nameWithType: IEventHandler<TEvent>.Handle
+  nameWithType.vb: IEventHandler(Of TEvent).Handle
+- uid: UniKuroKit.Events.IEventHandler`1.Priority
+  name: Priority
+  href: api/UniKuroKit.Events.IEventHandler-1.html#UniKuroKit_Events_IEventHandler_1_Priority
+  commentId: P:UniKuroKit.Events.IEventHandler`1.Priority
+  fullName: UniKuroKit.Events.IEventHandler<TEvent>.Priority
+  fullName.vb: UniKuroKit.Events.IEventHandler(Of TEvent).Priority
+  nameWithType: IEventHandler<TEvent>.Priority
+  nameWithType.vb: IEventHandler(Of TEvent).Priority
+- uid: UniKuroKit.Events.IEventHandler`1.Priority*
+  name: Priority
+  href: api/UniKuroKit.Events.IEventHandler-1.html#UniKuroKit_Events_IEventHandler_1_Priority_
+  commentId: Overload:UniKuroKit.Events.IEventHandler`1.Priority
+  isSpec: "True"
+  fullName: UniKuroKit.Events.IEventHandler<TEvent>.Priority
+  fullName.vb: UniKuroKit.Events.IEventHandler(Of TEvent).Priority
+  nameWithType: IEventHandler<TEvent>.Priority
+  nameWithType.vb: IEventHandler(Of TEvent).Priority
+- uid: UniKuroKit.Events.Observer
+  name: UniKuroKit.Events.Observer
+  href: api/UniKuroKit.Events.Observer.html
+  commentId: N:UniKuroKit.Events.Observer
+  fullName: UniKuroKit.Events.Observer
+  nameWithType: UniKuroKit.Events.Observer
+- uid: UniKuroKit.Events.Observer.IObservable`1
+  name: IObservable<TObserver>
+  href: api/UniKuroKit.Events.Observer.IObservable-1.html
+  commentId: T:UniKuroKit.Events.Observer.IObservable`1
+  name.vb: IObservable(Of TObserver)
+  fullName: UniKuroKit.Events.Observer.IObservable<TObserver>
+  fullName.vb: UniKuroKit.Events.Observer.IObservable(Of TObserver)
+  nameWithType: IObservable<TObserver>
+  nameWithType.vb: IObservable(Of TObserver)
+- uid: UniKuroKit.Events.Observer.IObservable`1.Clear
+  name: Clear()
+  href: api/UniKuroKit.Events.Observer.IObservable-1.html#UniKuroKit_Events_Observer_IObservable_1_Clear
+  commentId: M:UniKuroKit.Events.Observer.IObservable`1.Clear
+  fullName: UniKuroKit.Events.Observer.IObservable<TObserver>.Clear()
+  fullName.vb: UniKuroKit.Events.Observer.IObservable(Of TObserver).Clear()
+  nameWithType: IObservable<TObserver>.Clear()
+  nameWithType.vb: IObservable(Of TObserver).Clear()
+- uid: UniKuroKit.Events.Observer.IObservable`1.Clear*
+  name: Clear
+  href: api/UniKuroKit.Events.Observer.IObservable-1.html#UniKuroKit_Events_Observer_IObservable_1_Clear_
+  commentId: Overload:UniKuroKit.Events.Observer.IObservable`1.Clear
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Observer.IObservable<TObserver>.Clear
+  fullName.vb: UniKuroKit.Events.Observer.IObservable(Of TObserver).Clear
+  nameWithType: IObservable<TObserver>.Clear
+  nameWithType.vb: IObservable(Of TObserver).Clear
+- uid: UniKuroKit.Events.Observer.IObservable`1.Notify(`0)
+  name: Notify(TObserver)
+  href: api/UniKuroKit.Events.Observer.IObservable-1.html#UniKuroKit_Events_Observer_IObservable_1_Notify__0_
+  commentId: M:UniKuroKit.Events.Observer.IObservable`1.Notify(`0)
+  fullName: UniKuroKit.Events.Observer.IObservable<TObserver>.Notify(TObserver)
+  fullName.vb: UniKuroKit.Events.Observer.IObservable(Of TObserver).Notify(TObserver)
+  nameWithType: IObservable<TObserver>.Notify(TObserver)
+  nameWithType.vb: IObservable(Of TObserver).Notify(TObserver)
+- uid: UniKuroKit.Events.Observer.IObservable`1.Notify*
+  name: Notify
+  href: api/UniKuroKit.Events.Observer.IObservable-1.html#UniKuroKit_Events_Observer_IObservable_1_Notify_
+  commentId: Overload:UniKuroKit.Events.Observer.IObservable`1.Notify
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Observer.IObservable<TObserver>.Notify
+  fullName.vb: UniKuroKit.Events.Observer.IObservable(Of TObserver).Notify
+  nameWithType: IObservable<TObserver>.Notify
+  nameWithType.vb: IObservable(Of TObserver).Notify
+- uid: UniKuroKit.Events.Observer.IObserver`1
+  name: IObserver<TObserver>
+  href: api/UniKuroKit.Events.Observer.IObserver-1.html
+  commentId: T:UniKuroKit.Events.Observer.IObserver`1
+  name.vb: IObserver(Of TObserver)
+  fullName: UniKuroKit.Events.Observer.IObserver<TObserver>
+  fullName.vb: UniKuroKit.Events.Observer.IObserver(Of TObserver)
+  nameWithType: IObserver<TObserver>
+  nameWithType.vb: IObserver(Of TObserver)
+- uid: UniKuroKit.Events.Observer.IObserver`1.OnNotify(`0)
+  name: OnNotify(TObserver)
+  href: api/UniKuroKit.Events.Observer.IObserver-1.html#UniKuroKit_Events_Observer_IObserver_1_OnNotify__0_
+  commentId: M:UniKuroKit.Events.Observer.IObserver`1.OnNotify(`0)
+  fullName: UniKuroKit.Events.Observer.IObserver<TObserver>.OnNotify(TObserver)
+  fullName.vb: UniKuroKit.Events.Observer.IObserver(Of TObserver).OnNotify(TObserver)
+  nameWithType: IObserver<TObserver>.OnNotify(TObserver)
+  nameWithType.vb: IObserver(Of TObserver).OnNotify(TObserver)
+- uid: UniKuroKit.Events.Observer.IObserver`1.OnNotify*
+  name: OnNotify
+  href: api/UniKuroKit.Events.Observer.IObserver-1.html#UniKuroKit_Events_Observer_IObserver_1_OnNotify_
+  commentId: Overload:UniKuroKit.Events.Observer.IObserver`1.OnNotify
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Observer.IObserver<TObserver>.OnNotify
+  fullName.vb: UniKuroKit.Events.Observer.IObserver(Of TObserver).OnNotify
+  nameWithType: IObserver<TObserver>.OnNotify
+  nameWithType.vb: IObserver(Of TObserver).OnNotify
+- uid: UniKuroKit.Events.Observer.IReadOnlyObservable`1
+  name: IReadOnlyObservable<TObserver>
+  href: api/UniKuroKit.Events.Observer.IReadOnlyObservable-1.html
+  commentId: T:UniKuroKit.Events.Observer.IReadOnlyObservable`1
+  name.vb: IReadOnlyObservable(Of TObserver)
+  fullName: UniKuroKit.Events.Observer.IReadOnlyObservable<TObserver>
+  fullName.vb: UniKuroKit.Events.Observer.IReadOnlyObservable(Of TObserver)
+  nameWithType: IReadOnlyObservable<TObserver>
+  nameWithType.vb: IReadOnlyObservable(Of TObserver)
+- uid: UniKuroKit.Events.Observer.IReadOnlyObservable`1.Subscribe(UniKuroKit.Events.Observer.IObserver{`0})
+  name: Subscribe(IObserver<TObserver>)
+  href: api/UniKuroKit.Events.Observer.IReadOnlyObservable-1.html#UniKuroKit_Events_Observer_IReadOnlyObservable_1_Subscribe_UniKuroKit_Events_Observer_IObserver__0__
+  commentId: M:UniKuroKit.Events.Observer.IReadOnlyObservable`1.Subscribe(UniKuroKit.Events.Observer.IObserver{`0})
+  name.vb: Subscribe(IObserver(Of TObserver))
+  fullName: UniKuroKit.Events.Observer.IReadOnlyObservable<TObserver>.Subscribe(UniKuroKit.Events.Observer.IObserver<TObserver>)
+  fullName.vb: UniKuroKit.Events.Observer.IReadOnlyObservable(Of TObserver).Subscribe(UniKuroKit.Events.Observer.IObserver(Of TObserver))
+  nameWithType: IReadOnlyObservable<TObserver>.Subscribe(IObserver<TObserver>)
+  nameWithType.vb: IReadOnlyObservable(Of TObserver).Subscribe(IObserver(Of TObserver))
+- uid: UniKuroKit.Events.Observer.IReadOnlyObservable`1.Subscribe*
+  name: Subscribe
+  href: api/UniKuroKit.Events.Observer.IReadOnlyObservable-1.html#UniKuroKit_Events_Observer_IReadOnlyObservable_1_Subscribe_
+  commentId: Overload:UniKuroKit.Events.Observer.IReadOnlyObservable`1.Subscribe
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Observer.IReadOnlyObservable<TObserver>.Subscribe
+  fullName.vb: UniKuroKit.Events.Observer.IReadOnlyObservable(Of TObserver).Subscribe
+  nameWithType: IReadOnlyObservable<TObserver>.Subscribe
+  nameWithType.vb: IReadOnlyObservable(Of TObserver).Subscribe
+- uid: UniKuroKit.Events.Observer.IReadOnlyObservable`1.Unsubscribe(UniKuroKit.Events.Observer.ObserverToken)
+  name: Unsubscribe(ObserverToken)
+  href: api/UniKuroKit.Events.Observer.IReadOnlyObservable-1.html#UniKuroKit_Events_Observer_IReadOnlyObservable_1_Unsubscribe_UniKuroKit_Events_Observer_ObserverToken_
+  commentId: M:UniKuroKit.Events.Observer.IReadOnlyObservable`1.Unsubscribe(UniKuroKit.Events.Observer.ObserverToken)
+  fullName: UniKuroKit.Events.Observer.IReadOnlyObservable<TObserver>.Unsubscribe(UniKuroKit.Events.Observer.ObserverToken)
+  fullName.vb: UniKuroKit.Events.Observer.IReadOnlyObservable(Of TObserver).Unsubscribe(UniKuroKit.Events.Observer.ObserverToken)
+  nameWithType: IReadOnlyObservable<TObserver>.Unsubscribe(ObserverToken)
+  nameWithType.vb: IReadOnlyObservable(Of TObserver).Unsubscribe(ObserverToken)
+- uid: UniKuroKit.Events.Observer.IReadOnlyObservable`1.Unsubscribe*
+  name: Unsubscribe
+  href: api/UniKuroKit.Events.Observer.IReadOnlyObservable-1.html#UniKuroKit_Events_Observer_IReadOnlyObservable_1_Unsubscribe_
+  commentId: Overload:UniKuroKit.Events.Observer.IReadOnlyObservable`1.Unsubscribe
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Observer.IReadOnlyObservable<TObserver>.Unsubscribe
+  fullName.vb: UniKuroKit.Events.Observer.IReadOnlyObservable(Of TObserver).Unsubscribe
+  nameWithType: IReadOnlyObservable<TObserver>.Unsubscribe
+  nameWithType.vb: IReadOnlyObservable(Of TObserver).Unsubscribe
+- uid: UniKuroKit.Events.Observer.ObservableMonoBehaviour`1
+  name: ObservableMonoBehaviour<T>
+  href: api/UniKuroKit.Events.Observer.ObservableMonoBehaviour-1.html
+  commentId: T:UniKuroKit.Events.Observer.ObservableMonoBehaviour`1
+  name.vb: ObservableMonoBehaviour(Of T)
+  fullName: UniKuroKit.Events.Observer.ObservableMonoBehaviour<T>
+  fullName.vb: UniKuroKit.Events.Observer.ObservableMonoBehaviour(Of T)
+  nameWithType: ObservableMonoBehaviour<T>
+  nameWithType.vb: ObservableMonoBehaviour(Of T)
+- uid: UniKuroKit.Events.Observer.ObservableMonoBehaviour`1.Observable
+  name: Observable
+  href: api/UniKuroKit.Events.Observer.ObservableMonoBehaviour-1.html#UniKuroKit_Events_Observer_ObservableMonoBehaviour_1_Observable
+  commentId: P:UniKuroKit.Events.Observer.ObservableMonoBehaviour`1.Observable
+  fullName: UniKuroKit.Events.Observer.ObservableMonoBehaviour<T>.Observable
+  fullName.vb: UniKuroKit.Events.Observer.ObservableMonoBehaviour(Of T).Observable
+  nameWithType: ObservableMonoBehaviour<T>.Observable
+  nameWithType.vb: ObservableMonoBehaviour(Of T).Observable
+- uid: UniKuroKit.Events.Observer.ObservableMonoBehaviour`1.Observable*
+  name: Observable
+  href: api/UniKuroKit.Events.Observer.ObservableMonoBehaviour-1.html#UniKuroKit_Events_Observer_ObservableMonoBehaviour_1_Observable_
+  commentId: Overload:UniKuroKit.Events.Observer.ObservableMonoBehaviour`1.Observable
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Observer.ObservableMonoBehaviour<T>.Observable
+  fullName.vb: UniKuroKit.Events.Observer.ObservableMonoBehaviour(Of T).Observable
+  nameWithType: ObservableMonoBehaviour<T>.Observable
+  nameWithType.vb: ObservableMonoBehaviour(Of T).Observable
+- uid: UniKuroKit.Events.Observer.ObservableMonoBehaviour`1._observable
+  name: _observable
+  href: api/UniKuroKit.Events.Observer.ObservableMonoBehaviour-1.html#UniKuroKit_Events_Observer_ObservableMonoBehaviour_1__observable
+  commentId: F:UniKuroKit.Events.Observer.ObservableMonoBehaviour`1._observable
+  fullName: UniKuroKit.Events.Observer.ObservableMonoBehaviour<T>._observable
+  fullName.vb: UniKuroKit.Events.Observer.ObservableMonoBehaviour(Of T)._observable
+  nameWithType: ObservableMonoBehaviour<T>._observable
+  nameWithType.vb: ObservableMonoBehaviour(Of T)._observable
+- uid: UniKuroKit.Events.Observer.Observable`1
+  name: Observable<T>
+  href: api/UniKuroKit.Events.Observer.Observable-1.html
+  commentId: T:UniKuroKit.Events.Observer.Observable`1
+  name.vb: Observable(Of T)
+  fullName: UniKuroKit.Events.Observer.Observable<T>
+  fullName.vb: UniKuroKit.Events.Observer.Observable(Of T)
+  nameWithType: Observable<T>
+  nameWithType.vb: Observable(Of T)
+- uid: UniKuroKit.Events.Observer.Observable`1.Clear
+  name: Clear()
+  href: api/UniKuroKit.Events.Observer.Observable-1.html#UniKuroKit_Events_Observer_Observable_1_Clear
+  commentId: M:UniKuroKit.Events.Observer.Observable`1.Clear
+  fullName: UniKuroKit.Events.Observer.Observable<T>.Clear()
+  fullName.vb: UniKuroKit.Events.Observer.Observable(Of T).Clear()
+  nameWithType: Observable<T>.Clear()
+  nameWithType.vb: Observable(Of T).Clear()
+- uid: UniKuroKit.Events.Observer.Observable`1.Clear*
+  name: Clear
+  href: api/UniKuroKit.Events.Observer.Observable-1.html#UniKuroKit_Events_Observer_Observable_1_Clear_
+  commentId: Overload:UniKuroKit.Events.Observer.Observable`1.Clear
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Observer.Observable<T>.Clear
+  fullName.vb: UniKuroKit.Events.Observer.Observable(Of T).Clear
+  nameWithType: Observable<T>.Clear
+  nameWithType.vb: Observable(Of T).Clear
+- uid: UniKuroKit.Events.Observer.Observable`1.Notify(`0)
+  name: Notify(T)
+  href: api/UniKuroKit.Events.Observer.Observable-1.html#UniKuroKit_Events_Observer_Observable_1_Notify__0_
+  commentId: M:UniKuroKit.Events.Observer.Observable`1.Notify(`0)
+  fullName: UniKuroKit.Events.Observer.Observable<T>.Notify(T)
+  fullName.vb: UniKuroKit.Events.Observer.Observable(Of T).Notify(T)
+  nameWithType: Observable<T>.Notify(T)
+  nameWithType.vb: Observable(Of T).Notify(T)
+- uid: UniKuroKit.Events.Observer.Observable`1.Notify*
+  name: Notify
+  href: api/UniKuroKit.Events.Observer.Observable-1.html#UniKuroKit_Events_Observer_Observable_1_Notify_
+  commentId: Overload:UniKuroKit.Events.Observer.Observable`1.Notify
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Observer.Observable<T>.Notify
+  fullName.vb: UniKuroKit.Events.Observer.Observable(Of T).Notify
+  nameWithType: Observable<T>.Notify
+  nameWithType.vb: Observable(Of T).Notify
+- uid: UniKuroKit.Events.Observer.Observable`1.Subscribe(UniKuroKit.Events.Observer.IObserver{`0})
+  name: Subscribe(IObserver<T>)
+  href: api/UniKuroKit.Events.Observer.Observable-1.html#UniKuroKit_Events_Observer_Observable_1_Subscribe_UniKuroKit_Events_Observer_IObserver__0__
+  commentId: M:UniKuroKit.Events.Observer.Observable`1.Subscribe(UniKuroKit.Events.Observer.IObserver{`0})
+  name.vb: Subscribe(IObserver(Of T))
+  fullName: UniKuroKit.Events.Observer.Observable<T>.Subscribe(UniKuroKit.Events.Observer.IObserver<T>)
+  fullName.vb: UniKuroKit.Events.Observer.Observable(Of T).Subscribe(UniKuroKit.Events.Observer.IObserver(Of T))
+  nameWithType: Observable<T>.Subscribe(IObserver<T>)
+  nameWithType.vb: Observable(Of T).Subscribe(IObserver(Of T))
+- uid: UniKuroKit.Events.Observer.Observable`1.Subscribe*
+  name: Subscribe
+  href: api/UniKuroKit.Events.Observer.Observable-1.html#UniKuroKit_Events_Observer_Observable_1_Subscribe_
+  commentId: Overload:UniKuroKit.Events.Observer.Observable`1.Subscribe
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Observer.Observable<T>.Subscribe
+  fullName.vb: UniKuroKit.Events.Observer.Observable(Of T).Subscribe
+  nameWithType: Observable<T>.Subscribe
+  nameWithType.vb: Observable(Of T).Subscribe
+- uid: UniKuroKit.Events.Observer.Observable`1.Unsubscribe(UniKuroKit.Events.Observer.ObserverToken)
+  name: Unsubscribe(ObserverToken)
+  href: api/UniKuroKit.Events.Observer.Observable-1.html#UniKuroKit_Events_Observer_Observable_1_Unsubscribe_UniKuroKit_Events_Observer_ObserverToken_
+  commentId: M:UniKuroKit.Events.Observer.Observable`1.Unsubscribe(UniKuroKit.Events.Observer.ObserverToken)
+  fullName: UniKuroKit.Events.Observer.Observable<T>.Unsubscribe(UniKuroKit.Events.Observer.ObserverToken)
+  fullName.vb: UniKuroKit.Events.Observer.Observable(Of T).Unsubscribe(UniKuroKit.Events.Observer.ObserverToken)
+  nameWithType: Observable<T>.Unsubscribe(ObserverToken)
+  nameWithType.vb: Observable(Of T).Unsubscribe(ObserverToken)
+- uid: UniKuroKit.Events.Observer.Observable`1.Unsubscribe*
+  name: Unsubscribe
+  href: api/UniKuroKit.Events.Observer.Observable-1.html#UniKuroKit_Events_Observer_Observable_1_Unsubscribe_
+  commentId: Overload:UniKuroKit.Events.Observer.Observable`1.Unsubscribe
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Observer.Observable<T>.Unsubscribe
+  fullName.vb: UniKuroKit.Events.Observer.Observable(Of T).Unsubscribe
+  nameWithType: Observable<T>.Unsubscribe
+  nameWithType.vb: Observable(Of T).Unsubscribe
+- uid: UniKuroKit.Events.Observer.ObserverToken
+  name: ObserverToken
+  href: api/UniKuroKit.Events.Observer.ObserverToken.html
+  commentId: T:UniKuroKit.Events.Observer.ObserverToken
+  fullName: UniKuroKit.Events.Observer.ObserverToken
+  nameWithType: ObserverToken
+- uid: UniKuroKit.Events.Observer.ObserverToken.IsValid
+  name: IsValid
+  href: api/UniKuroKit.Events.Observer.ObserverToken.html#UniKuroKit_Events_Observer_ObserverToken_IsValid
+  commentId: P:UniKuroKit.Events.Observer.ObserverToken.IsValid
+  fullName: UniKuroKit.Events.Observer.ObserverToken.IsValid
+  nameWithType: ObserverToken.IsValid
+- uid: UniKuroKit.Events.Observer.ObserverToken.IsValid*
+  name: IsValid
+  href: api/UniKuroKit.Events.Observer.ObserverToken.html#UniKuroKit_Events_Observer_ObserverToken_IsValid_
+  commentId: Overload:UniKuroKit.Events.Observer.ObserverToken.IsValid
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Observer.ObserverToken.IsValid
+  nameWithType: ObserverToken.IsValid
+- uid: UniKuroKit.Events.Visitor
+  name: UniKuroKit.Events.Visitor
+  href: api/UniKuroKit.Events.Visitor.html
+  commentId: N:UniKuroKit.Events.Visitor
+  fullName: UniKuroKit.Events.Visitor
+  nameWithType: UniKuroKit.Events.Visitor
+- uid: UniKuroKit.Events.Visitor.IVisitable
+  name: IVisitable
+  href: api/UniKuroKit.Events.Visitor.IVisitable.html
+  commentId: T:UniKuroKit.Events.Visitor.IVisitable
+  fullName: UniKuroKit.Events.Visitor.IVisitable
+  nameWithType: IVisitable
+- uid: UniKuroKit.Events.Visitor.IVisitable.Accept(UniKuroKit.Events.Visitor.IVisitor)
+  name: Accept(IVisitor)
+  href: api/UniKuroKit.Events.Visitor.IVisitable.html#UniKuroKit_Events_Visitor_IVisitable_Accept_UniKuroKit_Events_Visitor_IVisitor_
+  commentId: M:UniKuroKit.Events.Visitor.IVisitable.Accept(UniKuroKit.Events.Visitor.IVisitor)
+  fullName: UniKuroKit.Events.Visitor.IVisitable.Accept(UniKuroKit.Events.Visitor.IVisitor)
+  nameWithType: IVisitable.Accept(IVisitor)
+- uid: UniKuroKit.Events.Visitor.IVisitable.Accept*
+  name: Accept
+  href: api/UniKuroKit.Events.Visitor.IVisitable.html#UniKuroKit_Events_Visitor_IVisitable_Accept_
+  commentId: Overload:UniKuroKit.Events.Visitor.IVisitable.Accept
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Visitor.IVisitable.Accept
+  nameWithType: IVisitable.Accept
+- uid: UniKuroKit.Events.Visitor.IVisitor
+  name: IVisitor
+  href: api/UniKuroKit.Events.Visitor.IVisitor.html
+  commentId: T:UniKuroKit.Events.Visitor.IVisitor
+  fullName: UniKuroKit.Events.Visitor.IVisitor
+  nameWithType: IVisitor
+- uid: UniKuroKit.Events.Visitor.IVisitor`1
+  name: IVisitor<T>
+  href: api/UniKuroKit.Events.Visitor.IVisitor-1.html
+  commentId: T:UniKuroKit.Events.Visitor.IVisitor`1
+  name.vb: IVisitor(Of T)
+  fullName: UniKuroKit.Events.Visitor.IVisitor<T>
+  fullName.vb: UniKuroKit.Events.Visitor.IVisitor(Of T)
+  nameWithType: IVisitor<T>
+  nameWithType.vb: IVisitor(Of T)
+- uid: UniKuroKit.Events.Visitor.IVisitor`1.Visit(`0)
+  name: Visit(T)
+  href: api/UniKuroKit.Events.Visitor.IVisitor-1.html#UniKuroKit_Events_Visitor_IVisitor_1_Visit__0_
+  commentId: M:UniKuroKit.Events.Visitor.IVisitor`1.Visit(`0)
+  fullName: UniKuroKit.Events.Visitor.IVisitor<T>.Visit(T)
+  fullName.vb: UniKuroKit.Events.Visitor.IVisitor(Of T).Visit(T)
+  nameWithType: IVisitor<T>.Visit(T)
+  nameWithType.vb: IVisitor(Of T).Visit(T)
+- uid: UniKuroKit.Events.Visitor.IVisitor`1.Visit*
+  name: Visit
+  href: api/UniKuroKit.Events.Visitor.IVisitor-1.html#UniKuroKit_Events_Visitor_IVisitor_1_Visit_
+  commentId: Overload:UniKuroKit.Events.Visitor.IVisitor`1.Visit
+  isSpec: "True"
+  fullName: UniKuroKit.Events.Visitor.IVisitor<T>.Visit
+  fullName.vb: UniKuroKit.Events.Visitor.IVisitor(Of T).Visit
+  nameWithType: IVisitor<T>.Visit
+  nameWithType.vb: IVisitor(Of T).Visit
+- uid: UniKuroKit.Exceptions
+  name: UniKuroKit.Exceptions
+  href: api/UniKuroKit.Exceptions.html
+  commentId: N:UniKuroKit.Exceptions
+  fullName: UniKuroKit.Exceptions
+  nameWithType: UniKuroKit.Exceptions
+- uid: UniKuroKit.Exceptions.SingletonInitializeException
+  name: SingletonInitializeException
+  href: api/UniKuroKit.Exceptions.SingletonInitializeException.html
+  commentId: T:UniKuroKit.Exceptions.SingletonInitializeException
+  fullName: UniKuroKit.Exceptions.SingletonInitializeException
+  nameWithType: SingletonInitializeException
+- uid: UniKuroKit.Exceptions.SingletonInitializeException.#ctor
+  name: SingletonInitializeException()
+  href: api/UniKuroKit.Exceptions.SingletonInitializeException.html#UniKuroKit_Exceptions_SingletonInitializeException__ctor
+  commentId: M:UniKuroKit.Exceptions.SingletonInitializeException.#ctor
+  name.vb: New()
+  fullName: UniKuroKit.Exceptions.SingletonInitializeException.SingletonInitializeException()
+  fullName.vb: UniKuroKit.Exceptions.SingletonInitializeException.New()
+  nameWithType: SingletonInitializeException.SingletonInitializeException()
+  nameWithType.vb: SingletonInitializeException.New()
+- uid: UniKuroKit.Exceptions.SingletonInitializeException.#ctor(System.String)
+  name: SingletonInitializeException(string)
+  href: api/UniKuroKit.Exceptions.SingletonInitializeException.html#UniKuroKit_Exceptions_SingletonInitializeException__ctor_System_String_
+  commentId: M:UniKuroKit.Exceptions.SingletonInitializeException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: UniKuroKit.Exceptions.SingletonInitializeException.SingletonInitializeException(string)
+  fullName.vb: UniKuroKit.Exceptions.SingletonInitializeException.New(String)
+  nameWithType: SingletonInitializeException.SingletonInitializeException(string)
+  nameWithType.vb: SingletonInitializeException.New(String)
+- uid: UniKuroKit.Exceptions.SingletonInitializeException.#ctor(System.String,System.Exception)
+  name: SingletonInitializeException(string, Exception)
+  href: api/UniKuroKit.Exceptions.SingletonInitializeException.html#UniKuroKit_Exceptions_SingletonInitializeException__ctor_System_String_System_Exception_
+  commentId: M:UniKuroKit.Exceptions.SingletonInitializeException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: UniKuroKit.Exceptions.SingletonInitializeException.SingletonInitializeException(string, System.Exception)
+  fullName.vb: UniKuroKit.Exceptions.SingletonInitializeException.New(String, System.Exception)
+  nameWithType: SingletonInitializeException.SingletonInitializeException(string, Exception)
+  nameWithType.vb: SingletonInitializeException.New(String, Exception)
+- uid: UniKuroKit.Exceptions.SingletonInitializeException.#ctor*
+  name: SingletonInitializeException
+  href: api/UniKuroKit.Exceptions.SingletonInitializeException.html#UniKuroKit_Exceptions_SingletonInitializeException__ctor_
+  commentId: Overload:UniKuroKit.Exceptions.SingletonInitializeException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: UniKuroKit.Exceptions.SingletonInitializeException.SingletonInitializeException
+  fullName.vb: UniKuroKit.Exceptions.SingletonInitializeException.New
+  nameWithType: SingletonInitializeException.SingletonInitializeException
+  nameWithType.vb: SingletonInitializeException.New
+- uid: UniKuroKit.IO
+  name: UniKuroKit.IO
+  href: api/UniKuroKit.IO.html
+  commentId: N:UniKuroKit.IO
+  fullName: UniKuroKit.IO
+  nameWithType: UniKuroKit.IO
+- uid: UniKuroKit.IO.ChunkSplitter
+  name: ChunkSplitter
+  href: api/UniKuroKit.IO.ChunkSplitter.html
+  commentId: T:UniKuroKit.IO.ChunkSplitter
+  fullName: UniKuroKit.IO.ChunkSplitter
+  nameWithType: ChunkSplitter
+- uid: UniKuroKit.IO.ChunkSplitter.Merge(System.Collections.Generic.List{UniKuroKit.Serialization.DataContainer})
+  name: Merge(List<DataContainer>)
+  href: api/UniKuroKit.IO.ChunkSplitter.html#UniKuroKit_IO_ChunkSplitter_Merge_System_Collections_Generic_List_UniKuroKit_Serialization_DataContainer__
+  commentId: M:UniKuroKit.IO.ChunkSplitter.Merge(System.Collections.Generic.List{UniKuroKit.Serialization.DataContainer})
+  name.vb: Merge(List(Of DataContainer))
+  fullName: UniKuroKit.IO.ChunkSplitter.Merge(System.Collections.Generic.List<UniKuroKit.Serialization.DataContainer>)
+  fullName.vb: UniKuroKit.IO.ChunkSplitter.Merge(System.Collections.Generic.List(Of UniKuroKit.Serialization.DataContainer))
+  nameWithType: ChunkSplitter.Merge(List<DataContainer>)
+  nameWithType.vb: ChunkSplitter.Merge(List(Of DataContainer))
+- uid: UniKuroKit.IO.ChunkSplitter.Merge*
+  name: Merge
+  href: api/UniKuroKit.IO.ChunkSplitter.html#UniKuroKit_IO_ChunkSplitter_Merge_
+  commentId: Overload:UniKuroKit.IO.ChunkSplitter.Merge
+  isSpec: "True"
+  fullName: UniKuroKit.IO.ChunkSplitter.Merge
+  nameWithType: ChunkSplitter.Merge
+- uid: UniKuroKit.IO.ChunkSplitter.Split(UniKuroKit.Serialization.DataContainer,System.Int32)
+  name: Split(DataContainer, int)
+  href: api/UniKuroKit.IO.ChunkSplitter.html#UniKuroKit_IO_ChunkSplitter_Split_UniKuroKit_Serialization_DataContainer_System_Int32_
+  commentId: M:UniKuroKit.IO.ChunkSplitter.Split(UniKuroKit.Serialization.DataContainer,System.Int32)
+  name.vb: Split(DataContainer, Integer)
+  fullName: UniKuroKit.IO.ChunkSplitter.Split(UniKuroKit.Serialization.DataContainer, int)
+  fullName.vb: UniKuroKit.IO.ChunkSplitter.Split(UniKuroKit.Serialization.DataContainer, Integer)
+  nameWithType: ChunkSplitter.Split(DataContainer, int)
+  nameWithType.vb: ChunkSplitter.Split(DataContainer, Integer)
+- uid: UniKuroKit.IO.ChunkSplitter.Split*
+  name: Split
+  href: api/UniKuroKit.IO.ChunkSplitter.html#UniKuroKit_IO_ChunkSplitter_Split_
+  commentId: Overload:UniKuroKit.IO.ChunkSplitter.Split
+  isSpec: "True"
+  fullName: UniKuroKit.IO.ChunkSplitter.Split
+  nameWithType: ChunkSplitter.Split
+- uid: UniKuroKit.IO.DataStorage
+  name: DataStorage
+  href: api/UniKuroKit.IO.DataStorage.html
+  commentId: T:UniKuroKit.IO.DataStorage
+  fullName: UniKuroKit.IO.DataStorage
+  nameWithType: DataStorage
+- uid: UniKuroKit.IO.DataStorage.#ctor(UniKuroKit.Serialization.SerializerConfigurations)
+  name: DataStorage(SerializerConfigurations)
+  href: api/UniKuroKit.IO.DataStorage.html#UniKuroKit_IO_DataStorage__ctor_UniKuroKit_Serialization_SerializerConfigurations_
+  commentId: M:UniKuroKit.IO.DataStorage.#ctor(UniKuroKit.Serialization.SerializerConfigurations)
+  name.vb: New(SerializerConfigurations)
+  fullName: UniKuroKit.IO.DataStorage.DataStorage(UniKuroKit.Serialization.SerializerConfigurations)
+  fullName.vb: UniKuroKit.IO.DataStorage.New(UniKuroKit.Serialization.SerializerConfigurations)
+  nameWithType: DataStorage.DataStorage(SerializerConfigurations)
+  nameWithType.vb: DataStorage.New(SerializerConfigurations)
+- uid: UniKuroKit.IO.DataStorage.#ctor*
+  name: DataStorage
+  href: api/UniKuroKit.IO.DataStorage.html#UniKuroKit_IO_DataStorage__ctor_
+  commentId: Overload:UniKuroKit.IO.DataStorage.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: UniKuroKit.IO.DataStorage.DataStorage
+  fullName.vb: UniKuroKit.IO.DataStorage.New
+  nameWithType: DataStorage.DataStorage
+  nameWithType.vb: DataStorage.New
+- uid: UniKuroKit.IO.DataStorage.AnyChunkExists
+  name: AnyChunkExists()
+  href: api/UniKuroKit.IO.DataStorage.html#UniKuroKit_IO_DataStorage_AnyChunkExists
+  commentId: M:UniKuroKit.IO.DataStorage.AnyChunkExists
+  fullName: UniKuroKit.IO.DataStorage.AnyChunkExists()
+  nameWithType: DataStorage.AnyChunkExists()
+- uid: UniKuroKit.IO.DataStorage.AnyChunkExists*
+  name: AnyChunkExists
+  href: api/UniKuroKit.IO.DataStorage.html#UniKuroKit_IO_DataStorage_AnyChunkExists_
+  commentId: Overload:UniKuroKit.IO.DataStorage.AnyChunkExists
+  isSpec: "True"
+  fullName: UniKuroKit.IO.DataStorage.AnyChunkExists
+  nameWithType: DataStorage.AnyChunkExists
+- uid: UniKuroKit.IO.DataStorage.ChunkExists(System.Int32)
+  name: ChunkExists(int)
+  href: api/UniKuroKit.IO.DataStorage.html#UniKuroKit_IO_DataStorage_ChunkExists_System_Int32_
+  commentId: M:UniKuroKit.IO.DataStorage.ChunkExists(System.Int32)
+  name.vb: ChunkExists(Integer)
+  fullName: UniKuroKit.IO.DataStorage.ChunkExists(int)
+  fullName.vb: UniKuroKit.IO.DataStorage.ChunkExists(Integer)
+  nameWithType: DataStorage.ChunkExists(int)
+  nameWithType.vb: DataStorage.ChunkExists(Integer)
+- uid: UniKuroKit.IO.DataStorage.ChunkExists*
+  name: ChunkExists
+  href: api/UniKuroKit.IO.DataStorage.html#UniKuroKit_IO_DataStorage_ChunkExists_
+  commentId: Overload:UniKuroKit.IO.DataStorage.ChunkExists
+  isSpec: "True"
+  fullName: UniKuroKit.IO.DataStorage.ChunkExists
+  nameWithType: DataStorage.ChunkExists
+- uid: UniKuroKit.IO.DataStorage.DeleteAll
+  name: DeleteAll()
+  href: api/UniKuroKit.IO.DataStorage.html#UniKuroKit_IO_DataStorage_DeleteAll
+  commentId: M:UniKuroKit.IO.DataStorage.DeleteAll
+  fullName: UniKuroKit.IO.DataStorage.DeleteAll()
+  nameWithType: DataStorage.DeleteAll()
+- uid: UniKuroKit.IO.DataStorage.DeleteAll*
+  name: DeleteAll
+  href: api/UniKuroKit.IO.DataStorage.html#UniKuroKit_IO_DataStorage_DeleteAll_
+  commentId: Overload:UniKuroKit.IO.DataStorage.DeleteAll
+  isSpec: "True"
+  fullName: UniKuroKit.IO.DataStorage.DeleteAll
+  nameWithType: DataStorage.DeleteAll
+- uid: UniKuroKit.IO.DataStorage.ReadChunk(System.Int32)
+  name: ReadChunk(int)
+  href: api/UniKuroKit.IO.DataStorage.html#UniKuroKit_IO_DataStorage_ReadChunk_System_Int32_
+  commentId: M:UniKuroKit.IO.DataStorage.ReadChunk(System.Int32)
+  name.vb: ReadChunk(Integer)
+  fullName: UniKuroKit.IO.DataStorage.ReadChunk(int)
+  fullName.vb: UniKuroKit.IO.DataStorage.ReadChunk(Integer)
+  nameWithType: DataStorage.ReadChunk(int)
+  nameWithType.vb: DataStorage.ReadChunk(Integer)
+- uid: UniKuroKit.IO.DataStorage.ReadChunk*
+  name: ReadChunk
+  href: api/UniKuroKit.IO.DataStorage.html#UniKuroKit_IO_DataStorage_ReadChunk_
+  commentId: Overload:UniKuroKit.IO.DataStorage.ReadChunk
+  isSpec: "True"
+  fullName: UniKuroKit.IO.DataStorage.ReadChunk
+  nameWithType: DataStorage.ReadChunk
+- uid: UniKuroKit.IO.DataStorage.WriteChunk(System.Int32,UniKuroKit.Serialization.DataContainer)
+  name: WriteChunk(int, DataContainer)
+  href: api/UniKuroKit.IO.DataStorage.html#UniKuroKit_IO_DataStorage_WriteChunk_System_Int32_UniKuroKit_Serialization_DataContainer_
+  commentId: M:UniKuroKit.IO.DataStorage.WriteChunk(System.Int32,UniKuroKit.Serialization.DataContainer)
+  name.vb: WriteChunk(Integer, DataContainer)
+  fullName: UniKuroKit.IO.DataStorage.WriteChunk(int, UniKuroKit.Serialization.DataContainer)
+  fullName.vb: UniKuroKit.IO.DataStorage.WriteChunk(Integer, UniKuroKit.Serialization.DataContainer)
+  nameWithType: DataStorage.WriteChunk(int, DataContainer)
+  nameWithType.vb: DataStorage.WriteChunk(Integer, DataContainer)
+- uid: UniKuroKit.IO.DataStorage.WriteChunk*
+  name: WriteChunk
+  href: api/UniKuroKit.IO.DataStorage.html#UniKuroKit_IO_DataStorage_WriteChunk_
+  commentId: Overload:UniKuroKit.IO.DataStorage.WriteChunk
+  isSpec: "True"
+  fullName: UniKuroKit.IO.DataStorage.WriteChunk
+  nameWithType: DataStorage.WriteChunk
+- uid: UniKuroKit.Security
+  name: UniKuroKit.Security
+  href: api/UniKuroKit.Security.html
+  commentId: N:UniKuroKit.Security
+  fullName: UniKuroKit.Security
+  nameWithType: UniKuroKit.Security
+- uid: UniKuroKit.Security.AesEncryptionProvider
+  name: AesEncryptionProvider
+  href: api/UniKuroKit.Security.AesEncryptionProvider.html
+  commentId: T:UniKuroKit.Security.AesEncryptionProvider
+  fullName: UniKuroKit.Security.AesEncryptionProvider
+  nameWithType: AesEncryptionProvider
+- uid: UniKuroKit.Security.AesEncryptionProvider.#ctor(System.String)
+  name: AesEncryptionProvider(string)
+  href: api/UniKuroKit.Security.AesEncryptionProvider.html#UniKuroKit_Security_AesEncryptionProvider__ctor_System_String_
+  commentId: M:UniKuroKit.Security.AesEncryptionProvider.#ctor(System.String)
+  name.vb: New(String)
+  fullName: UniKuroKit.Security.AesEncryptionProvider.AesEncryptionProvider(string)
+  fullName.vb: UniKuroKit.Security.AesEncryptionProvider.New(String)
+  nameWithType: AesEncryptionProvider.AesEncryptionProvider(string)
+  nameWithType.vb: AesEncryptionProvider.New(String)
+- uid: UniKuroKit.Security.AesEncryptionProvider.#ctor*
+  name: AesEncryptionProvider
+  href: api/UniKuroKit.Security.AesEncryptionProvider.html#UniKuroKit_Security_AesEncryptionProvider__ctor_
+  commentId: Overload:UniKuroKit.Security.AesEncryptionProvider.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: UniKuroKit.Security.AesEncryptionProvider.AesEncryptionProvider
+  fullName.vb: UniKuroKit.Security.AesEncryptionProvider.New
+  nameWithType: AesEncryptionProvider.AesEncryptionProvider
+  nameWithType.vb: AesEncryptionProvider.New
+- uid: UniKuroKit.Security.AesEncryptionProvider.Decrypt(System.Byte[])
+  name: Decrypt(byte[])
+  href: api/UniKuroKit.Security.AesEncryptionProvider.html#UniKuroKit_Security_AesEncryptionProvider_Decrypt_System_Byte___
+  commentId: M:UniKuroKit.Security.AesEncryptionProvider.Decrypt(System.Byte[])
+  name.vb: Decrypt(Byte())
+  fullName: UniKuroKit.Security.AesEncryptionProvider.Decrypt(byte[])
+  fullName.vb: UniKuroKit.Security.AesEncryptionProvider.Decrypt(Byte())
+  nameWithType: AesEncryptionProvider.Decrypt(byte[])
+  nameWithType.vb: AesEncryptionProvider.Decrypt(Byte())
+- uid: UniKuroKit.Security.AesEncryptionProvider.Decrypt*
+  name: Decrypt
+  href: api/UniKuroKit.Security.AesEncryptionProvider.html#UniKuroKit_Security_AesEncryptionProvider_Decrypt_
+  commentId: Overload:UniKuroKit.Security.AesEncryptionProvider.Decrypt
+  isSpec: "True"
+  fullName: UniKuroKit.Security.AesEncryptionProvider.Decrypt
+  nameWithType: AesEncryptionProvider.Decrypt
+- uid: UniKuroKit.Security.AesEncryptionProvider.Encrypt(System.Byte[])
+  name: Encrypt(byte[])
+  href: api/UniKuroKit.Security.AesEncryptionProvider.html#UniKuroKit_Security_AesEncryptionProvider_Encrypt_System_Byte___
+  commentId: M:UniKuroKit.Security.AesEncryptionProvider.Encrypt(System.Byte[])
+  name.vb: Encrypt(Byte())
+  fullName: UniKuroKit.Security.AesEncryptionProvider.Encrypt(byte[])
+  fullName.vb: UniKuroKit.Security.AesEncryptionProvider.Encrypt(Byte())
+  nameWithType: AesEncryptionProvider.Encrypt(byte[])
+  nameWithType.vb: AesEncryptionProvider.Encrypt(Byte())
+- uid: UniKuroKit.Security.AesEncryptionProvider.Encrypt*
+  name: Encrypt
+  href: api/UniKuroKit.Security.AesEncryptionProvider.html#UniKuroKit_Security_AesEncryptionProvider_Encrypt_
+  commentId: Overload:UniKuroKit.Security.AesEncryptionProvider.Encrypt
+  isSpec: "True"
+  fullName: UniKuroKit.Security.AesEncryptionProvider.Encrypt
+  nameWithType: AesEncryptionProvider.Encrypt
+- uid: UniKuroKit.Security.EncryptionFactory
+  name: EncryptionFactory
+  href: api/UniKuroKit.Security.EncryptionFactory.html
+  commentId: T:UniKuroKit.Security.EncryptionFactory
+  fullName: UniKuroKit.Security.EncryptionFactory
+  nameWithType: EncryptionFactory
+- uid: UniKuroKit.Security.EncryptionFactory.Create(System.Boolean,System.String)
+  name: Create(bool, string)
+  href: api/UniKuroKit.Security.EncryptionFactory.html#UniKuroKit_Security_EncryptionFactory_Create_System_Boolean_System_String_
+  commentId: M:UniKuroKit.Security.EncryptionFactory.Create(System.Boolean,System.String)
+  name.vb: Create(Boolean, String)
+  fullName: UniKuroKit.Security.EncryptionFactory.Create(bool, string)
+  fullName.vb: UniKuroKit.Security.EncryptionFactory.Create(Boolean, String)
+  nameWithType: EncryptionFactory.Create(bool, string)
+  nameWithType.vb: EncryptionFactory.Create(Boolean, String)
+- uid: UniKuroKit.Security.EncryptionFactory.Create*
+  name: Create
+  href: api/UniKuroKit.Security.EncryptionFactory.html#UniKuroKit_Security_EncryptionFactory_Create_
+  commentId: Overload:UniKuroKit.Security.EncryptionFactory.Create
+  isSpec: "True"
+  fullName: UniKuroKit.Security.EncryptionFactory.Create
+  nameWithType: EncryptionFactory.Create
+- uid: UniKuroKit.Security.IEncryptionProvider
+  name: IEncryptionProvider
+  href: api/UniKuroKit.Security.IEncryptionProvider.html
+  commentId: T:UniKuroKit.Security.IEncryptionProvider
+  fullName: UniKuroKit.Security.IEncryptionProvider
+  nameWithType: IEncryptionProvider
+- uid: UniKuroKit.Security.IEncryptionProvider.Decrypt(System.Byte[])
+  name: Decrypt(byte[])
+  href: api/UniKuroKit.Security.IEncryptionProvider.html#UniKuroKit_Security_IEncryptionProvider_Decrypt_System_Byte___
+  commentId: M:UniKuroKit.Security.IEncryptionProvider.Decrypt(System.Byte[])
+  name.vb: Decrypt(Byte())
+  fullName: UniKuroKit.Security.IEncryptionProvider.Decrypt(byte[])
+  fullName.vb: UniKuroKit.Security.IEncryptionProvider.Decrypt(Byte())
+  nameWithType: IEncryptionProvider.Decrypt(byte[])
+  nameWithType.vb: IEncryptionProvider.Decrypt(Byte())
+- uid: UniKuroKit.Security.IEncryptionProvider.Decrypt*
+  name: Decrypt
+  href: api/UniKuroKit.Security.IEncryptionProvider.html#UniKuroKit_Security_IEncryptionProvider_Decrypt_
+  commentId: Overload:UniKuroKit.Security.IEncryptionProvider.Decrypt
+  isSpec: "True"
+  fullName: UniKuroKit.Security.IEncryptionProvider.Decrypt
+  nameWithType: IEncryptionProvider.Decrypt
+- uid: UniKuroKit.Security.IEncryptionProvider.Encrypt(System.Byte[])
+  name: Encrypt(byte[])
+  href: api/UniKuroKit.Security.IEncryptionProvider.html#UniKuroKit_Security_IEncryptionProvider_Encrypt_System_Byte___
+  commentId: M:UniKuroKit.Security.IEncryptionProvider.Encrypt(System.Byte[])
+  name.vb: Encrypt(Byte())
+  fullName: UniKuroKit.Security.IEncryptionProvider.Encrypt(byte[])
+  fullName.vb: UniKuroKit.Security.IEncryptionProvider.Encrypt(Byte())
+  nameWithType: IEncryptionProvider.Encrypt(byte[])
+  nameWithType.vb: IEncryptionProvider.Encrypt(Byte())
+- uid: UniKuroKit.Security.IEncryptionProvider.Encrypt*
+  name: Encrypt
+  href: api/UniKuroKit.Security.IEncryptionProvider.html#UniKuroKit_Security_IEncryptionProvider_Encrypt_
+  commentId: Overload:UniKuroKit.Security.IEncryptionProvider.Encrypt
+  isSpec: "True"
+  fullName: UniKuroKit.Security.IEncryptionProvider.Encrypt
+  nameWithType: IEncryptionProvider.Encrypt
+- uid: UniKuroKit.Security.NoEncryptionProvider
+  name: NoEncryptionProvider
+  href: api/UniKuroKit.Security.NoEncryptionProvider.html
+  commentId: T:UniKuroKit.Security.NoEncryptionProvider
+  fullName: UniKuroKit.Security.NoEncryptionProvider
+  nameWithType: NoEncryptionProvider
+- uid: UniKuroKit.Security.NoEncryptionProvider.Decrypt(System.Byte[])
+  name: Decrypt(byte[])
+  href: api/UniKuroKit.Security.NoEncryptionProvider.html#UniKuroKit_Security_NoEncryptionProvider_Decrypt_System_Byte___
+  commentId: M:UniKuroKit.Security.NoEncryptionProvider.Decrypt(System.Byte[])
+  name.vb: Decrypt(Byte())
+  fullName: UniKuroKit.Security.NoEncryptionProvider.Decrypt(byte[])
+  fullName.vb: UniKuroKit.Security.NoEncryptionProvider.Decrypt(Byte())
+  nameWithType: NoEncryptionProvider.Decrypt(byte[])
+  nameWithType.vb: NoEncryptionProvider.Decrypt(Byte())
+- uid: UniKuroKit.Security.NoEncryptionProvider.Decrypt*
+  name: Decrypt
+  href: api/UniKuroKit.Security.NoEncryptionProvider.html#UniKuroKit_Security_NoEncryptionProvider_Decrypt_
+  commentId: Overload:UniKuroKit.Security.NoEncryptionProvider.Decrypt
+  isSpec: "True"
+  fullName: UniKuroKit.Security.NoEncryptionProvider.Decrypt
+  nameWithType: NoEncryptionProvider.Decrypt
+- uid: UniKuroKit.Security.NoEncryptionProvider.Encrypt(System.Byte[])
+  name: Encrypt(byte[])
+  href: api/UniKuroKit.Security.NoEncryptionProvider.html#UniKuroKit_Security_NoEncryptionProvider_Encrypt_System_Byte___
+  commentId: M:UniKuroKit.Security.NoEncryptionProvider.Encrypt(System.Byte[])
+  name.vb: Encrypt(Byte())
+  fullName: UniKuroKit.Security.NoEncryptionProvider.Encrypt(byte[])
+  fullName.vb: UniKuroKit.Security.NoEncryptionProvider.Encrypt(Byte())
+  nameWithType: NoEncryptionProvider.Encrypt(byte[])
+  nameWithType.vb: NoEncryptionProvider.Encrypt(Byte())
+- uid: UniKuroKit.Security.NoEncryptionProvider.Encrypt*
+  name: Encrypt
+  href: api/UniKuroKit.Security.NoEncryptionProvider.html#UniKuroKit_Security_NoEncryptionProvider_Encrypt_
+  commentId: Overload:UniKuroKit.Security.NoEncryptionProvider.Encrypt
+  isSpec: "True"
+  fullName: UniKuroKit.Security.NoEncryptionProvider.Encrypt
+  nameWithType: NoEncryptionProvider.Encrypt
+- uid: UniKuroKit.Serialization
+  name: UniKuroKit.Serialization
+  href: api/UniKuroKit.Serialization.html
+  commentId: N:UniKuroKit.Serialization
+  fullName: UniKuroKit.Serialization
+  nameWithType: UniKuroKit.Serialization
+- uid: UniKuroKit.Serialization.BinarySerializer
+  name: BinarySerializer
+  href: api/UniKuroKit.Serialization.BinarySerializer.html
+  commentId: T:UniKuroKit.Serialization.BinarySerializer
+  fullName: UniKuroKit.Serialization.BinarySerializer
+  nameWithType: BinarySerializer
+- uid: UniKuroKit.Serialization.BinarySerializer.Deserialize(System.Byte[])
+  name: Deserialize(byte[])
+  href: api/UniKuroKit.Serialization.BinarySerializer.html#UniKuroKit_Serialization_BinarySerializer_Deserialize_System_Byte___
+  commentId: M:UniKuroKit.Serialization.BinarySerializer.Deserialize(System.Byte[])
+  name.vb: Deserialize(Byte())
+  fullName: UniKuroKit.Serialization.BinarySerializer.Deserialize(byte[])
+  fullName.vb: UniKuroKit.Serialization.BinarySerializer.Deserialize(Byte())
+  nameWithType: BinarySerializer.Deserialize(byte[])
+  nameWithType.vb: BinarySerializer.Deserialize(Byte())
+- uid: UniKuroKit.Serialization.BinarySerializer.Deserialize*
+  name: Deserialize
+  href: api/UniKuroKit.Serialization.BinarySerializer.html#UniKuroKit_Serialization_BinarySerializer_Deserialize_
+  commentId: Overload:UniKuroKit.Serialization.BinarySerializer.Deserialize
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.BinarySerializer.Deserialize
+  nameWithType: BinarySerializer.Deserialize
+- uid: UniKuroKit.Serialization.BinarySerializer.Serialize(UniKuroKit.Serialization.DataContainer)
+  name: Serialize(DataContainer)
+  href: api/UniKuroKit.Serialization.BinarySerializer.html#UniKuroKit_Serialization_BinarySerializer_Serialize_UniKuroKit_Serialization_DataContainer_
+  commentId: M:UniKuroKit.Serialization.BinarySerializer.Serialize(UniKuroKit.Serialization.DataContainer)
+  fullName: UniKuroKit.Serialization.BinarySerializer.Serialize(UniKuroKit.Serialization.DataContainer)
+  nameWithType: BinarySerializer.Serialize(DataContainer)
+- uid: UniKuroKit.Serialization.BinarySerializer.Serialize*
+  name: Serialize
+  href: api/UniKuroKit.Serialization.BinarySerializer.html#UniKuroKit_Serialization_BinarySerializer_Serialize_
+  commentId: Overload:UniKuroKit.Serialization.BinarySerializer.Serialize
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.BinarySerializer.Serialize
+  nameWithType: BinarySerializer.Serialize
+- uid: UniKuroKit.Serialization.DataContainer
+  name: DataContainer
+  href: api/UniKuroKit.Serialization.DataContainer.html
+  commentId: T:UniKuroKit.Serialization.DataContainer
+  fullName: UniKuroKit.Serialization.DataContainer
+  nameWithType: DataContainer
+- uid: UniKuroKit.Serialization.DataContainer.Clear
+  name: Clear()
+  href: api/UniKuroKit.Serialization.DataContainer.html#UniKuroKit_Serialization_DataContainer_Clear
+  commentId: M:UniKuroKit.Serialization.DataContainer.Clear
+  fullName: UniKuroKit.Serialization.DataContainer.Clear()
+  nameWithType: DataContainer.Clear()
+- uid: UniKuroKit.Serialization.DataContainer.Clear*
+  name: Clear
+  href: api/UniKuroKit.Serialization.DataContainer.html#UniKuroKit_Serialization_DataContainer_Clear_
+  commentId: Overload:UniKuroKit.Serialization.DataContainer.Clear
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.DataContainer.Clear
+  nameWithType: DataContainer.Clear
+- uid: UniKuroKit.Serialization.DataContainer.Entries
+  name: Entries
+  href: api/UniKuroKit.Serialization.DataContainer.html#UniKuroKit_Serialization_DataContainer_Entries
+  commentId: F:UniKuroKit.Serialization.DataContainer.Entries
+  fullName: UniKuroKit.Serialization.DataContainer.Entries
+  nameWithType: DataContainer.Entries
+- uid: UniKuroKit.Serialization.DataContainer.Get*
+  name: Get
+  href: api/UniKuroKit.Serialization.DataContainer.html#UniKuroKit_Serialization_DataContainer_Get_
+  commentId: Overload:UniKuroKit.Serialization.DataContainer.Get
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.DataContainer.Get
+  nameWithType: DataContainer.Get
+- uid: UniKuroKit.Serialization.DataContainer.Get``1(System.String,``0)
+  name: Get<T>(string, T)
+  href: api/UniKuroKit.Serialization.DataContainer.html#UniKuroKit_Serialization_DataContainer_Get__1_System_String___0_
+  commentId: M:UniKuroKit.Serialization.DataContainer.Get``1(System.String,``0)
+  name.vb: Get(Of T)(String, T)
+  fullName: UniKuroKit.Serialization.DataContainer.Get<T>(string, T)
+  fullName.vb: UniKuroKit.Serialization.DataContainer.Get(Of T)(String, T)
+  nameWithType: DataContainer.Get<T>(string, T)
+  nameWithType.vb: DataContainer.Get(Of T)(String, T)
+- uid: UniKuroKit.Serialization.DataContainer.HasKey(System.String)
+  name: HasKey(string)
+  href: api/UniKuroKit.Serialization.DataContainer.html#UniKuroKit_Serialization_DataContainer_HasKey_System_String_
+  commentId: M:UniKuroKit.Serialization.DataContainer.HasKey(System.String)
+  name.vb: HasKey(String)
+  fullName: UniKuroKit.Serialization.DataContainer.HasKey(string)
+  fullName.vb: UniKuroKit.Serialization.DataContainer.HasKey(String)
+  nameWithType: DataContainer.HasKey(string)
+  nameWithType.vb: DataContainer.HasKey(String)
+- uid: UniKuroKit.Serialization.DataContainer.HasKey*
+  name: HasKey
+  href: api/UniKuroKit.Serialization.DataContainer.html#UniKuroKit_Serialization_DataContainer_HasKey_
+  commentId: Overload:UniKuroKit.Serialization.DataContainer.HasKey
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.DataContainer.HasKey
+  nameWithType: DataContainer.HasKey
+- uid: UniKuroKit.Serialization.DataContainer.RebuildIndex
+  name: RebuildIndex()
+  href: api/UniKuroKit.Serialization.DataContainer.html#UniKuroKit_Serialization_DataContainer_RebuildIndex
+  commentId: M:UniKuroKit.Serialization.DataContainer.RebuildIndex
+  fullName: UniKuroKit.Serialization.DataContainer.RebuildIndex()
+  nameWithType: DataContainer.RebuildIndex()
+- uid: UniKuroKit.Serialization.DataContainer.RebuildIndex*
+  name: RebuildIndex
+  href: api/UniKuroKit.Serialization.DataContainer.html#UniKuroKit_Serialization_DataContainer_RebuildIndex_
+  commentId: Overload:UniKuroKit.Serialization.DataContainer.RebuildIndex
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.DataContainer.RebuildIndex
+  nameWithType: DataContainer.RebuildIndex
+- uid: UniKuroKit.Serialization.DataContainer.Remove(System.String)
+  name: Remove(string)
+  href: api/UniKuroKit.Serialization.DataContainer.html#UniKuroKit_Serialization_DataContainer_Remove_System_String_
+  commentId: M:UniKuroKit.Serialization.DataContainer.Remove(System.String)
+  name.vb: Remove(String)
+  fullName: UniKuroKit.Serialization.DataContainer.Remove(string)
+  fullName.vb: UniKuroKit.Serialization.DataContainer.Remove(String)
+  nameWithType: DataContainer.Remove(string)
+  nameWithType.vb: DataContainer.Remove(String)
+- uid: UniKuroKit.Serialization.DataContainer.Remove*
+  name: Remove
+  href: api/UniKuroKit.Serialization.DataContainer.html#UniKuroKit_Serialization_DataContainer_Remove_
+  commentId: Overload:UniKuroKit.Serialization.DataContainer.Remove
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.DataContainer.Remove
+  nameWithType: DataContainer.Remove
+- uid: UniKuroKit.Serialization.DataContainer.Set*
+  name: Set
+  href: api/UniKuroKit.Serialization.DataContainer.html#UniKuroKit_Serialization_DataContainer_Set_
+  commentId: Overload:UniKuroKit.Serialization.DataContainer.Set
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.DataContainer.Set
+  nameWithType: DataContainer.Set
+- uid: UniKuroKit.Serialization.DataContainer.Set``1(System.String,``0)
+  name: Set<T>(string, T)
+  href: api/UniKuroKit.Serialization.DataContainer.html#UniKuroKit_Serialization_DataContainer_Set__1_System_String___0_
+  commentId: M:UniKuroKit.Serialization.DataContainer.Set``1(System.String,``0)
+  name.vb: Set(Of T)(String, T)
+  fullName: UniKuroKit.Serialization.DataContainer.Set<T>(string, T)
+  fullName.vb: UniKuroKit.Serialization.DataContainer.Set(Of T)(String, T)
+  nameWithType: DataContainer.Set<T>(string, T)
+  nameWithType.vb: DataContainer.Set(Of T)(String, T)
+- uid: UniKuroKit.Serialization.DataContainer.TryGet*
+  name: TryGet
+  href: api/UniKuroKit.Serialization.DataContainer.html#UniKuroKit_Serialization_DataContainer_TryGet_
+  commentId: Overload:UniKuroKit.Serialization.DataContainer.TryGet
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.DataContainer.TryGet
+  nameWithType: DataContainer.TryGet
+- uid: UniKuroKit.Serialization.DataContainer.TryGet``1(System.String,``0@)
+  name: TryGet<T>(string, out T)
+  href: api/UniKuroKit.Serialization.DataContainer.html#UniKuroKit_Serialization_DataContainer_TryGet__1_System_String___0__
+  commentId: M:UniKuroKit.Serialization.DataContainer.TryGet``1(System.String,``0@)
+  name.vb: TryGet(Of T)(String, T)
+  fullName: UniKuroKit.Serialization.DataContainer.TryGet<T>(string, out T)
+  fullName.vb: UniKuroKit.Serialization.DataContainer.TryGet(Of T)(String, T)
+  nameWithType: DataContainer.TryGet<T>(string, out T)
+  nameWithType.vb: DataContainer.TryGet(Of T)(String, T)
+- uid: UniKuroKit.Serialization.DataEntry
+  name: DataEntry
+  href: api/UniKuroKit.Serialization.DataEntry.html
+  commentId: T:UniKuroKit.Serialization.DataEntry
+  fullName: UniKuroKit.Serialization.DataEntry
+  nameWithType: DataEntry
+- uid: UniKuroKit.Serialization.DataEntry.JsonValue
+  name: JsonValue
+  href: api/UniKuroKit.Serialization.DataEntry.html#UniKuroKit_Serialization_DataEntry_JsonValue
+  commentId: F:UniKuroKit.Serialization.DataEntry.JsonValue
+  fullName: UniKuroKit.Serialization.DataEntry.JsonValue
+  nameWithType: DataEntry.JsonValue
+- uid: UniKuroKit.Serialization.DataEntry.Key
+  name: Key
+  href: api/UniKuroKit.Serialization.DataEntry.html#UniKuroKit_Serialization_DataEntry_Key
+  commentId: F:UniKuroKit.Serialization.DataEntry.Key
+  fullName: UniKuroKit.Serialization.DataEntry.Key
+  nameWithType: DataEntry.Key
+- uid: UniKuroKit.Serialization.DataEntry.TypeName
+  name: TypeName
+  href: api/UniKuroKit.Serialization.DataEntry.html#UniKuroKit_Serialization_DataEntry_TypeName
+  commentId: F:UniKuroKit.Serialization.DataEntry.TypeName
+  fullName: UniKuroKit.Serialization.DataEntry.TypeName
+  nameWithType: DataEntry.TypeName
+- uid: UniKuroKit.Serialization.ISerializer
+  name: ISerializer
+  href: api/UniKuroKit.Serialization.ISerializer.html
+  commentId: T:UniKuroKit.Serialization.ISerializer
+  fullName: UniKuroKit.Serialization.ISerializer
+  nameWithType: ISerializer
+- uid: UniKuroKit.Serialization.ISerializer.Deserialize(System.Byte[])
+  name: Deserialize(byte[])
+  href: api/UniKuroKit.Serialization.ISerializer.html#UniKuroKit_Serialization_ISerializer_Deserialize_System_Byte___
+  commentId: M:UniKuroKit.Serialization.ISerializer.Deserialize(System.Byte[])
+  name.vb: Deserialize(Byte())
+  fullName: UniKuroKit.Serialization.ISerializer.Deserialize(byte[])
+  fullName.vb: UniKuroKit.Serialization.ISerializer.Deserialize(Byte())
+  nameWithType: ISerializer.Deserialize(byte[])
+  nameWithType.vb: ISerializer.Deserialize(Byte())
+- uid: UniKuroKit.Serialization.ISerializer.Deserialize*
+  name: Deserialize
+  href: api/UniKuroKit.Serialization.ISerializer.html#UniKuroKit_Serialization_ISerializer_Deserialize_
+  commentId: Overload:UniKuroKit.Serialization.ISerializer.Deserialize
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.ISerializer.Deserialize
+  nameWithType: ISerializer.Deserialize
+- uid: UniKuroKit.Serialization.ISerializer.Serialize(UniKuroKit.Serialization.DataContainer)
+  name: Serialize(DataContainer)
+  href: api/UniKuroKit.Serialization.ISerializer.html#UniKuroKit_Serialization_ISerializer_Serialize_UniKuroKit_Serialization_DataContainer_
+  commentId: M:UniKuroKit.Serialization.ISerializer.Serialize(UniKuroKit.Serialization.DataContainer)
+  fullName: UniKuroKit.Serialization.ISerializer.Serialize(UniKuroKit.Serialization.DataContainer)
+  nameWithType: ISerializer.Serialize(DataContainer)
+- uid: UniKuroKit.Serialization.ISerializer.Serialize*
+  name: Serialize
+  href: api/UniKuroKit.Serialization.ISerializer.html#UniKuroKit_Serialization_ISerializer_Serialize_
+  commentId: Overload:UniKuroKit.Serialization.ISerializer.Serialize
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.ISerializer.Serialize
+  nameWithType: ISerializer.Serialize
+- uid: UniKuroKit.Serialization.JsonSerializer
+  name: JsonSerializer
+  href: api/UniKuroKit.Serialization.JsonSerializer.html
+  commentId: T:UniKuroKit.Serialization.JsonSerializer
+  fullName: UniKuroKit.Serialization.JsonSerializer
+  nameWithType: JsonSerializer
+- uid: UniKuroKit.Serialization.JsonSerializer.Deserialize(System.Byte[])
+  name: Deserialize(byte[])
+  href: api/UniKuroKit.Serialization.JsonSerializer.html#UniKuroKit_Serialization_JsonSerializer_Deserialize_System_Byte___
+  commentId: M:UniKuroKit.Serialization.JsonSerializer.Deserialize(System.Byte[])
+  name.vb: Deserialize(Byte())
+  fullName: UniKuroKit.Serialization.JsonSerializer.Deserialize(byte[])
+  fullName.vb: UniKuroKit.Serialization.JsonSerializer.Deserialize(Byte())
+  nameWithType: JsonSerializer.Deserialize(byte[])
+  nameWithType.vb: JsonSerializer.Deserialize(Byte())
+- uid: UniKuroKit.Serialization.JsonSerializer.Deserialize*
+  name: Deserialize
+  href: api/UniKuroKit.Serialization.JsonSerializer.html#UniKuroKit_Serialization_JsonSerializer_Deserialize_
+  commentId: Overload:UniKuroKit.Serialization.JsonSerializer.Deserialize
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.JsonSerializer.Deserialize
+  nameWithType: JsonSerializer.Deserialize
+- uid: UniKuroKit.Serialization.JsonSerializer.Serialize(UniKuroKit.Serialization.DataContainer)
+  name: Serialize(DataContainer)
+  href: api/UniKuroKit.Serialization.JsonSerializer.html#UniKuroKit_Serialization_JsonSerializer_Serialize_UniKuroKit_Serialization_DataContainer_
+  commentId: M:UniKuroKit.Serialization.JsonSerializer.Serialize(UniKuroKit.Serialization.DataContainer)
+  fullName: UniKuroKit.Serialization.JsonSerializer.Serialize(UniKuroKit.Serialization.DataContainer)
+  nameWithType: JsonSerializer.Serialize(DataContainer)
+- uid: UniKuroKit.Serialization.JsonSerializer.Serialize*
+  name: Serialize
+  href: api/UniKuroKit.Serialization.JsonSerializer.html#UniKuroKit_Serialization_JsonSerializer_Serialize_
+  commentId: Overload:UniKuroKit.Serialization.JsonSerializer.Serialize
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.JsonSerializer.Serialize
+  nameWithType: JsonSerializer.Serialize
+- uid: UniKuroKit.Serialization.SerializerConfigurations
+  name: SerializerConfigurations
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html
+  commentId: T:UniKuroKit.Serialization.SerializerConfigurations
+  fullName: UniKuroKit.Serialization.SerializerConfigurations
+  nameWithType: SerializerConfigurations
+- uid: UniKuroKit.Serialization.SerializerConfigurations.AsHumanReadable(System.Boolean)
+  name: AsHumanReadable(bool)
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_AsHumanReadable_System_Boolean_
+  commentId: M:UniKuroKit.Serialization.SerializerConfigurations.AsHumanReadable(System.Boolean)
+  name.vb: AsHumanReadable(Boolean)
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.AsHumanReadable(bool)
+  fullName.vb: UniKuroKit.Serialization.SerializerConfigurations.AsHumanReadable(Boolean)
+  nameWithType: SerializerConfigurations.AsHumanReadable(bool)
+  nameWithType.vb: SerializerConfigurations.AsHumanReadable(Boolean)
+- uid: UniKuroKit.Serialization.SerializerConfigurations.AsHumanReadable*
+  name: AsHumanReadable
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_AsHumanReadable_
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.AsHumanReadable
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.AsHumanReadable
+  nameWithType: SerializerConfigurations.AsHumanReadable
+- uid: UniKuroKit.Serialization.SerializerConfigurations.ChunkCount
+  name: ChunkCount
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_ChunkCount
+  commentId: P:UniKuroKit.Serialization.SerializerConfigurations.ChunkCount
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.ChunkCount
+  nameWithType: SerializerConfigurations.ChunkCount
+- uid: UniKuroKit.Serialization.SerializerConfigurations.ChunkCount*
+  name: ChunkCount
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_ChunkCount_
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.ChunkCount
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.ChunkCount
+  nameWithType: SerializerConfigurations.ChunkCount
+- uid: UniKuroKit.Serialization.SerializerConfigurations.Default
+  name: Default
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_Default
+  commentId: P:UniKuroKit.Serialization.SerializerConfigurations.Default
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.Default
+  nameWithType: SerializerConfigurations.Default
+- uid: UniKuroKit.Serialization.SerializerConfigurations.Default*
+  name: Default
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_Default_
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.Default
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.Default
+  nameWithType: SerializerConfigurations.Default
+- uid: UniKuroKit.Serialization.SerializerConfigurations.EncryptionKey
+  name: EncryptionKey
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_EncryptionKey
+  commentId: P:UniKuroKit.Serialization.SerializerConfigurations.EncryptionKey
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.EncryptionKey
+  nameWithType: SerializerConfigurations.EncryptionKey
+- uid: UniKuroKit.Serialization.SerializerConfigurations.EncryptionKey*
+  name: EncryptionKey
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_EncryptionKey_
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.EncryptionKey
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.EncryptionKey
+  nameWithType: SerializerConfigurations.EncryptionKey
+- uid: UniKuroKit.Serialization.SerializerConfigurations.Extension
+  name: Extension
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_Extension
+  commentId: P:UniKuroKit.Serialization.SerializerConfigurations.Extension
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.Extension
+  nameWithType: SerializerConfigurations.Extension
+- uid: UniKuroKit.Serialization.SerializerConfigurations.Extension*
+  name: Extension
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_Extension_
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.Extension
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.Extension
+  nameWithType: SerializerConfigurations.Extension
+- uid: UniKuroKit.Serialization.SerializerConfigurations.GetChunkPath(System.Int32)
+  name: GetChunkPath(int)
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_GetChunkPath_System_Int32_
+  commentId: M:UniKuroKit.Serialization.SerializerConfigurations.GetChunkPath(System.Int32)
+  name.vb: GetChunkPath(Integer)
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.GetChunkPath(int)
+  fullName.vb: UniKuroKit.Serialization.SerializerConfigurations.GetChunkPath(Integer)
+  nameWithType: SerializerConfigurations.GetChunkPath(int)
+  nameWithType.vb: SerializerConfigurations.GetChunkPath(Integer)
+- uid: UniKuroKit.Serialization.SerializerConfigurations.GetChunkPath*
+  name: GetChunkPath
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_GetChunkPath_
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.GetChunkPath
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.GetChunkPath
+  nameWithType: SerializerConfigurations.GetChunkPath
+- uid: UniKuroKit.Serialization.SerializerConfigurations.GetDirectory
+  name: GetDirectory()
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_GetDirectory
+  commentId: M:UniKuroKit.Serialization.SerializerConfigurations.GetDirectory
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.GetDirectory()
+  nameWithType: SerializerConfigurations.GetDirectory()
+- uid: UniKuroKit.Serialization.SerializerConfigurations.GetDirectory*
+  name: GetDirectory
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_GetDirectory_
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.GetDirectory
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.GetDirectory
+  nameWithType: SerializerConfigurations.GetDirectory
+- uid: UniKuroKit.Serialization.SerializerConfigurations.HumanReadable
+  name: HumanReadable
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_HumanReadable
+  commentId: P:UniKuroKit.Serialization.SerializerConfigurations.HumanReadable
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.HumanReadable
+  nameWithType: SerializerConfigurations.HumanReadable
+- uid: UniKuroKit.Serialization.SerializerConfigurations.HumanReadable*
+  name: HumanReadable
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_HumanReadable_
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.HumanReadable
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.HumanReadable
+  nameWithType: SerializerConfigurations.HumanReadable
+- uid: UniKuroKit.Serialization.SerializerConfigurations.ProfileName
+  name: ProfileName
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_ProfileName
+  commentId: P:UniKuroKit.Serialization.SerializerConfigurations.ProfileName
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.ProfileName
+  nameWithType: SerializerConfigurations.ProfileName
+- uid: UniKuroKit.Serialization.SerializerConfigurations.ProfileName*
+  name: ProfileName
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_ProfileName_
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.ProfileName
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.ProfileName
+  nameWithType: SerializerConfigurations.ProfileName
+- uid: UniKuroKit.Serialization.SerializerConfigurations.SubFolder
+  name: SubFolder
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_SubFolder
+  commentId: P:UniKuroKit.Serialization.SerializerConfigurations.SubFolder
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.SubFolder
+  nameWithType: SerializerConfigurations.SubFolder
+- uid: UniKuroKit.Serialization.SerializerConfigurations.SubFolder*
+  name: SubFolder
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_SubFolder_
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.SubFolder
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.SubFolder
+  nameWithType: SerializerConfigurations.SubFolder
+- uid: UniKuroKit.Serialization.SerializerConfigurations.UseEncryption
+  name: UseEncryption
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_UseEncryption
+  commentId: P:UniKuroKit.Serialization.SerializerConfigurations.UseEncryption
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.UseEncryption
+  nameWithType: SerializerConfigurations.UseEncryption
+- uid: UniKuroKit.Serialization.SerializerConfigurations.UseEncryption*
+  name: UseEncryption
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_UseEncryption_
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.UseEncryption
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.UseEncryption
+  nameWithType: SerializerConfigurations.UseEncryption
+- uid: UniKuroKit.Serialization.SerializerConfigurations.WithChunks(System.Int32)
+  name: WithChunks(int)
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_WithChunks_System_Int32_
+  commentId: M:UniKuroKit.Serialization.SerializerConfigurations.WithChunks(System.Int32)
+  name.vb: WithChunks(Integer)
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.WithChunks(int)
+  fullName.vb: UniKuroKit.Serialization.SerializerConfigurations.WithChunks(Integer)
+  nameWithType: SerializerConfigurations.WithChunks(int)
+  nameWithType.vb: SerializerConfigurations.WithChunks(Integer)
+- uid: UniKuroKit.Serialization.SerializerConfigurations.WithChunks*
+  name: WithChunks
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_WithChunks_
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.WithChunks
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.WithChunks
+  nameWithType: SerializerConfigurations.WithChunks
+- uid: UniKuroKit.Serialization.SerializerConfigurations.WithEncryption(System.Boolean)
+  name: WithEncryption(bool)
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_WithEncryption_System_Boolean_
+  commentId: M:UniKuroKit.Serialization.SerializerConfigurations.WithEncryption(System.Boolean)
+  name.vb: WithEncryption(Boolean)
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.WithEncryption(bool)
+  fullName.vb: UniKuroKit.Serialization.SerializerConfigurations.WithEncryption(Boolean)
+  nameWithType: SerializerConfigurations.WithEncryption(bool)
+  nameWithType.vb: SerializerConfigurations.WithEncryption(Boolean)
+- uid: UniKuroKit.Serialization.SerializerConfigurations.WithEncryption*
+  name: WithEncryption
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_WithEncryption_
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.WithEncryption
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.WithEncryption
+  nameWithType: SerializerConfigurations.WithEncryption
+- uid: UniKuroKit.Serialization.SerializerConfigurations.WithKey(System.String)
+  name: WithKey(string)
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_WithKey_System_String_
+  commentId: M:UniKuroKit.Serialization.SerializerConfigurations.WithKey(System.String)
+  name.vb: WithKey(String)
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.WithKey(string)
+  fullName.vb: UniKuroKit.Serialization.SerializerConfigurations.WithKey(String)
+  nameWithType: SerializerConfigurations.WithKey(string)
+  nameWithType.vb: SerializerConfigurations.WithKey(String)
+- uid: UniKuroKit.Serialization.SerializerConfigurations.WithKey*
+  name: WithKey
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_WithKey_
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.WithKey
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.WithKey
+  nameWithType: SerializerConfigurations.WithKey
+- uid: UniKuroKit.Serialization.SerializerConfigurations.WithProfile(System.String)
+  name: WithProfile(string)
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_WithProfile_System_String_
+  commentId: M:UniKuroKit.Serialization.SerializerConfigurations.WithProfile(System.String)
+  name.vb: WithProfile(String)
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.WithProfile(string)
+  fullName.vb: UniKuroKit.Serialization.SerializerConfigurations.WithProfile(String)
+  nameWithType: SerializerConfigurations.WithProfile(string)
+  nameWithType.vb: SerializerConfigurations.WithProfile(String)
+- uid: UniKuroKit.Serialization.SerializerConfigurations.WithProfile*
+  name: WithProfile
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_WithProfile_
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.WithProfile
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.WithProfile
+  nameWithType: SerializerConfigurations.WithProfile
+- uid: UniKuroKit.Serialization.SerializerConfigurations.WithSubFolder(System.String)
+  name: WithSubFolder(string)
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_WithSubFolder_System_String_
+  commentId: M:UniKuroKit.Serialization.SerializerConfigurations.WithSubFolder(System.String)
+  name.vb: WithSubFolder(String)
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.WithSubFolder(string)
+  fullName.vb: UniKuroKit.Serialization.SerializerConfigurations.WithSubFolder(String)
+  nameWithType: SerializerConfigurations.WithSubFolder(string)
+  nameWithType.vb: SerializerConfigurations.WithSubFolder(String)
+- uid: UniKuroKit.Serialization.SerializerConfigurations.WithSubFolder*
+  name: WithSubFolder
+  href: api/UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_WithSubFolder_
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.WithSubFolder
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.WithSubFolder
+  nameWithType: SerializerConfigurations.WithSubFolder
+- uid: UniKuroKit.Serialization.SerializerFactory
+  name: SerializerFactory
+  href: api/UniKuroKit.Serialization.SerializerFactory.html
+  commentId: T:UniKuroKit.Serialization.SerializerFactory
+  fullName: UniKuroKit.Serialization.SerializerFactory
+  nameWithType: SerializerFactory
+- uid: UniKuroKit.Serialization.SerializerFactory.Create(System.Boolean)
+  name: Create(bool)
+  href: api/UniKuroKit.Serialization.SerializerFactory.html#UniKuroKit_Serialization_SerializerFactory_Create_System_Boolean_
+  commentId: M:UniKuroKit.Serialization.SerializerFactory.Create(System.Boolean)
+  name.vb: Create(Boolean)
+  fullName: UniKuroKit.Serialization.SerializerFactory.Create(bool)
+  fullName.vb: UniKuroKit.Serialization.SerializerFactory.Create(Boolean)
+  nameWithType: SerializerFactory.Create(bool)
+  nameWithType.vb: SerializerFactory.Create(Boolean)
+- uid: UniKuroKit.Serialization.SerializerFactory.Create*
+  name: Create
+  href: api/UniKuroKit.Serialization.SerializerFactory.html#UniKuroKit_Serialization_SerializerFactory_Create_
+  commentId: Overload:UniKuroKit.Serialization.SerializerFactory.Create
+  isSpec: "True"
+  fullName: UniKuroKit.Serialization.SerializerFactory.Create
+  nameWithType: SerializerFactory.Create
+- uid: UniKuroKit.Services.Singleton
+  name: UniKuroKit.Services.Singleton
+  href: api/UniKuroKit.Services.Singleton.html
+  commentId: N:UniKuroKit.Services.Singleton
+  fullName: UniKuroKit.Services.Singleton
+  nameWithType: UniKuroKit.Services.Singleton
+- uid: UniKuroKit.Services.Singleton.ISingleton
+  name: ISingleton
+  href: api/UniKuroKit.Services.Singleton.ISingleton.html
+  commentId: T:UniKuroKit.Services.Singleton.ISingleton
+  fullName: UniKuroKit.Services.Singleton.ISingleton
+  nameWithType: ISingleton
+- uid: UniKuroKit.Services.Singleton.ISingleton.OnDestroyInstance
+  name: OnDestroyInstance()
+  href: api/UniKuroKit.Services.Singleton.ISingleton.html#UniKuroKit_Services_Singleton_ISingleton_OnDestroyInstance
+  commentId: M:UniKuroKit.Services.Singleton.ISingleton.OnDestroyInstance
+  fullName: UniKuroKit.Services.Singleton.ISingleton.OnDestroyInstance()
+  nameWithType: ISingleton.OnDestroyInstance()
+- uid: UniKuroKit.Services.Singleton.ISingleton.OnDestroyInstance*
+  name: OnDestroyInstance
+  href: api/UniKuroKit.Services.Singleton.ISingleton.html#UniKuroKit_Services_Singleton_ISingleton_OnDestroyInstance_
+  commentId: Overload:UniKuroKit.Services.Singleton.ISingleton.OnDestroyInstance
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.ISingleton.OnDestroyInstance
+  nameWithType: ISingleton.OnDestroyInstance
+- uid: UniKuroKit.Services.Singleton.ISingleton.OnInitialized
+  name: OnInitialized()
+  href: api/UniKuroKit.Services.Singleton.ISingleton.html#UniKuroKit_Services_Singleton_ISingleton_OnInitialized
+  commentId: M:UniKuroKit.Services.Singleton.ISingleton.OnInitialized
+  fullName: UniKuroKit.Services.Singleton.ISingleton.OnInitialized()
+  nameWithType: ISingleton.OnInitialized()
+- uid: UniKuroKit.Services.Singleton.ISingleton.OnInitialized*
+  name: OnInitialized
+  href: api/UniKuroKit.Services.Singleton.ISingleton.html#UniKuroKit_Services_Singleton_ISingleton_OnInitialized_
+  commentId: Overload:UniKuroKit.Services.Singleton.ISingleton.OnInitialized
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.ISingleton.OnInitialized
+  nameWithType: ISingleton.OnInitialized
+- uid: UniKuroKit.Services.Singleton.MonoSingleton`1
+  name: MonoSingleton<TDerived>
+  href: api/UniKuroKit.Services.Singleton.MonoSingleton-1.html
+  commentId: T:UniKuroKit.Services.Singleton.MonoSingleton`1
+  name.vb: MonoSingleton(Of TDerived)
+  fullName: UniKuroKit.Services.Singleton.MonoSingleton<TDerived>
+  fullName.vb: UniKuroKit.Services.Singleton.MonoSingleton(Of TDerived)
+  nameWithType: MonoSingleton<TDerived>
+  nameWithType.vb: MonoSingleton(Of TDerived)
+- uid: UniKuroKit.Services.Singleton.MonoSingleton`1.Awake
+  name: Awake()
+  href: api/UniKuroKit.Services.Singleton.MonoSingleton-1.html#UniKuroKit_Services_Singleton_MonoSingleton_1_Awake
+  commentId: M:UniKuroKit.Services.Singleton.MonoSingleton`1.Awake
+  fullName: UniKuroKit.Services.Singleton.MonoSingleton<TDerived>.Awake()
+  fullName.vb: UniKuroKit.Services.Singleton.MonoSingleton(Of TDerived).Awake()
+  nameWithType: MonoSingleton<TDerived>.Awake()
+  nameWithType.vb: MonoSingleton(Of TDerived).Awake()
+- uid: UniKuroKit.Services.Singleton.MonoSingleton`1.Awake*
+  name: Awake
+  href: api/UniKuroKit.Services.Singleton.MonoSingleton-1.html#UniKuroKit_Services_Singleton_MonoSingleton_1_Awake_
+  commentId: Overload:UniKuroKit.Services.Singleton.MonoSingleton`1.Awake
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.MonoSingleton<TDerived>.Awake
+  fullName.vb: UniKuroKit.Services.Singleton.MonoSingleton(Of TDerived).Awake
+  nameWithType: MonoSingleton<TDerived>.Awake
+  nameWithType.vb: MonoSingleton(Of TDerived).Awake
+- uid: UniKuroKit.Services.Singleton.MonoSingleton`1.CreateInstance
+  name: CreateInstance()
+  href: api/UniKuroKit.Services.Singleton.MonoSingleton-1.html#UniKuroKit_Services_Singleton_MonoSingleton_1_CreateInstance
+  commentId: M:UniKuroKit.Services.Singleton.MonoSingleton`1.CreateInstance
+  fullName: UniKuroKit.Services.Singleton.MonoSingleton<TDerived>.CreateInstance()
+  fullName.vb: UniKuroKit.Services.Singleton.MonoSingleton(Of TDerived).CreateInstance()
+  nameWithType: MonoSingleton<TDerived>.CreateInstance()
+  nameWithType.vb: MonoSingleton(Of TDerived).CreateInstance()
+- uid: UniKuroKit.Services.Singleton.MonoSingleton`1.CreateInstance*
+  name: CreateInstance
+  href: api/UniKuroKit.Services.Singleton.MonoSingleton-1.html#UniKuroKit_Services_Singleton_MonoSingleton_1_CreateInstance_
+  commentId: Overload:UniKuroKit.Services.Singleton.MonoSingleton`1.CreateInstance
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.MonoSingleton<TDerived>.CreateInstance
+  fullName.vb: UniKuroKit.Services.Singleton.MonoSingleton(Of TDerived).CreateInstance
+  nameWithType: MonoSingleton<TDerived>.CreateInstance
+  nameWithType.vb: MonoSingleton(Of TDerived).CreateInstance
+- uid: UniKuroKit.Services.Singleton.MonoSingleton`1.DestroyInstance
+  name: DestroyInstance()
+  href: api/UniKuroKit.Services.Singleton.MonoSingleton-1.html#UniKuroKit_Services_Singleton_MonoSingleton_1_DestroyInstance
+  commentId: M:UniKuroKit.Services.Singleton.MonoSingleton`1.DestroyInstance
+  fullName: UniKuroKit.Services.Singleton.MonoSingleton<TDerived>.DestroyInstance()
+  fullName.vb: UniKuroKit.Services.Singleton.MonoSingleton(Of TDerived).DestroyInstance()
+  nameWithType: MonoSingleton<TDerived>.DestroyInstance()
+  nameWithType.vb: MonoSingleton(Of TDerived).DestroyInstance()
+- uid: UniKuroKit.Services.Singleton.MonoSingleton`1.DestroyInstance*
+  name: DestroyInstance
+  href: api/UniKuroKit.Services.Singleton.MonoSingleton-1.html#UniKuroKit_Services_Singleton_MonoSingleton_1_DestroyInstance_
+  commentId: Overload:UniKuroKit.Services.Singleton.MonoSingleton`1.DestroyInstance
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.MonoSingleton<TDerived>.DestroyInstance
+  fullName.vb: UniKuroKit.Services.Singleton.MonoSingleton(Of TDerived).DestroyInstance
+  nameWithType: MonoSingleton<TDerived>.DestroyInstance
+  nameWithType.vb: MonoSingleton(Of TDerived).DestroyInstance
+- uid: UniKuroKit.Services.Singleton.MonoSingleton`1.GetInstance
+  name: GetInstance()
+  href: api/UniKuroKit.Services.Singleton.MonoSingleton-1.html#UniKuroKit_Services_Singleton_MonoSingleton_1_GetInstance
+  commentId: M:UniKuroKit.Services.Singleton.MonoSingleton`1.GetInstance
+  fullName: UniKuroKit.Services.Singleton.MonoSingleton<TDerived>.GetInstance()
+  fullName.vb: UniKuroKit.Services.Singleton.MonoSingleton(Of TDerived).GetInstance()
+  nameWithType: MonoSingleton<TDerived>.GetInstance()
+  nameWithType.vb: MonoSingleton(Of TDerived).GetInstance()
+- uid: UniKuroKit.Services.Singleton.MonoSingleton`1.GetInstance*
+  name: GetInstance
+  href: api/UniKuroKit.Services.Singleton.MonoSingleton-1.html#UniKuroKit_Services_Singleton_MonoSingleton_1_GetInstance_
+  commentId: Overload:UniKuroKit.Services.Singleton.MonoSingleton`1.GetInstance
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.MonoSingleton<TDerived>.GetInstance
+  fullName.vb: UniKuroKit.Services.Singleton.MonoSingleton(Of TDerived).GetInstance
+  nameWithType: MonoSingleton<TDerived>.GetInstance
+  nameWithType.vb: MonoSingleton(Of TDerived).GetInstance
+- uid: UniKuroKit.Services.Singleton.MonoSingleton`1.InitializeState
+  name: InitializeState
+  href: api/UniKuroKit.Services.Singleton.MonoSingleton-1.html#UniKuroKit_Services_Singleton_MonoSingleton_1_InitializeState
+  commentId: P:UniKuroKit.Services.Singleton.MonoSingleton`1.InitializeState
+  fullName: UniKuroKit.Services.Singleton.MonoSingleton<TDerived>.InitializeState
+  fullName.vb: UniKuroKit.Services.Singleton.MonoSingleton(Of TDerived).InitializeState
+  nameWithType: MonoSingleton<TDerived>.InitializeState
+  nameWithType.vb: MonoSingleton(Of TDerived).InitializeState
+- uid: UniKuroKit.Services.Singleton.MonoSingleton`1.InitializeState*
+  name: InitializeState
+  href: api/UniKuroKit.Services.Singleton.MonoSingleton-1.html#UniKuroKit_Services_Singleton_MonoSingleton_1_InitializeState_
+  commentId: Overload:UniKuroKit.Services.Singleton.MonoSingleton`1.InitializeState
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.MonoSingleton<TDerived>.InitializeState
+  fullName.vb: UniKuroKit.Services.Singleton.MonoSingleton(Of TDerived).InitializeState
+  nameWithType: MonoSingleton<TDerived>.InitializeState
+  nameWithType.vb: MonoSingleton(Of TDerived).InitializeState
+- uid: UniKuroKit.Services.Singleton.MonoSingleton`1.Instance
+  name: Instance
+  href: api/UniKuroKit.Services.Singleton.MonoSingleton-1.html#UniKuroKit_Services_Singleton_MonoSingleton_1_Instance
+  commentId: P:UniKuroKit.Services.Singleton.MonoSingleton`1.Instance
+  fullName: UniKuroKit.Services.Singleton.MonoSingleton<TDerived>.Instance
+  fullName.vb: UniKuroKit.Services.Singleton.MonoSingleton(Of TDerived).Instance
+  nameWithType: MonoSingleton<TDerived>.Instance
+  nameWithType.vb: MonoSingleton(Of TDerived).Instance
+- uid: UniKuroKit.Services.Singleton.MonoSingleton`1.Instance*
+  name: Instance
+  href: api/UniKuroKit.Services.Singleton.MonoSingleton-1.html#UniKuroKit_Services_Singleton_MonoSingleton_1_Instance_
+  commentId: Overload:UniKuroKit.Services.Singleton.MonoSingleton`1.Instance
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.MonoSingleton<TDerived>.Instance
+  fullName.vb: UniKuroKit.Services.Singleton.MonoSingleton(Of TDerived).Instance
+  nameWithType: MonoSingleton<TDerived>.Instance
+  nameWithType.vb: MonoSingleton(Of TDerived).Instance
+- uid: UniKuroKit.Services.Singleton.MonoSingleton`1.IsInstanceExists
+  name: IsInstanceExists
+  href: api/UniKuroKit.Services.Singleton.MonoSingleton-1.html#UniKuroKit_Services_Singleton_MonoSingleton_1_IsInstanceExists
+  commentId: P:UniKuroKit.Services.Singleton.MonoSingleton`1.IsInstanceExists
+  fullName: UniKuroKit.Services.Singleton.MonoSingleton<TDerived>.IsInstanceExists
+  fullName.vb: UniKuroKit.Services.Singleton.MonoSingleton(Of TDerived).IsInstanceExists
+  nameWithType: MonoSingleton<TDerived>.IsInstanceExists
+  nameWithType.vb: MonoSingleton(Of TDerived).IsInstanceExists
+- uid: UniKuroKit.Services.Singleton.MonoSingleton`1.IsInstanceExists*
+  name: IsInstanceExists
+  href: api/UniKuroKit.Services.Singleton.MonoSingleton-1.html#UniKuroKit_Services_Singleton_MonoSingleton_1_IsInstanceExists_
+  commentId: Overload:UniKuroKit.Services.Singleton.MonoSingleton`1.IsInstanceExists
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.MonoSingleton<TDerived>.IsInstanceExists
+  fullName.vb: UniKuroKit.Services.Singleton.MonoSingleton(Of TDerived).IsInstanceExists
+  nameWithType: MonoSingleton<TDerived>.IsInstanceExists
+  nameWithType.vb: MonoSingleton(Of TDerived).IsInstanceExists
+- uid: UniKuroKit.Services.Singleton.MonoSingleton`1.OnDestroy
+  name: OnDestroy()
+  href: api/UniKuroKit.Services.Singleton.MonoSingleton-1.html#UniKuroKit_Services_Singleton_MonoSingleton_1_OnDestroy
+  commentId: M:UniKuroKit.Services.Singleton.MonoSingleton`1.OnDestroy
+  fullName: UniKuroKit.Services.Singleton.MonoSingleton<TDerived>.OnDestroy()
+  fullName.vb: UniKuroKit.Services.Singleton.MonoSingleton(Of TDerived).OnDestroy()
+  nameWithType: MonoSingleton<TDerived>.OnDestroy()
+  nameWithType.vb: MonoSingleton(Of TDerived).OnDestroy()
+- uid: UniKuroKit.Services.Singleton.MonoSingleton`1.OnDestroy*
+  name: OnDestroy
+  href: api/UniKuroKit.Services.Singleton.MonoSingleton-1.html#UniKuroKit_Services_Singleton_MonoSingleton_1_OnDestroy_
+  commentId: Overload:UniKuroKit.Services.Singleton.MonoSingleton`1.OnDestroy
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.MonoSingleton<TDerived>.OnDestroy
+  fullName.vb: UniKuroKit.Services.Singleton.MonoSingleton(Of TDerived).OnDestroy
+  nameWithType: MonoSingleton<TDerived>.OnDestroy
+  nameWithType.vb: MonoSingleton(Of TDerived).OnDestroy
+- uid: UniKuroKit.Services.Singleton.MonoSingleton`1.OnDestroyInstance
+  name: OnDestroyInstance()
+  href: api/UniKuroKit.Services.Singleton.MonoSingleton-1.html#UniKuroKit_Services_Singleton_MonoSingleton_1_OnDestroyInstance
+  commentId: M:UniKuroKit.Services.Singleton.MonoSingleton`1.OnDestroyInstance
+  fullName: UniKuroKit.Services.Singleton.MonoSingleton<TDerived>.OnDestroyInstance()
+  fullName.vb: UniKuroKit.Services.Singleton.MonoSingleton(Of TDerived).OnDestroyInstance()
+  nameWithType: MonoSingleton<TDerived>.OnDestroyInstance()
+  nameWithType.vb: MonoSingleton(Of TDerived).OnDestroyInstance()
+- uid: UniKuroKit.Services.Singleton.MonoSingleton`1.OnDestroyInstance*
+  name: OnDestroyInstance
+  href: api/UniKuroKit.Services.Singleton.MonoSingleton-1.html#UniKuroKit_Services_Singleton_MonoSingleton_1_OnDestroyInstance_
+  commentId: Overload:UniKuroKit.Services.Singleton.MonoSingleton`1.OnDestroyInstance
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.MonoSingleton<TDerived>.OnDestroyInstance
+  fullName.vb: UniKuroKit.Services.Singleton.MonoSingleton(Of TDerived).OnDestroyInstance
+  nameWithType: MonoSingleton<TDerived>.OnDestroyInstance
+  nameWithType.vb: MonoSingleton(Of TDerived).OnDestroyInstance
+- uid: UniKuroKit.Services.Singleton.MonoSingleton`1.OnInitialized
+  name: OnInitialized()
+  href: api/UniKuroKit.Services.Singleton.MonoSingleton-1.html#UniKuroKit_Services_Singleton_MonoSingleton_1_OnInitialized
+  commentId: M:UniKuroKit.Services.Singleton.MonoSingleton`1.OnInitialized
+  fullName: UniKuroKit.Services.Singleton.MonoSingleton<TDerived>.OnInitialized()
+  fullName.vb: UniKuroKit.Services.Singleton.MonoSingleton(Of TDerived).OnInitialized()
+  nameWithType: MonoSingleton<TDerived>.OnInitialized()
+  nameWithType.vb: MonoSingleton(Of TDerived).OnInitialized()
+- uid: UniKuroKit.Services.Singleton.MonoSingleton`1.OnInitialized*
+  name: OnInitialized
+  href: api/UniKuroKit.Services.Singleton.MonoSingleton-1.html#UniKuroKit_Services_Singleton_MonoSingleton_1_OnInitialized_
+  commentId: Overload:UniKuroKit.Services.Singleton.MonoSingleton`1.OnInitialized
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.MonoSingleton<TDerived>.OnInitialized
+  fullName.vb: UniKuroKit.Services.Singleton.MonoSingleton(Of TDerived).OnInitialized
+  nameWithType: MonoSingleton<TDerived>.OnInitialized
+  nameWithType.vb: MonoSingleton(Of TDerived).OnInitialized
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1
+  name: NonLazyMonoSingleton<TDerived>
+  href: api/UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html
+  commentId: T:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1
+  name.vb: NonLazyMonoSingleton(Of TDerived)
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived)
+  nameWithType: NonLazyMonoSingleton<TDerived>
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived)
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.Awake
+  name: Awake()
+  href: api/UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_Awake
+  commentId: M:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.Awake
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.Awake()
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).Awake()
+  nameWithType: NonLazyMonoSingleton<TDerived>.Awake()
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).Awake()
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.Awake*
+  name: Awake
+  href: api/UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_Awake_
+  commentId: Overload:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.Awake
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.Awake
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).Awake
+  nameWithType: NonLazyMonoSingleton<TDerived>.Awake
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).Awake
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.CreateInstance
+  name: CreateInstance()
+  href: api/UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_CreateInstance
+  commentId: M:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.CreateInstance
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.CreateInstance()
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).CreateInstance()
+  nameWithType: NonLazyMonoSingleton<TDerived>.CreateInstance()
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).CreateInstance()
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.CreateInstance*
+  name: CreateInstance
+  href: api/UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_CreateInstance_
+  commentId: Overload:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.CreateInstance
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.CreateInstance
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).CreateInstance
+  nameWithType: NonLazyMonoSingleton<TDerived>.CreateInstance
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).CreateInstance
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.DestroyInstance
+  name: DestroyInstance()
+  href: api/UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_DestroyInstance
+  commentId: M:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.DestroyInstance
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.DestroyInstance()
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).DestroyInstance()
+  nameWithType: NonLazyMonoSingleton<TDerived>.DestroyInstance()
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).DestroyInstance()
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.DestroyInstance*
+  name: DestroyInstance
+  href: api/UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_DestroyInstance_
+  commentId: Overload:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.DestroyInstance
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.DestroyInstance
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).DestroyInstance
+  nameWithType: NonLazyMonoSingleton<TDerived>.DestroyInstance
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).DestroyInstance
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.GetInstance
+  name: GetInstance()
+  href: api/UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_GetInstance
+  commentId: M:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.GetInstance
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.GetInstance()
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).GetInstance()
+  nameWithType: NonLazyMonoSingleton<TDerived>.GetInstance()
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).GetInstance()
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.GetInstance*
+  name: GetInstance
+  href: api/UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_GetInstance_
+  commentId: Overload:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.GetInstance
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.GetInstance
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).GetInstance
+  nameWithType: NonLazyMonoSingleton<TDerived>.GetInstance
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).GetInstance
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.InitializeState
+  name: InitializeState
+  href: api/UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_InitializeState
+  commentId: P:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.InitializeState
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.InitializeState
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).InitializeState
+  nameWithType: NonLazyMonoSingleton<TDerived>.InitializeState
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).InitializeState
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.InitializeState*
+  name: InitializeState
+  href: api/UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_InitializeState_
+  commentId: Overload:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.InitializeState
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.InitializeState
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).InitializeState
+  nameWithType: NonLazyMonoSingleton<TDerived>.InitializeState
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).InitializeState
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.Instance
+  name: Instance
+  href: api/UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_Instance
+  commentId: P:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.Instance
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.Instance
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).Instance
+  nameWithType: NonLazyMonoSingleton<TDerived>.Instance
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).Instance
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.Instance*
+  name: Instance
+  href: api/UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_Instance_
+  commentId: Overload:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.Instance
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.Instance
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).Instance
+  nameWithType: NonLazyMonoSingleton<TDerived>.Instance
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).Instance
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.IsInstanceExists
+  name: IsInstanceExists
+  href: api/UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_IsInstanceExists
+  commentId: P:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.IsInstanceExists
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.IsInstanceExists
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).IsInstanceExists
+  nameWithType: NonLazyMonoSingleton<TDerived>.IsInstanceExists
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).IsInstanceExists
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.IsInstanceExists*
+  name: IsInstanceExists
+  href: api/UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_IsInstanceExists_
+  commentId: Overload:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.IsInstanceExists
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.IsInstanceExists
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).IsInstanceExists
+  nameWithType: NonLazyMonoSingleton<TDerived>.IsInstanceExists
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).IsInstanceExists
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnDestroy
+  name: OnDestroy()
+  href: api/UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnDestroy
+  commentId: M:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnDestroy
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.OnDestroy()
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).OnDestroy()
+  nameWithType: NonLazyMonoSingleton<TDerived>.OnDestroy()
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).OnDestroy()
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnDestroy*
+  name: OnDestroy
+  href: api/UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnDestroy_
+  commentId: Overload:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnDestroy
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.OnDestroy
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).OnDestroy
+  nameWithType: NonLazyMonoSingleton<TDerived>.OnDestroy
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).OnDestroy
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnDestroyInstance
+  name: OnDestroyInstance()
+  href: api/UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnDestroyInstance
+  commentId: M:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnDestroyInstance
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.OnDestroyInstance()
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).OnDestroyInstance()
+  nameWithType: NonLazyMonoSingleton<TDerived>.OnDestroyInstance()
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).OnDestroyInstance()
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnDestroyInstance*
+  name: OnDestroyInstance
+  href: api/UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnDestroyInstance_
+  commentId: Overload:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnDestroyInstance
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.OnDestroyInstance
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).OnDestroyInstance
+  nameWithType: NonLazyMonoSingleton<TDerived>.OnDestroyInstance
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).OnDestroyInstance
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnInitialized
+  name: OnInitialized()
+  href: api/UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnInitialized
+  commentId: M:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnInitialized
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.OnInitialized()
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).OnInitialized()
+  nameWithType: NonLazyMonoSingleton<TDerived>.OnInitialized()
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).OnInitialized()
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnInitialized*
+  name: OnInitialized
+  href: api/UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnInitialized_
+  commentId: Overload:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnInitialized
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.OnInitialized
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).OnInitialized
+  nameWithType: NonLazyMonoSingleton<TDerived>.OnInitialized
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).OnInitialized
+- uid: UniKuroKit.Services.Singleton.PersistentMonoSingleton`1
+  name: PersistentMonoSingleton<TDerived>
+  href: api/UniKuroKit.Services.Singleton.PersistentMonoSingleton-1.html
+  commentId: T:UniKuroKit.Services.Singleton.PersistentMonoSingleton`1
+  name.vb: PersistentMonoSingleton(Of TDerived)
+  fullName: UniKuroKit.Services.Singleton.PersistentMonoSingleton<TDerived>
+  fullName.vb: UniKuroKit.Services.Singleton.PersistentMonoSingleton(Of TDerived)
+  nameWithType: PersistentMonoSingleton<TDerived>
+  nameWithType.vb: PersistentMonoSingleton(Of TDerived)
+- uid: UniKuroKit.Services.Singleton.PersistentMonoSingleton`1.Awake
+  name: Awake()
+  href: api/UniKuroKit.Services.Singleton.PersistentMonoSingleton-1.html#UniKuroKit_Services_Singleton_PersistentMonoSingleton_1_Awake
+  commentId: M:UniKuroKit.Services.Singleton.PersistentMonoSingleton`1.Awake
+  fullName: UniKuroKit.Services.Singleton.PersistentMonoSingleton<TDerived>.Awake()
+  fullName.vb: UniKuroKit.Services.Singleton.PersistentMonoSingleton(Of TDerived).Awake()
+  nameWithType: PersistentMonoSingleton<TDerived>.Awake()
+  nameWithType.vb: PersistentMonoSingleton(Of TDerived).Awake()
+- uid: UniKuroKit.Services.Singleton.PersistentMonoSingleton`1.Awake*
+  name: Awake
+  href: api/UniKuroKit.Services.Singleton.PersistentMonoSingleton-1.html#UniKuroKit_Services_Singleton_PersistentMonoSingleton_1_Awake_
+  commentId: Overload:UniKuroKit.Services.Singleton.PersistentMonoSingleton`1.Awake
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.PersistentMonoSingleton<TDerived>.Awake
+  fullName.vb: UniKuroKit.Services.Singleton.PersistentMonoSingleton(Of TDerived).Awake
+  nameWithType: PersistentMonoSingleton<TDerived>.Awake
+  nameWithType.vb: PersistentMonoSingleton(Of TDerived).Awake
+- uid: UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton`1
+  name: PersistentNonLazyMonoSingleton<TDerived>
+  href: api/UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton-1.html
+  commentId: T:UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton`1
+  name.vb: PersistentNonLazyMonoSingleton(Of TDerived)
+  fullName: UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton<TDerived>
+  fullName.vb: UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton(Of TDerived)
+  nameWithType: PersistentNonLazyMonoSingleton<TDerived>
+  nameWithType.vb: PersistentNonLazyMonoSingleton(Of TDerived)
+- uid: UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton`1.Awake
+  name: Awake()
+  href: api/UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_PersistentNonLazyMonoSingleton_1_Awake
+  commentId: M:UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton`1.Awake
+  fullName: UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton<TDerived>.Awake()
+  fullName.vb: UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton(Of TDerived).Awake()
+  nameWithType: PersistentNonLazyMonoSingleton<TDerived>.Awake()
+  nameWithType.vb: PersistentNonLazyMonoSingleton(Of TDerived).Awake()
+- uid: UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton`1.Awake*
+  name: Awake
+  href: api/UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_PersistentNonLazyMonoSingleton_1_Awake_
+  commentId: Overload:UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton`1.Awake
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton<TDerived>.Awake
+  fullName.vb: UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton(Of TDerived).Awake
+  nameWithType: PersistentNonLazyMonoSingleton<TDerived>.Awake
+  nameWithType.vb: PersistentNonLazyMonoSingleton(Of TDerived).Awake
+- uid: UniKuroKit.Services.Singleton.SingletonInitializeState
+  name: SingletonInitializeState
+  href: api/UniKuroKit.Services.Singleton.SingletonInitializeState.html
+  commentId: T:UniKuroKit.Services.Singleton.SingletonInitializeState
+  fullName: UniKuroKit.Services.Singleton.SingletonInitializeState
+  nameWithType: SingletonInitializeState
+- uid: UniKuroKit.Services.Singleton.SingletonInitializeState.Initialized
+  name: Initialized
+  href: api/UniKuroKit.Services.Singleton.SingletonInitializeState.html#UniKuroKit_Services_Singleton_SingletonInitializeState_Initialized
+  commentId: F:UniKuroKit.Services.Singleton.SingletonInitializeState.Initialized
+  fullName: UniKuroKit.Services.Singleton.SingletonInitializeState.Initialized
+  nameWithType: SingletonInitializeState.Initialized
+- uid: UniKuroKit.Services.Singleton.SingletonInitializeState.Initializing
+  name: Initializing
+  href: api/UniKuroKit.Services.Singleton.SingletonInitializeState.html#UniKuroKit_Services_Singleton_SingletonInitializeState_Initializing
+  commentId: F:UniKuroKit.Services.Singleton.SingletonInitializeState.Initializing
+  fullName: UniKuroKit.Services.Singleton.SingletonInitializeState.Initializing
+  nameWithType: SingletonInitializeState.Initializing
+- uid: UniKuroKit.Services.Singleton.SingletonInitializeState.Uninitialized
+  name: Uninitialized
+  href: api/UniKuroKit.Services.Singleton.SingletonInitializeState.html#UniKuroKit_Services_Singleton_SingletonInitializeState_Uninitialized
+  commentId: F:UniKuroKit.Services.Singleton.SingletonInitializeState.Uninitialized
+  fullName: UniKuroKit.Services.Singleton.SingletonInitializeState.Uninitialized
+  nameWithType: SingletonInitializeState.Uninitialized
+- uid: UniKuroKit.Services.Singleton.Singleton`1
+  name: Singleton<TDerived>
+  href: api/UniKuroKit.Services.Singleton.Singleton-1.html
+  commentId: T:UniKuroKit.Services.Singleton.Singleton`1
+  name.vb: Singleton(Of TDerived)
+  fullName: UniKuroKit.Services.Singleton.Singleton<TDerived>
+  fullName.vb: UniKuroKit.Services.Singleton.Singleton(Of TDerived)
+  nameWithType: Singleton<TDerived>
+  nameWithType.vb: Singleton(Of TDerived)
+- uid: UniKuroKit.Services.Singleton.Singleton`1.#ctor
+  name: Singleton()
+  href: api/UniKuroKit.Services.Singleton.Singleton-1.html#UniKuroKit_Services_Singleton_Singleton_1__ctor
+  commentId: M:UniKuroKit.Services.Singleton.Singleton`1.#ctor
+  name.vb: New()
+  fullName: UniKuroKit.Services.Singleton.Singleton<TDerived>.Singleton()
+  fullName.vb: UniKuroKit.Services.Singleton.Singleton(Of TDerived).New()
+  nameWithType: Singleton<TDerived>.Singleton()
+  nameWithType.vb: Singleton(Of TDerived).New()
+- uid: UniKuroKit.Services.Singleton.Singleton`1.#ctor*
+  name: Singleton
+  href: api/UniKuroKit.Services.Singleton.Singleton-1.html#UniKuroKit_Services_Singleton_Singleton_1__ctor_
+  commentId: Overload:UniKuroKit.Services.Singleton.Singleton`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: UniKuroKit.Services.Singleton.Singleton<TDerived>.Singleton
+  fullName.vb: UniKuroKit.Services.Singleton.Singleton(Of TDerived).New
+  nameWithType: Singleton<TDerived>.Singleton
+  nameWithType.vb: Singleton(Of TDerived).New
+- uid: UniKuroKit.Services.Singleton.Singleton`1.CreateInstance
+  name: CreateInstance()
+  href: api/UniKuroKit.Services.Singleton.Singleton-1.html#UniKuroKit_Services_Singleton_Singleton_1_CreateInstance
+  commentId: M:UniKuroKit.Services.Singleton.Singleton`1.CreateInstance
+  fullName: UniKuroKit.Services.Singleton.Singleton<TDerived>.CreateInstance()
+  fullName.vb: UniKuroKit.Services.Singleton.Singleton(Of TDerived).CreateInstance()
+  nameWithType: Singleton<TDerived>.CreateInstance()
+  nameWithType.vb: Singleton(Of TDerived).CreateInstance()
+- uid: UniKuroKit.Services.Singleton.Singleton`1.CreateInstance*
+  name: CreateInstance
+  href: api/UniKuroKit.Services.Singleton.Singleton-1.html#UniKuroKit_Services_Singleton_Singleton_1_CreateInstance_
+  commentId: Overload:UniKuroKit.Services.Singleton.Singleton`1.CreateInstance
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.Singleton<TDerived>.CreateInstance
+  fullName.vb: UniKuroKit.Services.Singleton.Singleton(Of TDerived).CreateInstance
+  nameWithType: Singleton<TDerived>.CreateInstance
+  nameWithType.vb: Singleton(Of TDerived).CreateInstance
+- uid: UniKuroKit.Services.Singleton.Singleton`1.DestroyInstance
+  name: DestroyInstance()
+  href: api/UniKuroKit.Services.Singleton.Singleton-1.html#UniKuroKit_Services_Singleton_Singleton_1_DestroyInstance
+  commentId: M:UniKuroKit.Services.Singleton.Singleton`1.DestroyInstance
+  fullName: UniKuroKit.Services.Singleton.Singleton<TDerived>.DestroyInstance()
+  fullName.vb: UniKuroKit.Services.Singleton.Singleton(Of TDerived).DestroyInstance()
+  nameWithType: Singleton<TDerived>.DestroyInstance()
+  nameWithType.vb: Singleton(Of TDerived).DestroyInstance()
+- uid: UniKuroKit.Services.Singleton.Singleton`1.DestroyInstance*
+  name: DestroyInstance
+  href: api/UniKuroKit.Services.Singleton.Singleton-1.html#UniKuroKit_Services_Singleton_Singleton_1_DestroyInstance_
+  commentId: Overload:UniKuroKit.Services.Singleton.Singleton`1.DestroyInstance
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.Singleton<TDerived>.DestroyInstance
+  fullName.vb: UniKuroKit.Services.Singleton.Singleton(Of TDerived).DestroyInstance
+  nameWithType: Singleton<TDerived>.DestroyInstance
+  nameWithType.vb: Singleton(Of TDerived).DestroyInstance
+- uid: UniKuroKit.Services.Singleton.Singleton`1.InitializeState
+  name: InitializeState
+  href: api/UniKuroKit.Services.Singleton.Singleton-1.html#UniKuroKit_Services_Singleton_Singleton_1_InitializeState
+  commentId: P:UniKuroKit.Services.Singleton.Singleton`1.InitializeState
+  fullName: UniKuroKit.Services.Singleton.Singleton<TDerived>.InitializeState
+  fullName.vb: UniKuroKit.Services.Singleton.Singleton(Of TDerived).InitializeState
+  nameWithType: Singleton<TDerived>.InitializeState
+  nameWithType.vb: Singleton(Of TDerived).InitializeState
+- uid: UniKuroKit.Services.Singleton.Singleton`1.InitializeState*
+  name: InitializeState
+  href: api/UniKuroKit.Services.Singleton.Singleton-1.html#UniKuroKit_Services_Singleton_Singleton_1_InitializeState_
+  commentId: Overload:UniKuroKit.Services.Singleton.Singleton`1.InitializeState
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.Singleton<TDerived>.InitializeState
+  fullName.vb: UniKuroKit.Services.Singleton.Singleton(Of TDerived).InitializeState
+  nameWithType: Singleton<TDerived>.InitializeState
+  nameWithType.vb: Singleton(Of TDerived).InitializeState
+- uid: UniKuroKit.Services.Singleton.Singleton`1.Instance
+  name: Instance
+  href: api/UniKuroKit.Services.Singleton.Singleton-1.html#UniKuroKit_Services_Singleton_Singleton_1_Instance
+  commentId: P:UniKuroKit.Services.Singleton.Singleton`1.Instance
+  fullName: UniKuroKit.Services.Singleton.Singleton<TDerived>.Instance
+  fullName.vb: UniKuroKit.Services.Singleton.Singleton(Of TDerived).Instance
+  nameWithType: Singleton<TDerived>.Instance
+  nameWithType.vb: Singleton(Of TDerived).Instance
+- uid: UniKuroKit.Services.Singleton.Singleton`1.Instance*
+  name: Instance
+  href: api/UniKuroKit.Services.Singleton.Singleton-1.html#UniKuroKit_Services_Singleton_Singleton_1_Instance_
+  commentId: Overload:UniKuroKit.Services.Singleton.Singleton`1.Instance
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.Singleton<TDerived>.Instance
+  fullName.vb: UniKuroKit.Services.Singleton.Singleton(Of TDerived).Instance
+  nameWithType: Singleton<TDerived>.Instance
+  nameWithType.vb: Singleton(Of TDerived).Instance
+- uid: UniKuroKit.Services.Singleton.Singleton`1.IsInstanceExists
+  name: IsInstanceExists
+  href: api/UniKuroKit.Services.Singleton.Singleton-1.html#UniKuroKit_Services_Singleton_Singleton_1_IsInstanceExists
+  commentId: P:UniKuroKit.Services.Singleton.Singleton`1.IsInstanceExists
+  fullName: UniKuroKit.Services.Singleton.Singleton<TDerived>.IsInstanceExists
+  fullName.vb: UniKuroKit.Services.Singleton.Singleton(Of TDerived).IsInstanceExists
+  nameWithType: Singleton<TDerived>.IsInstanceExists
+  nameWithType.vb: Singleton(Of TDerived).IsInstanceExists
+- uid: UniKuroKit.Services.Singleton.Singleton`1.IsInstanceExists*
+  name: IsInstanceExists
+  href: api/UniKuroKit.Services.Singleton.Singleton-1.html#UniKuroKit_Services_Singleton_Singleton_1_IsInstanceExists_
+  commentId: Overload:UniKuroKit.Services.Singleton.Singleton`1.IsInstanceExists
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.Singleton<TDerived>.IsInstanceExists
+  fullName.vb: UniKuroKit.Services.Singleton.Singleton(Of TDerived).IsInstanceExists
+  nameWithType: Singleton<TDerived>.IsInstanceExists
+  nameWithType.vb: Singleton(Of TDerived).IsInstanceExists
+- uid: UniKuroKit.Services.Singleton.Singleton`1.OnDestroyInstance
+  name: OnDestroyInstance()
+  href: api/UniKuroKit.Services.Singleton.Singleton-1.html#UniKuroKit_Services_Singleton_Singleton_1_OnDestroyInstance
+  commentId: M:UniKuroKit.Services.Singleton.Singleton`1.OnDestroyInstance
+  fullName: UniKuroKit.Services.Singleton.Singleton<TDerived>.OnDestroyInstance()
+  fullName.vb: UniKuroKit.Services.Singleton.Singleton(Of TDerived).OnDestroyInstance()
+  nameWithType: Singleton<TDerived>.OnDestroyInstance()
+  nameWithType.vb: Singleton(Of TDerived).OnDestroyInstance()
+- uid: UniKuroKit.Services.Singleton.Singleton`1.OnDestroyInstance*
+  name: OnDestroyInstance
+  href: api/UniKuroKit.Services.Singleton.Singleton-1.html#UniKuroKit_Services_Singleton_Singleton_1_OnDestroyInstance_
+  commentId: Overload:UniKuroKit.Services.Singleton.Singleton`1.OnDestroyInstance
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.Singleton<TDerived>.OnDestroyInstance
+  fullName.vb: UniKuroKit.Services.Singleton.Singleton(Of TDerived).OnDestroyInstance
+  nameWithType: Singleton<TDerived>.OnDestroyInstance
+  nameWithType.vb: Singleton(Of TDerived).OnDestroyInstance
+- uid: UniKuroKit.Services.Singleton.Singleton`1.OnInitialized
+  name: OnInitialized()
+  href: api/UniKuroKit.Services.Singleton.Singleton-1.html#UniKuroKit_Services_Singleton_Singleton_1_OnInitialized
+  commentId: M:UniKuroKit.Services.Singleton.Singleton`1.OnInitialized
+  fullName: UniKuroKit.Services.Singleton.Singleton<TDerived>.OnInitialized()
+  fullName.vb: UniKuroKit.Services.Singleton.Singleton(Of TDerived).OnInitialized()
+  nameWithType: Singleton<TDerived>.OnInitialized()
+  nameWithType.vb: Singleton(Of TDerived).OnInitialized()
+- uid: UniKuroKit.Services.Singleton.Singleton`1.OnInitialized*
+  name: OnInitialized
+  href: api/UniKuroKit.Services.Singleton.Singleton-1.html#UniKuroKit_Services_Singleton_Singleton_1_OnInitialized_
+  commentId: Overload:UniKuroKit.Services.Singleton.Singleton`1.OnInitialized
+  isSpec: "True"
+  fullName: UniKuroKit.Services.Singleton.Singleton<TDerived>.OnInitialized
+  fullName.vb: UniKuroKit.Services.Singleton.Singleton(Of TDerived).OnInitialized
+  nameWithType: Singleton<TDerived>.OnInitialized
+  nameWithType.vb: Singleton(Of TDerived).OnInitialized

@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Security.IEncryptionProvider
+  commentId: T:UniKuroKit.Security.IEncryptionProvider
+  id: IEncryptionProvider
+  parent: UniKuroKit.Security
+  children:
+  - UniKuroKit.Security.IEncryptionProvider.Decrypt(System.Byte[])
+  - UniKuroKit.Security.IEncryptionProvider.Encrypt(System.Byte[])
+  langs:
+  - csharp
+  - vb
+  name: IEncryptionProvider
+  nameWithType: IEncryptionProvider
+  fullName: UniKuroKit.Security.IEncryptionProvider
+  type: Interface
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Security
+  syntax:
+    content: public interface IEncryptionProvider
+    content.vb: Public Interface IEncryptionProvider
+  derivedClasses:
+  - UniKuroKit.Security.AesEncryptionProvider
+  - UniKuroKit.Security.NoEncryptionProvider
+- uid: UniKuroKit.Security.IEncryptionProvider.Encrypt(System.Byte[])
+  commentId: M:UniKuroKit.Security.IEncryptionProvider.Encrypt(System.Byte[])
+  id: Encrypt(System.Byte[])
+  parent: UniKuroKit.Security.IEncryptionProvider
+  langs:
+  - csharp
+  - vb
+  name: Encrypt(byte[])
+  nameWithType: IEncryptionProvider.Encrypt(byte[])
+  fullName: UniKuroKit.Security.IEncryptionProvider.Encrypt(byte[])
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Security
+  syntax:
+    content: byte[] Encrypt(byte[] plaintext)
+    parameters:
+    - id: plaintext
+      type: System.Byte[]
+    return:
+      type: System.Byte[]
+    content.vb: Function Encrypt(plaintext As Byte()) As Byte()
+  overload: UniKuroKit.Security.IEncryptionProvider.Encrypt*
+  nameWithType.vb: IEncryptionProvider.Encrypt(Byte())
+  fullName.vb: UniKuroKit.Security.IEncryptionProvider.Encrypt(Byte())
+  name.vb: Encrypt(Byte())
+- uid: UniKuroKit.Security.IEncryptionProvider.Decrypt(System.Byte[])
+  commentId: M:UniKuroKit.Security.IEncryptionProvider.Decrypt(System.Byte[])
+  id: Decrypt(System.Byte[])
+  parent: UniKuroKit.Security.IEncryptionProvider
+  langs:
+  - csharp
+  - vb
+  name: Decrypt(byte[])
+  nameWithType: IEncryptionProvider.Decrypt(byte[])
+  fullName: UniKuroKit.Security.IEncryptionProvider.Decrypt(byte[])
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Security
+  syntax:
+    content: byte[] Decrypt(byte[] ciphertext)
+    parameters:
+    - id: ciphertext
+      type: System.Byte[]
+    return:
+      type: System.Byte[]
+    content.vb: Function Decrypt(ciphertext As Byte()) As Byte()
+  overload: UniKuroKit.Security.IEncryptionProvider.Decrypt*
+  nameWithType.vb: IEncryptionProvider.Decrypt(Byte())
+  fullName.vb: UniKuroKit.Security.IEncryptionProvider.Decrypt(Byte())
+  name.vb: Decrypt(Byte())
+references:
+- uid: UniKuroKit.Security
+  commentId: N:UniKuroKit.Security
+  href: UniKuroKit.html
+  name: UniKuroKit.Security
+  nameWithType: UniKuroKit.Security
+  fullName: UniKuroKit.Security
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Security
+    name: Security
+    href: UniKuroKit.Security.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Security
+    name: Security
+    href: UniKuroKit.Security.html
+- uid: UniKuroKit.Security.IEncryptionProvider.Encrypt*
+  commentId: Overload:UniKuroKit.Security.IEncryptionProvider.Encrypt
+  href: UniKuroKit.Security.IEncryptionProvider.html#UniKuroKit_Security_IEncryptionProvider_Encrypt_System_Byte___
+  name: Encrypt
+  nameWithType: IEncryptionProvider.Encrypt
+  fullName: UniKuroKit.Security.IEncryptionProvider.Encrypt
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: UniKuroKit.Security.IEncryptionProvider.Decrypt*
+  commentId: Overload:UniKuroKit.Security.IEncryptionProvider.Decrypt
+  href: UniKuroKit.Security.IEncryptionProvider.html#UniKuroKit_Security_IEncryptionProvider_Decrypt_System_Byte___
+  name: Decrypt
+  nameWithType: IEncryptionProvider.Decrypt
+  fullName: UniKuroKit.Security.IEncryptionProvider.Decrypt

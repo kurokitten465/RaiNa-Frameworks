@@ -1,0 +1,585 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Serialization.SerializerConfigurations
+  commentId: T:UniKuroKit.Serialization.SerializerConfigurations
+  id: SerializerConfigurations
+  parent: UniKuroKit.Serialization
+  children:
+  - UniKuroKit.Serialization.SerializerConfigurations.AsHumanReadable(System.Boolean)
+  - UniKuroKit.Serialization.SerializerConfigurations.ChunkCount
+  - UniKuroKit.Serialization.SerializerConfigurations.Default
+  - UniKuroKit.Serialization.SerializerConfigurations.EncryptionKey
+  - UniKuroKit.Serialization.SerializerConfigurations.Extension
+  - UniKuroKit.Serialization.SerializerConfigurations.GetChunkPath(System.Int32)
+  - UniKuroKit.Serialization.SerializerConfigurations.GetDirectory
+  - UniKuroKit.Serialization.SerializerConfigurations.HumanReadable
+  - UniKuroKit.Serialization.SerializerConfigurations.ProfileName
+  - UniKuroKit.Serialization.SerializerConfigurations.SubFolder
+  - UniKuroKit.Serialization.SerializerConfigurations.UseEncryption
+  - UniKuroKit.Serialization.SerializerConfigurations.WithChunks(System.Int32)
+  - UniKuroKit.Serialization.SerializerConfigurations.WithEncryption(System.Boolean)
+  - UniKuroKit.Serialization.SerializerConfigurations.WithKey(System.String)
+  - UniKuroKit.Serialization.SerializerConfigurations.WithProfile(System.String)
+  - UniKuroKit.Serialization.SerializerConfigurations.WithSubFolder(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SerializerConfigurations
+  nameWithType: SerializerConfigurations
+  fullName: UniKuroKit.Serialization.SerializerConfigurations
+  type: Class
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public class SerializerConfigurations
+    content.vb: Public Class SerializerConfigurations
+  inheritance:
+  - System.Object
+- uid: UniKuroKit.Serialization.SerializerConfigurations.ProfileName
+  commentId: P:UniKuroKit.Serialization.SerializerConfigurations.ProfileName
+  id: ProfileName
+  parent: UniKuroKit.Serialization.SerializerConfigurations
+  langs:
+  - csharp
+  - vb
+  name: ProfileName
+  nameWithType: SerializerConfigurations.ProfileName
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.ProfileName
+  type: Property
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  example: []
+  syntax:
+    content: public string ProfileName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProfileName As String
+  overload: UniKuroKit.Serialization.SerializerConfigurations.ProfileName*
+- uid: UniKuroKit.Serialization.SerializerConfigurations.SubFolder
+  commentId: P:UniKuroKit.Serialization.SerializerConfigurations.SubFolder
+  id: SubFolder
+  parent: UniKuroKit.Serialization.SerializerConfigurations
+  langs:
+  - csharp
+  - vb
+  name: SubFolder
+  nameWithType: SerializerConfigurations.SubFolder
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.SubFolder
+  type: Property
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  example: []
+  syntax:
+    content: public string SubFolder { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SubFolder As String
+  overload: UniKuroKit.Serialization.SerializerConfigurations.SubFolder*
+- uid: UniKuroKit.Serialization.SerializerConfigurations.ChunkCount
+  commentId: P:UniKuroKit.Serialization.SerializerConfigurations.ChunkCount
+  id: ChunkCount
+  parent: UniKuroKit.Serialization.SerializerConfigurations
+  langs:
+  - csharp
+  - vb
+  name: ChunkCount
+  nameWithType: SerializerConfigurations.ChunkCount
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.ChunkCount
+  type: Property
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  example: []
+  syntax:
+    content: public int ChunkCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChunkCount As Integer
+  overload: UniKuroKit.Serialization.SerializerConfigurations.ChunkCount*
+- uid: UniKuroKit.Serialization.SerializerConfigurations.HumanReadable
+  commentId: P:UniKuroKit.Serialization.SerializerConfigurations.HumanReadable
+  id: HumanReadable
+  parent: UniKuroKit.Serialization.SerializerConfigurations
+  langs:
+  - csharp
+  - vb
+  name: HumanReadable
+  nameWithType: SerializerConfigurations.HumanReadable
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.HumanReadable
+  type: Property
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  example: []
+  syntax:
+    content: public bool HumanReadable { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HumanReadable As Boolean
+  overload: UniKuroKit.Serialization.SerializerConfigurations.HumanReadable*
+- uid: UniKuroKit.Serialization.SerializerConfigurations.UseEncryption
+  commentId: P:UniKuroKit.Serialization.SerializerConfigurations.UseEncryption
+  id: UseEncryption
+  parent: UniKuroKit.Serialization.SerializerConfigurations
+  langs:
+  - csharp
+  - vb
+  name: UseEncryption
+  nameWithType: SerializerConfigurations.UseEncryption
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.UseEncryption
+  type: Property
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public bool UseEncryption { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UseEncryption As Boolean
+  overload: UniKuroKit.Serialization.SerializerConfigurations.UseEncryption*
+- uid: UniKuroKit.Serialization.SerializerConfigurations.EncryptionKey
+  commentId: P:UniKuroKit.Serialization.SerializerConfigurations.EncryptionKey
+  id: EncryptionKey
+  parent: UniKuroKit.Serialization.SerializerConfigurations
+  langs:
+  - csharp
+  - vb
+  name: EncryptionKey
+  nameWithType: SerializerConfigurations.EncryptionKey
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.EncryptionKey
+  type: Property
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  example: []
+  syntax:
+    content: public string EncryptionKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EncryptionKey As String
+  overload: UniKuroKit.Serialization.SerializerConfigurations.EncryptionKey*
+- uid: UniKuroKit.Serialization.SerializerConfigurations.Default
+  commentId: P:UniKuroKit.Serialization.SerializerConfigurations.Default
+  id: Default
+  parent: UniKuroKit.Serialization.SerializerConfigurations
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: SerializerConfigurations.Default
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.Default
+  type: Property
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public static SerializerConfigurations Default { get; }
+    parameters: []
+    return:
+      type: UniKuroKit.Serialization.SerializerConfigurations
+    content.vb: Public Shared ReadOnly Property [Default] As SerializerConfigurations
+  overload: UniKuroKit.Serialization.SerializerConfigurations.Default*
+- uid: UniKuroKit.Serialization.SerializerConfigurations.WithProfile(System.String)
+  commentId: M:UniKuroKit.Serialization.SerializerConfigurations.WithProfile(System.String)
+  id: WithProfile(System.String)
+  parent: UniKuroKit.Serialization.SerializerConfigurations
+  langs:
+  - csharp
+  - vb
+  name: WithProfile(string)
+  nameWithType: SerializerConfigurations.WithProfile(string)
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.WithProfile(string)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public SerializerConfigurations WithProfile(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: UniKuroKit.Serialization.SerializerConfigurations
+    content.vb: Public Function WithProfile(name As String) As SerializerConfigurations
+  overload: UniKuroKit.Serialization.SerializerConfigurations.WithProfile*
+  nameWithType.vb: SerializerConfigurations.WithProfile(String)
+  fullName.vb: UniKuroKit.Serialization.SerializerConfigurations.WithProfile(String)
+  name.vb: WithProfile(String)
+- uid: UniKuroKit.Serialization.SerializerConfigurations.WithSubFolder(System.String)
+  commentId: M:UniKuroKit.Serialization.SerializerConfigurations.WithSubFolder(System.String)
+  id: WithSubFolder(System.String)
+  parent: UniKuroKit.Serialization.SerializerConfigurations
+  langs:
+  - csharp
+  - vb
+  name: WithSubFolder(string)
+  nameWithType: SerializerConfigurations.WithSubFolder(string)
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.WithSubFolder(string)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public SerializerConfigurations WithSubFolder(string folder)
+    parameters:
+    - id: folder
+      type: System.String
+    return:
+      type: UniKuroKit.Serialization.SerializerConfigurations
+    content.vb: Public Function WithSubFolder(folder As String) As SerializerConfigurations
+  overload: UniKuroKit.Serialization.SerializerConfigurations.WithSubFolder*
+  nameWithType.vb: SerializerConfigurations.WithSubFolder(String)
+  fullName.vb: UniKuroKit.Serialization.SerializerConfigurations.WithSubFolder(String)
+  name.vb: WithSubFolder(String)
+- uid: UniKuroKit.Serialization.SerializerConfigurations.WithChunks(System.Int32)
+  commentId: M:UniKuroKit.Serialization.SerializerConfigurations.WithChunks(System.Int32)
+  id: WithChunks(System.Int32)
+  parent: UniKuroKit.Serialization.SerializerConfigurations
+  langs:
+  - csharp
+  - vb
+  name: WithChunks(int)
+  nameWithType: SerializerConfigurations.WithChunks(int)
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.WithChunks(int)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public SerializerConfigurations WithChunks(int count)
+    parameters:
+    - id: count
+      type: System.Int32
+    return:
+      type: UniKuroKit.Serialization.SerializerConfigurations
+    content.vb: Public Function WithChunks(count As Integer) As SerializerConfigurations
+  overload: UniKuroKit.Serialization.SerializerConfigurations.WithChunks*
+  nameWithType.vb: SerializerConfigurations.WithChunks(Integer)
+  fullName.vb: UniKuroKit.Serialization.SerializerConfigurations.WithChunks(Integer)
+  name.vb: WithChunks(Integer)
+- uid: UniKuroKit.Serialization.SerializerConfigurations.AsHumanReadable(System.Boolean)
+  commentId: M:UniKuroKit.Serialization.SerializerConfigurations.AsHumanReadable(System.Boolean)
+  id: AsHumanReadable(System.Boolean)
+  parent: UniKuroKit.Serialization.SerializerConfigurations
+  langs:
+  - csharp
+  - vb
+  name: AsHumanReadable(bool)
+  nameWithType: SerializerConfigurations.AsHumanReadable(bool)
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.AsHumanReadable(bool)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public SerializerConfigurations AsHumanReadable(bool hr = true)
+    parameters:
+    - id: hr
+      type: System.Boolean
+    return:
+      type: UniKuroKit.Serialization.SerializerConfigurations
+    content.vb: Public Function AsHumanReadable(hr As Boolean = True) As SerializerConfigurations
+  overload: UniKuroKit.Serialization.SerializerConfigurations.AsHumanReadable*
+  nameWithType.vb: SerializerConfigurations.AsHumanReadable(Boolean)
+  fullName.vb: UniKuroKit.Serialization.SerializerConfigurations.AsHumanReadable(Boolean)
+  name.vb: AsHumanReadable(Boolean)
+- uid: UniKuroKit.Serialization.SerializerConfigurations.WithEncryption(System.Boolean)
+  commentId: M:UniKuroKit.Serialization.SerializerConfigurations.WithEncryption(System.Boolean)
+  id: WithEncryption(System.Boolean)
+  parent: UniKuroKit.Serialization.SerializerConfigurations
+  langs:
+  - csharp
+  - vb
+  name: WithEncryption(bool)
+  nameWithType: SerializerConfigurations.WithEncryption(bool)
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.WithEncryption(bool)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public SerializerConfigurations WithEncryption(bool on = true)
+    parameters:
+    - id: on
+      type: System.Boolean
+    return:
+      type: UniKuroKit.Serialization.SerializerConfigurations
+    content.vb: Public Function WithEncryption([on] As Boolean = True) As SerializerConfigurations
+  overload: UniKuroKit.Serialization.SerializerConfigurations.WithEncryption*
+  nameWithType.vb: SerializerConfigurations.WithEncryption(Boolean)
+  fullName.vb: UniKuroKit.Serialization.SerializerConfigurations.WithEncryption(Boolean)
+  name.vb: WithEncryption(Boolean)
+- uid: UniKuroKit.Serialization.SerializerConfigurations.WithKey(System.String)
+  commentId: M:UniKuroKit.Serialization.SerializerConfigurations.WithKey(System.String)
+  id: WithKey(System.String)
+  parent: UniKuroKit.Serialization.SerializerConfigurations
+  langs:
+  - csharp
+  - vb
+  name: WithKey(string)
+  nameWithType: SerializerConfigurations.WithKey(string)
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.WithKey(string)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public SerializerConfigurations WithKey(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: UniKuroKit.Serialization.SerializerConfigurations
+    content.vb: Public Function WithKey(key As String) As SerializerConfigurations
+  overload: UniKuroKit.Serialization.SerializerConfigurations.WithKey*
+  nameWithType.vb: SerializerConfigurations.WithKey(String)
+  fullName.vb: UniKuroKit.Serialization.SerializerConfigurations.WithKey(String)
+  name.vb: WithKey(String)
+- uid: UniKuroKit.Serialization.SerializerConfigurations.Extension
+  commentId: P:UniKuroKit.Serialization.SerializerConfigurations.Extension
+  id: Extension
+  parent: UniKuroKit.Serialization.SerializerConfigurations
+  langs:
+  - csharp
+  - vb
+  name: Extension
+  nameWithType: SerializerConfigurations.Extension
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.Extension
+  type: Property
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public string Extension { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Extension As String
+  overload: UniKuroKit.Serialization.SerializerConfigurations.Extension*
+- uid: UniKuroKit.Serialization.SerializerConfigurations.GetChunkPath(System.Int32)
+  commentId: M:UniKuroKit.Serialization.SerializerConfigurations.GetChunkPath(System.Int32)
+  id: GetChunkPath(System.Int32)
+  parent: UniKuroKit.Serialization.SerializerConfigurations
+  langs:
+  - csharp
+  - vb
+  name: GetChunkPath(int)
+  nameWithType: SerializerConfigurations.GetChunkPath(int)
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.GetChunkPath(int)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public string GetChunkPath(int chunkIndex)
+    parameters:
+    - id: chunkIndex
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function GetChunkPath(chunkIndex As Integer) As String
+  overload: UniKuroKit.Serialization.SerializerConfigurations.GetChunkPath*
+  nameWithType.vb: SerializerConfigurations.GetChunkPath(Integer)
+  fullName.vb: UniKuroKit.Serialization.SerializerConfigurations.GetChunkPath(Integer)
+  name.vb: GetChunkPath(Integer)
+- uid: UniKuroKit.Serialization.SerializerConfigurations.GetDirectory
+  commentId: M:UniKuroKit.Serialization.SerializerConfigurations.GetDirectory
+  id: GetDirectory
+  parent: UniKuroKit.Serialization.SerializerConfigurations
+  langs:
+  - csharp
+  - vb
+  name: GetDirectory()
+  nameWithType: SerializerConfigurations.GetDirectory()
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.GetDirectory()
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public string GetDirectory()
+    return:
+      type: System.String
+    content.vb: Public Function GetDirectory() As String
+  overload: UniKuroKit.Serialization.SerializerConfigurations.GetDirectory*
+references:
+- uid: UniKuroKit.Serialization
+  commentId: N:UniKuroKit.Serialization
+  href: UniKuroKit.html
+  name: UniKuroKit.Serialization
+  nameWithType: UniKuroKit.Serialization
+  fullName: UniKuroKit.Serialization
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Serialization
+    name: Serialization
+    href: UniKuroKit.Serialization.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Serialization
+    name: Serialization
+    href: UniKuroKit.Serialization.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UniKuroKit.Serialization.SerializerConfigurations.ProfileName*
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.ProfileName
+  href: UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_ProfileName
+  name: ProfileName
+  nameWithType: SerializerConfigurations.ProfileName
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.ProfileName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: UniKuroKit.Serialization.SerializerConfigurations.SubFolder*
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.SubFolder
+  href: UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_SubFolder
+  name: SubFolder
+  nameWithType: SerializerConfigurations.SubFolder
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.SubFolder
+- uid: UniKuroKit.Serialization.SerializerConfigurations.ChunkCount*
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.ChunkCount
+  href: UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_ChunkCount
+  name: ChunkCount
+  nameWithType: SerializerConfigurations.ChunkCount
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.ChunkCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: UniKuroKit.Serialization.SerializerConfigurations.HumanReadable*
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.HumanReadable
+  href: UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_HumanReadable
+  name: HumanReadable
+  nameWithType: SerializerConfigurations.HumanReadable
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.HumanReadable
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: UniKuroKit.Serialization.SerializerConfigurations.UseEncryption*
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.UseEncryption
+  href: UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_UseEncryption
+  name: UseEncryption
+  nameWithType: SerializerConfigurations.UseEncryption
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.UseEncryption
+- uid: UniKuroKit.Serialization.SerializerConfigurations.EncryptionKey*
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.EncryptionKey
+  href: UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_EncryptionKey
+  name: EncryptionKey
+  nameWithType: SerializerConfigurations.EncryptionKey
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.EncryptionKey
+- uid: UniKuroKit.Serialization.SerializerConfigurations.Default*
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.Default
+  href: UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_Default
+  name: Default
+  nameWithType: SerializerConfigurations.Default
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.Default
+- uid: UniKuroKit.Serialization.SerializerConfigurations
+  commentId: T:UniKuroKit.Serialization.SerializerConfigurations
+  parent: UniKuroKit.Serialization
+  href: UniKuroKit.Serialization.SerializerConfigurations.html
+  name: SerializerConfigurations
+  nameWithType: SerializerConfigurations
+  fullName: UniKuroKit.Serialization.SerializerConfigurations
+- uid: UniKuroKit.Serialization.SerializerConfigurations.WithProfile*
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.WithProfile
+  href: UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_WithProfile_System_String_
+  name: WithProfile
+  nameWithType: SerializerConfigurations.WithProfile
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.WithProfile
+- uid: UniKuroKit.Serialization.SerializerConfigurations.WithSubFolder*
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.WithSubFolder
+  href: UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_WithSubFolder_System_String_
+  name: WithSubFolder
+  nameWithType: SerializerConfigurations.WithSubFolder
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.WithSubFolder
+- uid: UniKuroKit.Serialization.SerializerConfigurations.WithChunks*
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.WithChunks
+  href: UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_WithChunks_System_Int32_
+  name: WithChunks
+  nameWithType: SerializerConfigurations.WithChunks
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.WithChunks
+- uid: UniKuroKit.Serialization.SerializerConfigurations.AsHumanReadable*
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.AsHumanReadable
+  href: UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_AsHumanReadable_System_Boolean_
+  name: AsHumanReadable
+  nameWithType: SerializerConfigurations.AsHumanReadable
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.AsHumanReadable
+- uid: UniKuroKit.Serialization.SerializerConfigurations.WithEncryption*
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.WithEncryption
+  href: UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_WithEncryption_System_Boolean_
+  name: WithEncryption
+  nameWithType: SerializerConfigurations.WithEncryption
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.WithEncryption
+- uid: UniKuroKit.Serialization.SerializerConfigurations.WithKey*
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.WithKey
+  href: UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_WithKey_System_String_
+  name: WithKey
+  nameWithType: SerializerConfigurations.WithKey
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.WithKey
+- uid: UniKuroKit.Serialization.SerializerConfigurations.Extension*
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.Extension
+  href: UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_Extension
+  name: Extension
+  nameWithType: SerializerConfigurations.Extension
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.Extension
+- uid: UniKuroKit.Serialization.SerializerConfigurations.GetChunkPath*
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.GetChunkPath
+  href: UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_GetChunkPath_System_Int32_
+  name: GetChunkPath
+  nameWithType: SerializerConfigurations.GetChunkPath
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.GetChunkPath
+- uid: UniKuroKit.Serialization.SerializerConfigurations.GetDirectory*
+  commentId: Overload:UniKuroKit.Serialization.SerializerConfigurations.GetDirectory
+  href: UniKuroKit.Serialization.SerializerConfigurations.html#UniKuroKit_Serialization_SerializerConfigurations_GetDirectory
+  name: GetDirectory
+  nameWithType: SerializerConfigurations.GetDirectory
+  fullName: UniKuroKit.Serialization.SerializerConfigurations.GetDirectory

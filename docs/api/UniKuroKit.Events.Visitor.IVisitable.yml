@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Events.Visitor.IVisitable
+  commentId: T:UniKuroKit.Events.Visitor.IVisitable
+  id: IVisitable
+  parent: UniKuroKit.Events.Visitor
+  children:
+  - UniKuroKit.Events.Visitor.IVisitable.Accept(UniKuroKit.Events.Visitor.IVisitor)
+  langs:
+  - csharp
+  - vb
+  name: IVisitable
+  nameWithType: IVisitable
+  fullName: UniKuroKit.Events.Visitor.IVisitable
+  type: Interface
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events.Visitor
+  syntax:
+    content: public interface IVisitable
+    content.vb: Public Interface IVisitable
+- uid: UniKuroKit.Events.Visitor.IVisitable.Accept(UniKuroKit.Events.Visitor.IVisitor)
+  commentId: M:UniKuroKit.Events.Visitor.IVisitable.Accept(UniKuroKit.Events.Visitor.IVisitor)
+  id: Accept(UniKuroKit.Events.Visitor.IVisitor)
+  parent: UniKuroKit.Events.Visitor.IVisitable
+  langs:
+  - csharp
+  - vb
+  name: Accept(IVisitor)
+  nameWithType: IVisitable.Accept(IVisitor)
+  fullName: UniKuroKit.Events.Visitor.IVisitable.Accept(UniKuroKit.Events.Visitor.IVisitor)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events.Visitor
+  syntax:
+    content: void Accept(IVisitor visitor)
+    parameters:
+    - id: visitor
+      type: UniKuroKit.Events.Visitor.IVisitor
+    content.vb: Sub Accept(visitor As IVisitor)
+  overload: UniKuroKit.Events.Visitor.IVisitable.Accept*
+references:
+- uid: UniKuroKit.Events.Visitor
+  commentId: N:UniKuroKit.Events.Visitor
+  href: UniKuroKit.html
+  name: UniKuroKit.Events.Visitor
+  nameWithType: UniKuroKit.Events.Visitor
+  fullName: UniKuroKit.Events.Visitor
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  - name: .
+  - uid: UniKuroKit.Events.Visitor
+    name: Visitor
+    href: UniKuroKit.Events.Visitor.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  - name: .
+  - uid: UniKuroKit.Events.Visitor
+    name: Visitor
+    href: UniKuroKit.Events.Visitor.html
+- uid: UniKuroKit.Events.Visitor.IVisitable.Accept*
+  commentId: Overload:UniKuroKit.Events.Visitor.IVisitable.Accept
+  href: UniKuroKit.Events.Visitor.IVisitable.html#UniKuroKit_Events_Visitor_IVisitable_Accept_UniKuroKit_Events_Visitor_IVisitor_
+  name: Accept
+  nameWithType: IVisitable.Accept
+  fullName: UniKuroKit.Events.Visitor.IVisitable.Accept
+- uid: UniKuroKit.Events.Visitor.IVisitor
+  commentId: T:UniKuroKit.Events.Visitor.IVisitor
+  parent: UniKuroKit.Events.Visitor
+  href: UniKuroKit.Events.Visitor.IVisitor.html
+  name: IVisitor
+  nameWithType: IVisitor
+  fullName: UniKuroKit.Events.Visitor.IVisitor

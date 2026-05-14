@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.IO
+  commentId: N:UniKuroKit.IO
+  id: UniKuroKit.IO
+  children:
+  - UniKuroKit.IO.ChunkSplitter
+  - UniKuroKit.IO.DataStorage
+  langs:
+  - csharp
+  - vb
+  name: UniKuroKit.IO
+  nameWithType: UniKuroKit.IO
+  fullName: UniKuroKit.IO
+  type: Namespace
+  assemblies:
+  - com.kurokitten.unikurokit
+references:
+- uid: UniKuroKit.IO.DataStorage
+  commentId: T:UniKuroKit.IO.DataStorage
+  href: UniKuroKit.IO.DataStorage.html
+  name: DataStorage
+  nameWithType: DataStorage
+  fullName: UniKuroKit.IO.DataStorage
+- uid: UniKuroKit.IO.ChunkSplitter
+  commentId: T:UniKuroKit.IO.ChunkSplitter
+  href: UniKuroKit.IO.ChunkSplitter.html
+  name: ChunkSplitter
+  nameWithType: ChunkSplitter
+  fullName: UniKuroKit.IO.ChunkSplitter

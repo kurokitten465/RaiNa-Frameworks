@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Events.IEventContext`1
+  commentId: T:UniKuroKit.Events.IEventContext`1
+  id: IEventContext`1
+  parent: UniKuroKit.Events
+  children:
+  - UniKuroKit.Events.IEventContext`1.Event
+  langs:
+  - csharp
+  - vb
+  name: IEventContext<TEvent>
+  nameWithType: IEventContext<TEvent>
+  fullName: UniKuroKit.Events.IEventContext<TEvent>
+  type: Interface
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events
+  syntax:
+    content: 'public interface IEventContext<TEvent> where TEvent : IEvent'
+    typeParameters:
+    - id: TEvent
+    content.vb: Public Interface IEventContext(Of TEvent As IEvent)
+  derivedClasses:
+  - UniKuroKit.Events.EventContext`1
+  nameWithType.vb: IEventContext(Of TEvent)
+  fullName.vb: UniKuroKit.Events.IEventContext(Of TEvent)
+  name.vb: IEventContext(Of TEvent)
+- uid: UniKuroKit.Events.IEventContext`1.Event
+  commentId: P:UniKuroKit.Events.IEventContext`1.Event
+  id: Event
+  parent: UniKuroKit.Events.IEventContext`1
+  langs:
+  - csharp
+  - vb
+  name: Event
+  nameWithType: IEventContext<TEvent>.Event
+  fullName: UniKuroKit.Events.IEventContext<TEvent>.Event
+  type: Property
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events
+  syntax:
+    content: TEvent Event { get; }
+    parameters: []
+    return:
+      type: '{TEvent}'
+    content.vb: ReadOnly Property [Event] As TEvent
+  overload: UniKuroKit.Events.IEventContext`1.Event*
+  nameWithType.vb: IEventContext(Of TEvent).Event
+  fullName.vb: UniKuroKit.Events.IEventContext(Of TEvent).Event
+references:
+- uid: UniKuroKit.Events
+  commentId: N:UniKuroKit.Events
+  href: UniKuroKit.html
+  name: UniKuroKit.Events
+  nameWithType: UniKuroKit.Events
+  fullName: UniKuroKit.Events
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+- uid: UniKuroKit.Events.IEventContext`1.Event*
+  commentId: Overload:UniKuroKit.Events.IEventContext`1.Event
+  href: UniKuroKit.Events.IEventContext-1.html#UniKuroKit_Events_IEventContext_1_Event
+  name: Event
+  nameWithType: IEventContext<TEvent>.Event
+  fullName: UniKuroKit.Events.IEventContext<TEvent>.Event
+  nameWithType.vb: IEventContext(Of TEvent).Event
+  fullName.vb: UniKuroKit.Events.IEventContext(Of TEvent).Event
+- uid: '{TEvent}'
+  commentId: '!:TEvent'
+  definition: TEvent
+  name: TEvent
+  nameWithType: TEvent
+  fullName: TEvent
+- uid: TEvent
+  name: TEvent
+  nameWithType: TEvent
+  fullName: TEvent

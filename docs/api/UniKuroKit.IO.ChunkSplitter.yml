@@ -1,0 +1,259 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.IO.ChunkSplitter
+  commentId: T:UniKuroKit.IO.ChunkSplitter
+  id: ChunkSplitter
+  parent: UniKuroKit.IO
+  children:
+  - UniKuroKit.IO.ChunkSplitter.Merge(System.Collections.Generic.List{UniKuroKit.Serialization.DataContainer})
+  - UniKuroKit.IO.ChunkSplitter.Split(UniKuroKit.Serialization.DataContainer,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: ChunkSplitter
+  nameWithType: ChunkSplitter
+  fullName: UniKuroKit.IO.ChunkSplitter
+  type: Class
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.IO
+  syntax:
+    content: public class ChunkSplitter
+    content.vb: Public Class ChunkSplitter
+  inheritance:
+  - System.Object
+- uid: UniKuroKit.IO.ChunkSplitter.Split(UniKuroKit.Serialization.DataContainer,System.Int32)
+  commentId: M:UniKuroKit.IO.ChunkSplitter.Split(UniKuroKit.Serialization.DataContainer,System.Int32)
+  id: Split(UniKuroKit.Serialization.DataContainer,System.Int32)
+  parent: UniKuroKit.IO.ChunkSplitter
+  langs:
+  - csharp
+  - vb
+  name: Split(DataContainer, int)
+  nameWithType: ChunkSplitter.Split(DataContainer, int)
+  fullName: UniKuroKit.IO.ChunkSplitter.Split(UniKuroKit.Serialization.DataContainer, int)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.IO
+  summary: >-
+    Partition the master container into <code class="paramref">chunkCount</code> sub-containers.
+
+    Entries are distributed round-robin so each chunk stays roughly equal.
+  example: []
+  syntax:
+    content: public static List<DataContainer> Split(DataContainer master, int chunkCount)
+    parameters:
+    - id: master
+      type: UniKuroKit.Serialization.DataContainer
+    - id: chunkCount
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.List{UniKuroKit.Serialization.DataContainer}
+    content.vb: Public Shared Function Split(master As DataContainer, chunkCount As Integer) As List(Of DataContainer)
+  overload: UniKuroKit.IO.ChunkSplitter.Split*
+  nameWithType.vb: ChunkSplitter.Split(DataContainer, Integer)
+  fullName.vb: UniKuroKit.IO.ChunkSplitter.Split(UniKuroKit.Serialization.DataContainer, Integer)
+  name.vb: Split(DataContainer, Integer)
+- uid: UniKuroKit.IO.ChunkSplitter.Merge(System.Collections.Generic.List{UniKuroKit.Serialization.DataContainer})
+  commentId: M:UniKuroKit.IO.ChunkSplitter.Merge(System.Collections.Generic.List{UniKuroKit.Serialization.DataContainer})
+  id: Merge(System.Collections.Generic.List{UniKuroKit.Serialization.DataContainer})
+  parent: UniKuroKit.IO.ChunkSplitter
+  langs:
+  - csharp
+  - vb
+  name: Merge(List<DataContainer>)
+  nameWithType: ChunkSplitter.Merge(List<DataContainer>)
+  fullName: UniKuroKit.IO.ChunkSplitter.Merge(System.Collections.Generic.List<UniKuroKit.Serialization.DataContainer>)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.IO
+  syntax:
+    content: public static DataContainer Merge(List<DataContainer> chunks)
+    parameters:
+    - id: chunks
+      type: System.Collections.Generic.List{UniKuroKit.Serialization.DataContainer}
+    return:
+      type: UniKuroKit.Serialization.DataContainer
+    content.vb: Public Shared Function Merge(chunks As List(Of DataContainer)) As DataContainer
+  overload: UniKuroKit.IO.ChunkSplitter.Merge*
+  nameWithType.vb: ChunkSplitter.Merge(List(Of DataContainer))
+  fullName.vb: UniKuroKit.IO.ChunkSplitter.Merge(System.Collections.Generic.List(Of UniKuroKit.Serialization.DataContainer))
+  name.vb: Merge(List(Of DataContainer))
+references:
+- uid: UniKuroKit.IO
+  commentId: N:UniKuroKit.IO
+  href: UniKuroKit.html
+  name: UniKuroKit.IO
+  nameWithType: UniKuroKit.IO
+  fullName: UniKuroKit.IO
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.IO
+    name: IO
+    href: UniKuroKit.IO.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.IO
+    name: IO
+    href: UniKuroKit.IO.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UniKuroKit.IO.ChunkSplitter.Split*
+  commentId: Overload:UniKuroKit.IO.ChunkSplitter.Split
+  href: UniKuroKit.IO.ChunkSplitter.html#UniKuroKit_IO_ChunkSplitter_Split_UniKuroKit_Serialization_DataContainer_System_Int32_
+  name: Split
+  nameWithType: ChunkSplitter.Split
+  fullName: UniKuroKit.IO.ChunkSplitter.Split
+- uid: UniKuroKit.Serialization.DataContainer
+  commentId: T:UniKuroKit.Serialization.DataContainer
+  parent: UniKuroKit.Serialization
+  href: UniKuroKit.Serialization.DataContainer.html
+  name: DataContainer
+  nameWithType: DataContainer
+  fullName: UniKuroKit.Serialization.DataContainer
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Collections.Generic.List{UniKuroKit.Serialization.DataContainer}
+  commentId: T:System.Collections.Generic.List{UniKuroKit.Serialization.DataContainer}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: UniKuroKit.Serialization.DataContainer.html
+  name: List<DataContainer>
+  nameWithType: List<DataContainer>
+  fullName: System.Collections.Generic.List<UniKuroKit.Serialization.DataContainer>
+  nameWithType.vb: List(Of DataContainer)
+  fullName.vb: System.Collections.Generic.List(Of UniKuroKit.Serialization.DataContainer)
+  name.vb: List(Of DataContainer)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: UniKuroKit.Serialization.DataContainer
+    name: DataContainer
+    href: UniKuroKit.Serialization.DataContainer.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UniKuroKit.Serialization.DataContainer
+    name: DataContainer
+    href: UniKuroKit.Serialization.DataContainer.html
+  - name: )
+- uid: UniKuroKit.Serialization
+  commentId: N:UniKuroKit.Serialization
+  href: UniKuroKit.html
+  name: UniKuroKit.Serialization
+  nameWithType: UniKuroKit.Serialization
+  fullName: UniKuroKit.Serialization
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Serialization
+    name: Serialization
+    href: UniKuroKit.Serialization.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Serialization
+    name: Serialization
+    href: UniKuroKit.Serialization.html
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: UniKuroKit.IO.ChunkSplitter.Merge*
+  commentId: Overload:UniKuroKit.IO.ChunkSplitter.Merge
+  href: UniKuroKit.IO.ChunkSplitter.html#UniKuroKit_IO_ChunkSplitter_Merge_System_Collections_Generic_List_UniKuroKit_Serialization_DataContainer__
+  name: Merge
+  nameWithType: ChunkSplitter.Merge
+  fullName: UniKuroKit.IO.ChunkSplitter.Merge

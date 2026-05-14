@@ -1,0 +1,98 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Events.Visitor.IVisitor`1
+  commentId: T:UniKuroKit.Events.Visitor.IVisitor`1
+  id: IVisitor`1
+  parent: UniKuroKit.Events.Visitor
+  children:
+  - UniKuroKit.Events.Visitor.IVisitor`1.Visit(`0)
+  langs:
+  - csharp
+  - vb
+  name: IVisitor<T>
+  nameWithType: IVisitor<T>
+  fullName: UniKuroKit.Events.Visitor.IVisitor<T>
+  type: Interface
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events.Visitor
+  syntax:
+    content: 'public interface IVisitor<in T> : IVisitor'
+    typeParameters:
+    - id: T
+    content.vb: Public Interface IVisitor(Of In T) Inherits IVisitor
+  nameWithType.vb: IVisitor(Of T)
+  fullName.vb: UniKuroKit.Events.Visitor.IVisitor(Of T)
+  name.vb: IVisitor(Of T)
+- uid: UniKuroKit.Events.Visitor.IVisitor`1.Visit(`0)
+  commentId: M:UniKuroKit.Events.Visitor.IVisitor`1.Visit(`0)
+  id: Visit(`0)
+  parent: UniKuroKit.Events.Visitor.IVisitor`1
+  langs:
+  - csharp
+  - vb
+  name: Visit(T)
+  nameWithType: IVisitor<T>.Visit(T)
+  fullName: UniKuroKit.Events.Visitor.IVisitor<T>.Visit(T)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events.Visitor
+  syntax:
+    content: void Visit(T visitable)
+    parameters:
+    - id: visitable
+      type: '{T}'
+    content.vb: Sub Visit(visitable As T)
+  overload: UniKuroKit.Events.Visitor.IVisitor`1.Visit*
+  nameWithType.vb: IVisitor(Of T).Visit(T)
+  fullName.vb: UniKuroKit.Events.Visitor.IVisitor(Of T).Visit(T)
+references:
+- uid: UniKuroKit.Events.Visitor
+  commentId: N:UniKuroKit.Events.Visitor
+  href: UniKuroKit.html
+  name: UniKuroKit.Events.Visitor
+  nameWithType: UniKuroKit.Events.Visitor
+  fullName: UniKuroKit.Events.Visitor
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  - name: .
+  - uid: UniKuroKit.Events.Visitor
+    name: Visitor
+    href: UniKuroKit.Events.Visitor.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  - name: .
+  - uid: UniKuroKit.Events.Visitor
+    name: Visitor
+    href: UniKuroKit.Events.Visitor.html
+- uid: UniKuroKit.Events.Visitor.IVisitor`1.Visit*
+  commentId: Overload:UniKuroKit.Events.Visitor.IVisitor`1.Visit
+  href: UniKuroKit.Events.Visitor.IVisitor-1.html#UniKuroKit_Events_Visitor_IVisitor_1_Visit__0_
+  name: Visit
+  nameWithType: IVisitor<T>.Visit
+  fullName: UniKuroKit.Events.Visitor.IVisitor<T>.Visit
+  nameWithType.vb: IVisitor(Of T).Visit
+  fullName.vb: UniKuroKit.Events.Visitor.IVisitor(Of T).Visit
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

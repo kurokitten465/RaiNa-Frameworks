@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Events.Visitor
+  commentId: N:UniKuroKit.Events.Visitor
+  id: UniKuroKit.Events.Visitor
+  children:
+  - UniKuroKit.Events.Visitor.IVisitable
+  - UniKuroKit.Events.Visitor.IVisitor
+  - UniKuroKit.Events.Visitor.IVisitor`1
+  langs:
+  - csharp
+  - vb
+  name: UniKuroKit.Events.Visitor
+  nameWithType: UniKuroKit.Events.Visitor
+  fullName: UniKuroKit.Events.Visitor
+  type: Namespace
+  assemblies:
+  - com.kurokitten.unikurokit.events
+references:
+- uid: UniKuroKit.Events.Visitor.IVisitor
+  commentId: T:UniKuroKit.Events.Visitor.IVisitor
+  parent: UniKuroKit.Events.Visitor
+  href: UniKuroKit.Events.Visitor.IVisitor.html
+  name: IVisitor
+  nameWithType: IVisitor
+  fullName: UniKuroKit.Events.Visitor.IVisitor
+- uid: UniKuroKit.Events.Visitor.IVisitor`1
+  commentId: T:UniKuroKit.Events.Visitor.IVisitor`1
+  href: UniKuroKit.Events.Visitor.IVisitor-1.html
+  name: IVisitor<T>
+  nameWithType: IVisitor<T>
+  fullName: UniKuroKit.Events.Visitor.IVisitor<T>
+  nameWithType.vb: IVisitor(Of T)
+  fullName.vb: UniKuroKit.Events.Visitor.IVisitor(Of T)
+  name.vb: IVisitor(Of T)
+  spec.csharp:
+  - uid: UniKuroKit.Events.Visitor.IVisitor`1
+    name: IVisitor
+    href: UniKuroKit.Events.Visitor.IVisitor-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: UniKuroKit.Events.Visitor.IVisitor`1
+    name: IVisitor
+    href: UniKuroKit.Events.Visitor.IVisitor-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: UniKuroKit.Events.Visitor.IVisitable
+  commentId: T:UniKuroKit.Events.Visitor.IVisitable
+  href: UniKuroKit.Events.Visitor.IVisitable.html
+  name: IVisitable
+  nameWithType: IVisitable
+  fullName: UniKuroKit.Events.Visitor.IVisitable
+- uid: UniKuroKit.Events.Visitor
+  commentId: N:UniKuroKit.Events.Visitor
+  href: UniKuroKit.html
+  name: UniKuroKit.Events.Visitor
+  nameWithType: UniKuroKit.Events.Visitor
+  fullName: UniKuroKit.Events.Visitor
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  - name: .
+  - uid: UniKuroKit.Events.Visitor
+    name: Visitor
+    href: UniKuroKit.Events.Visitor.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  - name: .
+  - uid: UniKuroKit.Events.Visitor
+    name: Visitor
+    href: UniKuroKit.Events.Visitor.html

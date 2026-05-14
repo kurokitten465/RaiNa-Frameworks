@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Exceptions.SingletonInitializeException
+  commentId: T:UniKuroKit.Exceptions.SingletonInitializeException
+  id: SingletonInitializeException
+  parent: UniKuroKit.Exceptions
+  children:
+  - UniKuroKit.Exceptions.SingletonInitializeException.#ctor
+  - UniKuroKit.Exceptions.SingletonInitializeException.#ctor(System.String)
+  - UniKuroKit.Exceptions.SingletonInitializeException.#ctor(System.String,System.Exception)
+  langs:
+  - csharp
+  - vb
+  name: SingletonInitializeException
+  nameWithType: SingletonInitializeException
+  fullName: UniKuroKit.Exceptions.SingletonInitializeException
+  type: Class
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Exceptions
+  summary: Exception thrown when singleton initialization fails.
+  example: []
+  syntax:
+    content: 'public class SingletonInitializeException : Exception'
+    content.vb: Public Class SingletonInitializeException Inherits Exception
+  inheritance:
+  - System.Object
+  - System.Exception
+- uid: UniKuroKit.Exceptions.SingletonInitializeException.#ctor
+  commentId: M:UniKuroKit.Exceptions.SingletonInitializeException.#ctor
+  id: '#ctor'
+  parent: UniKuroKit.Exceptions.SingletonInitializeException
+  langs:
+  - csharp
+  - vb
+  name: SingletonInitializeException()
+  nameWithType: SingletonInitializeException.SingletonInitializeException()
+  fullName: UniKuroKit.Exceptions.SingletonInitializeException.SingletonInitializeException()
+  type: Constructor
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Exceptions
+  syntax:
+    content: public SingletonInitializeException()
+    content.vb: Public Sub New()
+  overload: UniKuroKit.Exceptions.SingletonInitializeException.#ctor*
+  nameWithType.vb: SingletonInitializeException.New()
+  fullName.vb: UniKuroKit.Exceptions.SingletonInitializeException.New()
+  name.vb: New()
+- uid: UniKuroKit.Exceptions.SingletonInitializeException.#ctor(System.String)
+  commentId: M:UniKuroKit.Exceptions.SingletonInitializeException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: UniKuroKit.Exceptions.SingletonInitializeException
+  langs:
+  - csharp
+  - vb
+  name: SingletonInitializeException(string)
+  nameWithType: SingletonInitializeException.SingletonInitializeException(string)
+  fullName: UniKuroKit.Exceptions.SingletonInitializeException.SingletonInitializeException(string)
+  type: Constructor
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Exceptions
+  syntax:
+    content: public SingletonInitializeException(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Sub New(message As String)
+  overload: UniKuroKit.Exceptions.SingletonInitializeException.#ctor*
+  nameWithType.vb: SingletonInitializeException.New(String)
+  fullName.vb: UniKuroKit.Exceptions.SingletonInitializeException.New(String)
+  name.vb: New(String)
+- uid: UniKuroKit.Exceptions.SingletonInitializeException.#ctor(System.String,System.Exception)
+  commentId: M:UniKuroKit.Exceptions.SingletonInitializeException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: UniKuroKit.Exceptions.SingletonInitializeException
+  langs:
+  - csharp
+  - vb
+  name: SingletonInitializeException(string, Exception)
+  nameWithType: SingletonInitializeException.SingletonInitializeException(string, Exception)
+  fullName: UniKuroKit.Exceptions.SingletonInitializeException.SingletonInitializeException(string, System.Exception)
+  type: Constructor
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Exceptions
+  syntax:
+    content: public SingletonInitializeException(string message, Exception inner)
+    parameters:
+    - id: message
+      type: System.String
+    - id: inner
+      type: System.Exception
+    content.vb: Public Sub New(message As String, inner As Exception)
+  overload: UniKuroKit.Exceptions.SingletonInitializeException.#ctor*
+  nameWithType.vb: SingletonInitializeException.New(String, Exception)
+  fullName.vb: UniKuroKit.Exceptions.SingletonInitializeException.New(String, System.Exception)
+  name.vb: New(String, Exception)
+references:
+- uid: UniKuroKit.Exceptions
+  commentId: N:UniKuroKit.Exceptions
+  href: UniKuroKit.html
+  name: UniKuroKit.Exceptions
+  nameWithType: UniKuroKit.Exceptions
+  fullName: UniKuroKit.Exceptions
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Exceptions
+    name: Exceptions
+    href: UniKuroKit.Exceptions.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Exceptions
+    name: Exceptions
+    href: UniKuroKit.Exceptions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UniKuroKit.Exceptions.SingletonInitializeException.#ctor*
+  commentId: Overload:UniKuroKit.Exceptions.SingletonInitializeException.#ctor
+  href: UniKuroKit.Exceptions.SingletonInitializeException.html#UniKuroKit_Exceptions_SingletonInitializeException__ctor
+  name: SingletonInitializeException
+  nameWithType: SingletonInitializeException.SingletonInitializeException
+  fullName: UniKuroKit.Exceptions.SingletonInitializeException.SingletonInitializeException
+  nameWithType.vb: SingletonInitializeException.New
+  fullName.vb: UniKuroKit.Exceptions.SingletonInitializeException.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

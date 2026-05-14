@@ -1,0 +1,67 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Security
+  commentId: N:UniKuroKit.Security
+  id: UniKuroKit.Security
+  children:
+  - UniKuroKit.Security.AesEncryptionProvider
+  - UniKuroKit.Security.EncryptionFactory
+  - UniKuroKit.Security.IEncryptionProvider
+  - UniKuroKit.Security.NoEncryptionProvider
+  langs:
+  - csharp
+  - vb
+  name: UniKuroKit.Security
+  nameWithType: UniKuroKit.Security
+  fullName: UniKuroKit.Security
+  type: Namespace
+  assemblies:
+  - com.kurokitten.unikurokit
+references:
+- uid: UniKuroKit.Security.AesEncryptionProvider
+  commentId: T:UniKuroKit.Security.AesEncryptionProvider
+  href: UniKuroKit.Security.AesEncryptionProvider.html
+  name: AesEncryptionProvider
+  nameWithType: AesEncryptionProvider
+  fullName: UniKuroKit.Security.AesEncryptionProvider
+- uid: UniKuroKit.Security.NoEncryptionProvider
+  commentId: T:UniKuroKit.Security.NoEncryptionProvider
+  href: UniKuroKit.Security.NoEncryptionProvider.html
+  name: NoEncryptionProvider
+  nameWithType: NoEncryptionProvider
+  fullName: UniKuroKit.Security.NoEncryptionProvider
+- uid: UniKuroKit.Security.IEncryptionProvider
+  commentId: T:UniKuroKit.Security.IEncryptionProvider
+  parent: UniKuroKit.Security
+  href: UniKuroKit.Security.IEncryptionProvider.html
+  name: IEncryptionProvider
+  nameWithType: IEncryptionProvider
+  fullName: UniKuroKit.Security.IEncryptionProvider
+- uid: UniKuroKit.Security.EncryptionFactory
+  commentId: T:UniKuroKit.Security.EncryptionFactory
+  href: UniKuroKit.Security.EncryptionFactory.html
+  name: EncryptionFactory
+  nameWithType: EncryptionFactory
+  fullName: UniKuroKit.Security.EncryptionFactory
+- uid: UniKuroKit.Security
+  commentId: N:UniKuroKit.Security
+  href: UniKuroKit.html
+  name: UniKuroKit.Security
+  nameWithType: UniKuroKit.Security
+  fullName: UniKuroKit.Security
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Security
+    name: Security
+    href: UniKuroKit.Security.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Security
+    name: Security
+    href: UniKuroKit.Security.html

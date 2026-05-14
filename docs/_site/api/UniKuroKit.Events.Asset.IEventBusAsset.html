@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Interface IEventBusAsset </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Interface IEventBusAsset ">
+    
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UniKuroKit.Events.Asset.IEventBusAsset">
+
+
+
+  <h1 id="UniKuroKit_Events_Asset_IEventBusAsset" data-uid="UniKuroKit.Events.Asset.IEventBusAsset" class="text-break">Interface IEventBusAsset</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Publish__1___0_">IEventBus.Publish&lt;TEvent&gt;(TEvent)</a>
+    </div>
+    <div>
+      <a class="xref" href="UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Subscribe__1_UniKuroKit_Events_IEventHandler___0__">IEventBus.Subscribe&lt;TEvent&gt;(IEventHandler&lt;TEvent&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Unsubscribe__1_UniKuroKit_Events_IEventHandler___0__">IEventBus.Unsubscribe&lt;TEvent&gt;(IEventHandler&lt;TEvent&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Clear__1">IEventBus.Clear&lt;TEvent&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_ClearAll">IEventBus.ClearAll()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UniKuroKit.html">UniKuroKit</a>.<a class="xref" href="UniKuroKit.Events.html">Events</a>.<a class="xref" href="UniKuroKit.Events.Asset.html">Asset</a></h6>
+  <h6><strong>Assembly</strong>: com.kurokitten.unikurokit.events.dll</h6>
+  <h5 id="UniKuroKit_Events_Asset_IEventBusAsset_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IEventBusAsset : IEventBus</code></pre>
+  </div>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="UniKuroKit_Events_Asset_IEventBusAsset_BusName_" data-uid="UniKuroKit.Events.Asset.IEventBusAsset.BusName*"></a>
+  <h4 id="UniKuroKit_Events_Asset_IEventBusAsset_BusName" data-uid="UniKuroKit.Events.Asset.IEventBusAsset.BusName">BusName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string BusName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UniKuroKit_Events_Asset_IEventBusAsset_ResetOnSceneUnload_" data-uid="UniKuroKit.Events.Asset.IEventBusAsset.ResetOnSceneUnload*"></a>
+  <h4 id="UniKuroKit_Events_Asset_IEventBusAsset_ResetOnSceneUnload" data-uid="UniKuroKit.Events.Asset.IEventBusAsset.ResetOnSceneUnload">ResetOnSceneUnload</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ResetOnSceneUnload { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="UniKuroKit_Events_Asset_IEventBusAsset_ResetRuntime_" data-uid="UniKuroKit.Events.Asset.IEventBusAsset.ResetRuntime*"></a>
+  <h4 id="UniKuroKit_Events_Asset_IEventBusAsset_ResetRuntime" data-uid="UniKuroKit.Events.Asset.IEventBusAsset.ResetRuntime">ResetRuntime()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ResetRuntime()</code></pre>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

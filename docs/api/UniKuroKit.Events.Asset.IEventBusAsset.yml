@@ -1,0 +1,484 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Events.Asset.IEventBusAsset
+  commentId: T:UniKuroKit.Events.Asset.IEventBusAsset
+  id: IEventBusAsset
+  parent: UniKuroKit.Events.Asset
+  children:
+  - UniKuroKit.Events.Asset.IEventBusAsset.BusName
+  - UniKuroKit.Events.Asset.IEventBusAsset.ResetOnSceneUnload
+  - UniKuroKit.Events.Asset.IEventBusAsset.ResetRuntime
+  langs:
+  - csharp
+  - vb
+  name: IEventBusAsset
+  nameWithType: IEventBusAsset
+  fullName: UniKuroKit.Events.Asset.IEventBusAsset
+  type: Interface
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events.Asset
+  syntax:
+    content: 'public interface IEventBusAsset : IEventBus'
+    content.vb: Public Interface IEventBusAsset Inherits IEventBus
+  derivedClasses:
+  - UniKuroKit.Events.Asset.EventBusAsset
+  inheritedMembers:
+  - UniKuroKit.Events.IEventBus.Publish``1({TEvent})
+  - UniKuroKit.Events.IEventBus.Subscribe``1(UniKuroKit.Events.IEventHandler{{TEvent}})
+  - UniKuroKit.Events.IEventBus.Unsubscribe``1(UniKuroKit.Events.IEventHandler{{TEvent}})
+  - UniKuroKit.Events.IEventBus.Clear``1
+  - UniKuroKit.Events.IEventBus.ClearAll
+- uid: UniKuroKit.Events.Asset.IEventBusAsset.BusName
+  commentId: P:UniKuroKit.Events.Asset.IEventBusAsset.BusName
+  id: BusName
+  parent: UniKuroKit.Events.Asset.IEventBusAsset
+  langs:
+  - csharp
+  - vb
+  name: BusName
+  nameWithType: IEventBusAsset.BusName
+  fullName: UniKuroKit.Events.Asset.IEventBusAsset.BusName
+  type: Property
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events.Asset
+  syntax:
+    content: string BusName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property BusName As String
+  overload: UniKuroKit.Events.Asset.IEventBusAsset.BusName*
+- uid: UniKuroKit.Events.Asset.IEventBusAsset.ResetOnSceneUnload
+  commentId: P:UniKuroKit.Events.Asset.IEventBusAsset.ResetOnSceneUnload
+  id: ResetOnSceneUnload
+  parent: UniKuroKit.Events.Asset.IEventBusAsset
+  langs:
+  - csharp
+  - vb
+  name: ResetOnSceneUnload
+  nameWithType: IEventBusAsset.ResetOnSceneUnload
+  fullName: UniKuroKit.Events.Asset.IEventBusAsset.ResetOnSceneUnload
+  type: Property
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events.Asset
+  syntax:
+    content: bool ResetOnSceneUnload { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property ResetOnSceneUnload As Boolean
+  overload: UniKuroKit.Events.Asset.IEventBusAsset.ResetOnSceneUnload*
+- uid: UniKuroKit.Events.Asset.IEventBusAsset.ResetRuntime
+  commentId: M:UniKuroKit.Events.Asset.IEventBusAsset.ResetRuntime
+  id: ResetRuntime
+  parent: UniKuroKit.Events.Asset.IEventBusAsset
+  langs:
+  - csharp
+  - vb
+  name: ResetRuntime()
+  nameWithType: IEventBusAsset.ResetRuntime()
+  fullName: UniKuroKit.Events.Asset.IEventBusAsset.ResetRuntime()
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit.events
+  namespace: UniKuroKit.Events.Asset
+  syntax:
+    content: void ResetRuntime()
+    content.vb: Sub ResetRuntime()
+  overload: UniKuroKit.Events.Asset.IEventBusAsset.ResetRuntime*
+references:
+- uid: UniKuroKit.Events.Asset
+  commentId: N:UniKuroKit.Events.Asset
+  href: UniKuroKit.html
+  name: UniKuroKit.Events.Asset
+  nameWithType: UniKuroKit.Events.Asset
+  fullName: UniKuroKit.Events.Asset
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  - name: .
+  - uid: UniKuroKit.Events.Asset
+    name: Asset
+    href: UniKuroKit.Events.Asset.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  - name: .
+  - uid: UniKuroKit.Events.Asset
+    name: Asset
+    href: UniKuroKit.Events.Asset.html
+- uid: UniKuroKit.Events.IEventBus.Publish``1({TEvent})
+  commentId: M:UniKuroKit.Events.IEventBus.Publish``1(``0)
+  parent: UniKuroKit.Events.IEventBus
+  definition: UniKuroKit.Events.IEventBus.Publish``1(``0)
+  href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Publish__1___0_
+  name: Publish<TEvent>(TEvent)
+  nameWithType: IEventBus.Publish<TEvent>(TEvent)
+  fullName: UniKuroKit.Events.IEventBus.Publish<TEvent>(TEvent)
+  nameWithType.vb: IEventBus.Publish(Of TEvent)(TEvent)
+  fullName.vb: UniKuroKit.Events.IEventBus.Publish(Of TEvent)(TEvent)
+  name.vb: Publish(Of TEvent)(TEvent)
+  spec.csharp:
+  - uid: UniKuroKit.Events.IEventBus.Publish``1(``0)
+    name: Publish
+    href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Publish__1___0_
+  - name: <
+  - name: TEvent
+  - name: '>'
+  - name: (
+  - name: TEvent
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Events.IEventBus.Publish``1(``0)
+    name: Publish
+    href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Publish__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+  - name: (
+  - name: TEvent
+  - name: )
+- uid: UniKuroKit.Events.IEventBus.Subscribe``1(UniKuroKit.Events.IEventHandler{{TEvent}})
+  commentId: M:UniKuroKit.Events.IEventBus.Subscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  parent: UniKuroKit.Events.IEventBus
+  definition: UniKuroKit.Events.IEventBus.Subscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Subscribe__1_UniKuroKit_Events_IEventHandler___0__
+  name: Subscribe<TEvent>(IEventHandler<TEvent>)
+  nameWithType: IEventBus.Subscribe<TEvent>(IEventHandler<TEvent>)
+  fullName: UniKuroKit.Events.IEventBus.Subscribe<TEvent>(UniKuroKit.Events.IEventHandler<TEvent>)
+  nameWithType.vb: IEventBus.Subscribe(Of TEvent)(IEventHandler(Of TEvent))
+  fullName.vb: UniKuroKit.Events.IEventBus.Subscribe(Of TEvent)(UniKuroKit.Events.IEventHandler(Of TEvent))
+  name.vb: Subscribe(Of TEvent)(IEventHandler(Of TEvent))
+  spec.csharp:
+  - uid: UniKuroKit.Events.IEventBus.Subscribe``1(UniKuroKit.Events.IEventHandler{``0})
+    name: Subscribe
+    href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Subscribe__1_UniKuroKit_Events_IEventHandler___0__
+  - name: <
+  - name: TEvent
+  - name: '>'
+  - name: (
+  - uid: UniKuroKit.Events.IEventHandler`1
+    name: IEventHandler
+    href: UniKuroKit.Events.IEventHandler-1.html
+  - name: <
+  - name: TEvent
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Events.IEventBus.Subscribe``1(UniKuroKit.Events.IEventHandler{``0})
+    name: Subscribe
+    href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Subscribe__1_UniKuroKit_Events_IEventHandler___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+  - name: (
+  - uid: UniKuroKit.Events.IEventHandler`1
+    name: IEventHandler
+    href: UniKuroKit.Events.IEventHandler-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+  - name: )
+- uid: UniKuroKit.Events.IEventBus.Unsubscribe``1(UniKuroKit.Events.IEventHandler{{TEvent}})
+  commentId: M:UniKuroKit.Events.IEventBus.Unsubscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  parent: UniKuroKit.Events.IEventBus
+  definition: UniKuroKit.Events.IEventBus.Unsubscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Unsubscribe__1_UniKuroKit_Events_IEventHandler___0__
+  name: Unsubscribe<TEvent>(IEventHandler<TEvent>)
+  nameWithType: IEventBus.Unsubscribe<TEvent>(IEventHandler<TEvent>)
+  fullName: UniKuroKit.Events.IEventBus.Unsubscribe<TEvent>(UniKuroKit.Events.IEventHandler<TEvent>)
+  nameWithType.vb: IEventBus.Unsubscribe(Of TEvent)(IEventHandler(Of TEvent))
+  fullName.vb: UniKuroKit.Events.IEventBus.Unsubscribe(Of TEvent)(UniKuroKit.Events.IEventHandler(Of TEvent))
+  name.vb: Unsubscribe(Of TEvent)(IEventHandler(Of TEvent))
+  spec.csharp:
+  - uid: UniKuroKit.Events.IEventBus.Unsubscribe``1(UniKuroKit.Events.IEventHandler{``0})
+    name: Unsubscribe
+    href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Unsubscribe__1_UniKuroKit_Events_IEventHandler___0__
+  - name: <
+  - name: TEvent
+  - name: '>'
+  - name: (
+  - uid: UniKuroKit.Events.IEventHandler`1
+    name: IEventHandler
+    href: UniKuroKit.Events.IEventHandler-1.html
+  - name: <
+  - name: TEvent
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Events.IEventBus.Unsubscribe``1(UniKuroKit.Events.IEventHandler{``0})
+    name: Unsubscribe
+    href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Unsubscribe__1_UniKuroKit_Events_IEventHandler___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+  - name: (
+  - uid: UniKuroKit.Events.IEventHandler`1
+    name: IEventHandler
+    href: UniKuroKit.Events.IEventHandler-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+  - name: )
+- uid: UniKuroKit.Events.IEventBus.Clear``1
+  commentId: M:UniKuroKit.Events.IEventBus.Clear``1
+  parent: UniKuroKit.Events.IEventBus
+  href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Clear__1
+  name: Clear<TEvent>()
+  nameWithType: IEventBus.Clear<TEvent>()
+  fullName: UniKuroKit.Events.IEventBus.Clear<TEvent>()
+  nameWithType.vb: IEventBus.Clear(Of TEvent)()
+  fullName.vb: UniKuroKit.Events.IEventBus.Clear(Of TEvent)()
+  name.vb: Clear(Of TEvent)()
+  spec.csharp:
+  - uid: UniKuroKit.Events.IEventBus.Clear``1
+    name: Clear
+    href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Clear__1
+  - name: <
+  - name: TEvent
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Events.IEventBus.Clear``1
+    name: Clear
+    href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Clear__1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+  - name: (
+  - name: )
+- uid: UniKuroKit.Events.IEventBus.ClearAll
+  commentId: M:UniKuroKit.Events.IEventBus.ClearAll
+  parent: UniKuroKit.Events.IEventBus
+  href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_ClearAll
+  name: ClearAll()
+  nameWithType: IEventBus.ClearAll()
+  fullName: UniKuroKit.Events.IEventBus.ClearAll()
+  spec.csharp:
+  - uid: UniKuroKit.Events.IEventBus.ClearAll
+    name: ClearAll
+    href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_ClearAll
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Events.IEventBus.ClearAll
+    name: ClearAll
+    href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_ClearAll
+  - name: (
+  - name: )
+- uid: UniKuroKit.Events.IEventBus.Publish``1(``0)
+  commentId: M:UniKuroKit.Events.IEventBus.Publish``1(``0)
+  href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Publish__1___0_
+  name: Publish<TEvent>(TEvent)
+  nameWithType: IEventBus.Publish<TEvent>(TEvent)
+  fullName: UniKuroKit.Events.IEventBus.Publish<TEvent>(TEvent)
+  nameWithType.vb: IEventBus.Publish(Of TEvent)(TEvent)
+  fullName.vb: UniKuroKit.Events.IEventBus.Publish(Of TEvent)(TEvent)
+  name.vb: Publish(Of TEvent)(TEvent)
+  spec.csharp:
+  - uid: UniKuroKit.Events.IEventBus.Publish``1(``0)
+    name: Publish
+    href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Publish__1___0_
+  - name: <
+  - name: TEvent
+  - name: '>'
+  - name: (
+  - name: TEvent
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Events.IEventBus.Publish``1(``0)
+    name: Publish
+    href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Publish__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+  - name: (
+  - name: TEvent
+  - name: )
+- uid: UniKuroKit.Events.IEventBus
+  commentId: T:UniKuroKit.Events.IEventBus
+  parent: UniKuroKit.Events
+  href: UniKuroKit.Events.IEventBus.html
+  name: IEventBus
+  nameWithType: IEventBus
+  fullName: UniKuroKit.Events.IEventBus
+- uid: UniKuroKit.Events.IEventBus.Subscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  commentId: M:UniKuroKit.Events.IEventBus.Subscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Subscribe__1_UniKuroKit_Events_IEventHandler___0__
+  name: Subscribe<TEvent>(IEventHandler<TEvent>)
+  nameWithType: IEventBus.Subscribe<TEvent>(IEventHandler<TEvent>)
+  fullName: UniKuroKit.Events.IEventBus.Subscribe<TEvent>(UniKuroKit.Events.IEventHandler<TEvent>)
+  nameWithType.vb: IEventBus.Subscribe(Of TEvent)(IEventHandler(Of TEvent))
+  fullName.vb: UniKuroKit.Events.IEventBus.Subscribe(Of TEvent)(UniKuroKit.Events.IEventHandler(Of TEvent))
+  name.vb: Subscribe(Of TEvent)(IEventHandler(Of TEvent))
+  spec.csharp:
+  - uid: UniKuroKit.Events.IEventBus.Subscribe``1(UniKuroKit.Events.IEventHandler{``0})
+    name: Subscribe
+    href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Subscribe__1_UniKuroKit_Events_IEventHandler___0__
+  - name: <
+  - name: TEvent
+  - name: '>'
+  - name: (
+  - uid: UniKuroKit.Events.IEventHandler`1
+    name: IEventHandler
+    href: UniKuroKit.Events.IEventHandler-1.html
+  - name: <
+  - name: TEvent
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Events.IEventBus.Subscribe``1(UniKuroKit.Events.IEventHandler{``0})
+    name: Subscribe
+    href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Subscribe__1_UniKuroKit_Events_IEventHandler___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+  - name: (
+  - uid: UniKuroKit.Events.IEventHandler`1
+    name: IEventHandler
+    href: UniKuroKit.Events.IEventHandler-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+  - name: )
+- uid: UniKuroKit.Events.IEventBus.Unsubscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  commentId: M:UniKuroKit.Events.IEventBus.Unsubscribe``1(UniKuroKit.Events.IEventHandler{``0})
+  href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Unsubscribe__1_UniKuroKit_Events_IEventHandler___0__
+  name: Unsubscribe<TEvent>(IEventHandler<TEvent>)
+  nameWithType: IEventBus.Unsubscribe<TEvent>(IEventHandler<TEvent>)
+  fullName: UniKuroKit.Events.IEventBus.Unsubscribe<TEvent>(UniKuroKit.Events.IEventHandler<TEvent>)
+  nameWithType.vb: IEventBus.Unsubscribe(Of TEvent)(IEventHandler(Of TEvent))
+  fullName.vb: UniKuroKit.Events.IEventBus.Unsubscribe(Of TEvent)(UniKuroKit.Events.IEventHandler(Of TEvent))
+  name.vb: Unsubscribe(Of TEvent)(IEventHandler(Of TEvent))
+  spec.csharp:
+  - uid: UniKuroKit.Events.IEventBus.Unsubscribe``1(UniKuroKit.Events.IEventHandler{``0})
+    name: Unsubscribe
+    href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Unsubscribe__1_UniKuroKit_Events_IEventHandler___0__
+  - name: <
+  - name: TEvent
+  - name: '>'
+  - name: (
+  - uid: UniKuroKit.Events.IEventHandler`1
+    name: IEventHandler
+    href: UniKuroKit.Events.IEventHandler-1.html
+  - name: <
+  - name: TEvent
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Events.IEventBus.Unsubscribe``1(UniKuroKit.Events.IEventHandler{``0})
+    name: Unsubscribe
+    href: UniKuroKit.Events.IEventBus.html#UniKuroKit_Events_IEventBus_Unsubscribe__1_UniKuroKit_Events_IEventHandler___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+  - name: (
+  - uid: UniKuroKit.Events.IEventHandler`1
+    name: IEventHandler
+    href: UniKuroKit.Events.IEventHandler-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+  - name: )
+- uid: UniKuroKit.Events
+  commentId: N:UniKuroKit.Events
+  href: UniKuroKit.html
+  name: UniKuroKit.Events
+  nameWithType: UniKuroKit.Events
+  fullName: UniKuroKit.Events
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+- uid: UniKuroKit.Events.Asset.IEventBusAsset.BusName*
+  commentId: Overload:UniKuroKit.Events.Asset.IEventBusAsset.BusName
+  href: UniKuroKit.Events.Asset.IEventBusAsset.html#UniKuroKit_Events_Asset_IEventBusAsset_BusName
+  name: BusName
+  nameWithType: IEventBusAsset.BusName
+  fullName: UniKuroKit.Events.Asset.IEventBusAsset.BusName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UniKuroKit.Events.Asset.IEventBusAsset.ResetOnSceneUnload*
+  commentId: Overload:UniKuroKit.Events.Asset.IEventBusAsset.ResetOnSceneUnload
+  href: UniKuroKit.Events.Asset.IEventBusAsset.html#UniKuroKit_Events_Asset_IEventBusAsset_ResetOnSceneUnload
+  name: ResetOnSceneUnload
+  nameWithType: IEventBusAsset.ResetOnSceneUnload
+  fullName: UniKuroKit.Events.Asset.IEventBusAsset.ResetOnSceneUnload
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: UniKuroKit.Events.Asset.IEventBusAsset.ResetRuntime*
+  commentId: Overload:UniKuroKit.Events.Asset.IEventBusAsset.ResetRuntime
+  href: UniKuroKit.Events.Asset.IEventBusAsset.html#UniKuroKit_Events_Asset_IEventBusAsset_ResetRuntime
+  name: ResetRuntime
+  nameWithType: IEventBusAsset.ResetRuntime
+  fullName: UniKuroKit.Events.Asset.IEventBusAsset.ResetRuntime

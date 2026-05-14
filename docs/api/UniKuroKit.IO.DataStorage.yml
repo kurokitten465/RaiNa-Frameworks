@@ -1,0 +1,306 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.IO.DataStorage
+  commentId: T:UniKuroKit.IO.DataStorage
+  id: DataStorage
+  parent: UniKuroKit.IO
+  children:
+  - UniKuroKit.IO.DataStorage.#ctor(UniKuroKit.Serialization.SerializerConfigurations)
+  - UniKuroKit.IO.DataStorage.AnyChunkExists
+  - UniKuroKit.IO.DataStorage.ChunkExists(System.Int32)
+  - UniKuroKit.IO.DataStorage.DeleteAll
+  - UniKuroKit.IO.DataStorage.ReadChunk(System.Int32)
+  - UniKuroKit.IO.DataStorage.WriteChunk(System.Int32,UniKuroKit.Serialization.DataContainer)
+  langs:
+  - csharp
+  - vb
+  name: DataStorage
+  nameWithType: DataStorage
+  fullName: UniKuroKit.IO.DataStorage
+  type: Class
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.IO
+  syntax:
+    content: public class DataStorage
+    content.vb: Public Class DataStorage
+  inheritance:
+  - System.Object
+- uid: UniKuroKit.IO.DataStorage.#ctor(UniKuroKit.Serialization.SerializerConfigurations)
+  commentId: M:UniKuroKit.IO.DataStorage.#ctor(UniKuroKit.Serialization.SerializerConfigurations)
+  id: '#ctor(UniKuroKit.Serialization.SerializerConfigurations)'
+  parent: UniKuroKit.IO.DataStorage
+  langs:
+  - csharp
+  - vb
+  name: DataStorage(SerializerConfigurations)
+  nameWithType: DataStorage.DataStorage(SerializerConfigurations)
+  fullName: UniKuroKit.IO.DataStorage.DataStorage(UniKuroKit.Serialization.SerializerConfigurations)
+  type: Constructor
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.IO
+  syntax:
+    content: public DataStorage(SerializerConfigurations settings)
+    parameters:
+    - id: settings
+      type: UniKuroKit.Serialization.SerializerConfigurations
+    content.vb: Public Sub New(settings As SerializerConfigurations)
+  overload: UniKuroKit.IO.DataStorage.#ctor*
+  nameWithType.vb: DataStorage.New(SerializerConfigurations)
+  fullName.vb: UniKuroKit.IO.DataStorage.New(UniKuroKit.Serialization.SerializerConfigurations)
+  name.vb: New(SerializerConfigurations)
+- uid: UniKuroKit.IO.DataStorage.WriteChunk(System.Int32,UniKuroKit.Serialization.DataContainer)
+  commentId: M:UniKuroKit.IO.DataStorage.WriteChunk(System.Int32,UniKuroKit.Serialization.DataContainer)
+  id: WriteChunk(System.Int32,UniKuroKit.Serialization.DataContainer)
+  parent: UniKuroKit.IO.DataStorage
+  langs:
+  - csharp
+  - vb
+  name: WriteChunk(int, DataContainer)
+  nameWithType: DataStorage.WriteChunk(int, DataContainer)
+  fullName: UniKuroKit.IO.DataStorage.WriteChunk(int, UniKuroKit.Serialization.DataContainer)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.IO
+  summary: Serialize, encrypt, and write a single chunk to disk.
+  example: []
+  syntax:
+    content: public void WriteChunk(int index, DataContainer container)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: container
+      type: UniKuroKit.Serialization.DataContainer
+    content.vb: Public Sub WriteChunk(index As Integer, container As DataContainer)
+  overload: UniKuroKit.IO.DataStorage.WriteChunk*
+  nameWithType.vb: DataStorage.WriteChunk(Integer, DataContainer)
+  fullName.vb: UniKuroKit.IO.DataStorage.WriteChunk(Integer, UniKuroKit.Serialization.DataContainer)
+  name.vb: WriteChunk(Integer, DataContainer)
+- uid: UniKuroKit.IO.DataStorage.ReadChunk(System.Int32)
+  commentId: M:UniKuroKit.IO.DataStorage.ReadChunk(System.Int32)
+  id: ReadChunk(System.Int32)
+  parent: UniKuroKit.IO.DataStorage
+  langs:
+  - csharp
+  - vb
+  name: ReadChunk(int)
+  nameWithType: DataStorage.ReadChunk(int)
+  fullName: UniKuroKit.IO.DataStorage.ReadChunk(int)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.IO
+  summary: Read, decrypt, and deserialize a single chunk from disk.
+  example: []
+  syntax:
+    content: public DataContainer ReadChunk(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: UniKuroKit.Serialization.DataContainer
+    content.vb: Public Function ReadChunk(index As Integer) As DataContainer
+  overload: UniKuroKit.IO.DataStorage.ReadChunk*
+  nameWithType.vb: DataStorage.ReadChunk(Integer)
+  fullName.vb: UniKuroKit.IO.DataStorage.ReadChunk(Integer)
+  name.vb: ReadChunk(Integer)
+- uid: UniKuroKit.IO.DataStorage.ChunkExists(System.Int32)
+  commentId: M:UniKuroKit.IO.DataStorage.ChunkExists(System.Int32)
+  id: ChunkExists(System.Int32)
+  parent: UniKuroKit.IO.DataStorage
+  langs:
+  - csharp
+  - vb
+  name: ChunkExists(int)
+  nameWithType: DataStorage.ChunkExists(int)
+  fullName: UniKuroKit.IO.DataStorage.ChunkExists(int)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.IO
+  syntax:
+    content: public bool ChunkExists(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function ChunkExists(index As Integer) As Boolean
+  overload: UniKuroKit.IO.DataStorage.ChunkExists*
+  nameWithType.vb: DataStorage.ChunkExists(Integer)
+  fullName.vb: UniKuroKit.IO.DataStorage.ChunkExists(Integer)
+  name.vb: ChunkExists(Integer)
+- uid: UniKuroKit.IO.DataStorage.AnyChunkExists
+  commentId: M:UniKuroKit.IO.DataStorage.AnyChunkExists
+  id: AnyChunkExists
+  parent: UniKuroKit.IO.DataStorage
+  langs:
+  - csharp
+  - vb
+  name: AnyChunkExists()
+  nameWithType: DataStorage.AnyChunkExists()
+  fullName: UniKuroKit.IO.DataStorage.AnyChunkExists()
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.IO
+  syntax:
+    content: public bool AnyChunkExists()
+    return:
+      type: System.Boolean
+    content.vb: Public Function AnyChunkExists() As Boolean
+  overload: UniKuroKit.IO.DataStorage.AnyChunkExists*
+- uid: UniKuroKit.IO.DataStorage.DeleteAll
+  commentId: M:UniKuroKit.IO.DataStorage.DeleteAll
+  id: DeleteAll
+  parent: UniKuroKit.IO.DataStorage
+  langs:
+  - csharp
+  - vb
+  name: DeleteAll()
+  nameWithType: DataStorage.DeleteAll()
+  fullName: UniKuroKit.IO.DataStorage.DeleteAll()
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.IO
+  syntax:
+    content: public void DeleteAll()
+    content.vb: Public Sub DeleteAll()
+  overload: UniKuroKit.IO.DataStorage.DeleteAll*
+references:
+- uid: UniKuroKit.IO
+  commentId: N:UniKuroKit.IO
+  href: UniKuroKit.html
+  name: UniKuroKit.IO
+  nameWithType: UniKuroKit.IO
+  fullName: UniKuroKit.IO
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.IO
+    name: IO
+    href: UniKuroKit.IO.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.IO
+    name: IO
+    href: UniKuroKit.IO.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UniKuroKit.IO.DataStorage.#ctor*
+  commentId: Overload:UniKuroKit.IO.DataStorage.#ctor
+  href: UniKuroKit.IO.DataStorage.html#UniKuroKit_IO_DataStorage__ctor_UniKuroKit_Serialization_SerializerConfigurations_
+  name: DataStorage
+  nameWithType: DataStorage.DataStorage
+  fullName: UniKuroKit.IO.DataStorage.DataStorage
+  nameWithType.vb: DataStorage.New
+  fullName.vb: UniKuroKit.IO.DataStorage.New
+  name.vb: New
+- uid: UniKuroKit.Serialization.SerializerConfigurations
+  commentId: T:UniKuroKit.Serialization.SerializerConfigurations
+  parent: UniKuroKit.Serialization
+  href: UniKuroKit.Serialization.SerializerConfigurations.html
+  name: SerializerConfigurations
+  nameWithType: SerializerConfigurations
+  fullName: UniKuroKit.Serialization.SerializerConfigurations
+- uid: UniKuroKit.Serialization
+  commentId: N:UniKuroKit.Serialization
+  href: UniKuroKit.html
+  name: UniKuroKit.Serialization
+  nameWithType: UniKuroKit.Serialization
+  fullName: UniKuroKit.Serialization
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Serialization
+    name: Serialization
+    href: UniKuroKit.Serialization.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Serialization
+    name: Serialization
+    href: UniKuroKit.Serialization.html
+- uid: UniKuroKit.IO.DataStorage.WriteChunk*
+  commentId: Overload:UniKuroKit.IO.DataStorage.WriteChunk
+  href: UniKuroKit.IO.DataStorage.html#UniKuroKit_IO_DataStorage_WriteChunk_System_Int32_UniKuroKit_Serialization_DataContainer_
+  name: WriteChunk
+  nameWithType: DataStorage.WriteChunk
+  fullName: UniKuroKit.IO.DataStorage.WriteChunk
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: UniKuroKit.Serialization.DataContainer
+  commentId: T:UniKuroKit.Serialization.DataContainer
+  parent: UniKuroKit.Serialization
+  href: UniKuroKit.Serialization.DataContainer.html
+  name: DataContainer
+  nameWithType: DataContainer
+  fullName: UniKuroKit.Serialization.DataContainer
+- uid: UniKuroKit.IO.DataStorage.ReadChunk*
+  commentId: Overload:UniKuroKit.IO.DataStorage.ReadChunk
+  href: UniKuroKit.IO.DataStorage.html#UniKuroKit_IO_DataStorage_ReadChunk_System_Int32_
+  name: ReadChunk
+  nameWithType: DataStorage.ReadChunk
+  fullName: UniKuroKit.IO.DataStorage.ReadChunk
+- uid: UniKuroKit.IO.DataStorage.ChunkExists*
+  commentId: Overload:UniKuroKit.IO.DataStorage.ChunkExists
+  href: UniKuroKit.IO.DataStorage.html#UniKuroKit_IO_DataStorage_ChunkExists_System_Int32_
+  name: ChunkExists
+  nameWithType: DataStorage.ChunkExists
+  fullName: UniKuroKit.IO.DataStorage.ChunkExists
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: UniKuroKit.IO.DataStorage.AnyChunkExists*
+  commentId: Overload:UniKuroKit.IO.DataStorage.AnyChunkExists
+  href: UniKuroKit.IO.DataStorage.html#UniKuroKit_IO_DataStorage_AnyChunkExists
+  name: AnyChunkExists
+  nameWithType: DataStorage.AnyChunkExists
+  fullName: UniKuroKit.IO.DataStorage.AnyChunkExists
+- uid: UniKuroKit.IO.DataStorage.DeleteAll*
+  commentId: Overload:UniKuroKit.IO.DataStorage.DeleteAll
+  href: UniKuroKit.IO.DataStorage.html#UniKuroKit_IO_DataStorage_DeleteAll
+  name: DeleteAll
+  nameWithType: DataStorage.DeleteAll
+  fullName: UniKuroKit.IO.DataStorage.DeleteAll

@@ -1,0 +1,224 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Events
+  commentId: N:UniKuroKit.Events
+  id: UniKuroKit.Events
+  children:
+  - UniKuroKit.Events.DelegateEventHandler`1
+  - UniKuroKit.Events.EventBus
+  - UniKuroKit.Events.EventChannel`1
+  - UniKuroKit.Events.EventContext`1
+  - UniKuroKit.Events.GlobalEventBus
+  - UniKuroKit.Events.IEvent
+  - UniKuroKit.Events.IEventBus
+  - UniKuroKit.Events.IEventChannel`1
+  - UniKuroKit.Events.IEventContext`1
+  - UniKuroKit.Events.IEventHandler`1
+  langs:
+  - csharp
+  - vb
+  name: UniKuroKit.Events
+  nameWithType: UniKuroKit.Events
+  fullName: UniKuroKit.Events
+  type: Namespace
+  assemblies:
+  - com.kurokitten.unikurokit.events
+references:
+- uid: UniKuroKit.Events.IEventChannel`1
+  commentId: T:UniKuroKit.Events.IEventChannel`1
+  href: UniKuroKit.Events.IEventChannel-1.html
+  name: IEventChannel<TEvent>
+  nameWithType: IEventChannel<TEvent>
+  fullName: UniKuroKit.Events.IEventChannel<TEvent>
+  nameWithType.vb: IEventChannel(Of TEvent)
+  fullName.vb: UniKuroKit.Events.IEventChannel(Of TEvent)
+  name.vb: IEventChannel(Of TEvent)
+  spec.csharp:
+  - uid: UniKuroKit.Events.IEventChannel`1
+    name: IEventChannel
+    href: UniKuroKit.Events.IEventChannel-1.html
+  - name: <
+  - name: TEvent
+  - name: '>'
+  spec.vb:
+  - uid: UniKuroKit.Events.IEventChannel`1
+    name: IEventChannel
+    href: UniKuroKit.Events.IEventChannel-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+- uid: UniKuroKit.Events.GlobalEventBus
+  commentId: T:UniKuroKit.Events.GlobalEventBus
+  href: UniKuroKit.Events.GlobalEventBus.html
+  name: GlobalEventBus
+  nameWithType: GlobalEventBus
+  fullName: UniKuroKit.Events.GlobalEventBus
+- uid: UniKuroKit.Events.IEventContext`1
+  commentId: T:UniKuroKit.Events.IEventContext`1
+  href: UniKuroKit.Events.IEventContext-1.html
+  name: IEventContext<TEvent>
+  nameWithType: IEventContext<TEvent>
+  fullName: UniKuroKit.Events.IEventContext<TEvent>
+  nameWithType.vb: IEventContext(Of TEvent)
+  fullName.vb: UniKuroKit.Events.IEventContext(Of TEvent)
+  name.vb: IEventContext(Of TEvent)
+  spec.csharp:
+  - uid: UniKuroKit.Events.IEventContext`1
+    name: IEventContext
+    href: UniKuroKit.Events.IEventContext-1.html
+  - name: <
+  - name: TEvent
+  - name: '>'
+  spec.vb:
+  - uid: UniKuroKit.Events.IEventContext`1
+    name: IEventContext
+    href: UniKuroKit.Events.IEventContext-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+- uid: UniKuroKit.Events.DelegateEventHandler`1
+  commentId: T:UniKuroKit.Events.DelegateEventHandler`1
+  href: UniKuroKit.Events.DelegateEventHandler-1.html
+  name: DelegateEventHandler<TEvent>
+  nameWithType: DelegateEventHandler<TEvent>
+  fullName: UniKuroKit.Events.DelegateEventHandler<TEvent>
+  nameWithType.vb: DelegateEventHandler(Of TEvent)
+  fullName.vb: UniKuroKit.Events.DelegateEventHandler(Of TEvent)
+  name.vb: DelegateEventHandler(Of TEvent)
+  spec.csharp:
+  - uid: UniKuroKit.Events.DelegateEventHandler`1
+    name: DelegateEventHandler
+    href: UniKuroKit.Events.DelegateEventHandler-1.html
+  - name: <
+  - name: TEvent
+  - name: '>'
+  spec.vb:
+  - uid: UniKuroKit.Events.DelegateEventHandler`1
+    name: DelegateEventHandler
+    href: UniKuroKit.Events.DelegateEventHandler-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+- uid: UniKuroKit.Events.EventBus
+  commentId: T:UniKuroKit.Events.EventBus
+  parent: UniKuroKit.Events
+  href: UniKuroKit.Events.EventBus.html
+  name: EventBus
+  nameWithType: EventBus
+  fullName: UniKuroKit.Events.EventBus
+- uid: UniKuroKit.Events.IEventBus
+  commentId: T:UniKuroKit.Events.IEventBus
+  parent: UniKuroKit.Events
+  href: UniKuroKit.Events.IEventBus.html
+  name: IEventBus
+  nameWithType: IEventBus
+  fullName: UniKuroKit.Events.IEventBus
+- uid: UniKuroKit.Events.IEvent
+  commentId: T:UniKuroKit.Events.IEvent
+  href: UniKuroKit.Events.IEvent.html
+  name: IEvent
+  nameWithType: IEvent
+  fullName: UniKuroKit.Events.IEvent
+- uid: UniKuroKit.Events.EventContext`1
+  commentId: T:UniKuroKit.Events.EventContext`1
+  href: UniKuroKit.Events.EventContext-1.html
+  name: EventContext<TEvent>
+  nameWithType: EventContext<TEvent>
+  fullName: UniKuroKit.Events.EventContext<TEvent>
+  nameWithType.vb: EventContext(Of TEvent)
+  fullName.vb: UniKuroKit.Events.EventContext(Of TEvent)
+  name.vb: EventContext(Of TEvent)
+  spec.csharp:
+  - uid: UniKuroKit.Events.EventContext`1
+    name: EventContext
+    href: UniKuroKit.Events.EventContext-1.html
+  - name: <
+  - name: TEvent
+  - name: '>'
+  spec.vb:
+  - uid: UniKuroKit.Events.EventContext`1
+    name: EventContext
+    href: UniKuroKit.Events.EventContext-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+- uid: UniKuroKit.Events.EventChannel`1
+  commentId: T:UniKuroKit.Events.EventChannel`1
+  href: UniKuroKit.Events.EventChannel-1.html
+  name: EventChannel<TEvent>
+  nameWithType: EventChannel<TEvent>
+  fullName: UniKuroKit.Events.EventChannel<TEvent>
+  nameWithType.vb: EventChannel(Of TEvent)
+  fullName.vb: UniKuroKit.Events.EventChannel(Of TEvent)
+  name.vb: EventChannel(Of TEvent)
+  spec.csharp:
+  - uid: UniKuroKit.Events.EventChannel`1
+    name: EventChannel
+    href: UniKuroKit.Events.EventChannel-1.html
+  - name: <
+  - name: TEvent
+  - name: '>'
+  spec.vb:
+  - uid: UniKuroKit.Events.EventChannel`1
+    name: EventChannel
+    href: UniKuroKit.Events.EventChannel-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+- uid: UniKuroKit.Events.IEventHandler`1
+  commentId: T:UniKuroKit.Events.IEventHandler`1
+  href: UniKuroKit.Events.IEventHandler-1.html
+  name: IEventHandler<TEvent>
+  nameWithType: IEventHandler<TEvent>
+  fullName: UniKuroKit.Events.IEventHandler<TEvent>
+  nameWithType.vb: IEventHandler(Of TEvent)
+  fullName.vb: UniKuroKit.Events.IEventHandler(Of TEvent)
+  name.vb: IEventHandler(Of TEvent)
+  spec.csharp:
+  - uid: UniKuroKit.Events.IEventHandler`1
+    name: IEventHandler
+    href: UniKuroKit.Events.IEventHandler-1.html
+  - name: <
+  - name: TEvent
+  - name: '>'
+  spec.vb:
+  - uid: UniKuroKit.Events.IEventHandler`1
+    name: IEventHandler
+    href: UniKuroKit.Events.IEventHandler-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+- uid: UniKuroKit.Events
+  commentId: N:UniKuroKit.Events
+  href: UniKuroKit.html
+  name: UniKuroKit.Events
+  nameWithType: UniKuroKit.Events
+  fullName: UniKuroKit.Events
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html

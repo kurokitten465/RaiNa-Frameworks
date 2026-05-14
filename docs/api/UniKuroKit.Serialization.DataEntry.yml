@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Serialization.DataEntry
+  commentId: T:UniKuroKit.Serialization.DataEntry
+  id: DataEntry
+  parent: UniKuroKit.Serialization
+  children:
+  - UniKuroKit.Serialization.DataEntry.JsonValue
+  - UniKuroKit.Serialization.DataEntry.Key
+  - UniKuroKit.Serialization.DataEntry.TypeName
+  langs:
+  - csharp
+  - vb
+  name: DataEntry
+  nameWithType: DataEntry
+  fullName: UniKuroKit.Serialization.DataEntry
+  type: Class
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class DataEntry
+    content.vb: >-
+      <Serializable>
+
+      Public Class DataEntry
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: UniKuroKit.Serialization.DataEntry.Key
+  commentId: F:UniKuroKit.Serialization.DataEntry.Key
+  id: Key
+  parent: UniKuroKit.Serialization.DataEntry
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: DataEntry.Key
+  fullName: UniKuroKit.Serialization.DataEntry.Key
+  type: Field
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public string Key
+    return:
+      type: System.String
+    content.vb: Public Key As String
+- uid: UniKuroKit.Serialization.DataEntry.TypeName
+  commentId: F:UniKuroKit.Serialization.DataEntry.TypeName
+  id: TypeName
+  parent: UniKuroKit.Serialization.DataEntry
+  langs:
+  - csharp
+  - vb
+  name: TypeName
+  nameWithType: DataEntry.TypeName
+  fullName: UniKuroKit.Serialization.DataEntry.TypeName
+  type: Field
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public string TypeName
+    return:
+      type: System.String
+    content.vb: Public TypeName As String
+- uid: UniKuroKit.Serialization.DataEntry.JsonValue
+  commentId: F:UniKuroKit.Serialization.DataEntry.JsonValue
+  id: JsonValue
+  parent: UniKuroKit.Serialization.DataEntry
+  langs:
+  - csharp
+  - vb
+  name: JsonValue
+  nameWithType: DataEntry.JsonValue
+  fullName: UniKuroKit.Serialization.DataEntry.JsonValue
+  type: Field
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public string JsonValue
+    return:
+      type: System.String
+    content.vb: Public JsonValue As String
+references:
+- uid: UniKuroKit.Serialization
+  commentId: N:UniKuroKit.Serialization
+  href: UniKuroKit.html
+  name: UniKuroKit.Serialization
+  nameWithType: UniKuroKit.Serialization
+  fullName: UniKuroKit.Serialization
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Serialization
+    name: Serialization
+    href: UniKuroKit.Serialization.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Serialization
+    name: Serialization
+    href: UniKuroKit.Serialization.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

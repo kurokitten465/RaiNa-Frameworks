@@ -1,0 +1,115 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Services.Singleton.SingletonInitializeState
+  commentId: T:UniKuroKit.Services.Singleton.SingletonInitializeState
+  id: SingletonInitializeState
+  parent: UniKuroKit.Services.Singleton
+  children:
+  - UniKuroKit.Services.Singleton.SingletonInitializeState.Initialized
+  - UniKuroKit.Services.Singleton.SingletonInitializeState.Initializing
+  - UniKuroKit.Services.Singleton.SingletonInitializeState.Uninitialized
+  langs:
+  - csharp
+  - vb
+  name: SingletonInitializeState
+  nameWithType: SingletonInitializeState
+  fullName: UniKuroKit.Services.Singleton.SingletonInitializeState
+  type: Enum
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Services.Singleton
+  syntax:
+    content: public enum SingletonInitializeState
+    content.vb: Public Enum SingletonInitializeState
+- uid: UniKuroKit.Services.Singleton.SingletonInitializeState.Uninitialized
+  commentId: F:UniKuroKit.Services.Singleton.SingletonInitializeState.Uninitialized
+  id: Uninitialized
+  parent: UniKuroKit.Services.Singleton.SingletonInitializeState
+  langs:
+  - csharp
+  - vb
+  name: Uninitialized
+  nameWithType: SingletonInitializeState.Uninitialized
+  fullName: UniKuroKit.Services.Singleton.SingletonInitializeState.Uninitialized
+  type: Field
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Services.Singleton
+  syntax:
+    content: Uninitialized = 0
+    return:
+      type: UniKuroKit.Services.Singleton.SingletonInitializeState
+- uid: UniKuroKit.Services.Singleton.SingletonInitializeState.Initializing
+  commentId: F:UniKuroKit.Services.Singleton.SingletonInitializeState.Initializing
+  id: Initializing
+  parent: UniKuroKit.Services.Singleton.SingletonInitializeState
+  langs:
+  - csharp
+  - vb
+  name: Initializing
+  nameWithType: SingletonInitializeState.Initializing
+  fullName: UniKuroKit.Services.Singleton.SingletonInitializeState.Initializing
+  type: Field
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Services.Singleton
+  syntax:
+    content: Initializing = 1
+    return:
+      type: UniKuroKit.Services.Singleton.SingletonInitializeState
+- uid: UniKuroKit.Services.Singleton.SingletonInitializeState.Initialized
+  commentId: F:UniKuroKit.Services.Singleton.SingletonInitializeState.Initialized
+  id: Initialized
+  parent: UniKuroKit.Services.Singleton.SingletonInitializeState
+  langs:
+  - csharp
+  - vb
+  name: Initialized
+  nameWithType: SingletonInitializeState.Initialized
+  fullName: UniKuroKit.Services.Singleton.SingletonInitializeState.Initialized
+  type: Field
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Services.Singleton
+  syntax:
+    content: Initialized = 2
+    return:
+      type: UniKuroKit.Services.Singleton.SingletonInitializeState
+references:
+- uid: UniKuroKit.Services.Singleton
+  commentId: N:UniKuroKit.Services.Singleton
+  href: UniKuroKit.html
+  name: UniKuroKit.Services.Singleton
+  nameWithType: UniKuroKit.Services.Singleton
+  fullName: UniKuroKit.Services.Singleton
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Services
+    name: Services
+    href: UniKuroKit.Services.html
+  - name: .
+  - uid: UniKuroKit.Services.Singleton
+    name: Singleton
+    href: UniKuroKit.Services.Singleton.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Services
+    name: Services
+    href: UniKuroKit.Services.html
+  - name: .
+  - uid: UniKuroKit.Services.Singleton
+    name: Singleton
+    href: UniKuroKit.Services.Singleton.html
+- uid: UniKuroKit.Services.Singleton.SingletonInitializeState
+  commentId: T:UniKuroKit.Services.Singleton.SingletonInitializeState
+  parent: UniKuroKit.Services.Singleton
+  href: UniKuroKit.Services.Singleton.SingletonInitializeState.html
+  name: SingletonInitializeState
+  nameWithType: SingletonInitializeState
+  fullName: UniKuroKit.Services.Singleton.SingletonInitializeState

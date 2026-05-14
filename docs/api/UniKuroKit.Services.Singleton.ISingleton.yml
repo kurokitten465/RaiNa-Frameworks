@@ -1,0 +1,107 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Services.Singleton.ISingleton
+  commentId: T:UniKuroKit.Services.Singleton.ISingleton
+  id: ISingleton
+  parent: UniKuroKit.Services.Singleton
+  children:
+  - UniKuroKit.Services.Singleton.ISingleton.OnDestroyInstance
+  - UniKuroKit.Services.Singleton.ISingleton.OnInitialized
+  langs:
+  - csharp
+  - vb
+  name: ISingleton
+  nameWithType: ISingleton
+  fullName: UniKuroKit.Services.Singleton.ISingleton
+  type: Interface
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Services.Singleton
+  syntax:
+    content: public interface ISingleton
+    content.vb: Public Interface ISingleton
+  derivedClasses:
+  - UniKuroKit.Services.Singleton.MonoSingleton`1
+  - UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1
+  - UniKuroKit.Services.Singleton.PersistentMonoSingleton`1
+  - UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton`1
+  - UniKuroKit.Services.Singleton.Singleton`1
+- uid: UniKuroKit.Services.Singleton.ISingleton.OnInitialized
+  commentId: M:UniKuroKit.Services.Singleton.ISingleton.OnInitialized
+  id: OnInitialized
+  parent: UniKuroKit.Services.Singleton.ISingleton
+  langs:
+  - csharp
+  - vb
+  name: OnInitialized()
+  nameWithType: ISingleton.OnInitialized()
+  fullName: UniKuroKit.Services.Singleton.ISingleton.OnInitialized()
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Services.Singleton
+  syntax:
+    content: void OnInitialized()
+    content.vb: Sub OnInitialized()
+  overload: UniKuroKit.Services.Singleton.ISingleton.OnInitialized*
+- uid: UniKuroKit.Services.Singleton.ISingleton.OnDestroyInstance
+  commentId: M:UniKuroKit.Services.Singleton.ISingleton.OnDestroyInstance
+  id: OnDestroyInstance
+  parent: UniKuroKit.Services.Singleton.ISingleton
+  langs:
+  - csharp
+  - vb
+  name: OnDestroyInstance()
+  nameWithType: ISingleton.OnDestroyInstance()
+  fullName: UniKuroKit.Services.Singleton.ISingleton.OnDestroyInstance()
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Services.Singleton
+  syntax:
+    content: void OnDestroyInstance()
+    content.vb: Sub OnDestroyInstance()
+  overload: UniKuroKit.Services.Singleton.ISingleton.OnDestroyInstance*
+references:
+- uid: UniKuroKit.Services.Singleton
+  commentId: N:UniKuroKit.Services.Singleton
+  href: UniKuroKit.html
+  name: UniKuroKit.Services.Singleton
+  nameWithType: UniKuroKit.Services.Singleton
+  fullName: UniKuroKit.Services.Singleton
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Services
+    name: Services
+    href: UniKuroKit.Services.html
+  - name: .
+  - uid: UniKuroKit.Services.Singleton
+    name: Singleton
+    href: UniKuroKit.Services.Singleton.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Services
+    name: Services
+    href: UniKuroKit.Services.html
+  - name: .
+  - uid: UniKuroKit.Services.Singleton
+    name: Singleton
+    href: UniKuroKit.Services.Singleton.html
+- uid: UniKuroKit.Services.Singleton.ISingleton.OnInitialized*
+  commentId: Overload:UniKuroKit.Services.Singleton.ISingleton.OnInitialized
+  href: UniKuroKit.Services.Singleton.ISingleton.html#UniKuroKit_Services_Singleton_ISingleton_OnInitialized
+  name: OnInitialized
+  nameWithType: ISingleton.OnInitialized
+  fullName: UniKuroKit.Services.Singleton.ISingleton.OnInitialized
+- uid: UniKuroKit.Services.Singleton.ISingleton.OnDestroyInstance*
+  commentId: Overload:UniKuroKit.Services.Singleton.ISingleton.OnDestroyInstance
+  href: UniKuroKit.Services.Singleton.ISingleton.html#UniKuroKit_Services_Singleton_ISingleton_OnDestroyInstance
+  name: OnDestroyInstance
+  nameWithType: ISingleton.OnDestroyInstance
+  fullName: UniKuroKit.Services.Singleton.ISingleton.OnDestroyInstance

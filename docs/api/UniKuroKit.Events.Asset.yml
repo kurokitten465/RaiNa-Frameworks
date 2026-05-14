@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Events.Asset
+  commentId: N:UniKuroKit.Events.Asset
+  id: UniKuroKit.Events.Asset
+  children:
+  - UniKuroKit.Events.Asset.EventBusAsset
+  - UniKuroKit.Events.Asset.IEventBusAsset
+  langs:
+  - csharp
+  - vb
+  name: UniKuroKit.Events.Asset
+  nameWithType: UniKuroKit.Events.Asset
+  fullName: UniKuroKit.Events.Asset
+  type: Namespace
+  assemblies:
+  - com.kurokitten.unikurokit.events
+references:
+- uid: UniKuroKit.Events.Asset.IEventBusAsset
+  commentId: T:UniKuroKit.Events.Asset.IEventBusAsset
+  parent: UniKuroKit.Events.Asset
+  href: UniKuroKit.Events.Asset.IEventBusAsset.html
+  name: IEventBusAsset
+  nameWithType: IEventBusAsset
+  fullName: UniKuroKit.Events.Asset.IEventBusAsset
+- uid: UniKuroKit.Events.Asset.EventBusAsset
+  commentId: T:UniKuroKit.Events.Asset.EventBusAsset
+  href: UniKuroKit.Events.Asset.EventBusAsset.html
+  name: EventBusAsset
+  nameWithType: EventBusAsset
+  fullName: UniKuroKit.Events.Asset.EventBusAsset
+- uid: UniKuroKit.Events.Asset
+  commentId: N:UniKuroKit.Events.Asset
+  href: UniKuroKit.html
+  name: UniKuroKit.Events.Asset
+  nameWithType: UniKuroKit.Events.Asset
+  fullName: UniKuroKit.Events.Asset
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  - name: .
+  - uid: UniKuroKit.Events.Asset
+    name: Asset
+    href: UniKuroKit.Events.Asset.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Events
+    name: Events
+    href: UniKuroKit.Events.html
+  - name: .
+  - uid: UniKuroKit.Events.Asset
+    name: Asset
+    href: UniKuroKit.Events.Asset.html

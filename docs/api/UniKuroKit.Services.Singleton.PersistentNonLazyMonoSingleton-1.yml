@@ -1,0 +1,563 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton`1
+  commentId: T:UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton`1
+  id: PersistentNonLazyMonoSingleton`1
+  parent: UniKuroKit.Services.Singleton
+  children:
+  - UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton`1.Awake
+  langs:
+  - csharp
+  - vb
+  name: PersistentNonLazyMonoSingleton<TDerived>
+  nameWithType: PersistentNonLazyMonoSingleton<TDerived>
+  fullName: UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton<TDerived>
+  type: Class
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Services.Singleton
+  syntax:
+    content: 'public abstract class PersistentNonLazyMonoSingleton<TDerived> : NonLazyMonoSingleton<TDerived>, ISingleton where TDerived : NonLazyMonoSingleton<TDerived>'
+    typeParameters:
+    - id: TDerived
+    content.vb: Public MustInherit Class PersistentNonLazyMonoSingleton(Of TDerived As NonLazyMonoSingleton(Of TDerived)) Inherits NonLazyMonoSingleton(Of TDerived) Implements ISingleton
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}
+  implements:
+  - UniKuroKit.Services.Singleton.ISingleton
+  inheritedMembers:
+  - UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}.InitializeState
+  - UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}.IsInstanceExists
+  - UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}.Instance
+  - UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}.CreateInstance
+  - UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}.OnDestroy
+  - UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}.DestroyInstance
+  - UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}.OnInitialized
+  - UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}.OnDestroyInstance
+  - UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}.GetInstance
+  nameWithType.vb: PersistentNonLazyMonoSingleton(Of TDerived)
+  fullName.vb: UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton(Of TDerived)
+  name.vb: PersistentNonLazyMonoSingleton(Of TDerived)
+- uid: UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton`1.Awake
+  commentId: M:UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton`1.Awake
+  id: Awake
+  parent: UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton`1
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: PersistentNonLazyMonoSingleton<TDerived>.Awake()
+  fullName: UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton<TDerived>.Awake()
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Services.Singleton
+  example: []
+  syntax:
+    content: protected override void Awake()
+    content.vb: Protected Overrides Sub Awake()
+  overridden: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}.Awake
+  overload: UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton`1.Awake*
+  nameWithType.vb: PersistentNonLazyMonoSingleton(Of TDerived).Awake()
+  fullName.vb: UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton(Of TDerived).Awake()
+references:
+- uid: UniKuroKit.Services.Singleton
+  commentId: N:UniKuroKit.Services.Singleton
+  href: UniKuroKit.html
+  name: UniKuroKit.Services.Singleton
+  nameWithType: UniKuroKit.Services.Singleton
+  fullName: UniKuroKit.Services.Singleton
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Services
+    name: Services
+    href: UniKuroKit.Services.html
+  - name: .
+  - uid: UniKuroKit.Services.Singleton
+    name: Singleton
+    href: UniKuroKit.Services.Singleton.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Services
+    name: Services
+    href: UniKuroKit.Services.html
+  - name: .
+  - uid: UniKuroKit.Services.Singleton
+    name: Singleton
+    href: UniKuroKit.Services.Singleton.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}
+  commentId: T:UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}
+  parent: UniKuroKit.Services.Singleton
+  definition: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1
+  href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html
+  name: NonLazyMonoSingleton<TDerived>
+  nameWithType: NonLazyMonoSingleton<TDerived>
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived)
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived)
+  name.vb: NonLazyMonoSingleton(Of TDerived)
+  spec.csharp:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1
+    name: NonLazyMonoSingleton
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html
+  - name: <
+  - name: TDerived
+  - name: '>'
+  spec.vb:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1
+    name: NonLazyMonoSingleton
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDerived
+  - name: )
+- uid: UniKuroKit.Services.Singleton.ISingleton
+  commentId: T:UniKuroKit.Services.Singleton.ISingleton
+  parent: UniKuroKit.Services.Singleton
+  href: UniKuroKit.Services.Singleton.ISingleton.html
+  name: ISingleton
+  nameWithType: ISingleton
+  fullName: UniKuroKit.Services.Singleton.ISingleton
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}.InitializeState
+  commentId: P:UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.InitializeState
+  parent: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}
+  definition: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.InitializeState
+  href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_InitializeState
+  name: InitializeState
+  nameWithType: NonLazyMonoSingleton<TDerived>.InitializeState
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.InitializeState
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).InitializeState
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).InitializeState
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}.IsInstanceExists
+  commentId: P:UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.IsInstanceExists
+  parent: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}
+  definition: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.IsInstanceExists
+  href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_IsInstanceExists
+  name: IsInstanceExists
+  nameWithType: NonLazyMonoSingleton<TDerived>.IsInstanceExists
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.IsInstanceExists
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).IsInstanceExists
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).IsInstanceExists
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}.Instance
+  commentId: P:UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.Instance
+  parent: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}
+  definition: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.Instance
+  href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_Instance
+  name: Instance
+  nameWithType: NonLazyMonoSingleton<TDerived>.Instance
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.Instance
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).Instance
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).Instance
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}.CreateInstance
+  commentId: M:UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.CreateInstance
+  parent: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}
+  definition: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.CreateInstance
+  href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_CreateInstance
+  name: CreateInstance()
+  nameWithType: NonLazyMonoSingleton<TDerived>.CreateInstance()
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.CreateInstance()
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).CreateInstance()
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).CreateInstance()
+  spec.csharp:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.CreateInstance
+    name: CreateInstance
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_CreateInstance
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.CreateInstance
+    name: CreateInstance
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_CreateInstance
+  - name: (
+  - name: )
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}.OnDestroy
+  commentId: M:UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.OnDestroy
+  parent: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}
+  definition: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnDestroy
+  href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnDestroy
+  name: OnDestroy()
+  nameWithType: NonLazyMonoSingleton<TDerived>.OnDestroy()
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.OnDestroy()
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).OnDestroy()
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).OnDestroy()
+  spec.csharp:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.OnDestroy
+    name: OnDestroy
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnDestroy
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.OnDestroy
+    name: OnDestroy
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnDestroy
+  - name: (
+  - name: )
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}.DestroyInstance
+  commentId: M:UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.DestroyInstance
+  parent: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}
+  definition: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.DestroyInstance
+  href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_DestroyInstance
+  name: DestroyInstance()
+  nameWithType: NonLazyMonoSingleton<TDerived>.DestroyInstance()
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.DestroyInstance()
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).DestroyInstance()
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).DestroyInstance()
+  spec.csharp:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.DestroyInstance
+    name: DestroyInstance
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_DestroyInstance
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.DestroyInstance
+    name: DestroyInstance
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_DestroyInstance
+  - name: (
+  - name: )
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}.OnInitialized
+  commentId: M:UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.OnInitialized
+  parent: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}
+  definition: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnInitialized
+  href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnInitialized
+  name: OnInitialized()
+  nameWithType: NonLazyMonoSingleton<TDerived>.OnInitialized()
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.OnInitialized()
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).OnInitialized()
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).OnInitialized()
+  spec.csharp:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.OnInitialized
+    name: OnInitialized
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnInitialized
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.OnInitialized
+    name: OnInitialized
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnInitialized
+  - name: (
+  - name: )
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}.OnDestroyInstance
+  commentId: M:UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.OnDestroyInstance
+  parent: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}
+  definition: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnDestroyInstance
+  href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnDestroyInstance
+  name: OnDestroyInstance()
+  nameWithType: NonLazyMonoSingleton<TDerived>.OnDestroyInstance()
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.OnDestroyInstance()
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).OnDestroyInstance()
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).OnDestroyInstance()
+  spec.csharp:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.OnDestroyInstance
+    name: OnDestroyInstance
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnDestroyInstance
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.OnDestroyInstance
+    name: OnDestroyInstance
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnDestroyInstance
+  - name: (
+  - name: )
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}.GetInstance
+  commentId: M:UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.GetInstance
+  parent: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}
+  definition: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.GetInstance
+  href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_GetInstance
+  name: GetInstance()
+  nameWithType: NonLazyMonoSingleton<TDerived>.GetInstance()
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.GetInstance()
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).GetInstance()
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).GetInstance()
+  spec.csharp:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.GetInstance
+    name: GetInstance
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_GetInstance
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.GetInstance
+    name: GetInstance
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_GetInstance
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1
+  commentId: T:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1
+  href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html
+  name: NonLazyMonoSingleton<TDerived>
+  nameWithType: NonLazyMonoSingleton<TDerived>
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived)
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived)
+  name.vb: NonLazyMonoSingleton(Of TDerived)
+  spec.csharp:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1
+    name: NonLazyMonoSingleton
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html
+  - name: <
+  - name: TDerived
+  - name: '>'
+  spec.vb:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1
+    name: NonLazyMonoSingleton
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDerived
+  - name: )
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.InitializeState
+  commentId: P:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.InitializeState
+  href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_InitializeState
+  name: InitializeState
+  nameWithType: NonLazyMonoSingleton<TDerived>.InitializeState
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.InitializeState
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).InitializeState
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).InitializeState
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.IsInstanceExists
+  commentId: P:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.IsInstanceExists
+  href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_IsInstanceExists
+  name: IsInstanceExists
+  nameWithType: NonLazyMonoSingleton<TDerived>.IsInstanceExists
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.IsInstanceExists
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).IsInstanceExists
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).IsInstanceExists
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.Instance
+  commentId: P:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.Instance
+  href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_Instance
+  name: Instance
+  nameWithType: NonLazyMonoSingleton<TDerived>.Instance
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.Instance
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).Instance
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).Instance
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.CreateInstance
+  commentId: M:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.CreateInstance
+  href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_CreateInstance
+  name: CreateInstance()
+  nameWithType: NonLazyMonoSingleton<TDerived>.CreateInstance()
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.CreateInstance()
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).CreateInstance()
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).CreateInstance()
+  spec.csharp:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.CreateInstance
+    name: CreateInstance
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_CreateInstance
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.CreateInstance
+    name: CreateInstance
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_CreateInstance
+  - name: (
+  - name: )
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnDestroy
+  commentId: M:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnDestroy
+  href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnDestroy
+  name: OnDestroy()
+  nameWithType: NonLazyMonoSingleton<TDerived>.OnDestroy()
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.OnDestroy()
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).OnDestroy()
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).OnDestroy()
+  spec.csharp:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnDestroy
+    name: OnDestroy
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnDestroy
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnDestroy
+    name: OnDestroy
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnDestroy
+  - name: (
+  - name: )
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.DestroyInstance
+  commentId: M:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.DestroyInstance
+  href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_DestroyInstance
+  name: DestroyInstance()
+  nameWithType: NonLazyMonoSingleton<TDerived>.DestroyInstance()
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.DestroyInstance()
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).DestroyInstance()
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).DestroyInstance()
+  spec.csharp:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.DestroyInstance
+    name: DestroyInstance
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_DestroyInstance
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.DestroyInstance
+    name: DestroyInstance
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_DestroyInstance
+  - name: (
+  - name: )
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnInitialized
+  commentId: M:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnInitialized
+  href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnInitialized
+  name: OnInitialized()
+  nameWithType: NonLazyMonoSingleton<TDerived>.OnInitialized()
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.OnInitialized()
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).OnInitialized()
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).OnInitialized()
+  spec.csharp:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnInitialized
+    name: OnInitialized
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnInitialized
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnInitialized
+    name: OnInitialized
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnInitialized
+  - name: (
+  - name: )
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnDestroyInstance
+  commentId: M:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnDestroyInstance
+  href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnDestroyInstance
+  name: OnDestroyInstance()
+  nameWithType: NonLazyMonoSingleton<TDerived>.OnDestroyInstance()
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.OnDestroyInstance()
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).OnDestroyInstance()
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).OnDestroyInstance()
+  spec.csharp:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnDestroyInstance
+    name: OnDestroyInstance
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnDestroyInstance
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.OnDestroyInstance
+    name: OnDestroyInstance
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_OnDestroyInstance
+  - name: (
+  - name: )
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.GetInstance
+  commentId: M:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.GetInstance
+  href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_GetInstance
+  name: GetInstance()
+  nameWithType: NonLazyMonoSingleton<TDerived>.GetInstance()
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.GetInstance()
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).GetInstance()
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).GetInstance()
+  spec.csharp:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.GetInstance
+    name: GetInstance
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_GetInstance
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.GetInstance
+    name: GetInstance
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_GetInstance
+  - name: (
+  - name: )
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}.Awake
+  commentId: M:UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.Awake
+  parent: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{{TDerived}}
+  definition: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.Awake
+  href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_Awake
+  name: Awake()
+  nameWithType: NonLazyMonoSingleton<TDerived>.Awake()
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.Awake()
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).Awake()
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).Awake()
+  spec.csharp:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.Awake
+    name: Awake
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_Awake
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton{`0}.Awake
+    name: Awake
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_Awake
+  - name: (
+  - name: )
+- uid: UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton`1.Awake*
+  commentId: Overload:UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton`1.Awake
+  href: UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_PersistentNonLazyMonoSingleton_1_Awake
+  name: Awake
+  nameWithType: PersistentNonLazyMonoSingleton<TDerived>.Awake
+  fullName: UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton<TDerived>.Awake
+  nameWithType.vb: PersistentNonLazyMonoSingleton(Of TDerived).Awake
+  fullName.vb: UniKuroKit.Services.Singleton.PersistentNonLazyMonoSingleton(Of TDerived).Awake
+- uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.Awake
+  commentId: M:UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.Awake
+  href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_Awake
+  name: Awake()
+  nameWithType: NonLazyMonoSingleton<TDerived>.Awake()
+  fullName: UniKuroKit.Services.Singleton.NonLazyMonoSingleton<TDerived>.Awake()
+  nameWithType.vb: NonLazyMonoSingleton(Of TDerived).Awake()
+  fullName.vb: UniKuroKit.Services.Singleton.NonLazyMonoSingleton(Of TDerived).Awake()
+  spec.csharp:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.Awake
+    name: Awake
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_Awake
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UniKuroKit.Services.Singleton.NonLazyMonoSingleton`1.Awake
+    name: Awake
+    href: UniKuroKit.Services.Singleton.NonLazyMonoSingleton-1.html#UniKuroKit_Services_Singleton_NonLazyMonoSingleton_1_Awake
+  - name: (
+  - name: )

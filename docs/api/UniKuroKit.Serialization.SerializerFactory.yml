@@ -1,0 +1,149 @@
+### YamlMime:ManagedReference
+items:
+- uid: UniKuroKit.Serialization.SerializerFactory
+  commentId: T:UniKuroKit.Serialization.SerializerFactory
+  id: SerializerFactory
+  parent: UniKuroKit.Serialization
+  children:
+  - UniKuroKit.Serialization.SerializerFactory.Create(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: SerializerFactory
+  nameWithType: SerializerFactory
+  fullName: UniKuroKit.Serialization.SerializerFactory
+  type: Class
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: 'public class SerializerFactory : MonoBehaviour'
+    content.vb: Public Class SerializerFactory Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+- uid: UniKuroKit.Serialization.SerializerFactory.Create(System.Boolean)
+  commentId: M:UniKuroKit.Serialization.SerializerFactory.Create(System.Boolean)
+  id: Create(System.Boolean)
+  parent: UniKuroKit.Serialization.SerializerFactory
+  langs:
+  - csharp
+  - vb
+  name: Create(bool)
+  nameWithType: SerializerFactory.Create(bool)
+  fullName: UniKuroKit.Serialization.SerializerFactory.Create(bool)
+  type: Method
+  assemblies:
+  - com.kurokitten.unikurokit
+  namespace: UniKuroKit.Serialization
+  syntax:
+    content: public static ISerializer Create(bool humanReadable)
+    parameters:
+    - id: humanReadable
+      type: System.Boolean
+    return:
+      type: UniKuroKit.Serialization.ISerializer
+    content.vb: Public Shared Function Create(humanReadable As Boolean) As ISerializer
+  overload: UniKuroKit.Serialization.SerializerFactory.Create*
+  nameWithType.vb: SerializerFactory.Create(Boolean)
+  fullName.vb: UniKuroKit.Serialization.SerializerFactory.Create(Boolean)
+  name.vb: Create(Boolean)
+references:
+- uid: UniKuroKit.Serialization
+  commentId: N:UniKuroKit.Serialization
+  href: UniKuroKit.html
+  name: UniKuroKit.Serialization
+  nameWithType: UniKuroKit.Serialization
+  fullName: UniKuroKit.Serialization
+  spec.csharp:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Serialization
+    name: Serialization
+    href: UniKuroKit.Serialization.html
+  spec.vb:
+  - uid: UniKuroKit
+    name: UniKuroKit
+    href: UniKuroKit.html
+  - name: .
+  - uid: UniKuroKit.Serialization
+    name: Serialization
+    href: UniKuroKit.Serialization.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UniKuroKit.Serialization.SerializerFactory.Create*
+  commentId: Overload:UniKuroKit.Serialization.SerializerFactory.Create
+  href: UniKuroKit.Serialization.SerializerFactory.html#UniKuroKit_Serialization_SerializerFactory_Create_System_Boolean_
+  name: Create
+  nameWithType: SerializerFactory.Create
+  fullName: UniKuroKit.Serialization.SerializerFactory.Create
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: UniKuroKit.Serialization.ISerializer
+  commentId: T:UniKuroKit.Serialization.ISerializer
+  parent: UniKuroKit.Serialization
+  href: UniKuroKit.Serialization.ISerializer.html
+  name: ISerializer
+  nameWithType: ISerializer
+  fullName: UniKuroKit.Serialization.ISerializer
