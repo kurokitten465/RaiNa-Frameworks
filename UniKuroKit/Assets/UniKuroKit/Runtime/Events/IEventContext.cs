@@ -1,4 +1,7 @@
 namespace UniKuroKit.Events
 {
-    public class IEventContext { }
+    public interface IEventContext<TEvent> where TEvent : IEvent
+    {
+        TEvent Event { get; }
+    }
 }

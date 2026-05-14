@@ -1,20 +1,18 @@
-using System;
-
 namespace UniKuroKit.Events
 {
     public interface IEventBus
     {
-        EventToken Subscribe<TEvent, TContext>(Action<TEvent> callback)
-            where TEvent : IEvent
-            where TContext : IEventContext;
-
-        EventToken Subscribe<TEvent, TContext>(IEventListener<TEvent> listener)
-            where TEvent : IEvent
-            where TContext : IEventContext;
-
-        void Unsubscribe(EventToken token);
-
-        void Publish<TEvent>(TEvent eventData, IEventContext context)
+        IEventContext<TEvent> Publish<TEvent>(TEvent @event)
             where TEvent : IEvent;
+ 
+        void Subscribe<TEvent>(IEventHandler<TEvent> handler)
+            where TEvent : IEvent;
+ 
+        void Unsubscribe<TEvent>(IEventHandler<TEvent> handler)
+            where TEvent : IEvent;
+ 
+        void Clear<TEvent>() where TEvent : IEvent;
+ 
+        void ClearAll();
     }
 }
