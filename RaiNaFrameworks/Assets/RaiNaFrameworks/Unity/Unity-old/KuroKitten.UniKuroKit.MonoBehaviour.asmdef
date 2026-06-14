@@ -1,0 +1,16 @@
+{
+    "name": "com.kurokitten.unikurokit",
+    "rootNamespace": "UniKuroKit",
+    "references": [
+        "GUID:817837d771668ac41a9806f548e4f832"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
