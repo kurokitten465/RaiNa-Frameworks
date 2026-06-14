@@ -43,13 +43,13 @@ You can install **UniKuroKit** directly through the Unity Package Manager using 
 5. Paste the following URL:
 
 ```txt
-https://github.com/kurokitten465/UniKuroKit.git
+https://github.com/kurokitten465/RaiNa-Frameworks.git?path=/RaiNaFrameworks/Assets/RaiNaFrameworks
 ```
 
 ---
 ## 📚 API References Documentation
 
-🌐 API reference documentation: https://kurokitten465.github.io/UniKuroKit/
+🌐 API reference documentation: https://kurokitten465.github.io/RaiNa-Frameworks
 
 ---
 ## 📜 License
