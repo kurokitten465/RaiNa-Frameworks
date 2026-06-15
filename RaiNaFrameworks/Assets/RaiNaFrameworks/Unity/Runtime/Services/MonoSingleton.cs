@@ -3,7 +3,8 @@ using RaiNa.Services;
 
 namespace RaiNa.Unity.Services
 {
-    public abstract class MonoSingleton<TDerived> : MonoBehaviour where TDerived : MonoSingleton<TDerived>
+    public abstract class MonoSingleton<TDerived> : MonoBehaviour, ISingleton
+        where TDerived : MonoSingleton<TDerived>, ISingleton
     {
         public static SingletonInitializeState InitializeState { get; private set; } = SingletonInitializeState.Uninitialized;
         public static bool IsInstanceExists => _instance != null;
