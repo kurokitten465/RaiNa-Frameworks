@@ -1,57 +1,73 @@
 using RaiNa.Exceptions;
+using System;
 
 namespace RaiNa.Services
 {
-    public abstract class Singleton<TDerived> : ISingleton where TDerived : ISingleton, new()
+    public abstract class Singleton<TDerived> : ISingleton where TDerived : class, ISingleton, new()
     {
-        public static SingletonInitializeState InitializeState { get; private set; } = SingletonInitializeState.Uninitialized;
+        private static readonly object _lock = new();
+
+        private static TDerived _instance = null;
+        private static bool _allowConstruction;
+
+        public static SingletonInitializeState InitializeState { get; private set; }
+            = SingletonInitializeState.Uninitialized;
+
         public static bool IsInstanceExists => _instance != null;
 
-        public static TDerived Instance => IsInstanceExists ? _instance : CreateInstance();
-
-        private static TDerived _instance;
-        private static readonly object _lock = new();
-        private static bool _isValidInitialized = false;
-
-        public Singleton()
+        public static TDerived Instance
         {
-            if (!_isValidInitialized)
-                throw new SingletonInitializeException($"Invalid operation to create a new instance of {typeof(TDerived).Name}.\nUse {typeof(TDerived).Name}.CreateInstance() instead.");
+            get
+            {
+                if (_instance != null)
+                    return _instance;
+
+                if (InitializeState == SingletonInitializeState.Initializing)
+                    throw new InvalidOperationException($"{typeof(TDerived).Name} is currently initializing.");
+
+                CreateInstance();
+                return _instance;
+            }
         }
 
-        public static TDerived CreateInstance()
+        protected Singleton()
         {
-            if (InitializeState == SingletonInitializeState.Initialized)
-                return _instance;
+            if (!_allowConstruction)
+            {
+                throw new SingletonInitializeException(
+                    $"Invalid operation to create a new instance of {typeof(TDerived).Name}.\n" +
+                    $"Use {typeof(TDerived).Name}.Instance instead.");
+            }
+        }
 
+        private static void CreateInstance()
+        {
             lock (_lock)
             {
                 InitializeState = SingletonInitializeState.Initializing;
-                _isValidInitialized = true;
 
-                _instance = new();
-
+                _allowConstruction = true;
+                _instance = new TDerived();
                 _instance.OnInitialized();
+
                 InitializeState = SingletonInitializeState.Initialized;
 
-                return _instance;
+                _allowConstruction = false;
             }
         }
 
         public static void DestroyInstance()
         {
-            if (!IsInstanceExists)
+            if (_instance == null)
                 return;
 
             _instance.OnDestroyInstance();
-
-            _instance = default;
-            
+            _instance = null;
             InitializeState = SingletonInitializeState.Uninitialized;
-            _isValidInitialized = false;
         }
 
         public virtual void OnInitialized() { }
+
         public virtual void OnDestroyInstance() { }
     }
 }

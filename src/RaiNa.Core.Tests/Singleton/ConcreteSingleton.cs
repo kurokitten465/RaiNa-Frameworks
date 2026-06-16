@@ -4,6 +4,8 @@ namespace RaiNa.Tests.Singleton
 {
     internal sealed class ConcreteSingleton : Singleton<ConcreteSingleton>
     {
-        public bool Hello() => true;
+        private readonly bool _val = true;
+
+        public bool Hello() => _val;
     }
 }

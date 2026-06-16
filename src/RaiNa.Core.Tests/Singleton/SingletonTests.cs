@@ -1,4 +1,6 @@
 using NUnit.Framework;
+using RaiNa.Exceptions;
+using System;
 
 namespace RaiNa.Tests.Singleton
 {
@@ -9,11 +11,20 @@ namespace RaiNa.Tests.Singleton
         [SetUp]
         public void Awake()
         {
-            singleton = ConcreteSingleton.CreateInstance();
+            singleton = ConcreteSingleton.Instance;
         }
 
         [Test]
-        public void IsInstanceNull()
+        public void IsInvalidInitTest()
+        {
+            Assert.Catch(typeof(SingletonInitializeException), () =>
+            {
+                ConcreteSingleton instance = new();
+            });
+        }
+
+        [Test]
+        public void IsInstanceNotNullTest()
         {
             Assert.That(singleton, Is.Not.Null);
         }
@@ -35,7 +46,7 @@ namespace RaiNa.Tests.Singleton
         public void CleanUpTest()
         {
             ConcreteSingleton.DestroyInstance();
-            Assert.That(singleton, Is.Null);
+            Assert.That(ConcreteSingleton.IsInstanceExists, Is.False);
         }
     }
 }
