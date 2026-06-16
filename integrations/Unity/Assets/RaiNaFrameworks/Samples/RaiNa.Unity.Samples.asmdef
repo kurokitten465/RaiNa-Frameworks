@@ -1,0 +1,26 @@
+{
+    "name": "com.rainainteractive.unity.samples",
+    "rootNamespace": "RaiNa.Unity.Samples",
+    "references": [
+        "GUID:029e9f5f87f17a747bac9def2af2f914"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "EmbeddedLinux",
+        "LinuxStandalone64",
+        "CloudRendering",
+        "WSA",
+        "WebGL",
+        "WindowsStandalone32",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

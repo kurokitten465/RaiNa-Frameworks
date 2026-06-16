@@ -6,7 +6,7 @@
     <Nullable>disable</Nullable>
     <AssemblyName>com.rainainteractive.core</AssemblyName>
     <RootNamespace>RaiNa</RootNamespace>
-    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+    <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
     <Authors>Kuro_kitten</Authors>
     <Company>RaiNa Interactive</Company>
@@ -23,6 +23,8 @@
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <IncludeSymbols>False</IncludeSymbols>
+    <NoWin32Manifest>true</NoWin32Manifest>
+    <NuGetAudit>True</NuGetAudit>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -42,6 +44,12 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="8.0.6">
+      <GeneratePathProperty>True</GeneratePathProperty>
+    </PackageReference>
   </ItemGroup>
 
 </Project>
