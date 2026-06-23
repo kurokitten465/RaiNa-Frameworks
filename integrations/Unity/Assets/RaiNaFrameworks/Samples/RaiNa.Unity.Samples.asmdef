@@ -2,7 +2,8 @@
     "name": "com.rainainteractive.unity.samples",
     "rootNamespace": "RaiNa.Unity.Samples",
     "references": [
-        "GUID:029e9f5f87f17a747bac9def2af2f914"
+        "GUID:029e9f5f87f17a747bac9def2af2f914",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
     ],
     "includePlatforms": [
         "Android",

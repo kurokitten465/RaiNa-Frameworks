@@ -1,6 +1,6 @@
 namespace RaiNa.Events.Observer
 {
-    internal sealed class Subscription<TObserver>
+    public sealed class Subscription<TObserver>
     {
         public int Id;
 

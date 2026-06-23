@@ -5,18 +5,19 @@ namespace RaiNa.StateMachine
     public sealed class StateMachine<TContext> : IStateMachine, IDisposable where TContext : IStateContext
     {
         public bool Enabled { get; private set; } = true;
+        public bool IsTransitioning { get; private set; }
 
         public event StateMachineDelegate<TContext> OnStateChanged;
 
-        bool _isTransition = false;
+        private IState<TContext> _currentState;
+        private IState<TContext> _nextState;
 
-        IState<TContext> _currentState;
-        IState<TContext> _nextState;
+        private readonly TContext _context;
+        private readonly IStateMachineSubsystem _subsystem;
 
-        readonly TContext _context;
-        readonly IStateMachineSubsystem _subsystem;
+        private bool _disposed = false;
 
-        public StateMachine(in TContext context, in IStateMachineSubsystem subsystem)
+        public StateMachine(TContext context, IStateMachineSubsystem subsystem)
         {
             _context = context;
             _subsystem = subsystem;
@@ -33,7 +34,7 @@ namespace RaiNa.StateMachine
                     $"State type '{typeof(TState).Name}' does not implement {typeof(IState<TContext>).Name}.");
 
             _nextState = newState;
-            _isTransition = true;
+            IsTransitioning = true;
         }
 
         public void Update(float deltaTime)
@@ -41,16 +42,10 @@ namespace RaiNa.StateMachine
             if (!Enabled)
                 return;
 
-            if (_isTransition)
-            {
-                ProcessTransition();
-                return;
-            }
-
             _currentState?.OnUpdate(_context, deltaTime);
         }
 
-        void ProcessTransition()
+        public void ProcessTransition()
         {
             if (_nextState == null)
                 return;
@@ -65,10 +60,10 @@ namespace RaiNa.StateMachine
             OnStateChanged?.Invoke(_context, oldState, _currentState);
 
             _nextState = null;
-            _isTransition = false;
+            IsTransitioning = false;
         }
 
-        bool _disposed = false;
+        public void Cleanup() => Dispose();
 
         void Dispose(bool disposing)
         {

@@ -7,8 +7,10 @@ namespace RaiNa.Exceptions
     /// </summary>
     public class SingletonInitializeException : Exception
     {
-        public SingletonInitializeException() { }
-        public SingletonInitializeException(string message) : base(message) { }
-        public SingletonInitializeException(string message, Exception inner) : base(message, inner) { }
+        public SingletonInitializeException(Type instanceType) : 
+            base($"Invalid operation to create a new instance of {instanceType.Name}.\n" +
+                 $"Use {instanceType.Name}.Instance instead.")
+        {
+        }
     }
 }

@@ -1,5 +1,5 @@
-using RaiNa.Exceptions;
 using System;
+using RaiNa.Exceptions;
 
 namespace RaiNa.Services
 {
@@ -33,11 +33,7 @@ namespace RaiNa.Services
         protected Singleton()
         {
             if (!_allowConstruction)
-            {
-                throw new SingletonInitializeException(
-                    $"Invalid operation to create a new instance of {typeof(TDerived).Name}.\n" +
-                    $"Use {typeof(TDerived).Name}.Instance instead.");
-            }
+                throw new SingletonInitializeException(typeof(TDerived));
         }
 
         private static void CreateInstance()

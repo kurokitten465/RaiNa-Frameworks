@@ -49,7 +49,7 @@ namespace RaiNa.StateMachine
 
             if (disposing)
             {
-                _machines.ForEach(m => m.Disable());
+                _machines.ForEach(m => m.Cleanup());
                 _machines.Clear();
             }
 

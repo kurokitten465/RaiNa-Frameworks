@@ -8,19 +8,16 @@ namespace RaiNa.Events
         private readonly Dictionary<Type, object> _channels = new();
         private readonly object _lock = new();
 
-        public IEventContext<TEvent> Publish<TEvent>(TEvent @event)
-            where TEvent : IEvent
+        public IEventContext<TEvent> Publish<TEvent>(TEvent @event) where TEvent : IEvent
         {
             var channel = GetOrCreateChannel<TEvent>();
             return channel.Publish(@event);
         }
 
-        public void Subscribe<TEvent>(IEventHandler<TEvent> handler)
-            where TEvent : IEvent
+        public void Subscribe<TEvent>(IEventHandler<TEvent> handler) where TEvent : IEvent
             => GetOrCreateChannel<TEvent>().Subscribe(handler);
 
-        public void Unsubscribe<TEvent>(IEventHandler<TEvent> handler)
-            where TEvent : IEvent
+        public void Unsubscribe<TEvent>(IEventHandler<TEvent> handler) where TEvent : IEvent
             => GetOrCreateChannel<TEvent>().Unsubscribe(handler);
 
         public void Clear<TEvent>() where TEvent : IEvent
@@ -39,8 +36,7 @@ namespace RaiNa.Events
             }
         }
 
-        private EventChannel<TEvent> GetOrCreateChannel<TEvent>()
-            where TEvent : IEvent
+        private EventChannel<TEvent> GetOrCreateChannel<TEvent>() where TEvent : IEvent
         {
             var key = typeof(TEvent);
             lock (_lock)
