@@ -4,8 +4,10 @@ namespace RaiNa.Services.Dependency
 {
     public interface IServiceRegistry
     {
-        void AddSingleton<T>(Func<IRaiNaServiceProvider, T> factory);
-        void AddScoped<T>(Func<IRaiNaServiceProvider, T> factory);
-        void AddTransient<T>(Func<IRaiNaServiceProvider, T> factory);
+        void Register(ServiceDescriptor descriptor);
+        void Register<T>(ServiceLifetime lifetime, Func<IServiceContainer, object> factory) where T : class;
+
+        void Unregister(Type type);
+        void Unregister<T>() where T : class;
     }
 }

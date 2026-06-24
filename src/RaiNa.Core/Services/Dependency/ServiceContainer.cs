@@ -1,188 +1,205 @@
 ﻿using System;
-using System.Threading;
 using System.Collections.Generic;
-using System.Collections.Concurrent;
 
 namespace RaiNa.Services.Dependency
 {
-    public sealed class ServiceContainer : IServiceContainer
+    public sealed class ServiceContainer : IServiceContainer, IDisposable
     {
-        private readonly ReaderWriterLockSlim _lock = new();
-        private readonly Dictionary<Type, RegistrationEntry> _descriptors;
-        private readonly ConcurrentDictionary<Type, object> _singletons = new();
-        private readonly ConcurrentDictionary<Type, object> _scoped = new();
-        private readonly List<ServiceContainer> _children = new();
+        public string Name { get; private set; }
+        public bool IsRoot => Parent == null;
+        public IServiceContainer Parent { get; private set; }
 
-        private volatile bool _disposed;
+        private readonly Dictionary<Type, ServiceDescriptor> _descriptors = new();
+        private readonly Dictionary<Type, object> _localInstances = new();
 
-        public Guid Id { get; } = Guid.NewGuid();
-        public string Name { get; }
-        public IServiceContainer Parent { get; }
+        private readonly Dictionary<string, IServiceContainer> _children = new();
+        private bool _disposed;
 
-        public ServiceContainer(string name)
+        public ServiceContainer(string containerName, IServiceContainer parent)
         {
-            Name = name;
-            Parent = this;
-            _descriptors = new Dictionary<Type, RegistrationEntry>();
-        }
+            if (string.IsNullOrEmpty(containerName))
+                throw new ArgumentNullException(nameof(containerName));
 
-        public ServiceContainer(string name, ServiceContainer parent)
-        {
-            Name = name;
+            Name = containerName;
             Parent = parent;
-
-            parent._lock.EnterReadLock();
-
-            try
-            {
-                _descriptors = new Dictionary<Type, RegistrationEntry>(parent._descriptors);
-            }
-            finally
-            {
-                parent._lock.ExitReadLock();
-            }
         }
 
-        public IServiceContainer CreateChildContainer(string name)
+        public ServiceContainer(string containerName) : this(containerName, null) { }
+
+        public void Register(ServiceDescriptor descriptor)
         {
-            ThrowIfDisposed();
+            var type = descriptor.ServiceType;
+            if (_descriptors.ContainsKey(type))
+                throw new InvalidOperationException($"Service {type.Name} is already registered in '{Name}'.");
 
-            var child = new ServiceContainer(name, this);
+            _descriptors[type] = new ServiceDescriptor(type, descriptor.Lifetime, descriptor.Factory);
+        }
 
-            _lock.EnterWriteLock();
+        public void Register<T>(ServiceLifetime lifetime, Func<IServiceContainer, object> factory) where T : class =>
+            Register(new ServiceDescriptor(typeof(T), lifetime, factory));
 
-            try
+        public void Unregister(Type type)
+        {
+            if (_localInstances.TryGetValue(type, out object service))
             {
-                _children.Add(child);
-            }
-            finally
-            {
-                _lock.ExitWriteLock();
+                if (service is IDisposable disposable)
+                    disposable.Dispose();
             }
 
+            _localInstances.Remove(type);
+            _descriptors.Remove(type);
+        }
+
+        public void Unregister<T>() where T : class => Unregister(typeof(T));
+
+        public T Resolve<T>() where T : class
+        {
+            if (TryResolveInternal(typeof(T), out var service))
+                return (T)service;
+
+            throw new KeyNotFoundException($"Service {typeof(T).Name} not found in '{Name}' or its parents.");
+        }
+
+        public bool TryResolve<T>(out T service) where T : class
+        {
+            if (TryResolveInternal(typeof(T), out var result))
+            {
+                service = (T)result;
+                return true;
+            }
+
+            service = null;
+            return false;
+        }
+
+        private bool TryResolveInternal(Type type, out object service)
+        {
+            var descriptor = FindDescriptor(type);
+            if (descriptor == null)
+            {
+                service = null;
+                return false;
+            }
+
+            if (descriptor.Lifetime == ServiceLifetime.Singleton)
+            {
+                if (!IsRoot && Parent is ServiceContainer parentContainer)
+                {
+                    return parentContainer.TryResolveInternal(type, out service);
+                }
+                return GetOrCreateInstance(type, descriptor, out service);
+            }
+
+            if (descriptor.Lifetime == ServiceLifetime.Scoped)
+            {
+                return GetOrCreateInstance(type, descriptor, out service);
+            }
+
+            service = descriptor.Factory(this);
+            return true;
+        }
+
+        private ServiceDescriptor FindDescriptor(Type type)
+        {
+            if (_descriptors.TryGetValue(type, out var descriptor)) return descriptor;
+            if (Parent != null && Parent is ServiceContainer parentContainer) return parentContainer.FindDescriptor(type);
+            return null;
+        }
+
+        private bool GetOrCreateInstance(Type type, ServiceDescriptor descriptor, out object service)
+        {
+            if (_localInstances.TryGetValue(type, out service)) return true;
+
+            service = descriptor.Factory(this);
+            _localInstances[type] = service;
+            return true;
+        }
+
+        public IServiceContainer CreateChildContainer(string childName)
+        {
+            var child = new ServiceContainer(childName, this);
+            AttachChildContainer(child);
             return child;
         }
 
-        public void AddSingleton<T>(Func<IRaiNaServiceProvider, T> factory) =>
-            Register(typeof(T), ServiceLifetime.Singleton, p => factory(p));
-
-        public void AddScoped<T>(Func<IRaiNaServiceProvider, T> factory) => 
-            Register(typeof(T), ServiceLifetime.Scoped, p => factory(p));
-
-        public void AddTransient<T>(Func<IRaiNaServiceProvider, T> factory) =>
-            Register(typeof(T), ServiceLifetime.Transient, p => factory(p));
-
-        private void Register(
-            Type serviceType,
-            ServiceLifetime lifetime,
-            Func<IRaiNaServiceProvider, object> factory)
+        public void AttachChildContainer(IServiceContainer child)
         {
-            ThrowIfDisposed();
+            if (child.Parent != null && child.Parent != this)
+                throw new InvalidOperationException($"Container '{child.Name}' already has a parent!");
 
-            _lock.EnterWriteLock();
+            if (_children.ContainsKey(child.Name))
+                throw new InvalidOperationException($"A child with ID '{child.Name}' already exists in '{Name}'.");
 
-            try
+            _children.Add(child.Name, child);
+
+            if (child is ServiceContainer concreteChild)
+                concreteChild.Parent = this;
+        }
+
+        public IServiceContainer GetChildContainer(string searchName, bool recursive = false)
+        {
+            if (_children.TryGetValue(searchName, out var foundChild)) return foundChild;
+
+            if (recursive)
             {
-                if (_descriptors.ContainsKey(serviceType))
+                foreach (var child in _children.Values)
                 {
-                    throw new InvalidOperationException(
-                        $"Service already registered: {serviceType.FullName}");
+                    var deepFound = child.GetChildContainer(searchName, true);
+                    if (deepFound != null) return deepFound;
                 }
-
-                _descriptors.Add(
-                    serviceType,
-                    new RegistrationEntry(Id, Name, new ServiceDescriptor(serviceType, lifetime, factory))
-                );
             }
-            finally
-            {
-                _lock.ExitWriteLock();
-            }
+            return null;
         }
 
-        public T Get<T>() => (T)Get(typeof(T));
-
-        public object Get(Type serviceType)
+        public IServiceContainer GetParentContainer(string searchName, bool recursive = false)
         {
-            ThrowIfDisposed();
+            if (Parent == null) return null;
+            if (Parent.Name == searchName) return Parent;
 
-            _lock.EnterReadLock();
+            if (recursive) return Parent.GetParentContainer(searchName, true);
 
-            try
-            {
-                if (!_descriptors.TryGetValue(serviceType, out var registry))
-                {
-                    throw new InvalidOperationException(
-                        $"Service not registered: {serviceType.FullName}");
-                }
-
-                return registry.Descriptor.Lifetime switch
-                {
-                    ServiceLifetime.Singleton => ResolveSingleton(registry.Descriptor),
-                    ServiceLifetime.Scoped => ResolveScoped(registry.Descriptor),
-                    ServiceLifetime.Transient => registry.Descriptor.Factory(this),
-                    _ => throw new NotSupportedException()
-                };
-            }
-            finally
-            {
-                _lock.ExitReadLock();
-            }
+            return null;
         }
 
-        public bool TryGet<T>(out T service)
+        public void RemoveChildContainer(string containerName, bool recursive = false)
         {
-            try
-            {
-                service = Get<T>();
-                return true;
-            }
-            catch
-            {
-                service = default!;
-                return false;
-            }
+            IServiceContainer container = GetChildContainer(containerName, recursive);
+
+            if (container == null) return;
+
+            container.ClearAll();
         }
 
-        private object ResolveSingleton(ServiceDescriptor descriptor) =>
-            _singletons.GetOrAdd(descriptor.ServiceType, _ => descriptor.Factory(this));
+        public void RemoveChildContainer(IServiceContainer container) =>
+            container.ClearAll();
 
-        private object ResolveScoped(ServiceDescriptor descriptor) =>
-            _scoped.GetOrAdd(descriptor.ServiceType, _ => descriptor.Factory(this));
-
-        private void ThrowIfDisposed()
-        {
-            if (_disposed)
-                throw new ObjectDisposedException(Name);
-        }
+        public void ClearAll() => Dispose();
 
         private void Dispose(bool disposing)
         {
-            if (_disposed)
-                return;
+            if (_disposed) return;
 
             if (disposing)
             {
-                foreach (var child in _children)
+                foreach(var child in _children.Values)
                 {
-                    child.Dispose();
+                    child.ClearAll();
+
+                    var temp = new List<Type>(_localInstances.Keys);
+                    temp.ForEach(m => Unregister(m));
                 }
 
-                foreach (var instance in _scoped.Values)
-                {
-                    if (instance is IDisposable disposable)
-                        disposable.Dispose();
-                }
-
-                foreach (var instance in _singletons.Values)
-                {
-                    if (instance is IDisposable disposable)
-                        disposable.Dispose();
-                }
+                _descriptors.Clear();
+                _localInstances.Clear();
+                _children.Clear();
             }
 
-            _lock.Dispose();
             _disposed = true;
+        }
+
+        ~ServiceContainer()
+        {
+             Dispose(disposing: false);
         }
 
         public void Dispose()

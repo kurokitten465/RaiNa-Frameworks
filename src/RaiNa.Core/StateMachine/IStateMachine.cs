@@ -7,6 +7,5 @@ namespace RaiNa.StateMachine
         void Disable();
         void ChangeState<TState>(TState state);
         void Update(float deltaTime);
-        void Cleanup();
     }
 }

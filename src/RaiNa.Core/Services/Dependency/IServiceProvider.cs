@@ -1,11 +1,8 @@
-﻿using System;
-
-namespace RaiNa.Services.Dependency
+﻿namespace RaiNa.Services.Dependency
 {
-    public interface IRaiNaServiceProvider
+    public interface IServiceProvider
     {
-        T Get<T>();
-        object Get(Type serviceType);
-        bool TryGet<T>(out T service);
+        T Resolve<T>() where T : class;
+        bool TryResolve<T>(out T service) where T : class;
     }
 }

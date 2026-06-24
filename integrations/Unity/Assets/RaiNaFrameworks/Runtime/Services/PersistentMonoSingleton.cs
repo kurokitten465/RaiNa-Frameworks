@@ -2,8 +2,8 @@ using RaiNa.Services;
 
 namespace RaiNa.Unity.Services
 {
-    public abstract class PersistentMonoSingleton<TDerived> : MonoSingleton<TDerived>, ISingleton
-        where TDerived : PersistentMonoSingleton<TDerived>, ISingleton
+    public abstract class PersistentMonoSingleton<TDerived> : MonoSingleton<TDerived>
+        where TDerived : PersistentMonoSingleton<TDerived>
     {
         protected override void Awake()
         {

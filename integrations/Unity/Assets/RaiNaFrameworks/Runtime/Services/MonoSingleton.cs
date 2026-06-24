@@ -7,8 +7,8 @@ namespace RaiNa.Unity.Services
     /// Generic MonoBehaviour singleton that manages a single instance across the scene lifetime.
     /// </summary>
     /// <typeparam name="TDerived">The derived singleton class type.</typeparam>
-    public abstract class MonoSingleton<TDerived> : MonoBehaviour, ISingleton
-        where TDerived : MonoSingleton<TDerived>, ISingleton
+    public abstract class MonoSingleton<TDerived> : MonoBehaviour
+        where TDerived : MonoSingleton<TDerived>
     {
         public static SingletonInitializeState InitializeState { get; private set; }
             = SingletonInitializeState.Uninitialized;

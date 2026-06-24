@@ -6,12 +6,12 @@ namespace RaiNa.Services.Dependency
     {
         public Type ServiceType { get; }
         public ServiceLifetime Lifetime { get; }
-        public Func<IRaiNaServiceProvider, object> Factory { get; }
+        public Func<IServiceContainer, object> Factory { get; }
 
         public ServiceDescriptor(
             Type serviceType,
             ServiceLifetime lifetime,
-            Func<IRaiNaServiceProvider, object> factory)
+            Func<IServiceContainer, object> factory)
         {
             ServiceType = serviceType;
             Lifetime = lifetime;

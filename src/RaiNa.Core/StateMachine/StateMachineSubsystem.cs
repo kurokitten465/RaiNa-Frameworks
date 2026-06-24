@@ -49,7 +49,12 @@ namespace RaiNa.StateMachine
 
             if (disposing)
             {
-                _machines.ForEach(m => m.Cleanup());
+                foreach (IStateMachine machine in _machines)
+                {
+                    IDisposable disposable = machine as IDisposable;
+                    disposable?.Dispose();
+                }
+
                 _machines.Clear();
             }
 

@@ -63,17 +63,15 @@ namespace RaiNa.StateMachine
             IsTransitioning = false;
         }
 
-        public void Cleanup() => Dispose();
-
-        void Dispose(bool disposing)
+        private void Dispose(bool disposing)
         {
             if (_disposed)
                 return;
 
             if (disposing)
             {
-                _subsystem.Unregister(this);
                 Enabled = false;
+                _subsystem.Unregister(this);
                 _currentState = null;
                 _nextState = null;
             }

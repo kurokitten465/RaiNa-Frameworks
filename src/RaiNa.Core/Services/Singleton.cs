@@ -1,69 +1,54 @@
 using System;
-using RaiNa.Exceptions;
 
 namespace RaiNa.Services
 {
-    public abstract class Singleton<TDerived> : ISingleton where TDerived : class, ISingleton, new()
+    public abstract class Singleton<TDerived> : ISingleton, IDisposable where TDerived : class, ISingleton, new()
     {
-        private static readonly object _lock = new();
-
-        private static TDerived _instance = null;
-        private static bool _allowConstruction;
-
-        public static SingletonInitializeState InitializeState { get; private set; }
-            = SingletonInitializeState.Uninitialized;
-
-        public static bool IsInstanceExists => _instance != null;
-
-        public static TDerived Instance
+        private static readonly Lazy<TDerived> _lazy = new(() =>
         {
-            get
-            {
-                if (_instance != null)
-                    return _instance;
+            InitializeState = SingletonInitializeState.Initializing;
+            TDerived instance = new();
+            instance.Initialize();
+            return instance;
+        }, System.Threading.LazyThreadSafetyMode.ExecutionAndPublication);
 
-                if (InitializeState == SingletonInitializeState.Initializing)
-                    throw new InvalidOperationException($"{typeof(TDerived).Name} is currently initializing.");
+        public static TDerived Instance => _lazy.Value;
+        public static bool IsInitialized => _lazy.IsValueCreated;
+        public static SingletonInitializeState InitializeState { get; private set; } = SingletonInitializeState.Uninitialized;
 
-                CreateInstance();
-                return _instance;
-            }
+        private bool _disposed;
+
+        public void Initialize()
+        {
+            if (_disposed || IsInitialized) return;
+
+            OnInitialized();
+            InitializeState = SingletonInitializeState.Initialized;
         }
 
-        protected Singleton()
+        protected virtual void OnInitialized() { }
+        protected virtual void OnDisposing() { }
+
+        protected virtual void Dispose(bool disposing)
         {
-            if (!_allowConstruction)
-                throw new SingletonInitializeException(typeof(TDerived));
-        }
-
-        private static void CreateInstance()
-        {
-            lock (_lock)
-            {
-                InitializeState = SingletonInitializeState.Initializing;
-
-                _allowConstruction = true;
-                _instance = new TDerived();
-                _instance.OnInitialized();
-
-                InitializeState = SingletonInitializeState.Initialized;
-
-                _allowConstruction = false;
-            }
-        }
-
-        public static void DestroyInstance()
-        {
-            if (_instance == null)
+            if (_disposed)
                 return;
 
-            _instance.OnDestroyInstance();
-            _instance = null;
-            InitializeState = SingletonInitializeState.Uninitialized;
+            if (disposing)
+                OnDisposing();
+
+            _disposed = true;
         }
 
-        public virtual void OnInitialized() { }
+        ~Singleton()
+        {
+             Dispose(disposing: false);
+        }
 
-        public virtual void OnDestroyInstance() { }
+        public void Dispose()
+        {
+            Dispose(disposing: true);
+            GC.SuppressFinalize(this);
+        }
     }
 }
