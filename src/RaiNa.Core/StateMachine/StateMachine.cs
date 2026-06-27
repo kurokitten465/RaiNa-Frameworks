@@ -42,6 +42,11 @@ namespace RaiNa.StateMachine
             if (!Enabled)
                 return;
 
+            ProcessTransition();
+
+            if (IsTransitioning)
+                return;
+
             _currentState?.OnUpdate(_context, deltaTime);
         }
 

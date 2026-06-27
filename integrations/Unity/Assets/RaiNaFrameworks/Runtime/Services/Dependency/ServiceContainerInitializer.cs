@@ -28,7 +28,7 @@ namespace RaiNa.Unity.Services.Dependency
             }
 
             _globalContainer = new ServiceContainer("Global");
-            Debug.Log("Global ServiceContainer initialized during SubsystemRegistration.");
+            //Debug.Log("Global ServiceContainer initialized during SubsystemRegistration.");
 
             Application.quitting += Reset;
         }

@@ -1,38 +1,9 @@
-# <p align="center" style="color: green;">🎮 RaiNa Frameworks 🎮</p>
+using RaiNa.StateMachine;
+using RaiNa.Unity.StateMachine;
+using UnityEngine;
 
-> ⚠️ **Experimental** — This project is in active early development. Architecture and APIs will change without notice.
-
-## ✨ Introduction
-
-🌙 **RaiNa Frameworks** is a collection of lightweight frameworks, architectural patterns, helper utilities, and reusable building blocks designed specifically for Beginner game developers who want to build projects faster and more comfortably ✨
-
-This toolkit focuses on keeping everything:
-
-- 🌿 Lightweight  
-- ⚡ Efficient  
-- 🧩 Easy to understand  
-- 🚀 Scalable for larger projects  
-
-The goal of RaiNa Frameworks is to provide small but practical building blocks that developers can easily integrate, customize, and expand within their own Unity workflows 💻🐾
-
----
-## 🔗 Unity Integration
-
-This repository contains the platform-agnostic core of the RaiNa Frameworks ecosystem.
-
-For Unity developers, an additional package built on top of **RaiNa.Core** is available, providing Unity-specific implementations, integrations, and runtime components such as:
-
-- 🌏 Scene Management
-- 📦 Asset Management
-- 🧱 ScriptableObject Utilities
-- 🔨 Editor Tooling
-- 🧰 Unity Runtime Utilities
-
-These features are distributed through the Unity integration package and reference **RaiNa.Core** as their foundation.
-
----
-## 💾 Sample Usage - State Machine on Unity
-```cs
+namespace RaiNa.Unity.Samples
+{
     public class RaiNaStateMachine : MonoBehaviour, IStateContext
     {
         public readonly string Context = "RaiNa";
@@ -51,14 +22,14 @@ These features are distributed through the Unity integration package and referen
             _subsystem.Register(_machine);
         }
 
-        private void OnEnable()
+        void OnEnable()
         {
             // Enable the machine and its subsystem when the component becomes active.
             _machine.Enable();
             _subsystem.Enable();
         }
 
-        private void OnDisable()
+        void OnDisable()
         {
             // Disable the machine and its subsystem when the component is disabled.
             _machine.Disable();
@@ -76,7 +47,7 @@ These features are distributed through the Unity integration package and referen
                 _machine.ChangeState(new GreenLight());
         }
 
-        private void OnDestroy()
+        void OnDestroy()
         {
             // Clean up the machine and subsystem when the object is destroyed.
             _machine?.Dispose();
@@ -104,9 +75,4 @@ These features are distributed through the Unity integration package and referen
         public void OnExit(in RaiNaStateMachine ctx) => Debug.Log($"Leaving : {this}");
         public void OnUpdate(in RaiNaStateMachine ctx, float deltaTime) { }
     }
-```
-
----
-## 📜 License
-
-🔏 This project is licensed under the MIT License.
+}

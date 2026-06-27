@@ -1,44 +1,30 @@
 using UnityEngine;
 using RaiNa.StateMachine;
+using System;
 
 namespace RaiNa.Unity.StateMachine
 {
     public abstract class MonoStateMachine<TContext> : MonoBehaviour where TContext : IStateContext
     {
-        [Header("Subsystem Asset")]
-        [SerializeField] StateMachineSubsystemWrapper _stateMachineSubsystem;
+        /* [Header("Subsystem Asset")]
+        [SerializeField] StateMachineSubsystemWrapper _stateMachineSubsystem; */
 
-        StateMachine<TContext> _stateMachine;
-        public StateMachine<TContext> StateMachine => _stateMachine;
-
-        void Awake()
-        {
-            if (_stateMachineSubsystem == null)
-            {
-                Debug.LogError($"{name}: StateMachineSubsystem is not assigned in inspector!");
-                enabled = false;
-                return;
-            }
-
-            CreateStateMachine(_stateMachineSubsystem.Subsystem, out _stateMachine);
-        }
-
-        protected abstract void CreateStateMachine(StateMachineSubsystem subsystem, out StateMachine<TContext> stateMachine);
+        protected StateMachine<TContext> StateMachine;
 
         void OnDestroy()
         {
-            _stateMachine?.Dispose();
-            _stateMachine = null;
+            StateMachine?.Dispose();
+            StateMachine = null;
         }
 
         void OnEnable()
         {
-            _stateMachine.Enable();
+            StateMachine.Enable();
         }
 
         void OnDisable()
         {
-            _stateMachine.Disable();
+            StateMachine.Disable();
         }
     }
 }
